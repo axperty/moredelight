@@ -1,13 +1,16 @@
 package com.axperty.moredelight.init;
 
 import com.axperty.moredelight.MoreDelight;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.FoodValues;
 import vectorwing.farmersdelight.common.item.KnifeItem;
+import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MoreDelight.MODID);
@@ -32,7 +35,7 @@ public class ItemInit {
             () -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder()
                             .nutrition(6)
-                            .saturationMod(.5f)
+                            .saturationMod(0.5f)
                             .build()))));
 
     public static final RegistryObject<Item> COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = CreativeTabInit.addToTab(ITEMS.register("cooked_rice_with_milk_cream_and_beef",
@@ -40,7 +43,8 @@ public class ItemInit {
                     .stacksTo(16)
                     .food(new FoodProperties.Builder()
                             .nutrition(9)
-                            .saturationMod(2.0f)
+                            .saturationMod(0.7f)
+                            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.SHORT_DURATION, 0), 1.0F)
                             .build()))));
 
     public static final RegistryObject<Item> PASTA_WITH_MILK_CREAM_AND_HAM = CreativeTabInit.addToTab(ITEMS.register("pasta_with_milk_cream_and_ham",
@@ -48,7 +52,8 @@ public class ItemInit {
                     .stacksTo(16)
                     .food(new FoodProperties.Builder()
                             .nutrition(9)
-                            .saturationMod(2.0f)
+                            .saturationMod(0.7f)
+                            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.SHORT_DURATION, 0), 1.0F)
                             .build()))));
 
 
