@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "moredelight:item/pasta_with_milk_cream_and_ham"
+  }
+}

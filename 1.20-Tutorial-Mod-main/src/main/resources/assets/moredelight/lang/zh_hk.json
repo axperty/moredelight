@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "木刀",
+  "item.moredelight.stone_knife": "石刀",
+
+  "item.moredelight.bread_slice": "麵包片",
+  "item.moredelight.toast": "烤麵包",
+  "item.moredelight.toast_with_egg": "蛋烤麵包",
+  "item.moredelight.toast_with_honey": "蜜糖烤麵包",
+  "item.moredelight.toast_with_sweet_berries": "甜浆果烤麵包",
+  "item.moredelight.toast_with_chocolate": "巧克力吐司",
+  "item.moredelight.omelette": "煎蛋捲",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "奶油牛肉燉飯",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "奶油火腿義大利麵",
+
+  "itemGroup.moredelight": "More Delight"
+}

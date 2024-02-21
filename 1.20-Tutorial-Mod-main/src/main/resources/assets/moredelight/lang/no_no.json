@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "Trekniv",
+  "item.moredelight.stone_knife": "Steinkniv",
+
+  "item.moredelight.bread_slice": "Brødskive",
+  "item.moredelight.toast": "Toast",
+  "item.moredelight.toast_with_egg": "Toast med egg",
+  "item.moredelight.toast_with_honey": "Toast med honning",
+  "item.moredelight.toast_with_sweet_berries": "Toast med søte bær",
+  "item.moredelight.toast_with_chocolate": "Toast med Sjokolade",
+  "item.moredelight.omelette": "Omelett",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kokt ris med melkekrem og storfekjøtt",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta med melkekrem og skinke",
+
+  "itemGroup.moredelight": "More Delight"
+}

@@ -1,0 +1,17 @@
+{
+  "item.moredelight.wooden_knife": "Faca de Madeira",
+  "item.moredelight.stone_knife": "Faca de Pedra",
+
+
+  "item.moredelight.bread_slice": "Fatia de Pão",
+  "item.moredelight.toast": "Tosta",
+  "item.moredelight.toast_with_egg": "Tosta com Ovo",
+  "item.moredelight.toast_with_honey": "Tosta com Mel",
+  "item.moredelight.toast_with_sweet_berries": "Tosta com Bagas Doces",
+  "item.moredelight.toast_with_chocolate": "Tosta com Chocolate",
+  "item.moredelight.omelette": "Omelete",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Arroz Cozido com Creme de Leite e Carne de Vaca",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Massa com Creme de Leite e Presunto",
+
+  "itemGroup.moredelight": "More Delight"
+}

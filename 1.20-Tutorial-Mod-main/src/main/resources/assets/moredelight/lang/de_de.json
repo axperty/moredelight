@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "Holzmesser",
+  "item.moredelight.stone_knife": "Steinmesser",
+
+  "item.moredelight.bread_slice": "Brotscheibe",
+  "item.moredelight.toast": "Toast",
+  "item.moredelight.toast_with_egg": "Toast mit Ei",
+  "item.moredelight.toast_with_honey": "Toast mit Honig",
+  "item.moredelight.toast_with_sweet_berries": "Toast mit Süßbeeren",
+  "item.moredelight.toast_with_chocolate": "Toast mit Schokolade",
+  "item.moredelight.omelette": "Omelett",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gekochter Reis mit Milchcreme und Rindfleisch",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Nudeln mit Milchcreme und Schinken",
+
+  "itemGroup.moredelight": "More Delight"
+}

@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "木のナイフ",
+  "item.moredelight.stone_knife": "石のナイフ",
+
+  "item.moredelight.bread_slice": "パンのスライス",
+  "item.moredelight.toast": "トースト",
+  "item.moredelight.toast_with_egg": "卵トースト",
+  "item.moredelight.toast_with_honey": "ハチミツトースト",
+  "item.moredelight.toast_with_sweet_berries": "スイートベリートースト",
+  "item.moredelight.toast_with_chocolate": "チョコレート入りトースト",
+  "item.moredelight.omelette": "オムレツ",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "ミルククリームとビーフの入った炊き込みご飯",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "ミルククリームとハムの入ったパスタ",
+
+  "itemGroup.moredelight": "More Delight"
+}

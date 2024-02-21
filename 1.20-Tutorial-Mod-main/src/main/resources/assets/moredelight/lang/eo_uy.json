@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "Ligna Tranĉilo",
+  "item.moredelight.stone_knife": "Ŝtona Tranĉilo",
+
+  "item.moredelight.bread_slice": "Tranĉita Pano",
+  "item.moredelight.toast": "Tostpano",
+  "item.moredelight.toast_with_egg": "Tosto kun Ovo",
+  "item.moredelight.toast_with_honey": "Tosto kun Mielo",
+  "item.moredelight.toast_with_sweet_berries": "Tosto kun Dolĉaj Berberoj",
+  "item.moredelight.toast_with_chocolate": "Tosto kun ĉokolado",
+  "item.moredelight.omelette": "Omeleto",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kuirita Rizo kun Laktkremo kaj Bovino",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta kun Laktkremo kaj Ŝinko",
+
+  "itemGroup.moredelight": "More Delight"
+}

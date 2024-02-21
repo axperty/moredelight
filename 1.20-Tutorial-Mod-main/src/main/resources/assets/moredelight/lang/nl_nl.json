@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "Houten Mes",
+  "item.moredelight.stone_knife": "Stenen Mes",
+
+  "item.moredelight.bread_slice": "Broodplakje",
+  "item.moredelight.toast": "Toast",
+  "item.moredelight.toast_with_egg": "Toast met Ei",
+  "item.moredelight.toast_with_honey": "Toast met Honing",
+  "item.moredelight.toast_with_sweet_berries": "Toast met Zoete Bessen",
+  "item.moredelight.toast_with_chocolate": "Tosti met Chocolade",
+  "item.moredelight.omelette": "Omelet",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gekookte Rijst met Melkroom en Rundvlees",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta met Melkroom en Ham",
+
+  "itemGroup.moredelight": "More Delight"
+}

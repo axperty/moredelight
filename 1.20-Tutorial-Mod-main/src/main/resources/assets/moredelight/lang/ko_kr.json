@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "나무 칼",
+  "item.moredelight.stone_knife": "돌 칼",
+
+  "item.moredelight.bread_slice": "빵 조각",
+  "item.moredelight.toast": "토스트",
+  "item.moredelight.toast_with_egg": "계란 토스트",
+  "item.moredelight.toast_with_honey": "꿀 토스트",
+  "item.moredelight.toast_with_sweet_berries": "달콤한 베리 토스트",
+  "item.moredelight.toast_with_chocolate": "초콜릿이 든 토스트",
+  "item.moredelight.omelette": "오믈렛",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "우유 크림과 소고기가 든 밥",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "우유 크림과 햄이 든 파스타",
+
+  "itemGroup.moredelight": "More Delight"
+}

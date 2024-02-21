@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+      {
+        "tag": "forge:milk/milk_bottle"
+      },
+      {
+        "tag": "forge:pasta/raw_pasta"
+      },
+      {
+        "item": "farmersdelight:ham"
+      }
+    ],
+  "result": {
+    "item": "moredelight:pasta_with_milk_cream_and_ham"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 300
+}

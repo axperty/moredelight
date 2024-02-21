@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "Cuchillo de Madera",
+  "item.moredelight.stone_knife": "Cuchillo de Piedra",
+
+  "item.moredelight.bread_slice": "Rebanada de Pan",
+  "item.moredelight.toast": "Tostada",
+  "item.moredelight.egg_in_toast": "Tostada con Huevo",
+  "item.moredelight.toast_with_honey": "Tostada con Miel",
+  "item.moredelight.toast_with_sweet_berries": "Tostada con Bayas Dulces",
+  "item.moredelight.toast_with_chocolate": "Tostada con Chocolate",
+  "item.moredelight.omelette": "Tortilla de Huevo",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Arroz Cocido con Crema de Leche y Carne",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta con Crema de Leche y Jamón",
+
+  "itemGroup.moredelight": "More Delight"
+}

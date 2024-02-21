@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "Träkniv",
+  "item.moredelight.stone_knife": "Stenkniv",
+
+  "item.moredelight.bread_slice": "Brödskiva",
+  "item.moredelight.toast": "Rostat bröd",
+  "item.moredelight.toast_with_egg": "Rostat bröd med ägg",
+  "item.moredelight.toast_with_honey": "Rostat bröd med honung",
+  "item.moredelight.toast_with_sweet_berries": "Rostat bröd med söta bär",
+  "item.moredelight.toast_with_chocolate": "Toast med Choklad",
+  "item.moredelight.omelette": "Omelett",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kokt ris med mjölkkräm och nötkött",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta med mjölkkräm och skinka",
+
+  "itemGroup.moredelight": "More Delight"
+}

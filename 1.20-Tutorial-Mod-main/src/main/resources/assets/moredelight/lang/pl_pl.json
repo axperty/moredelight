@@ -1,0 +1,16 @@
+{
+  "item.moredelight.wooden_knife": "Drewniany nóż",
+  "item.moredelight.stone_knife": "Kamienne noże",
+
+  "item.moredelight.bread_slice": "Kromka chleba",
+  "item.moredelight.toast": "Tost",
+  "item.moredelight.toast_with_egg": "Tost z jajkiem",
+  "item.moredelight.toast_with_honey": "Tost z miodem",
+  "item.moredelight.toast_with_sweet_berries": "Tost z jagodami",
+  "item.moredelight.toast_with_chocolate": "Tost z Czekoladą",
+  "item.moredelight.omelette": "Omlet",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gotowany ryż z kremem mlecznym i wołowiną",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Makaron z kremem mlecznym i szynką",
+
+  "itemGroup.moredelight": "More Delight"
+}

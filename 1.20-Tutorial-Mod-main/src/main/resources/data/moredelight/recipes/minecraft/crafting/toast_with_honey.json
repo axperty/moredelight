@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moredelight:toast"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "moredelight:toast_with_honey"
+  },
+  "extraResults": [{
+    "item": "minecraft:glass_bottle",
+    "count": 1
+  }]
+}
