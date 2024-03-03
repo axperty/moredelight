@@ -11,6 +11,8 @@
   "item.moredelight.omelette": "오믈렛",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "우유 크림과 소고기가 든 밥",
   "item.moredelight.pasta_with_milk_cream_and_ham": "우유 크림과 햄이 든 파스타",
+  "item.moredelight.cooked_diced_potatoes": "조리된 감자 주사위",
+  "item.moredelight.diced_potatoes": "감자 주사위",
 
   "itemGroup.moredelight": "More Delight"
 }

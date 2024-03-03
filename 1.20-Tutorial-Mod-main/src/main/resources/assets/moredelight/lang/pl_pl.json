@@ -11,6 +11,8 @@
   "item.moredelight.omelette": "Omlet",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gotowany ryż z kremem mlecznym i wołowiną",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Makaron z kremem mlecznym i szynką",
+  "item.moredelight.cooked_diced_potatoes": "Gotowane, krojone ziemniaki",
+  "item.moredelight.diced_potatoes": "Krojone ziemniaki",
 
   "itemGroup.moredelight": "More Delight"
 }

@@ -11,6 +11,8 @@
   "item.moredelight.omelette": "オムレツ",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "ミルククリームとビーフの入った炊き込みご飯",
   "item.moredelight.pasta_with_milk_cream_and_ham": "ミルククリームとハムの入ったパスタ",
+  "item.moredelight.cooked_diced_potatoes": "調理されたサイコロポテト",
+  "item.moredelight.diced_potatoes": "サイコロポテト",
 
   "itemGroup.moredelight": "More Delight"
 }

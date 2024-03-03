@@ -11,6 +11,8 @@
   "item.moredelight.omelette": "煎蛋卷",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "奶油牛肉炖饭",
   "item.moredelight.pasta_with_milk_cream_and_ham": "奶油火腿意面",
+  "item.moredelight.cooked_diced_potatoes": "煮过的切块土豆",
+  "item.moredelight.diced_potatoes": "切块土豆",
 
   "itemGroup.moredelight": "More Delight"
 }

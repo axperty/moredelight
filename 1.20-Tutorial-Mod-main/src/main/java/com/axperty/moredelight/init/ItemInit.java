@@ -56,6 +56,21 @@ public class ItemInit {
                             .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.SHORT_DURATION, 0), 1.0F)
                             .build()))));
 
+    public static final RegistryObject<Item> COOKED_DICED_POTATOES = CreativeTabInit.addToTab(ITEMS.register("cooked_diced_potatoes",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(9)
+                            .saturationMod(0.7f)
+                            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.BRIEF_DURATION, 0), 1.0F)
+                            .build()))));
+
+    public static final RegistryObject<Item> DICED_POTATOES = CreativeTabInit.addToTab(ITEMS.register("diced_potatoes",
+            () -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(1)
+                            .saturationMod(.3f)
+                            .build()))));
 
     public static final RegistryObject<Item> BREAD_SLICE = CreativeTabInit.addToTab(ITEMS.register("bread_slice",
             () -> new Item(new Item.Properties()

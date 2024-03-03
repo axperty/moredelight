@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+      {
+        "item": "moredelight:diced_potatoes"
+      },
+      {
+        "item": "moredelight:diced_potatoes"
+      },
+      {
+        "item": "moredelight:diced_potatoes"
+      },
+      {
+        "item": "moredelight:diced_potatoes"
+      },
+      {
+        "item": "moredelight:diced_potatoes"
+      },
+      {
+        "item": "moredelight:diced_potatoes"
+      }
+    ],
+  "result": {
+    "item": "moredelight:cooked_diced_potatoes"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400
+}
