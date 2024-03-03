@@ -7,13 +7,13 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/6d1c8bf4c28e697f472a83bd6add76ec4951734/mixin-0.8.5-processor.jar" />
         </processorPath>
-        <module name="com.axperty.moredelight.1.20-Tutorial-Mod-main.main~2" />
+        <module name="com.axperty.moredelight.1.20-Tutorial-Mod-main.main~1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="1.20-Tutorial-Mod-main.1.20-Tutorial-Mod-main.main~1" target="17" />
       <module name="1.20-Tutorial-Mod-main.1.20-Tutorial-Mod-main.test~1" target="17" />
-      <module name="com.axperty.moredelight.1.20-Tutorial-Mod-main.main~1" target="17" />
+      <module name="com.axperty.moredelight.1.20-Tutorial-Mod-main.main~2" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
