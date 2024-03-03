@@ -62,7 +62,7 @@ public class ItemInit {
                     .food(new FoodProperties.Builder()
                             .nutrition(9)
                             .saturationMod(0.7f)
-                            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.BRIEF_DURATION, 0), 1.0F)
+                            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), FoodValues.BRIEF_DURATION, 0), 1.0F)
                             .build()))));
 
     public static final RegistryObject<Item> DICED_POTATOES = CreativeTabInit.addToTab(ITEMS.register("diced_potatoes",
@@ -70,6 +70,7 @@ public class ItemInit {
                     .food(new FoodProperties.Builder()
                             .nutrition(1)
                             .saturationMod(.3f)
+                            .fast()
                             .build()))));
 
     public static final RegistryObject<Item> BREAD_SLICE = CreativeTabInit.addToTab(ITEMS.register("bread_slice",
@@ -77,6 +78,7 @@ public class ItemInit {
                     .food(new FoodProperties.Builder()
                             .nutrition(1)
                             .saturationMod(.3f)
+                            .fast()
                             .build()))));
 
     public static final RegistryObject<Item> TOAST = CreativeTabInit.addToTab(ITEMS.register("toast",

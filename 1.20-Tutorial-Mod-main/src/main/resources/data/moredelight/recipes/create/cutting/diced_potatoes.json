@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["create"]
+    }
+  ],
+  "type":"create:cutting",
+  "ingredients":[
+    {
+      "item":"minecraft:potatoes"
+    }
+  ],
+  "processingTime":40,
+  "results":[
+    {
+      "item":"moredelight:diced_potatoes",
+      "count": 5
+    }
+  ]
+}
