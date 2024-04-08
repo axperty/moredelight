@@ -14,5 +14,19 @@
   "item.moredelight.cooked_diced_potatoes": "Gekookte Gekruide Aardappelblokjes",
   "item.moredelight.diced_potatoes": "Gekruide Aardappelblokjes",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Aardappelpuree",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Gekookte dobbelsteentjes aardappel met stukjes kip",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Gekookte dobbelsteentjes aardappel met stukjes rundvlees",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Gekookte dobbelsteentjes aardappel met stukjes varkenskotelet",
+  "item.moredelight.potato_salad": "Aardappelsalade",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kipsandwich met ei en tomaat",
+  "item.moredelight.egg_with_bacon_sandwich": "Ei met bacon sandwich",
+  "item.moredelight.tomato_sandwich": "Tomaatsandwich",
+  "item.moredelight.steak_with_egg_sandwich": "Biefstuk met eiersandwich",
+  "item.moredelight.carrot_soup": "Wortelsoep",
+  "item.moredelight.chocolate_popsicle": "Chocolade-ijslolly",
+  "item.moredelight.toast_with_glow_berries": "Toast met glow bessen",
+  "item.moredelight.toast_with_cheese": "Toast met kaas",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

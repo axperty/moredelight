@@ -11,8 +11,21 @@
   "item.moredelight.omelette": "Omelett",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kokt ris med mjölkkräm och nötkött",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta med mjölkkräm och skinka",
-  "item.moredelight.cooked_diced_potatoes": "Kokta tärnade potatisar",
   "item.moredelight.diced_potatoes": "Tärnade potatisar",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Mosad potatis",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Kokt tärnad potatis med kycklingbitar",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Kokt tärnad potatis med köttbitar",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Kokt tärnad potatis med fläskkotlett",
+  "item.moredelight.potato_salad": "Potatissallad",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kycklingsandwich med ägg och tomat",
+  "item.moredelight.egg_with_bacon_sandwich": "Ägg- och baconmacka",
+  "item.moredelight.tomato_sandwich": "Tomatsandwich",
+  "item.moredelight.steak_with_egg_sandwich": "Biff- och äggmacka",
+  "item.moredelight.carrot_soup": "Morotssoppa",
+  "item.moredelight.chocolate_popsicle": "Chokladglasspinne",
+  "item.moredelight.toast_with_glow_berries": "Tost med lysande bär",
+  "item.moredelight.toast_with_cheese": "Tost med ost",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

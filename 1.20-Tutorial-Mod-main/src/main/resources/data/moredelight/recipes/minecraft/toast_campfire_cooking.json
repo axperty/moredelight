@@ -1,7 +1,7 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "food",
-  "cookingtime": 500,
+  "cookingtime": 400,
   "experience": 0.5,
   "ingredient": {
     "item": "moredelight:bread_slice"

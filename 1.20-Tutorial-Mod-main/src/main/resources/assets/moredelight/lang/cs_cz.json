@@ -1,0 +1,31 @@
+{
+  "item.moredelight.wooden_knife": "Dřevěný nůž",
+  "item.moredelight.stone_knife": "Kamenný nůž",
+  "item.moredelight.bread_slice": "Krajíc chleba",
+  "item.moredelight.toast": "Toast",
+  "item.moredelight.toast_with_egg": "Toast s vejcem",
+  "item.moredelight.toast_with_honey": "Toast s medem",
+  "item.moredelight.toast_with_sweet_berries": "Toast se sladkými bobulemi",
+  "item.moredelight.toast_with_chocolate": "Toast s čokoládou",
+  "item.moredelight.omelette": "Omeleta",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Vařená rýže se smetanou a hovězím masem",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Těstoviny se smetanou a šunkou",
+  "item.moredelight.cooked_diced_potatoes": "Pečené nakrájené brambory",
+  "item.moredelight.diced_potatoes": "Nakrájené brambory",
+
+  "item.moredelight.mashed_potatoes": "Šťouchané brambory",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Vařené kostky brambor s kuřecími kousky",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Vařené kostky brambor s hovězími kousky",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Vařené kostky brambor s vepřovými kotletami",
+  "item.moredelight.potato_salad": "Bramborový salát",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kuřecí sendvič s vajíčkem a rajčetem",
+  "item.moredelight.egg_with_bacon_sandwich": "Vejce se sendvičem se slaninou",
+  "item.moredelight.tomato_sandwich": "Rajčatový sendvič",
+  "item.moredelight.steak_with_egg_sandwich": "Sendvič se steakem a vajíčkem",
+  "item.moredelight.carrot_soup": "Mrkvová polévka",
+  "item.moredelight.chocolate_popsicle": "Čokoládový zmrzlinový kolík",
+  "item.moredelight.toast_with_glow_berries": "Toast s lesklými bobulemi",
+  "item.moredelight.toast_with_cheese": "Toast sýrem",
+
+  "itemGroup.moredelight.title": "More Delight"
+}

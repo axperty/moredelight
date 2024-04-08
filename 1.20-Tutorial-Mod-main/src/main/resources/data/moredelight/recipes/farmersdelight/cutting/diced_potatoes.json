@@ -6,7 +6,7 @@
     }
   ],
   "tool": {
-    "tag": "forge:tools/knives"
+    "tag": "c:tools/knives"
   },
   "result": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "item": "moredelight:diced_potatoes",
-      "chance": 0.3
+      "chance": 0.1
     }
   ]
 }

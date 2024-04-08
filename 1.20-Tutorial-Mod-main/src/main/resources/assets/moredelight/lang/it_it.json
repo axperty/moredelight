@@ -1,0 +1,32 @@
+{
+  "item.moredelight.wooden_knife": "Coltello di Legno",
+  "item.moredelight.stone_knife": "Coltello di Pietra",
+
+  "item.moredelight.bread_slice": "Fetta di Pane",
+  "item.moredelight.toast": "Toast",
+  "item.moredelight.toast_with_egg": "Toast con Uovo",
+  "item.moredelight.toast_with_honey": "Toast con Miele",
+  "item.moredelight.toast_with_sweet_berries": "Toast con Bacche Dolci",
+  "item.moredelight.toast_with_chocolate": "Toast con Cioccolato",
+  "item.moredelight.omelette": "Omelette",
+  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Riso Cotto con Crema di Latte e Manzo",
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta con Crema di Latte e Prosciutto",
+  "item.moredelight.cooked_diced_potatoes": "Patate a Cubetti Cotte",
+  "item.moredelight.diced_potatoes": "Patate a Cubetti",
+
+  "item.moredelight.mashed_potatoes": "Pure di patate",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Patate a cubetti cotte con pezzetti di pollo",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Patate a cubetti cotte con pezzetti di manzo",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Patate a cubetti cotte con pezzetti di costolette di maiale",
+  "item.moredelight.potato_salad": "Insalata di patate",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Panino di pollo con uovo e pomodoro",
+  "item.moredelight.egg_with_bacon_sandwich": "Panino di uovo con bacon",
+  "item.moredelight.tomato_sandwich": "Panino al pomodoro",
+  "item.moredelight.steak_with_egg_sandwich": "Panino con bistecca e uovo",
+  "item.moredelight.carrot_soup": "Zuppa di carote",
+  "item.moredelight.chocolate_popsicle": "Ghiacciolo al cioccolato",
+  "item.moredelight.toast_with_glow_berries": "Toast con bacche luminose",
+  "item.moredelight.toast_with_cheese": "Toast al formaggio",
+
+  "itemGroup.moredelight.title": "More Delight"
+}

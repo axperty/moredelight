@@ -14,5 +14,19 @@
   "item.moredelight.cooked_diced_potatoes": "Pommes de terre coupées en dés cuites",
   "item.moredelight.diced_potatoes": "Pommes de terre coupées en dés",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Purée de pommes de terre",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Pommes de terre coupées en dés cuites avec des morceaux de poulet",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Pommes de terre coupées en dés cuites avec des morceaux de bœuf",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Pommes de terre coupées en dés cuites avec une côtelette de porc",
+  "item.moredelight.potato_salad": "Salade de pommes de terre",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Sandwich au poulet avec œuf et tomate",
+  "item.moredelight.egg_with_bacon_sandwich": "Sandwich œuf bacon",
+  "item.moredelight.tomato_sandwich": "Sandwich à la tomate",
+  "item.moredelight.steak_with_egg_sandwich": "Sandwich steak œuf",
+  "item.moredelight.carrot_soup": "Soupe de carottes",
+  "item.moredelight.chocolate_popsicle": "Esquimau au chocolat",
+  "item.moredelight.toast_with_glow_berries": "Toast aux baies lumineuses",
+  "item.moredelight.toast_with_cheese": "Toast au fromage",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

@@ -14,5 +14,19 @@
   "item.moredelight.cooked_diced_potatoes": "Papas Cortadas Cocinadas",
   "item.moredelight.diced_potatoes": "Papas Cortadas",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Puré de Papas",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Papas Cocinadas con Pollo",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Papas Cocinadas con Carne",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Papas Cocinadas con Carne de Cerdo",
+  "item.moredelight.potato_salad": "Ensalada de Papas",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Sándwich de Pollo con Huevo y Tomate",
+  "item.moredelight.egg_with_bacon_sandwich": "Sándwich de Huevo con Tocino",
+  "item.moredelight.tomato_sandwich": "Sándwich de Tomate",
+  "item.moredelight.steak_with_egg_sandwich": "Sándwich de Carne con Huevo",
+  "item.moredelight.carrot_soup": "Sopa de Zanahoria",
+  "item.moredelight.chocolate_popsicle": "Palito de Chocolate",
+  "item.moredelight.toast_with_glow_berries": "Tostada de Bayas Luminosas",
+  "item.moredelight.toast_with_cheese": "Tostada con Queso",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

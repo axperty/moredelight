@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+      {
+        "item": "minecraft:porkchop"
+      },
+      {
+        "item": "moredelight:diced_potatoes"
+      },
+      {
+        "item": "farmersdelight:onion"
+      }
+    ],
+  "result": {
+    "item": "moredelight:cooked_diced_potatoes_with_porkchop"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0
+}

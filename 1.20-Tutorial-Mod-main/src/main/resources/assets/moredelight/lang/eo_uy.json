@@ -14,5 +14,19 @@
   "item.moredelight.cooked_diced_potatoes": "Kuirita kubikigita terpomo",
   "item.moredelight.diced_potatoes": "Kubikigitaj terpomoj",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Purigita terpomo",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Kuirita kubigita terpomo kun kokaĵaj pecoj",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Kuirita kubigita terpomo kun bovaĵaj pecoj",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Kuirita kubigita terpomo kun porkaĵa peco",
+  "item.moredelight.potato_salad": "Terpoma salato",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kokaĵa sandviĉo kun ovo kaj tomato",
+  "item.moredelight.egg_with_bacon_sandwich": "Ova sandviĉo kun bacon",
+  "item.moredelight.tomato_sandwich": "Tomata sandviĉo",
+  "item.moredelight.steak_with_egg_sandwich": "Bovina bisto kun ova sandviĉo",
+  "item.moredelight.carrot_soup": "Karota supo",
+  "item.moredelight.chocolate_popsicle": "Ĉokolada glacielaĵo",
+  "item.moredelight.toast_with_glow_berries": "Tostita pano kun brilaj beroj",
+  "item.moredelight.toast_with_cheese": "Tostita pano kun fromaĝo",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

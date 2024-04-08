@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "forge:milk/milk_bottle"
+        "item": "farmersdelight:milk_bottle"
       },
       {
-        "tag": "forge:crops/rice"
+        "item": "farmersdelight:rice"
       },
       {
-        "tag": "forge:raw_beef"
+        "item": "minecraft:beef"
       }
     ],
   "result": {
@@ -17,5 +17,6 @@
   "container": {
     "item": "minecraft:bowl"
   },
-  "cookingtime": 300
+  "cookingtime": 400,
+  "experience": 1.0
 }

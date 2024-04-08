@@ -14,5 +14,19 @@
   "item.moredelight.cooked_diced_potatoes": "調理されたサイコロポテト",
   "item.moredelight.diced_potatoes": "サイコロポテト",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "マッシュポテト",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "鶏の切り身と一緒に調理された角切りポテト",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "牛肉の切り身と一緒に調理された角切りポテト",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "ポークチョップと一緒に調理された角切りポテト",
+  "item.moredelight.potato_salad": "ポテトサラダ",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "チキンサンドイッチに卵とトマトを乗せたもの",
+  "item.moredelight.egg_with_bacon_sandwich": "ベーコンと卵のサンドイッチ",
+  "item.moredelight.tomato_sandwich": "トマトサンドイッチ",
+  "item.moredelight.steak_with_egg_sandwich": "ステーキと卵のサンドイッチ",
+  "item.moredelight.carrot_soup": "にんじんスープ",
+  "item.moredelight.chocolate_popsicle": "チョコレートアイスキャンディー",
+  "item.moredelight.toast_with_glow_berries": "発光ベリーのトースト",
+  "item.moredelight.toast_with_cheese": "チーズトースト",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

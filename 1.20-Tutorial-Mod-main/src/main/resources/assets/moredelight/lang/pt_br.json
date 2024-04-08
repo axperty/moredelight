@@ -11,8 +11,21 @@
   "item.moredelight.omelette": "Omelete",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Arroz Cozido com Creme de Leite e Carne de Vaca",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Massa com Creme de Leite e Presunto",
-  "item.moredelight.cooked_diced_potatoes": "Batatas em Cubos Cozidas",
   "item.moredelight.diced_potatoes": "Batatas em Cubos",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Purê de batatas",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Batatas cozidas em cubos com pedaços de frango",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Batatas cozidas em cubos com pedaços de carne bovina",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Batatas cozidas em cubos com pedaços de carne de porco",
+  "item.moredelight.potato_salad": "Salada de batata",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Sanduíche de frango com ovo e tomate",
+  "item.moredelight.egg_with_bacon_sandwich": "Sanduíche de ovo com bacon",
+  "item.moredelight.tomato_sandwich": "Sanduíche de tomate",
+  "item.moredelight.steak_with_egg_sandwich": "Sanduíche de bife com ovo",
+  "item.moredelight.carrot_soup": "Sopa de cenoura",
+  "item.moredelight.chocolate_popsicle": "Picolé de chocolate",
+  "item.moredelight.toast_with_glow_berries": "Torrada com bagas luminosas",
+  "item.moredelight.toast_with_cheese": "Torrada com queijo",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

@@ -11,8 +11,21 @@
   "item.moredelight.omelette": "煎蛋卷",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "奶油牛肉炖饭",
   "item.moredelight.pasta_with_milk_cream_and_ham": "奶油火腿意面",
-  "item.moredelight.cooked_diced_potatoes": "煮过的切块土豆",
   "item.moredelight.diced_potatoes": "切块土豆",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "土豆泥",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "煮土豆块配鸡肉块",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "煮土豆块配牛肉块",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "煮土豆块配猪排块",
+  "item.moredelight.potato_salad": "土豆沙拉",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "鸡蛋番茄三明治",
+  "item.moredelight.egg_with_bacon_sandwich": "培根鸡蛋三明治",
+  "item.moredelight.tomato_sandwich": "番茄三明治",
+  "item.moredelight.steak_with_egg_sandwich": "牛排鸡蛋三明治",
+  "item.moredelight.carrot_soup": "胡萝卜汤",
+  "item.moredelight.chocolate_popsicle": "巧克力冰棒",
+  "item.moredelight.toast_with_glow_berries": "荧光浆果吐司",
+  "item.moredelight.toast_with_cheese": "起司吐司",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

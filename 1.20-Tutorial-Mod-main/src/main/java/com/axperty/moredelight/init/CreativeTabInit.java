@@ -23,7 +23,7 @@ public class CreativeTabInit {
 
     public static final RegistryObject<CreativeModeTab> CREATIVE_TAB = TABS.register("creative_tab",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.moredelight"))
+                    .title(Component.translatable("itemGroup.moredelight.title"))
                     .icon(ItemInit.WOODEN_KNIFE.get()::getDefaultInstance)
                     .displayItems((displayParams, output) ->
                             EXAMPLE_TAB_ITEMS.forEach(itemLike -> output.accept(itemLike.get())))

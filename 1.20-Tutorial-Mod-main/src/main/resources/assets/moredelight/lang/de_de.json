@@ -14,5 +14,19 @@
   "item.moredelight.cooked_diced_potatoes": "Gekochte gewürfelte Kartoffeln",
   "item.moredelight.diced_potatoes": "Gewürfelte Kartoffeln",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Kartoffelpüree",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Gekochte gewürfelte Kartoffeln mit Hähnchenstücken",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Gekochte gewürfelte Kartoffeln mit Rinderstücken",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Gekochte gewürfelte Kartoffeln mit Schweinekotelett",
+  "item.moredelight.potato_salad": "Kartoffelsalat",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Hähnchensandwich mit Ei und Tomate",
+  "item.moredelight.egg_with_bacon_sandwich": "Ei mit Speck Sandwich",
+  "item.moredelight.tomato_sandwich": "Tomatensandwich",
+  "item.moredelight.steak_with_egg_sandwich": "Steak mit Ei Sandwich",
+  "item.moredelight.carrot_soup": "Karottensuppe",
+  "item.moredelight.chocolate_popsicle": "Schokoladeneis am Stiel",
+  "item.moredelight.toast_with_glow_berries": "Toast mit leuchtenden Beeren",
+  "item.moredelight.toast_with_cheese": "Toast mit Käse",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

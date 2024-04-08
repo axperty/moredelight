@@ -14,5 +14,19 @@
   "item.moredelight.cooked_diced_potatoes": "Kokte terningpoteter",
   "item.moredelight.diced_potatoes": "Terningpoteter",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Potetmos",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Kokte terninger poteter med kyllingbiter",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Kokte terninger poteter med biffbiter",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Kokte terninger poteter med svinekotelett",
+  "item.moredelight.potato_salad": "Potetsalat",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kyllingsandwich med egg og tomat",
+  "item.moredelight.egg_with_bacon_sandwich": "Egg med bacon sandwich",
+  "item.moredelight.tomato_sandwich": "Tomatsandwich",
+  "item.moredelight.steak_with_egg_sandwich": "Biff med egg sandwich",
+  "item.moredelight.carrot_soup": "Gulrotsuppe",
+  "item.moredelight.chocolate_popsicle": "Sjokoladeis",
+  "item.moredelight.toast_with_glow_berries": "Toast med glødende bær",
+  "item.moredelight.toast_with_cheese": "Toast med ost",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

@@ -11,8 +11,21 @@
   "item.moredelight.omelette": "Омлет",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Варёный рис с молочным кремом и говядиной",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Паста с молочным кремом и ветчиной",
-  "item.moredelight.cooked_diced_potatoes": "Приготовленные кубиками картошка",
   "item.moredelight.diced_potatoes": "Кубиками нарезанные картошка",
 
-  "itemGroup.moredelight": "More Delight"
+  "item.moredelight.mashed_potatoes": "Картофельное пюре",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Вареный кубиками картофель с кусочками курицы",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Вареный кубиками картофель с кусочками говядины",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Вареный кубиками картофель с кусочками свинины",
+  "item.moredelight.potato_salad": "Картофельный салат",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Куриный сэндвич с яйцом и помидором",
+  "item.moredelight.egg_with_bacon_sandwich": "Сэндвич с яйцом и беконом",
+  "item.moredelight.tomato_sandwich": "Сэндвич с помидором",
+  "item.moredelight.steak_with_egg_sandwich": "Сэндвич со стейком и яйцом",
+  "item.moredelight.carrot_soup": "Морковный суп",
+  "item.moredelight.chocolate_popsicle": "Шоколадное мороженое",
+  "item.moredelight.toast_with_glow_berries": "Тосты с светящимися ягодами",
+  "item.moredelight.toast_with_cheese": "Тосты с сыром",
+
+  "itemGroup.moredelight.title": "More Delight"
 }
