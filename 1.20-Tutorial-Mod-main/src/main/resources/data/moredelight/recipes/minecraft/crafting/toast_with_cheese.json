@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:cheese"
+      "item": "casualness_delight:cheese_wheel_slice"
     },
     {
       "item": "moredelight:toast"

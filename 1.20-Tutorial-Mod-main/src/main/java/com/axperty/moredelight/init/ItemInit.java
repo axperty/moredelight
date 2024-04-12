@@ -151,7 +151,7 @@ public class ItemInit {
     public static final RegistryObject<Item> TOAST = ITEMS.register("toast",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(2)
-                    .saturationMod(0.4f) // before: 0.5f
+                    .saturationMod(0.4f) // before: 0.5f reduced 33%
                     .build())));
 
     public static final RegistryObject<Item> TOAST_WITH_EGG = ITEMS.register("toast_with_egg",
