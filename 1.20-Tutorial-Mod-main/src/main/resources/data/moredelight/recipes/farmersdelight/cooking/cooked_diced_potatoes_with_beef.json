@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "minecraft:beef"
+        "tag": "forge:raw_beef"
       },
       {
         "item": "moredelight:diced_potatoes"
       },
       {
-        "item": "farmersdelight:onion"
+        "tag": "forge:vegetables/onion"
       }
     ],
   "result": {

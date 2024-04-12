@@ -8,7 +8,7 @@
         "item": "moredelight:diced_potatoes"
       },
       {
-        "item": "farmersdelight:onion"
+        "tag": "forge:vegetables/onion"
       }
     ],
   "result": {

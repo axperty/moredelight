@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "farmersdelight:chicken_cuts"
+        "tag": "forge:raw_chicken"
       },
       {
         "item": "moredelight:diced_potatoes"
       },
       {
-        "item": "farmersdelight:onion"
+        "tag": "forge:vegetables/onion"
       }
     ],
   "result": {

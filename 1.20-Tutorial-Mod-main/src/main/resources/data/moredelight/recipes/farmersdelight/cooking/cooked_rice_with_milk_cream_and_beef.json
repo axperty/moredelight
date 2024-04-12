@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "farmersdelight:milk_bottle"
+        "tag": "forge:milk/milk_bottle"
       },
       {
         "item": "farmersdelight:rice"
       },
       {
-        "item": "minecraft:beef"
+        "tag": "forge:raw_beef"
       }
     ],
   "result": {

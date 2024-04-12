@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "item": "farmersdelight:milk_bottle"
+      "tag": "forge:milk/milk_bottle"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:vegetables/carrot"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:vegetables/carrot"
     }
   ],
   "result": {

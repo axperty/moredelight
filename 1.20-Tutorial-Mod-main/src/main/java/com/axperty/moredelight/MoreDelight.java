@@ -13,6 +13,6 @@ public class MoreDelight {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(bus);
-        CreativeTabInit.TABS.register(bus);
+        CreativeTabInit.register(bus);
     }
 }

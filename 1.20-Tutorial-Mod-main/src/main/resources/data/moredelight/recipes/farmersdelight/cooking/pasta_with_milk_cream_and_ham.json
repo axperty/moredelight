@@ -2,10 +2,10 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "farmersdelight:milk_bottle"
+        "tag": "forge:milk/milk_bottle"
       },
       {
-        "item": "farmersdelight:raw_pasta"
+        "tag": "forge:pasta/raw_pasta"
       },
       {
         "item": "farmersdelight:ham"

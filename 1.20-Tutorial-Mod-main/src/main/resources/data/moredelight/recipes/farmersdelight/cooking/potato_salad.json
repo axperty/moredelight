@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "minecraft:egg"
+        "tag": "forge:eggs"
       },
       {
         "item": "moredelight:diced_potatoes"
       },
       {
-        "item": "farmersdelight:onion"
+        "tag": "forge:vegetables/onion"
       }
     ],
   "result": {

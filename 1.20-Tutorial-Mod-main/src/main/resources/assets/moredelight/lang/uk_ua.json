@@ -1,6 +1,7 @@
 {
   "item.moredelight.wooden_knife": "Дерев'яний ніж",
   "item.moredelight.stone_knife": "Кам'яний ніж",
+
   "item.moredelight.bread_slice": "Скибка хліба",
   "item.moredelight.toast": "Тост",
   "item.moredelight.toast_with_egg": "Тост із яйцем",
@@ -12,19 +13,21 @@
   "item.moredelight.pasta_with_milk_cream_and_ham": "Паста з вершками та шинкою",
   "item.moredelight.diced_potatoes": "Нарізана картопля",
 
-  "item.moredelight.mashed_potatoes": "Пюре з картоплі",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Варені кубики картоплі з кусочками курки",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Варені кубики картоплі з кусочками яловичини",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Варені кубики картоплі з кусочками свинини",
+  "item.moredelight.mashed_potatoes": "Картопляне пюре",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Смажена нарізана картопля з курятиною",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Смажена нарізана картопля з яловичиною",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Смажена нарізана картопля зі свининою",
   "item.moredelight.potato_salad": "Картопляний салат",
-  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Курячий сендвіч з яйцем і помідором",
-  "item.moredelight.egg_with_bacon_sandwich": "Сендвіч з яйцем і беконом",
-  "item.moredelight.tomato_sandwich": "Сендвіч з помідором",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Курячий сендвіч із яйцем і помідором",
+  "item.moredelight.egg_with_bacon_sandwich": "Сендвіч із яйцем і беконом",
+  "item.moredelight.tomato_sandwich": "Сендвіч із помідором",
   "item.moredelight.steak_with_egg_sandwich": "Сендвіч зі стейком і яйцем",
-  "item.moredelight.carrot_soup": "Моркв'яний суп",
-  "item.moredelight.chocolate_popsicle": "Шоколадне морозиво",
-  "item.moredelight.toast_with_glow_berries": "Тост з сяючими ягодами",
-  "item.moredelight.toast_with_cheese": "Тост з сиром",
+  "item.moredelight.carrot_soup": "Морквяний суп",
+  "item.moredelight.chocolate_popsicle": "Шоколадний лід",
+  "item.moredelight.toast_with_glow_berries": "Тост із сяйними ягодами",
+  "item.moredelight.toast_with_cheese": "Тост із сиром",
+  "item.moredelight.chicken_salad": "Салат з курячим м'ясом",
+  "item.moredelight.toast_with_blueberries": "Тост з чорницею",
 
   "itemGroup.moredelight.title": "More Delight"
 }

@@ -1,6 +1,7 @@
 {
   "item.moredelight.wooden_knife": "Dřevěný nůž",
   "item.moredelight.stone_knife": "Kamenný nůž",
+
   "item.moredelight.bread_slice": "Krajíc chleba",
   "item.moredelight.toast": "Toast",
   "item.moredelight.toast_with_egg": "Toast s vejcem",
@@ -13,19 +14,21 @@
   "item.moredelight.cooked_diced_potatoes": "Pečené nakrájené brambory",
   "item.moredelight.diced_potatoes": "Nakrájené brambory",
 
-  "item.moredelight.mashed_potatoes": "Šťouchané brambory",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Vařené kostky brambor s kuřecími kousky",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Vařené kostky brambor s hovězími kousky",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Vařené kostky brambor s vepřovými kotletami",
+  "item.moredelight.mashed_potatoes": "Bramborové pyré",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Pečené nakrájené brambory s kuřecím masem",
+  "item.moredelight.cooked_diced_potatoes_with_beef": "Pečené nakrájené brambory s hovězím masem",
+  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Pečené nakrájené brambory s kotletou",
   "item.moredelight.potato_salad": "Bramborový salát",
-  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kuřecí sendvič s vajíčkem a rajčetem",
-  "item.moredelight.egg_with_bacon_sandwich": "Vejce se sendvičem se slaninou",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kuřecí sendvič s vejcem a rajčetem",
+  "item.moredelight.egg_with_bacon_sandwich": "Sendvič s vejcem a slaninou",
   "item.moredelight.tomato_sandwich": "Rajčatový sendvič",
-  "item.moredelight.steak_with_egg_sandwich": "Sendvič se steakem a vajíčkem",
+  "item.moredelight.steak_with_egg_sandwich": "Sendvič s hovězím masem a vejcem",
   "item.moredelight.carrot_soup": "Mrkvová polévka",
-  "item.moredelight.chocolate_popsicle": "Čokoládový zmrzlinový kolík",
-  "item.moredelight.toast_with_glow_berries": "Toast s lesklými bobulemi",
-  "item.moredelight.toast_with_cheese": "Toast sýrem",
+  "item.moredelight.chocolate_popsicle": "Čokoládový led",
+  "item.moredelight.toast_with_glow_berries": "Toast s zářinkami",
+  "item.moredelight.toast_with_cheese": "Toast se sýrem",
+  "item.moredelight.chicken_salad": "Kuřecí salát",
+  "item.moredelight.toast_with_blueberries": "Toast s borůvkami",
 
   "itemGroup.moredelight.title": "More Delight"
 }

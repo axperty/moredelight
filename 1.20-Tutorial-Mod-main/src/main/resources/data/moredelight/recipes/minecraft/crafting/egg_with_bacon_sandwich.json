@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "tag": "forge:bread/wheat"
     },
     {
-      "item": "farmersdelight:fried_egg"
+      "tag": "forge:cooked_eggs"
     },
     {
-      "item": "farmersdelight:cooked_bacon"
+      "tag": "forge:cooked_bacon"
     }
   ],
   "result": {
