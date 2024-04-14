@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:bread"
+      "tag": "forge:bread_slices/wheat"
     },
     {
-      "tag": "forge:cooked_chicken"
+      "tag": "forge:bread_slices/wheat"
     },
     {
       "tag": "forge:cooked_eggs"
     },
     {
-      "tag": "forge:vegetables/tomato"
+      "tag": "forge:cooked_bacon"
     }
   ],
   "result": {
-    "item": "moredelight:chicken_sandwich_with_egg_and_tomato"
+    "item": "moredelight:egg_with_bacon_sandwich"
   }
 }

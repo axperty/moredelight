@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:bread/wheat"
+      "tag": "forge:bread"
     },
     {
       "tag": "forge:cooked_eggs"
