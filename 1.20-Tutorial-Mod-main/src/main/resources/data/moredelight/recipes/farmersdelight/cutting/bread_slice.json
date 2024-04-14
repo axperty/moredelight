@@ -11,11 +11,7 @@
   "result": [
     {
       "item": "moredelight:bread_slice",
-      "count": 2
-    },
-    {
-      "item": "moredelight:bread_slice",
-      "chance": 0.15
+      "count": 4
     }
   ]
 }

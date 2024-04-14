@@ -4,7 +4,13 @@
 <p><b>Summary:</b> This update introduces bread requirements for most sandwiches and allows bread slices/toast to be used with Some Assembly Required.</p>
 <hr/>
 
-<h3>🥪 Sandwich Balancing:</h3>
+<h3>🍞 Bread Balancing:</h3>
+<ul>
+  <li>Increased amount of bread slices when cutting bread from 2 slices to 4 slices.</li>
+  <li>Removed the chance to get more bread slices when cutting bread.</li>
+</ul>
+
+<h3>🥪 Sandwiches:</h3>
 <ul>
   <li>Sandwiches, like the Bacon Sandwich, Steak with Egg Sandwich, Tomato Sandwich, can now only be made with bread or two bread slices. Other sandwiches like the Egg Sandwich that require more bread can only be made with bread.</li>
 </ul>
