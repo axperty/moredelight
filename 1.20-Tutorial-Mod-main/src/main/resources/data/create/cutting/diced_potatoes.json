@@ -1,0 +1,19 @@
+{
+  "type": "forge:mod_loaded",
+  "modid": "create",
+  "data": {
+    "type":"create:cutting",
+    "ingredients":[
+      {
+        "item":"minecraft:potato"
+      }
+    ],
+    "processingTime":40,
+    "results":[
+      {
+        "item":"moredelight:diced_potatoes",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -6,13 +6,14 @@
 
 <h3>🍞 Bread Balancing:</h3>
 <ul>
-  <li>Increased amount of bread slices when cutting bread from 2 slices to 4 slices.</li>
-  <li>Removed the chance to get more bread slices when cutting bread.</li>
+  <li><b>What:</b> Increased amount of bread slices when cutting bread from 2 slices to 4 slices, and removed the chance to get more bread slices when cutting bread.</li>
+  <li><b>Why:</b> This change was made to make crafting sandwiches more affordable for players. By getting more slices from each loaf, players won't need to use as many resources to make their favorite sandwiches.</li>
 </ul>
 
 <h3>🥪 Sandwiches:</h3>
 <ul>
-  <li>Sandwiches, like the Bacon Sandwich, Steak with Egg Sandwich, Tomato Sandwich, can now only be made with bread or two bread slices. Other sandwiches like the Egg Sandwich that require more bread can only be made with bread.</li>
+  <li><b>What:</b> Sandwiches, like the Bacon Sandwich, Steak with Egg Sandwich, and Tomato Sandwich, can now be made with either a whole bread or two bread slices. Sandwiches that require more bread, like the Egg Sandwich, can only be made with a whole bread.</li>
+  <li><b>Why:</b> This change provides more flexibility when crafting simpler sandwiches while maintaining the recipe requirements for more complex ones.</li>
 </ul>
 
 <h3>🧩 Compatibility:</h3>

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "forge:milk/milk_bottle"
+        "tag": "forge:milk"
       },
       {
         "item": "casualness_delight:potato_slice"
