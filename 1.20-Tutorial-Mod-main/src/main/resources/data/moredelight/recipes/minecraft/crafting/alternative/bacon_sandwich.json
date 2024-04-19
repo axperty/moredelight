@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:bread_slices/wheat"
+      "tag": "forge:bread_slices"
     },
     {
-      "tag": "forge:bread_slices/wheat"
+      "tag": "forge:bread_slices"
     },
     {
       "tag": "forge:cooked_bacon"

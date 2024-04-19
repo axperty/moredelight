@@ -12,13 +12,13 @@
 
 <h3>🥪 Sandwiches:</h3>
 <ul>
-  <li><b>What:</b> Sandwiches, like the Bacon Sandwich, Steak with Egg Sandwich, and Tomato Sandwich, can now be made with either a whole bread or two bread slices. Sandwiches that require more bread, like the Egg Sandwich, can only be made with a whole bread.</li>
+  <li><b>What:</b> Sandwiches, like the Bacon Sandwich, Steak with Egg Sandwich, and Tomato Sandwich, can now be made with either a whole bread, two bread slices, or two toasts. Sandwiches that require more bread, like the Egg Sandwich, can only be made with a whole bread.</li>
   <li><b>Why:</b> This change provides more flexibility when crafting simpler sandwiches while maintaining the recipe requirements for more complex ones.</li>
 </ul>
 
 <h3>🧩 Compatibility:</h3>
 <ul>
-  <li>Bread slices and toasts are now compatible with Some Assembly Required.</li>
+  <li>Bread slices and toasts are now compatible with Some Assembly Required (thanks Digby for your suggestion!).</li>
 </ul>
 <hr/>
 
