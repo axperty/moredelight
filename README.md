@@ -23,3 +23,7 @@ This mod adds new meals, toasts, ingredients, and tools, improving the experienc
 - Sandwiches can be made with bread slices.
 - Make a variety of toasts by cutting bread.
 - Wooden and stone knives.
+
+### Fabric Version
+
+This mod is also available for Fabric, you can see its repository [here.](https://github.com/axperty/moredelight-fabric/)
