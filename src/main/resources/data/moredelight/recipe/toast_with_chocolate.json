@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "moredelight:toast"
+    }
+  ],
+  "result": {
+    "id": "moredelight:toast_with_chocolate"
+  }
+}

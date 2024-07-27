@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_chicken"
+    },
+    {
+      "item": "moredelight:diced_potatoes"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "moredelight:cooked_diced_potatoes_with_chicken_cuts"
+  }
+}

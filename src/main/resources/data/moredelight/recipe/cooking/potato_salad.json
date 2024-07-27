@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "moredelight:diced_potatoes"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "moredelight:potato_salad"
+  }
+}

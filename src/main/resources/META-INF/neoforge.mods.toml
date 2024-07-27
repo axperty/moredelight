@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+issueTrackerURL = "https://github.com/axperty/moredelight-forge/issues"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL = "https://github.com/axperty/moredelight-forge"
+logoFile="logo.png"
+logoBlur = false
+authors="${mod_authors}"
+description="An addon mod for Farmer's Delight that adds extra features to the base mod."
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neo_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="farmersdelight"
+    type="required"
+    versionRange="1.21-1.2.4"
+    ordering="NONE"
+    side="BOTH"

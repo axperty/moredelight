@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:foods/cooked_chicken"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "result": {
+    "id": "moredelight:chicken_salad"
+  }
+}

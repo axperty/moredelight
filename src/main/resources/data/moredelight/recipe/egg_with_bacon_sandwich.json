@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "tag": "c:foods/cooked_egg"
+    },
+    {
+      "tag": "c:foods/cooked_bacon"
+    }
+  ],
+  "result": {
+    "id": "moredelight:egg_with_bacon_sandwich"
+  }
+}

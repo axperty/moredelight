@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bread_slices"
+    },
+    {
+      "tag": "c:bread_slices"
+    },
+    {
+      "tag": "c:foods/cooked_beef"
+    },
+    {
+      "tag": "c:foods/cooked_egg"
+    }
+  ],
+  "result": {
+    "id": "moredelight:steak_with_egg_sandwich"
+  }
+}

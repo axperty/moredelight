@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "tag": "c:crops/tomato"
+    }
+  ],
+  "result": {
+    "id": "moredelight:tomato_sandwich"
+  }
+}

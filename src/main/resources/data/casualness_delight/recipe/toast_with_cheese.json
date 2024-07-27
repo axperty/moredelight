@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "casualness_delight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "casualness_delight:cheese_wheel_slice"
+    },
+    {
+      "item": "moredelight:toast"
+    }
+  ],
+  "result": {
+    "id": "moredelight:toast_with_cheese"
+  }
+}

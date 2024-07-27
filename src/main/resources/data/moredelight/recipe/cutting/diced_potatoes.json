@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "c:crops/potato"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "moredelight:diced_potatoes"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}
