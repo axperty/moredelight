@@ -2,11 +2,11 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "minecraft:potato"
+      "tag": "forge:vegetables/potato"
     }
   ],
   "tool": {
-    "tag": "c:tools/knives"
+    "tag": "forge:tools/knives"
   },
   "result": [
     {

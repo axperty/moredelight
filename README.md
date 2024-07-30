@@ -1,6 +1,6 @@
 # More Delight
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/more-delight-fabric"><img src="https://cf.way2muchnoise.eu/full_964408_downloads.svg" alt="Curseforge Downloads"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/more-delight-forge"><img src="https://cf.way2muchnoise.eu/full_977515_downloads.svg" alt="Curseforge Downloads"></a>
 <a href="https://discord.gg/e2BQx4bbsU"><img alt="Discord" src="https://img.shields.io/discord/1194733791818821663?color=brightgreen&label=Discord"></a>
 
 
@@ -23,7 +23,3 @@ This mod adds new meals, toasts, ingredients, and tools, improving the experienc
 - Sandwiches can be made with bread slices.
 - Make a variety of toasts by cutting bread.
 - Wooden and stone knives.
-
-### Forge Version
-
-This mod is also available for Forge, you can see its repository [here.](https://github.com/axperty/moredelight-forge/)

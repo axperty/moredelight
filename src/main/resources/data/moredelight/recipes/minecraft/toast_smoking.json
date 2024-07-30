@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "cookingtime": 300,
+  "cookingtime": 400,
   "experience": 0.5,
   "ingredient": {
-    "tag": "c:bread_slice"
+    "item": "moredelight:bread_slice"
   },
   "result": "moredelight:toast"
 }

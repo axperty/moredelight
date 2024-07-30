@@ -2,16 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "forge:milk"
       },
       {
-        "tag": "c:foods/pastas"
+        "tag": "forge:pasta/raw_pasta"
       },
       {
         "item": "farmersdelight:ham"
-      },
-      {
-        "tag": "c:foods/vegetables/onion"
       }
     ],
   "result": {

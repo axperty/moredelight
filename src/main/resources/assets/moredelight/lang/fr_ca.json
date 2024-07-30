@@ -28,5 +28,7 @@
   "item.moredelight.toast_with_glow_berries": "Toast aux baies lumineuses",
   "item.moredelight.toast_with_cheese": "Toast au fromage",
   "item.moredelight.chicken_salad": "Salade de poulet",
-  "item.moredelight.toast_with_blueberries": "Toast aux myrtilles"
+  "item.moredelight.toast_with_blueberries": "Toast aux myrtilles",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

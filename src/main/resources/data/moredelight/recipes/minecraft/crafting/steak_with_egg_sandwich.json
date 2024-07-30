@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:foods/breads"
+      "tag": "forge:bread"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_beef"
+      "tag": "forge:cooked_beef"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_eggs"
+      "tag": "forge:cooked_eggs"
     }
   ],
   "result": {

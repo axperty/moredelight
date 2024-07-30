@@ -28,5 +28,6 @@
   "item.moredelight.toast_with_cheese": "Toast with Cheese",
   "item.moredelight.chicken_salad": "Chicken Salad",
   "item.moredelight.toast_with_blueberries": "Toast with Blueberries",
-  "item.moredelight.ham_and_cheese_sandwich": "Ham and Cheese Sandwich"
+
+  "itemGroup.moredelight.title": "More Delight"
 }

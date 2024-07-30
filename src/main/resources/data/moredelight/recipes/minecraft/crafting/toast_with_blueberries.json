@@ -1,14 +1,8 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": ["nutritious-feast"]
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "nutritious-feast:blueberries"
+      "item": "nutritious_feast:blueberries"
     },
     {
       "item": "moredelight:toast"

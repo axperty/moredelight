@@ -1,0 +1,34 @@
+
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT License"
+
+[[mods]]
+modId="moredelight"
+version="2024.06.30-1.19.2-forge"
+displayName="More Delight"
+logoFile="assets/moredelight/logo.png"
+authors="Axperty"
+
+description='''An addon for Farmer's Delight that adds extra features to the base game.'''
+
+[[dependencies.moredelight]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.moredelight]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.moredelight]]
+    modId="farmersdelight"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

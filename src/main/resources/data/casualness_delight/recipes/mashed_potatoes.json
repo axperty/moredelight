@@ -1,14 +1,11 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": ["casualness_delight"]
-    }
-  ],
-  "type": "farmersdelight:cooking",
-  "ingredients": [
+  "type": "forge:mod_loaded",
+  "modid": "casualness_delight",
+  "data": {
+    "type": "farmersdelight:cooking",
+    "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "forge:milk"
       },
       {
         "item": "casualness_delight:potato_slice"
@@ -17,12 +14,13 @@
         "item": "casualness_delight:potato_slice"
       }
     ],
-  "result": {
-    "item": "moredelight:mashed_potatoes"
-  },
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "cookingtime": 400,
-  "experience": 1.0
+    "result": {
+      "item": "moredelight:mashed_potatoes"
+    },
+    "container": {
+      "item": "minecraft:bowl"
+    },
+    "cookingtime": 400,
+    "experience": 1.0
+  }
 }

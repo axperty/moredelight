@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:bread_slice"
+      "tag": "forge:bread_slices"
     },
     {
-      "tag": "c:bread_slice"
+      "tag": "forge:bread_slices"
     },
     {
-      "tag": "c:foods/vegetables/tomato"
+      "tag": "forge:vegetables/tomato"
     }
   ],
   "result": {

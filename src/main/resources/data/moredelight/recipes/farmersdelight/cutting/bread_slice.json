@@ -2,11 +2,11 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "c:foods/breads"
+      "tag": "forge:bread/wheat"
     }
   ],
   "tool": {
-    "tag": "c:tools/knives"
+    "tag": "forge:tools/knives"
   },
   "result": [
     {

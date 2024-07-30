@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "forge:milk"
       },
       {
-        "tag": "c:sliced_potato"
+        "item": "moredelight:diced_potatoes"
       },
       {
-        "tag": "c:sliced_potato"
+        "item": "moredelight:diced_potatoes"
       }
     ],
   "result": {

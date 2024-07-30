@@ -1,15 +1,15 @@
 {
   "type": "farmersdelight:cooking",
   "ingredients": [
-      {
-        "tag": "c:milks"
-      },
-      {
-        "tag": "c:foods/vegetables/carrot"
-      },
-      {
-        "tag": "c:foods/vegetables/carrot"
-      }
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:vegetables/carrot"
+    },
+    {
+      "tag": "forge:vegetables/carrot"
+    }
   ],
   "result": {
     "item": "moredelight:carrot_soup"
