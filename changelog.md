@@ -1,4 +1,4 @@
-<p align="left"><img src="https://cdn.modrinth.com/data/znHQQtuU/images/69377ff53f97891530ffc2e042c5c8f41693e1db.png" alt="More Delight Logo" width="400">
+<p align="left"><img src="https://cdn.modrinth.com/data/znHQQtuU/images/6833d6b12f2605b2925a31261438c6a355903132.png" alt="More Delight">
 
 <h3>Recipe Overload Update: Patch 2</h3>
 <p><b>Summary:</b> This update improves recipe compatibility and flexibility, adjusts bread slicing, and refines sandwich crafting mechanics.</p>
