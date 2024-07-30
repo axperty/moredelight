@@ -1,15 +1,21 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["casualness_delight"]
+    }
+  ],
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "forge:eggs"
+        "tag": "c:eggs"
       },
       {
         "item": "casualness_delight:potato_slice"
       },
-      {
-        "tag": "forge:vegetables/onion"
-      }
+    {
+      "tag": "c:foods/vegetables/onion"
+    }
     ],
   "result": {
     "item": "moredelight:potato_salad"

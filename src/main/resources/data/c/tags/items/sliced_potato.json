@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "moredelight:diced_potatoes",
+      "required": false
+    }
+  ]
+}

@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "forge:milk"
+        "tag": "c:milks"
       },
       {
-        "tag": "forge:vegetables/carrot"
+        "tag": "c:foods/vegetables/carrot"
       },
       {
-        "tag": "forge:vegetables/carrot"
+        "tag": "c:foods/vegetables/carrot"
       }
   ],
   "result": {

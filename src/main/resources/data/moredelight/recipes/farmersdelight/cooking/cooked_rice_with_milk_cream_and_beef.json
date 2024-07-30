@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "forge:milk"
+        "tag": "c:milks"
       },
       {
-        "item": "farmersdelight:rice"
+        "tag": "c:grains/rice"
       },
       {
-        "tag": "forge:raw_beef"
+        "tag": "c:foods/raw_meats/raw_beef"
       }
     ],
   "result": {

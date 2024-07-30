@@ -1,14 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["casualness_delight"]
+    }
+  ],
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "forge:raw_beef"
+        "tag": "c:foods/raw_meats/raw_beef"
       },
       {
         "item": "casualness_delight:potato_slice"
       },
       {
-        "tag": "forge:vegetables/onion"
+        "tag": "c:foods/vegetables/onion"
       }
     ],
   "result": {

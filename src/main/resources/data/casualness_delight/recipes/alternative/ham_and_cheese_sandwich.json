@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["casualness_delight"]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "item": "casualness_delight:cheese_wheel_slice"
+    },
+    {
+      "item": "farmersdelight:ham"
+    }
+  ],
+  "result": {
+    "item": "moredelight:ham_and_cheese_sandwich"
+  }
+}

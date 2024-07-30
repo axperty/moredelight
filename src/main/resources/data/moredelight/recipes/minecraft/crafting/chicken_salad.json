@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
-      "tag": "forge:salad_ingredients/cabbage"
+      "tag": "c:salad_ingredients"
     },
     {
-      "tag": "forge:vegetables/tomato"
+      "tag": "c:foods/vegetables/tomato"
     },
     {
-      "tag": "forge:cooked_chicken"
+      "tag": "c:foods/cooked_meats/cooked_chicken"
     },
     {
-      "tag": "forge:vegetables/onion"
+      "tag": "c:foods/vegetables/onion"
     }
   ],
   "result": {
