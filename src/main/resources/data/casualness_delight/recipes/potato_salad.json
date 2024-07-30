@@ -13,9 +13,9 @@
       {
         "item": "casualness_delight:potato_slice"
       },
-    {
-      "tag": "c:foods/vegetables/onion"
-    }
+      {
+        "tag": "c:vegetables/onion"
+      }
     ],
   "result": {
     "item": "moredelight:potato_salad"

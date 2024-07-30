@@ -8,7 +8,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "c:milk"
       },
       {
         "item": "casualness_delight:potato_slice"

@@ -1,15 +1,12 @@
-package com.axperty.moredelight.item;
+package com.axperty.moredelight.materials;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.Registries;
-import net.minecraft.util.Identifier;
 
 import java.util.function.Supplier;
 
-public enum ToolMaterials implements ToolMaterial {
-
+public enum ModMaterials implements ToolMaterial {
     // Wood Material
     WOOD_MATERIAL(3, 59, 8.0F, .7F, 10, () -> Ingredient.ofItems(Items.OAK_WOOD)),
 
@@ -23,7 +20,7 @@ public enum ToolMaterials implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ToolMaterials(int miningLevel, int durability, float blockBreakSpeed, float attackDamage, int enchantability, Supplier repairIngredient) {
+    ModMaterials(int miningLevel, int durability, float blockBreakSpeed, float attackDamage, int enchantability, Supplier repairIngredient) {
         this.miningLevel = miningLevel;
         this.durability = durability;
         this.blockBreakSpeed = blockBreakSpeed;

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "c:milk"
       },
       {
         "tag": "c:sliced_potato"
@@ -10,7 +10,7 @@
       {
         "tag": "c:sliced_potato"
       }
-    ],
+  ],
   "result": {
     "item": "moredelight:mashed_potatoes"
   },

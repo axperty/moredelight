@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.5-SNAPSHOT'
+	id 'fabric-loom' version '0.12-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -11,22 +11,11 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-	maven { url 'https://maven.shedaniel.me/' }
-	maven { url 'https://api.modrinth.com/maven' }
 	maven {
-		name = "Greenhouse Maven"
-		url = 'https://maven.greenhouseteam.dev/releases/'
-	}
-	maven { url = "https://mvn.devos.one/releases/" } // Porting Lib
-	maven {
-		url "https://maven.jamieswhiteshirt.com/libs-release" // Reach Entity Attributes (Required by Porting Lib)
+		url "https://cursemaven.com"
 		content {
-			includeGroup "com.jamieswhiteshirt"
+			includeGroup "curse.maven"
 		}
-	}
-	maven {
-		name = "ModMaven"
-		url = "https://modmaven.dev"
 	}
 }
 
@@ -35,10 +24,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "maven.modrinth:farmers-delight-fabric:${project.delight_version}"
-	modImplementation("vectorwing:FarmersDelight:${project.fdfr_version}") {
-		exclude(group: "net.fabricmc")
-	}
+	modImplementation "curse.maven:farmersdelightfabric-482834:${project.delight_version}"
 }
 
 processResources {
@@ -50,6 +36,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
+	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
 	it.options.release = 17
 }
 
@@ -72,29 +59,5 @@ publishing {
 
 	repositories {
 
-	}
-}
-
-loom {
-	runs {
-		datagenClient {
-			inherit client
-			name "Data Generation"
-			vmArg "-Dfabric-api.data"
-			vmArg "-Dfabric-api.data.output-dir=${file("src/main/generated")}"
-			vmArg "-Dfabric-api.data.modid=${project.modid}"
-
-			runDir "build/data"
-		}
-	}
-}
-
-sourceSets {
-	main {
-		resources {
-			srcDirs += [
-					'src/main/generated'
-			]
-		}
 	}
 }

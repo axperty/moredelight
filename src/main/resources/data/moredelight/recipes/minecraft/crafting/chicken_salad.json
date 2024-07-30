@@ -6,13 +6,13 @@
       "tag": "c:salad_ingredients"
     },
     {
-      "tag": "c:foods/vegetables/tomato"
+      "tag": "c:vegetables/tomato"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_chicken"
+      "tag": "c:cooked_chicken"
     },
     {
-      "tag": "c:foods/vegetables/onion"
+      "tag": "c:vegetables/onion"
     }
   ],
   "result": {

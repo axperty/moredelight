@@ -28,5 +28,7 @@
   "item.moredelight.toast_with_glow_berries": "Toast mit leuchtenden Beeren",
   "item.moredelight.toast_with_cheese": "Toast mit Käse",
   "item.moredelight.chicken_salad": "Hähnchensalat",
-  "item.moredelight.toast_with_blueberries": "Toast mit Heidelbeeren"
+  "item.moredelight.toast_with_blueberries": "Toast mit Heidelbeeren",
+
+  "itemGroup.moredelight.title": "More Delight"
 }

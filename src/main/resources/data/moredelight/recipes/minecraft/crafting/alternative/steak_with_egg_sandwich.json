@@ -8,10 +8,10 @@
       "tag": "c:bread_slice"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_beef"
+      "tag": "c:cooked_beef"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_eggs"
+      "tag": "c:cooked_eggs"
     }
   ],
   "result": {

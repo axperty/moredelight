@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "c:milk"
       },
       {
-        "tag": "c:grains/rice"
+        "tag": "c:grain/rice"
       },
       {
-        "tag": "c:foods/raw_meats/raw_beef"
+        "tag": "c:cooked_beef"
       }
     ],
   "result": {

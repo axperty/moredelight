@@ -8,13 +8,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:foods/raw_meats/raw_chicken"
+        "tag": "c:raw_chicken"
       },
       {
         "item": "casualness_delight:potato_slice"
       },
       {
-        "tag": "c:foods/vegetables/onion"
+        "tag": "c:vegetables/onion"
       }
     ],
   "result": {
