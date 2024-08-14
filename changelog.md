@@ -10,21 +10,30 @@
 
 - Added Minced Chicken.
 - Added Chicken Patty.
-- Added Cooked Rice with Milk Cream and Chicken Cuts.
-- Added Cooked Rice with Milk Cream and Chicken Porkchop.
+- Added Chicken Hamburger.
+- Added Chicken Hamburger with Cabbage.
 - Added Simple Burger.
 - Added Hamburger with Cabbage.
 - Added Hamburger with Egg and Cabbage.
 - Added Ultimate Hamburger.
-- Added Chicken Hamburger.
-- Added Chicken Hamburger with Cabbage.
+- Added Cooked Rice with Milk Cream and Chicken Cuts.
+- Added Cooked Rice with Milk Cream and Chicken Porkchop.
 - Added Cheeseburger (for Expanded Delight).
 - Added Toast with Peanut Butter (for Expanded Delight).
 
 ### 🛠️ Other Changes:
 
-- Bread Slices can now be placed inside the furnace.
-- Improved Russian translations (thank you Korben!).
+- Bread slices can now be placed in the furnace to make toasts.
+- Fried eggs can now be placed in the furnace or smoker to create omelettes.
+- Reduced experience gained when making toasts and omelettes.
+- Adjusted cooking times for toasts and omelettes.
+- Improved texture for toast with egg.
+- Improved texture for egg with bacon sandwich.
+
+### 📝 Translations:
+
+- Improved translations for Russian, special thanks to [Korben!](https://github.com/mpustovoi)
+- Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements [here.](https://github.com/axperty/moredelight)
 
 ***
 

@@ -1,13 +1,13 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "food",
-  "cookingtime": 600,
+  "cookingtime": 200,
   "experience": 0.35,
   "ingredient": {
-    "item": "moredelight:bread_slice"
+    "tag": "c:foods/cooked_egg"
   },
   "result": {
     "count": 1,
-    "id": "moredelight:toast"
+    "id": "moredelight:omelette"
   }
 }
