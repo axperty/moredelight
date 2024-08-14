@@ -29,5 +29,18 @@
   "item.moredelight.chicken_salad": "鸡肉沙拉",
   "item.moredelight.toast_with_blueberries": "蓝莓吐司",
 
+  "item.moredelight.minced_chicken": "剁碎的鸡肉",
+  "item.moredelight.chicken_patty": "鸡肉饼",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "奶油鸡肉切块炖饭",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "奶油猪排炖饭",
+  "item.moredelight.simple_hamburger": "简单汉堡",
+  "item.moredelight.cheeseburger": "芝士汉堡",
+  "item.moredelight.hamburger_with_cabbage": "卷心菜汉堡",
+  "item.moredelight.hamburger_with_egg_and_cabbage": "鸡蛋卷心菜汉堡",
+  "item.moredelight.ultimate_hamburger": "终极汉堡",
+  "item.moredelight.chicken_hamburger": "鸡肉汉堡",
+  "item.moredelight.chicken_hamburger_with_cabbage": "鸡肉卷心菜汉堡",
+  "item.moredelight.toast_with_peanut_butter": "花生酱吐司",
+
   "itemGroup.moredelight": "More Delight"
 }
