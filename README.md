@@ -20,6 +20,7 @@ Your contributions to this project allows More Delight to be improved to deliver
 This mod adds new meals, toasts, ingredients, and tools, improving the experience of playing Farmer's Delight:
 
 - New meals and ingredients.
+- A larger hamburger selection.
 - Sandwiches can be made with bread slices.
 - Make a variety of toasts by cutting bread.
 - Wooden and stone knives.
