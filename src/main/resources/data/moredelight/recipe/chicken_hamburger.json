@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "item": "moredelight:chicken_patty"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "moredelight:chicken_hamburger"
+  }
+}

@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
-issueTrackerURL = "https://github.com/axperty/moredelight-forge/issues"
+issueTrackerURL = "https://github.com/axperty/moredelight/issues"
 license="${mod_license}"
 
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-displayURL = "https://github.com/axperty/moredelight-forge"
+displayURL = "https://github.com/axperty/moredelight"
 logoFile="logo.png"
 logoBlur = false
 authors="${mod_authors}"

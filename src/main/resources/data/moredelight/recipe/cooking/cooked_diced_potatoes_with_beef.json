@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "category": "food",
   "container": {
     "count": 1,
     "id": "minecraft:bowl"

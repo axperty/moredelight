@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "moredelight:minced_chicken"
+  },
+  "result": {
+    "count": 1,
+    "id": "moredelight:chicken_patty"
+  }
+}
