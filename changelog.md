@@ -23,12 +23,14 @@
 
 ### 🛠️ Other Changes:
 
+- Chicken salad now requires a bowl for crafting.
+- Pasta with milk cream and ham now requires onion for crafting.
 - Bread slices can now be placed in the furnace to make toasts.
 - Fried eggs can now be placed in the furnace or smoker to create omelettes.
 - Reduced experience gained when making toasts and omelettes.
 - Adjusted cooking times for toasts and omelettes.
 - Improved texture for toast with egg.
-- Improved texture for egg with bacon sandwich.
+- Improved texture for the egg and bacon sandwich.
 
 ### 📝 Translations:
 

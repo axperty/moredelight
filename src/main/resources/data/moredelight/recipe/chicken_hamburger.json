@@ -9,8 +9,8 @@
       "item": "moredelight:chicken_patty"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "count": 1,
     "id": "moredelight:chicken_hamburger"
   }
 }

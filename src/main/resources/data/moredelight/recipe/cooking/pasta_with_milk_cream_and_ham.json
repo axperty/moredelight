@@ -16,11 +16,13 @@
     },
     {
       "item": "farmersdelight:ham"
+    },
+    {
+      "tag": "c:crops/onion"
     }
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "count": 1,
     "id": "moredelight:pasta_with_milk_cream_and_ham"
   }
 }

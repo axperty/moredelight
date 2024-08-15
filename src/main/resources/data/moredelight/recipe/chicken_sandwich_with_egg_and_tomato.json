@@ -15,6 +15,7 @@
       "tag": "c:crops/tomato"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:chicken_sandwich_with_egg_and_tomato"
   }

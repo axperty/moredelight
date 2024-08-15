@@ -2,7 +2,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "expandeddelight"
+      "modid": "casualness_delight"
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -18,8 +18,8 @@
       "item": "casualness_delight:cheese_wheel_slice"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "count": 1,
     "id": "moredelight:cheeseburger"
   }
 }

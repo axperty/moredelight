@@ -3,6 +3,9 @@
   "category": "food",
   "ingredients": [
     {
+      "item": "minecraft:bowl"
+    },
+    {
       "tag": "c:crops/cabbage"
     },
     {
@@ -15,6 +18,7 @@
       "tag": "c:crops/onion"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:chicken_salad"
   }

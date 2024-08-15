@@ -17,6 +17,7 @@
       "item": "minecraft:stick"
     }
   },
+  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:chocolate_popsicle"
   }

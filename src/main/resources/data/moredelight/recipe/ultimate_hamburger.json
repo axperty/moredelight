@@ -24,8 +24,8 @@
       "tag": "c:crops/onion"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "count": 1,
     "id": "moredelight:ultimate_hamburger"
   }
 }

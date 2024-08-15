@@ -15,8 +15,8 @@
       "tag": "c:foods/leafy_green"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "count": 1,
     "id": "moredelight:hamburger_with_egg_and_cabbage"
   }
 }

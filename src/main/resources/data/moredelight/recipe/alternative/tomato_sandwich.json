@@ -12,6 +12,7 @@
       "tag": "c:crops/tomato"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:tomato_sandwich"
   }
