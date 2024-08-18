@@ -1,19 +1,28 @@
 {
-  "type": "forge:mod_loaded",
-  "modid": "create",
-  "data": {
-    "type":"create:cutting",
-    "ingredients":[
-      {
-        "item":"minecraft:bread"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "recipe": {
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "item": "minecraft:bread"
+          }
+        ],
+        "processingTime": 30,
+        "results": [
+          {
+            "item": "moredelight:bread_slice",
+            "count": 4
+          }
+        ]
       }
-    ],
-    "processingTime":30,
-    "results":[
-      {
-        "item":"moredelight:bread_slice",
-        "count": 4
-      }
-    ]
-  }
+    }
+  ]
 }

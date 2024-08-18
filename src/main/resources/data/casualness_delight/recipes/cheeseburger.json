@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "casualness_delight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "food",
+        "ingredients": [
+          {
+            "tag": "forge:bread"
+          },
+          {
+            "item": "farmersdelight:beef_patty"
+          },
+          {
+            "item": "casualness_delight:cheese_wheel_slice"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "moredelight:simple_hamburger"
+        }
+      }
+    }
+  ]
+}

@@ -29,5 +29,19 @@
   "item.moredelight.chicken_salad": "Салат з курячим м'ясом",
   "item.moredelight.toast_with_blueberries": "Тост з чорницею",
 
-  "itemGroup.moredelight.title": "More Delight"
+  "item.moredelight.minced_chicken": "Фарш з курки",
+  "item.moredelight.chicken_patty": "Куряча котлета",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Варений рис з молочним кремом і шматочками курки",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Варений рис з молочним кремом і свинячою відбивною",
+  "item.moredelight.simple_hamburger": "Простий гамбургер",
+  "item.moredelight.cheeseburger": "Чізбургер",
+  "item.moredelight.hamburger_with_cabbage": "Гамбургер з капустою",
+  "item.moredelight.hamburger_with_egg_and_cabbage": "Гамбургер з яйцем і капустою",
+  "item.moredelight.ultimate_hamburger": "Ультимативний гамбургер",
+  "item.moredelight.chicken_hamburger": "Курячий гамбургер",
+  "item.moredelight.chicken_hamburger_with_cabbage": "Курячий гамбургер з капустою",
+  "item.moredelight.toast_with_peanut_butter": "Тост з арахісовим маслом",
+
+
+  "itemGroup.moredelight": "More Delight"
 }

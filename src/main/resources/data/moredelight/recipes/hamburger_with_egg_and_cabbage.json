@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "tag": "forge:salad_ingredients/cabbage"
+    },
+    {
+      "tag": "forge:cooked_eggs"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "moredelight:hamburger_with_egg_and_cabbage"
+  }
+}

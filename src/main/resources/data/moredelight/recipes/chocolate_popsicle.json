@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " CC",
+    "ICC",
+    "SI "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "moredelight:chocolate_popsicle"
+  }
+}

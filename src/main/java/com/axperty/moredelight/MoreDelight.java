@@ -11,9 +11,7 @@ public class MoreDelight {
 
     public MoreDelight() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        System.out.println("[More Delight Forge]: Registering items...");
         ItemInit.ITEMS.register(bus);
         CreativeTabInit.register(bus);
-        System.out.println("[More Delight Forge]: Items registered successfully!");
     }
 }

@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+      {
+        "tag": "forge:milk"
+      },
+      {
+        "tag": "forge:pasta/raw_pasta"
+      },
+      {
+        "item": "farmersdelight:ham"
+      },
+      {
+        "tag": "forge:vegetables/onion"
+      }
+    ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "moredelight:pasta_with_milk_cream_and_ham"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0
+}

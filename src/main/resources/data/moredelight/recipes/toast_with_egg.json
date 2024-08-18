@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooked_eggs"
+    },
+    {
+      "item": "moredelight:toast"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "moredelight:toast_with_egg"
+  }
+}

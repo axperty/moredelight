@@ -24,14 +24,18 @@ public class CreativeTabInit {
 
     public static final RegistryObject<CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register("creative_tab",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.moredelight.title"))
+                    .title(Component.translatable("itemGroup.moredelight"))
                     .icon(ItemInit.WOODEN_KNIFE.get()::getDefaultInstance)
                     .displayItems((displayParams, pOutput) -> {
                         pOutput.accept(ItemInit.WOODEN_KNIFE.get());
                         pOutput.accept(ItemInit.STONE_KNIFE.get());
                         pOutput.accept(ItemInit.DICED_POTATOES.get());
+                        pOutput.accept(ItemInit.MINCED_CHICKEN.get());
+                        pOutput.accept(ItemInit.CHICKEN_PATTY.get());
                         pOutput.accept(ItemInit.OMELETTE.get());
+                        pOutput.accept(ItemInit.COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS.get());
                         pOutput.accept(ItemInit.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF.get());
+                        pOutput.accept(ItemInit.COOKED_RICE_WITH_MILK_CREAM_AND_PORKCHOP.get());
                         pOutput.accept(ItemInit.MASHED_POTATOES.get());
                         pOutput.accept(ItemInit.PASTA_WITH_MILK_CREAM_AND_HAM.get());
                         pOutput.accept(ItemInit.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS.get());
@@ -41,6 +45,15 @@ public class CreativeTabInit {
                         pOutput.accept(ItemInit.POTATO_SALAD.get());
                         pOutput.accept(ItemInit.CARROT_SOUP.get());
                         pOutput.accept(ItemInit.CHOCOLATE_POPSICLE.get());
+                        pOutput.accept(ItemInit.SIMPLE_HAMBURGER.get());
+                        if (ModList.get().isLoaded("casualness_delight")) {
+                            pOutput.accept(ItemInit.CHEESEBURGER.get());
+                        }
+                        pOutput.accept(ItemInit.HAMBURGER_WITH_CABBAGE.get());
+                        pOutput.accept(ItemInit.HAMBURGER_WITH_EGG_AND_CABBAGE.get());
+                        pOutput.accept(ItemInit.ULTIMATE_HAMBURGER.get());
+                        pOutput.accept(ItemInit.CHICKEN_HAMBURGER.get());
+                        pOutput.accept(ItemInit.CHICKEN_HAMBURGER_WITH_CABBAGE.get());
                         pOutput.accept(ItemInit.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO.get());
                         pOutput.accept(ItemInit.EGG_WITH_BACON_SANDWICH.get());
                         pOutput.accept(ItemInit.STEAK_WITH_EGG_SANDWICH.get());

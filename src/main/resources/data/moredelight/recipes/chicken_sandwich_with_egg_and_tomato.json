@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "tag": "forge:cooked_chicken"
+    },
+    {
+      "tag": "forge:cooked_eggs"
+    },
+    {
+      "tag": "forge:vegetables/tomato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "moredelight:chicken_sandwich_with_egg_and_tomato"
+  }
+}

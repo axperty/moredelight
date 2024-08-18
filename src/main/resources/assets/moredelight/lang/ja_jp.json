@@ -30,5 +30,18 @@
   "item.moredelight.chicken_salad": "チキンサラダ",
   "item.moredelight.toast_with_blueberries": "ブルーベリートースト",
 
-  "itemGroup.moredelight.title": "More Delight"
+  "item.moredelight.minced_chicken": "鶏ひき肉",
+  "item.moredelight.chicken_patty": "チキンパティ",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "ご飯とミルククリーム、鶏肉の切り身",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "ご飯とミルククリーム、ポークチョップ",
+  "item.moredelight.simple_hamburger": "シンプルハンバーガー",
+  "item.moredelight.cheeseburger": "チーズバーガー",
+  "item.moredelight.hamburger_with_cabbage": "キャベツ入りハンバーガー",
+  "item.moredelight.hamburger_with_egg_and_cabbage": "卵とキャベツ入りハンバーガー",
+  "item.moredelight.ultimate_hamburger": "アルティメットハンバーガー",
+  "item.moredelight.chicken_hamburger": "チキンハンバーガー",
+  "item.moredelight.chicken_hamburger_with_cabbage": "キャベツ入りチキンハンバーガー",
+  "item.moredelight.toast_with_peanut_butter": "ピーナッツバターのトースト",
+
+  "itemGroup.moredelight": "More Delight"
 }

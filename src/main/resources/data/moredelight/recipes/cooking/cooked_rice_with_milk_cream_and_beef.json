@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+      {
+        "tag": "forge:milk"
+      },
+      {
+        "item": "farmersdelight:rice"
+      },
+      {
+        "tag": "forge:raw_beef"
+      }
+    ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "moredelight:cooked_rice_with_milk_cream_and_beef"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0
+}

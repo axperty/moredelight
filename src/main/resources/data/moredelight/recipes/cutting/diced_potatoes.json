@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:vegetables/potato"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "moredelight:diced_potatoes",
+      "count": 1
+    }
+  ]
+}

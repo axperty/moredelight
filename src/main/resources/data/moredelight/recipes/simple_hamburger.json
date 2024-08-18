@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "moredelight:simple_hamburger"
+  }
+}
