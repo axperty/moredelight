@@ -43,20 +43,6 @@ public class ItemInit {
                     .fast()
                     .build())));
 
-    public static final RegistryObject<Item> MINCED_CHICKEN = ITEMS.register("minced_chicken",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(1)
-                    .saturationMod(0.3f)
-                    .fast()
-                    .build())));
-
-    public static final RegistryObject<Item> CHICKEN_PATTY = ITEMS.register("chicken_patty",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(1)
-                    .saturationMod(0.4f)
-                    .fast()
-                    .build())));
-
     public static final RegistryObject<Item> OMELETTE = ITEMS.register("omelette",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(6)
@@ -146,52 +132,34 @@ public class ItemInit {
                     .saturationMod(0.2f)
                     .build())));
 
+    public static final RegistryObject<Item> CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = ITEMS.register("chicken_sandwich_with_egg_and_tomato",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(11)
+                    .saturationMod(0.9f)
+                    .build())));
+
     public static final RegistryObject<Item> SIMPLE_HAMBURGER = ITEMS.register("simple_hamburger",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(5)
                     .saturationMod(0.4f)
                     .build())));
 
-    public static final RegistryObject<Item> CHEESEBURGER = ITEMS.register("cheeseburger",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(5)
-                    .saturationMod(0.6f)
-                    .build())));
-
-    public static final RegistryObject<Item> HAMBURGER_WITH_CABBAGE = ITEMS.register("hamburger_with_cabbage",
+    public static final RegistryObject<Item> HAMBURGER_WITH_CHEESE = ITEMS.register("hamburger_with_cheese",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(6)
                     .saturationMod(0.6f)
                     .build())));
 
-    public static final RegistryObject<Item> HAMBURGER_WITH_EGG_AND_CABBAGE = ITEMS.register("hamburger_with_egg_and_cabbage",
+    public static final RegistryObject<Item> HAMBURGER_WITH_EGG = ITEMS.register("hamburger_with_egg",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(7)
+                    .nutrition(6)
                     .saturationMod(0.6f)
                     .build())));
 
-    public static final RegistryObject<Item> ULTIMATE_HAMBURGER = ITEMS.register("ultimate_hamburger",
+    public static final RegistryObject<Item> BIG_HAMBURGER = ITEMS.register("big_hamburger",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(15)
                     .saturationMod(1f)
-                    .build())));
-
-    public static final RegistryObject<Item> CHICKEN_HAMBURGER = ITEMS.register("chicken_hamburger",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(7)
-                    .saturationMod(0.6f)
-                    .build())));
-
-    public static final RegistryObject<Item> CHICKEN_HAMBURGER_WITH_CABBAGE = ITEMS.register("chicken_hamburger_with_cabbage",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(7)
-                    .saturationMod(0.8f)
-                    .build())));
-
-    public static final RegistryObject<Item> CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = ITEMS.register("chicken_sandwich_with_egg_and_tomato",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(11)
-                    .saturationMod(0.9f)
                     .build())));
 
     public static final RegistryObject<Item> EGG_WITH_BACON_SANDWICH = ITEMS.register("egg_with_bacon_sandwich",

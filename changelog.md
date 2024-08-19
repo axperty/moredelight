@@ -2,33 +2,34 @@
 
 ## The Delicious Update
 
-**Summary:** This major update expands the hamburger selection and introduces new chicken-based recipes.
+**Summary:** This major update expands the hamburger selection and introduces new chicken-based recipes, along with many other changes.
 
 ***
 
 ### ✨ What's New:
 
-- Added Minced Chicken.
-- Added Chicken Patty.
-- Added Chicken Hamburger.
-- Added Chicken Hamburger with Cabbage.
 - Added Simple Burger.
-- Added Hamburger with Cabbage.
-- Added Hamburger with Egg and Cabbage.
-- Added Ultimate Hamburger.
+- Added Hamburger with Cheese (for Casualness Delight).
+- Added Hamburger with Egg.
+- Added Big Hamburger.
 - Added Cooked Rice with Milk Cream and Chicken Cuts.
 - Added Cooked Rice with Milk Cream and Chicken Porkchop.
 
-### 🛠️ Other Changes:
+### ✨ Other Changes:
 
 - Chicken salad now requires a bowl for crafting.
 - Pasta with milk cream and ham now requires onion for crafting.
 - Bread slices can now be placed in the furnace to make toasts.
+- Sandwiches can't be made with regular bread anymore, instead, two bread slices or toasts are required. This change doesn't affect the egg sandwich, chicken sandwich, and chicken sandwich with egg and tomato, as these items need regular bread.
 - Fried eggs can now be placed in the furnace or smoker to create omelettes.
 - Reduced experience gained when making toasts and omelettes.
 - Adjusted cooking times for toasts and omelettes.
 - Improved texture for toast with egg.
-- Improved texture for the egg and bacon sandwich.
+- Improved texture for the egg with bacon sandwich.
+
+### 🛠️ Bug Fixes:
+
+- Fixed console errors for missing recipes when launching Minecraft. This makes world creation a little bit faster than before.
 
 ### 📝 Translations:
 
