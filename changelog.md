@@ -8,14 +8,15 @@
 
 ### ✨ What's New:
 
-- Added Simple Burger.
-- Added Hamburger with Cheese (for Casualness Delight).
-- Added Hamburger with Egg.
-- Added Big Hamburger.
 - Added Cooked Rice with Milk Cream and Chicken Cuts.
-- Added Cooked Rice with Milk Cream and Chicken Porkchop.
+- Added Cooked Rice with Milk Cream and Porkchop.
+- Hamburger with Cheese (for Casualness Delight).
+- Added Simple Burger.
+- Added Hamburger with Cabbage.
+- Added Hamburger with Egg and Cabbage.
+- Added Loaded Hamburger.
 
-### ✨ Other Changes:
+### 🛠️ Minor Changes:
 
 - Chicken salad now requires a bowl for crafting.
 - Pasta with milk cream and ham now requires onion for crafting.
@@ -33,7 +34,7 @@
 
 ### 📝 Translations:
 
-- Improved translations for Russian, special thanks to [Korben!](https://github.com/mpustovoi)
+- Improved translations for Russian, special thanks to [Korben.](https://github.com/mpustovoi)
 - Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements [here.](https://github.com/axperty/moredelight)
 
 ***

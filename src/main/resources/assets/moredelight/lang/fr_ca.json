@@ -30,18 +30,14 @@
   "item.moredelight.chicken_salad": "Salade de poulet",
   "item.moredelight.toast_with_blueberries": "Toast aux myrtilles",
 
-  "item.moredelight.minced_chicken": "Poulet Haché",
-  "item.moredelight.chicken_patty": "Galette de Poulet",
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Riz Cuit avec Crème de Lait et Morceaux de Poulet",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Riz Cuit avec Crème de Lait et Côtelette de Porc",
-  "item.moredelight.simple_hamburger": "Hamburger Simple",
-  "item.moredelight.cheeseburger": "Cheeseburger",
-  "item.moredelight.hamburger_with_cabbage": "Hamburger avec Chou",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "Hamburger avec Œuf et Chou",
-  "item.moredelight.ultimate_hamburger": "Hamburger Ultime",
-  "item.moredelight.chicken_hamburger": "Hamburger au Poulet",
-  "item.moredelight.chicken_hamburger_with_cabbage": "Hamburger au Poulet avec Chou",
-  "item.moredelight.toast_with_peanut_butter": "Toast avec Beurre de Cacahuète",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Riz cuit à la crème de lait et morceaux de poulet",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Riz cuit à la crème de lait et côtelette de porc",
+  "item.moredelight.simple_hamburger": "Hamburger simple",
+  "item.moredelight.hamburger_with_cheese": "Hamburger avec fromage",
+  "item.moredelight.hamburger_with_cabbage": "Hamburger avec chou",
+  "item.moredelight.hamburger_with_egg_and_cabbage": "Hamburger avec œuf et chou",
+  "item.moredelight.loaded_hamburger": "Hamburger chargé",
+  "item.moredelight.toast_with_peanut_butter": "Toast au beurre de cacahuète",
 
   "itemGroup.moredelight": "More Delight"
 }

@@ -33,8 +33,9 @@
   "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Cooked Rice with Milk Cream and Porkchop",
   "item.moredelight.simple_hamburger": "Simple Hamburger",
   "item.moredelight.hamburger_with_cheese": "Hamburger with Cheese",
-  "item.moredelight.hamburger_with_egg": "Hamburger with Egg",
-  "item.moredelight.big_hamburger": "Big Hamburger",
+  "item.moredelight.hamburger_with_cabbage": "Hamburger with Cabbage",
+  "item.moredelight.hamburger_with_egg_and_cabbage": "Hamburger with Egg and Cabbage",
+  "item.moredelight.loaded_hamburger": "Loaded Hamburger",
   "item.moredelight.toast_with_peanut_butter": "Toast with Peanut Butter",
 
   "itemGroup.moredelight": "More Delight"

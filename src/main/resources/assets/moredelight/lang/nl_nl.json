@@ -30,17 +30,13 @@
   "item.moredelight.chicken_salad": "Kipsalade",
   "item.moredelight.toast_with_blueberries": "Toast met bosbessen",
 
-  "item.moredelight.minced_chicken": "Gehakt kippenvlees",
-  "item.moredelight.chicken_patty": "Kipburger",
   "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Gekookte rijst met melkroom en kipstukjes",
   "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Gekookte rijst met melkroom en varkenskotelet",
   "item.moredelight.simple_hamburger": "Eenvoudige hamburger",
-  "item.moredelight.cheeseburger": "Cheeseburger",
+  "item.moredelight.hamburger_with_cheese": "Hamburger met kaas",
   "item.moredelight.hamburger_with_cabbage": "Hamburger met kool",
   "item.moredelight.hamburger_with_egg_and_cabbage": "Hamburger met ei en kool",
-  "item.moredelight.ultimate_hamburger": "Ultieme hamburger",
-  "item.moredelight.chicken_hamburger": "Kippenhamburger",
-  "item.moredelight.chicken_hamburger_with_cabbage": "Kippenhamburger met kool",
+  "item.moredelight.loaded_hamburger": "Volgeladen hamburger",
   "item.moredelight.toast_with_peanut_butter": "Toast met pindakaas",
 
   "itemGroup.moredelight": "More Delight"
