@@ -2,40 +2,40 @@
 
 ## The Delicious Update
 
-**Summary:** This major update expands the hamburger selection and introduces new chicken-based recipes, along with added food items for Expanded Delight.
+**Summary:** This major update expands the hamburger selection, letting you craft customized hamburgers, along with many other changes.
 
 ***
 
 ### ✨ What's New:
 
-- Added Minced Chicken.
-- Added Chicken Patty.
-- Added Chicken Hamburger.
-- Added Chicken Hamburger with Cabbage.
+- Added Cooked Rice with Milk Cream and Chicken Cuts.
+- Added Cooked Rice with Milk Cream and Porkchop.
+- Hamburger with Cheese (for Expanded Delight and Casualness Delight).
 - Added Simple Burger.
 - Added Hamburger with Cabbage.
 - Added Hamburger with Egg and Cabbage.
-- Added Ultimate Hamburger.
-- Added Cooked Rice with Milk Cream and Chicken Cuts.
-- Added Cooked Rice with Milk Cream and Chicken Porkchop.
-- Added Cheeseburger (for Expanded Delight).
+- Added Loaded Hamburger.
 - Added Toast with Peanut Butter (for Expanded Delight).
 
-### 🛠️ Other Changes:
+### 🛠️ Minor Changes:
 
 - Chicken salad now requires a bowl for crafting.
 - Pasta with milk cream and ham now requires onion for crafting.
 - Bread slices can now be placed in the furnace to make toasts.
+- Sandwiches can't be made with regular bread anymore, instead, two bread slices or toasts are required. This change doesn't affect the egg sandwich, chicken sandwich, and chicken sandwich with egg and tomato, as these items need regular bread.
 - Fried eggs can now be placed in the furnace or smoker to create omelettes.
-- Toasts with sweet berries and glow berries can now be crafted with jellies from Expanded Delight.
 - Reduced experience gained when making toasts and omelettes.
 - Adjusted cooking times for toasts and omelettes.
 - Improved texture for toast with egg.
-- Improved texture for the egg and bacon sandwich.
+- Improved texture for the egg with bacon sandwich.
+
+### 🛠️ Bug Fixes:
+
+- Fixed console errors for missing recipes when launching Minecraft. This makes world creation a little bit faster than before.
 
 ### 📝 Translations:
 
-- Improved translations for Russian, special thanks to [Korben!](https://github.com/mpustovoi)
+- Improved translations for Russian, special thanks to [Korben.](https://github.com/mpustovoi)
 - Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements [here.](https://github.com/axperty/moredelight)
 
 ***

@@ -47,20 +47,6 @@ public class ItemRegistry {
                     .fast()
                     .build())));
 
-    public static final DeferredItem<Item> MINCED_CHICKEN = ITEMS.register("minced_chicken",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(1)
-                    .saturationModifier(0.3f)
-                    .fast()
-                    .build())));
-
-    public static final DeferredItem<Item> CHICKEN_PATTY = ITEMS.register("chicken_patty",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(5)
-                    .saturationModifier(0.4f)
-                    .fast()
-                    .build())));
-
     public static final DeferredItem<Item> OMELETTE = ITEMS.register("omelette",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(6)
@@ -150,13 +136,13 @@ public class ItemRegistry {
                     .saturationModifier(0.2f)
                     .build())));
 
-    public static final DeferredItem<Item> SIMPLE_HAMBURGER = ITEMS.register("simple_hamburger",
+    public static final DeferredItem<Item> HAMBURGER_WITH_CHEESE = ITEMS.register("hamburger_with_cheese",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(5)
-                    .saturationModifier(0.4f)
+                    .nutrition(6)
+                    .saturationModifier(0.6f)
                     .build())));
 
-    public static final DeferredItem<Item> CHEESEBURGER = ITEMS.register("cheeseburger",
+    public static final DeferredItem<Item> SIMPLE_HAMBURGER = ITEMS.register("simple_hamburger",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(5)
                     .saturationModifier(0.4f)
@@ -171,25 +157,13 @@ public class ItemRegistry {
     public static final DeferredItem<Item> HAMBURGER_WITH_EGG_AND_CABBAGE = ITEMS.register("hamburger_with_egg_and_cabbage",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(7)
-                    .saturationModifier(0.6f)
+                    .saturationModifier(0.8f)
                     .build())));
 
-    public static final DeferredItem<Item> ULTIMATE_HAMBURGER = ITEMS.register("ultimate_hamburger",
+    public static final DeferredItem<Item> LOADED_HAMBURGER = ITEMS.register("loaded_hamburger",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(15)
                     .saturationModifier(1f)
-                    .build())));
-
-    public static final DeferredItem<Item> CHICKEN_HAMBURGER = ITEMS.register("chicken_hamburger",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(7)
-                    .saturationModifier(0.6f)
-                    .build())));
-
-    public static final DeferredItem<Item> CHICKEN_HAMBURGER_WITH_CABBAGE = ITEMS.register("chicken_hamburger_with_cabbage",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(7)
-                    .saturationModifier(0.8f)
                     .build())));
 
     public static final DeferredItem<Item> CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = ITEMS.register("chicken_sandwich_with_egg_and_tomato",
@@ -218,8 +192,8 @@ public class ItemRegistry {
 
     public static final DeferredItem<Item> BREAD_SLICE = ITEMS.register("bread_slice",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(2) // before: 1
-                    .saturationModifier(0.4f) // before: 0.3f
+                    .nutrition(2)
+                    .saturationModifier(0.4f)
                     .build())));
 
     public static final DeferredItem<Item> TOAST = ITEMS.register("toast",

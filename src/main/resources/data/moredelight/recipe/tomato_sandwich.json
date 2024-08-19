@@ -3,7 +3,10 @@
   "category": "food",
   "ingredients": [
     {
-      "tag": "c:foods/bread"
+      "tag": "c:bread_slices"
+    },
+    {
+      "tag": "c:bread_slices"
     },
     {
       "tag": "c:crops/tomato"

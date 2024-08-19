@@ -21,8 +21,7 @@ public class CreativeTabRegistry {
                 output.accept(ItemRegistry.WOODEN_KNIFE.get());
                 output.accept(ItemRegistry.STONE_KNIFE.get());
                 output.accept(ItemRegistry.DICED_POTATOES.get());
-                output.accept(ItemRegistry.MINCED_CHICKEN.get());
-                output.accept(ItemRegistry.CHICKEN_PATTY.get());
+                output.accept(ItemRegistry.CHOCOLATE_POPSICLE.get());
                 output.accept(ItemRegistry.OMELETTE.get());
                 output.accept(ItemRegistry.COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS.get());
                 output.accept(ItemRegistry.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF.get());
@@ -35,16 +34,13 @@ public class CreativeTabRegistry {
                 output.accept(ItemRegistry.CHICKEN_SALAD.get());
                 output.accept(ItemRegistry.POTATO_SALAD.get());
                 output.accept(ItemRegistry.CARROT_SOUP.get());
-                output.accept(ItemRegistry.CHOCOLATE_POPSICLE.get());
                 output.accept(ItemRegistry.SIMPLE_HAMBURGER.get());
                 if (ModList.get().isLoaded("casualness_delight") || ModList.get().isLoaded("expandeddelight")) {
-                    output.accept(ItemRegistry.CHEESEBURGER.get());
+                    output.accept(ItemRegistry.HAMBURGER_WITH_CHEESE.get());
                 }
                 output.accept(ItemRegistry.HAMBURGER_WITH_CABBAGE.get());
                 output.accept(ItemRegistry.HAMBURGER_WITH_EGG_AND_CABBAGE.get());
-                output.accept(ItemRegistry.ULTIMATE_HAMBURGER.get());
-                output.accept(ItemRegistry.CHICKEN_HAMBURGER.get());
-                output.accept(ItemRegistry.CHICKEN_HAMBURGER_WITH_CABBAGE.get());
+                output.accept(ItemRegistry.LOADED_HAMBURGER.get());
                 output.accept(ItemRegistry.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO.get());
                 output.accept(ItemRegistry.EGG_WITH_BACON_SANDWICH.get());
                 output.accept(ItemRegistry.STEAK_WITH_EGG_SANDWICH.get());
