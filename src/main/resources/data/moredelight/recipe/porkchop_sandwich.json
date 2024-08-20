@@ -6,7 +6,7 @@
       "tag": "c:foods/bread"
     },
     {
-      "item": "farmersdelight:beef_patty"
+      "tag": "c:foods/cooked_porkchop"
     },
     {
       "tag": "c:foods/leafy_green"
@@ -14,6 +14,6 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "id": "moredelight:hamburger_with_cabbage"
+    "id": "moredelight:porkchop_sandwich"
   }
 }

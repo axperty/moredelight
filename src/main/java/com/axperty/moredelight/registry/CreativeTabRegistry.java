@@ -38,12 +38,12 @@ public class CreativeTabRegistry {
                 if (ModList.get().isLoaded("casualness_delight") || ModList.get().isLoaded("expandeddelight")) {
                     output.accept(ItemRegistry.HAMBURGER_WITH_CHEESE.get());
                 }
-                output.accept(ItemRegistry.HAMBURGER_WITH_CABBAGE.get());
-                output.accept(ItemRegistry.HAMBURGER_WITH_EGG_AND_CABBAGE.get());
+                output.accept(ItemRegistry.HAMBURGER_WITH_EGG.get());
                 output.accept(ItemRegistry.LOADED_HAMBURGER.get());
                 output.accept(ItemRegistry.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO.get());
+                output.accept(ItemRegistry.STEAK_SANDWICH.get());
+                output.accept(ItemRegistry.PORKCHOP_SANDWICH.get());
                 output.accept(ItemRegistry.EGG_WITH_BACON_SANDWICH.get());
-                output.accept(ItemRegistry.STEAK_WITH_EGG_SANDWICH.get());
                 output.accept(ItemRegistry.TOMATO_SANDWICH.get());
                 output.accept(ItemRegistry.BREAD_SLICE.get());
                 output.accept(ItemRegistry.TOAST.get());

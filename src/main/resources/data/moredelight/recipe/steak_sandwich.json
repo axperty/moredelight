@@ -3,20 +3,17 @@
   "category": "food",
   "ingredients": [
     {
-      "tag": "c:bread_slices"
-    },
-    {
-      "tag": "c:bread_slices"
+      "tag": "c:foods/bread"
     },
     {
       "tag": "c:foods/cooked_beef"
     },
     {
-      "tag": "c:foods/cooked_egg"
+      "tag": "c:foods/leafy_green"
     }
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "id": "moredelight:steak_with_egg_sandwich"
+    "id": "moredelight:steak_sandwich"
   }
 }
