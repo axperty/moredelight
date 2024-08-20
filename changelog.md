@@ -10,15 +10,17 @@
 
 - Added Cooked Rice with Milk Cream and Chicken Cuts.
 - Added Cooked Rice with Milk Cream and Porkchop.
-- Hamburger with Cheese (for Expanded Delight and Casualness Delight).
 - Added Simple Burger.
-- Added Hamburger with Cabbage.
-- Added Hamburger with Egg and Cabbage.
+- Hamburger with Cheese (for Expanded Delight and Casualness Delight).
+- Added Hamburger with Egg.
 - Added Loaded Hamburger.
+- Steak Sandwich
+- Porkchop Sandwich
 - Added Toast with Peanut Butter (for Expanded Delight).
 
 ### 🛠️ Minor Changes:
 
+- Steak with egg sandwich has been replaced for steak sandwich.
 - Chicken salad now requires a bowl for crafting.
 - Pasta with milk cream and ham now requires onion for crafting.
 - Bread slices can now be placed in the furnace to make toasts.
@@ -28,6 +30,8 @@
 - Adjusted cooking times for toasts and omelettes.
 - Improved texture for toast with egg.
 - Improved texture for the egg with bacon sandwich.
+- Improved texture for the chicken sandwich with egg and tomato.
+- Improved texture for cooked diced potatoes with beef.
 
 ### 🛠️ Bug Fixes:
 
