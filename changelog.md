@@ -2,7 +2,7 @@
 
 ## The Delicious Update
 
-**Summary:** This major update expands the hamburger selection, letting you craft customized hamburgers, along with many other changes.
+**Summary:** This major update expands the hamburger and sandwich selection, along with many other gameplay changes.
 
 ***
 
@@ -18,7 +18,7 @@
 - Porkchop Sandwich
 - Added Toast with Peanut Butter (for Expanded Delight).
 
-### 🛠️ Minor Changes:
+### ⚙️ Minor Changes:
 
 - Steak with egg sandwich has been replaced for steak sandwich.
 - Chicken salad now requires a bowl for crafting.
@@ -45,3 +45,4 @@
 ***
 
 Your feedback is important to make improvements to this mod. Submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub](https://github.com/axperty/moredelight).
+You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)
