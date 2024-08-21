@@ -29,11 +29,20 @@ public class ItemRegistry {
         ItemList.DICED_POTATOES = item("diced_potatoes",
                 new Item(food(null, 2, .2f)));
 
+        // Chocolate Popsicle
+        ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 3, .2f)));
+
         // Omelette
         ItemList.OMELETTE = item("omelette", new Item(food(null, 5, .5f)));
 
+        // Cooked Rice with Milk Cream and Chicken Cuts
+        ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS = item("cooked_rice_with_milk_cream_and_chicken_cuts", new Item(meal(Items.BOWL,10, .75f)));
+
         // Cooked Rice with Milk Cream and Beef
         ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(Items.BOWL,10, .75f)));
+
+        // Cooked Rice with Milk Cream and Porkchop
+        ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_PORKCHOP = item("cooked_rice_with_milk_cream_and_porkchop", new Item(meal(Items.BOWL,10, .75f)));
 
         // Mashed Potatoes
         ItemList.MASHED_POTATOES = item("mashed_potatoes", new Item(food(Items.BOWL,10, .75f).maxCount(16)));
@@ -59,22 +68,30 @@ public class ItemRegistry {
         // Carrot Soup
         ItemList.CARROT_SOUP = item("carrot_soup", new Item(stew(9, .75f)));
 
-        // Chocolate Popsicle
-        ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 3, .2f)));
+        ItemList.SIMPLE_HAMBURGER = item("simple_hamburger", new Item(food(null, 5, 0.4f)));
+
+        // Toast with Cheese (Expanded Delight or Casualness Delight)
+        if (FabricLoader.getInstance().isModLoaded("expandeddelight") || FabricLoader.getInstance().isModLoaded("casualness_delight")) {
+            ItemList.HAMBURGER_WITH_CHEESE = item("hamburger_with_cheese", new Item(food(null, 6, 0.6f)));
+        }
+
+        // Hamburger with Egg
+        ItemList.HAMBURGER_WITH_EGG = item("hamburger_with_egg", new Item(food(null, 7, 0.7f)));
+
+        // Loaded Hamburger
+        ItemList.LOADED_HAMBURGER = item("loaded_hamburger", new Item(food(null, 15, 1f)));
 
         // Chicken Sandwich with Egg and Tomato
         ItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = item("chicken_sandwich_with_egg_and_tomato", new Item(food(null, 11, .9f)));
 
-        // Ham and Cheese Sandwich (Expanded Delight & Casualness Delight)
-        if (FabricLoader.getInstance().isModLoaded("expandeddelight") || (FabricLoader.getInstance().isModLoaded("casualness_delight"))) {
-            ItemList.HAM_AND_CHEESE_SANDWICH = item("ham_and_cheese_sandwich", new Item(food(null, 10, .8f)));
-        }
+        // Steak Sandwich
+        ItemList.STEAK_SANDWICH = item("steak_sandwich", new Item(food(null, 7, .7f)));
+
+        // Porkchop Sandwich
+        ItemList.PORKCHOP_SANDWICH = item("porkchop_sandwich", new Item(food(null, 7, .7f)));
 
         // Egg with Bacon Sandwich
         ItemList.EGG_WITH_BACON_SANDWICH = item("egg_with_bacon_sandwich", new Item(food(null, 10, .8f)));
-
-        // Steak and Egg Sandwich
-        ItemList.STEAK_WITH_EGG_SANDWICH = item("steak_with_egg_sandwich", new Item(food(null, 10, .8f)));
 
         // Tomato Sandwich
         ItemList.TOMATO_SANDWICH = item("tomato_sandwich", new Item(food(null, 6, .6f)));
@@ -108,6 +125,11 @@ public class ItemRegistry {
         // Toast with Cheese (Expanded Delight or Casualness Delight)
         if (FabricLoader.getInstance().isModLoaded("expandeddelight") || FabricLoader.getInstance().isModLoaded("casualness_delight")) {
             ItemList.TOAST_WITH_CHEESE = item("toast_with_cheese", new Item(food(null, 5, .5f)));
+        }
+
+        // Toast with Peanut Butter (Expanded Delight)
+        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
+            ItemList.TOAST_WITH_PEANUT_BUTTER = item("toast_with_peanut_butter", new Item(food(null, 5, .5f)));
         }
     }
 

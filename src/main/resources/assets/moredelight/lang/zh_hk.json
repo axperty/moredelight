@@ -27,5 +27,17 @@
   "item.moredelight.toast_with_glow_berries": "發光莓果吐司",
   "item.moredelight.toast_with_cheese": "起司吐司",
   "item.moredelight.chicken_salad": "雞肉沙拉",
-  "item.moredelight.toast_with_blueberries": "藍莓吐司"
+  "item.moredelight.toast_with_blueberries": "藍莓吐司",
+
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "奶油雞肉炒飯",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "奶油豬排炒飯",
+  "item.moredelight.simple_hamburger": "簡單漢堡",
+  "item.moredelight.hamburger_with_cheese": "奶酪漢堡",
+  "item.moredelight.hamburger_with_egg": "雞蛋漢堡",
+  "item.moredelight.loaded_hamburger": "豪華漢堡",
+  "item.moredelight.steak_sandwich": "牛排三文治",
+  "item.moredelight.porkchop_sandwich": "豬排三文治",
+  "item.moredelight.toast_with_peanut_butter": "花生醬多士",
+
+  "itemGroup.moredelight": "More Delight"
 }

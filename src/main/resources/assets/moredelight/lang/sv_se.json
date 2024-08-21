@@ -27,5 +27,17 @@
   "item.moredelight.toast_with_glow_berries": "Tost med lysande bär",
   "item.moredelight.toast_with_cheese": "Tost med ost",
   "item.moredelight.chicken_salad": "Kycklingsallad",
-  "item.moredelight.toast_with_blueberries": "Toast med blåbär"
+  "item.moredelight.toast_with_blueberries": "Toast med blåbär",
+
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Kokt ris med mjölkkräm och kycklingbitar",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Kokt ris med mjölkkräm och fläskkotlett",
+  "item.moredelight.simple_hamburger": "Enkel hamburgare",
+  "item.moredelight.hamburger_with_cheese": "Hamburgare med ost",
+  "item.moredelight.hamburger_with_egg": "Hamburgare med ägg",
+  "item.moredelight.loaded_hamburger": "Fylld hamburgare",
+  "item.moredelight.steak_sandwich": "Steksmörgås",
+  "item.moredelight.porkchop_sandwich": "Fläskkotlettsmörgås",
+  "item.moredelight.toast_with_peanut_butter": "Toast med jordnötssmör",
+
+  "itemGroup.moredelight": "More Delight"
 }

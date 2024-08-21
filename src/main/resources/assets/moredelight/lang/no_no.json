@@ -28,5 +28,17 @@
   "item.moredelight.toast_with_glow_berries": "Toast med glødende bær",
   "item.moredelight.toast_with_cheese": "Toast med ost",
   "item.moredelight.chicken_salad": "Kyllingsalat",
-  "item.moredelight.toast_with_blueberries": "Toast med blåbær"
+  "item.moredelight.toast_with_blueberries": "Toast med blåbær",
+
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Kokt ris med melkekrem og kyllingbiter",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Kokt ris med melkekrem og svinekotelett",
+  "item.moredelight.simple_hamburger": "Enkel hamburger",
+  "item.moredelight.hamburger_with_cheese": "Hamburger med ost",
+  "item.moredelight.hamburger_with_egg": "Hamburger med egg",
+  "item.moredelight.loaded_hamburger": "Fullastet hamburger",
+  "item.moredelight.steak_sandwich": "Biffsmørbrød",
+  "item.moredelight.porkchop_sandwich": "Svinekotelettsmørbrød",
+  "item.moredelight.toast_with_peanut_butter": "Toast med peanøttsmør",
+
+  "itemGroup.moredelight": "More Delight"
 }

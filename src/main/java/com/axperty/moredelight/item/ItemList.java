@@ -13,11 +13,20 @@ public class ItemList {
     // Diced Potatoes
     public static Item DICED_POTATOES;
 
+    // Chocolate Popsicle
+    public static Item CHOCOLATE_POPSICLE;
+
     // Omelette
     public static Item OMELETTE;
 
+    // Cooked Rice with Milk Cream and Chicken Cuts
+    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS;
+
     // Cooked Rice with Milk Cream and Beef
     public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
+
+    // Cooked Rice with Milk Cream and Porkchop
+    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_PORKCHOP;
 
     // Mashed Potatoes
     public static Item MASHED_POTATOES;
@@ -43,20 +52,29 @@ public class ItemList {
     // Carrot Soup
     public static Item CARROT_SOUP;
 
-    // Chocolate Popsicle
-    public static Item CHOCOLATE_POPSICLE;
+    // Simple Hamburger
+    public static Item SIMPLE_HAMBURGER;
+
+    // Hamburger with Cheese
+    public static Item HAMBURGER_WITH_CHEESE;
+
+    // Hamburger with Egg
+    public static Item HAMBURGER_WITH_EGG;
+
+    // Loaded Hamburger
+    public static Item LOADED_HAMBURGER;
 
     // Chicken Sandwich with Egg and Tomato
     public static Item CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO;
 
-    // Ham and Cheese Sandwich
-    public static Item HAM_AND_CHEESE_SANDWICH;
+    // Steak Sandwich
+    public static Item STEAK_SANDWICH;
+
+    // Porkchop Sandwich
+    public static Item PORKCHOP_SANDWICH;
 
     // Egg with Bacon Sandwich
     public static Item EGG_WITH_BACON_SANDWICH;
-
-    // Steak and Egg Sandwich
-    public static Item STEAK_WITH_EGG_SANDWICH;
 
     // Tomato Sandwich
     public static Item TOMATO_SANDWICH;
@@ -67,7 +85,7 @@ public class ItemList {
     // Toast
     public static Item TOAST;
 
-    // Egg in Toast
+    // Toast with Egg
     public static Item TOAST_WITH_EGG;
 
     // Toast with Honey
@@ -85,7 +103,10 @@ public class ItemList {
     // Toast with Chocolate
     public static Item TOAST_WITH_CHOCOLATE;
 
-    // Toast with Cheese (Expanded Delight)
+    // Toast with Cheese (Expanded Delight & Casualness Delight)
     public static Item TOAST_WITH_CHEESE;
+
+    // Toast with Peanut Butter (Expanded Delight)
+    public static Item TOAST_WITH_PEANUT_BUTTER;
 
 }

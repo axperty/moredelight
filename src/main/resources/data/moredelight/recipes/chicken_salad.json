@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:foods/vegetables/tomato"
+    },
+    {
+      "tag": "c:foods/cooked_meats/cooked_chicken"
+    },
+    {
+      "tag": "c:foods/vegetables/onion"
+    }
+  ],
+  "result": {
+    "item": "moredelight:chicken_salad"
+  }
+}

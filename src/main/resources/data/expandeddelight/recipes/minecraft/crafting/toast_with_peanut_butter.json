@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["expandeddelight"]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expandeddelight:peanut_butter"
+    },
+    {
+      "item": "moredelight:toast"
+    }
+  ],
+  "result": {
+    "item": "moredelight:toast_with_peanut_butter"
+  }
+}

@@ -28,5 +28,17 @@
   "item.moredelight.toast_with_glow_berries": "Toast s zářinkami",
   "item.moredelight.toast_with_cheese": "Toast se sýrem",
   "item.moredelight.chicken_salad": "Kuřecí salát",
-  "item.moredelight.toast_with_blueberries": "Toast s borůvkami"
+  "item.moredelight.toast_with_blueberries": "Toast s borůvkami",
+
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Vařená rýže s mléčnou smetanou a kuřecími kousky",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Vařená rýže s mléčnou smetanou a vepřovým kotletem",
+  "item.moredelight.simple_hamburger": "Jednoduchý hamburger",
+  "item.moredelight.hamburger_with_cheese": "Hamburger se sýrem",
+  "item.moredelight.hamburger_with_egg": "Hamburger s vejcem",
+  "item.moredelight.loaded_hamburger": "Nabitý hamburger",
+  "item.moredelight.steak_sandwich": "Steakový sendvič",
+  "item.moredelight.porkchop_sandwich": "Sendvič s vepřovým kotletem",
+  "item.moredelight.toast_with_peanut_butter": "Toast s arašídovým máslem",
+
+  "itemGroup.moredelight": "More Delight"
 }

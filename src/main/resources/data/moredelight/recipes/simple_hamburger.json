@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    }
+  ],
+  "result": {
+    "item": "moredelight:simple_hamburger"
+  }
+}

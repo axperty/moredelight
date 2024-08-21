@@ -19,24 +19,11 @@ public class MoreDelight implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        System.out.println("[More Delight Fabric]: Registering items...");
         Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
                 .displayName(Text.translatable("More Delight"))
-                .icon(() -> new ItemStack(ItemList.WOODEN_KNIFE))
+                .icon(() -> new ItemStack(ItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO))
                 .build());
 
         ItemRegistry.registerItems();
-        System.out.println("[More Delight Fabric]: Items registered successfully!");
-        checkFarmersDelight();
-    }
-
-    public void checkFarmersDelight() {
-        System.out.println("[More Delight Fabric]: Checking Farmer's Delight version...");
-        try {
-            Class.forName("vectorwing.farmersdelight.FarmersDelight");
-            System.out.println("[More Delight Fabric]: Farmer's Delight Refabricated is loaded.");
-        } catch (Exception ignored) {
-            System.out.println("[More Delight Fabric]: Farmer's Delight [Fabric] is outdated and it might not work as expected with More Delight.");
-        }
     }
 }
