@@ -14,8 +14,8 @@
 - Hamburger with Cheese (for Expanded Delight and Casualness Delight).
 - Added Hamburger with Egg.
 - Added Loaded Hamburger.
-- Steak Sandwich
-- Porkchop Sandwich
+- Added Steak Sandwich.
+- Added Porkchop Sandwich.
 - Added Toast with Peanut Butter (for Expanded Delight).
 
 ### ⚙️ Minor Changes:
