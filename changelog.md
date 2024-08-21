@@ -2,7 +2,7 @@
 
 ## The Delicious Update
 
-**Summary:** This major update expands the hamburger selection and introduces new chicken-based recipes, along with many other changes.
+**Summary:** This major update expands the hamburger and sandwich selection, along with many other gameplay changes.
 
 ***
 
@@ -10,14 +10,16 @@
 
 - Added Cooked Rice with Milk Cream and Chicken Cuts.
 - Added Cooked Rice with Milk Cream and Porkchop.
-- Hamburger with Cheese (for Casualness Delight).
 - Added Simple Burger.
-- Added Hamburger with Cabbage.
-- Added Hamburger with Egg and Cabbage.
+- Hamburger with Cheese (for Casualness Delight).
+- Added Hamburger with Egg.
 - Added Loaded Hamburger.
+- Added Steak Sandwich.
+- Added Porkchop Sandwich.
 
-### 🛠️ Minor Changes:
+### ⚙️ Minor Changes:
 
+- Steak with egg sandwich has been replaced for steak sandwich.
 - Chicken salad now requires a bowl for crafting.
 - Pasta with milk cream and ham now requires onion for crafting.
 - Bread slices can now be placed in the furnace to make toasts.
@@ -27,6 +29,8 @@
 - Adjusted cooking times for toasts and omelettes.
 - Improved texture for toast with egg.
 - Improved texture for the egg with bacon sandwich.
+- Improved texture for the chicken sandwich with egg and tomato.
+- Improved texture for cooked diced potatoes with beef.
 
 ### 🛠️ Bug Fixes:
 
@@ -39,4 +43,5 @@
 
 ***
 
-Your feedback is important to make improvements to this mod. Submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub](https://github.com/axperty/moredelight).
+Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub](https://github.com/axperty/moredelight).
+You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)

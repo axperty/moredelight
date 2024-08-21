@@ -1,12 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "food",
   "ingredients": [
     {
       "tag": "forge:bread"
     },
     {
-      "item": "farmersdelight:beef_patty"
+      "item": "minecraft:cooked_porkchop"
     },
     {
       "tag": "forge:salad_ingredients/cabbage"
@@ -14,6 +13,6 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "moredelight:hamburger_with_cabbage"
+    "item": "moredelight:porkchop_sandwich"
   }
 }

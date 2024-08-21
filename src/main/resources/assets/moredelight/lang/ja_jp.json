@@ -30,13 +30,14 @@
   "item.moredelight.chicken_salad": "チキンサラダ",
   "item.moredelight.toast_with_blueberries": "ブルーベリートースト",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "ミルククリームと鶏肉のカットを添えた炊き込みご飯",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "ミルククリームと豚肉のカットを添えた炊き込みご飯",
-  "item.moredelight.simple_hamburger": "シンプルなハンバーガー",
-  "item.moredelight.hamburger_with_cheese": "チーズハンバーガー",
-  "item.moredelight.hamburger_with_cabbage": "キャベツ入りハンバーガー",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "卵とキャベツ入りハンバーガー",
-  "item.moredelight.loaded_hamburger": "具だくさんハンバーガー",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "ミルククリームとチキンカット入りの炊き込みご飯",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "ミルククリームとポークチョップ入りの炊き込みご飯",
+  "item.moredelight.simple_hamburger": "シンプルハンバーガー",
+  "item.moredelight.hamburger_with_cheese": "チーズ入りハンバーガー",
+  "item.moredelight.hamburger_with_egg": "卵入りハンバーガー",
+  "item.moredelight.loaded_hamburger": "ボリュームたっぷりのハンバーガー",
+  "item.moredelight.steak_sandwich": "ステーキサンドイッチ",
+  "item.moredelight.porkchop_sandwich": "ポークチョップサンドイッチ",
   "item.moredelight.toast_with_peanut_butter": "ピーナッツバタートースト",
 
   "itemGroup.moredelight": "More Delight"

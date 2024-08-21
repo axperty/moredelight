@@ -43,16 +43,16 @@ public class CreativeTabInit {
                         pOutput.accept(ItemInit.CHICKEN_SALAD.get());
                         pOutput.accept(ItemInit.POTATO_SALAD.get());
                         pOutput.accept(ItemInit.CARROT_SOUP.get());
+                        pOutput.accept(ItemInit.SIMPLE_HAMBURGER.get());
                         if (ModList.get().isLoaded("casualness_delight")) {
                             pOutput.accept(ItemInit.HAMBURGER_WITH_CHEESE.get());
                         }
-                        pOutput.accept(ItemInit.SIMPLE_HAMBURGER.get());
-                        pOutput.accept(ItemInit.HAMBURGER_WITH_CABBAGE.get());
-                        pOutput.accept(ItemInit.HAMBURGER_WITH_EGG_AND_CABBAGE.get());
+                        pOutput.accept(ItemInit.HAMBURGER_WITH_EGG.get());
                         pOutput.accept(ItemInit.LOADED_HAMBURGER.get());
                         pOutput.accept(ItemInit.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO.get());
+                        pOutput.accept(ItemInit.STEAK_SANDWICH.get());
+                        pOutput.accept(ItemInit.PORKCHOP_SANDWICH.get());
                         pOutput.accept(ItemInit.EGG_WITH_BACON_SANDWICH.get());
-                        pOutput.accept(ItemInit.STEAK_WITH_EGG_SANDWICH.get());
                         pOutput.accept(ItemInit.TOMATO_SANDWICH.get());
                         pOutput.accept(ItemInit.BREAD_SLICE.get());
                         pOutput.accept(ItemInit.TOAST.get());

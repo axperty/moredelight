@@ -33,9 +33,10 @@
   "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Arroz cozido com creme de leite e costeleta de porco",
   "item.moredelight.simple_hamburger": "Hambúrguer simples",
   "item.moredelight.hamburger_with_cheese": "Hambúrguer com queijo",
-  "item.moredelight.hamburger_with_cabbage": "Hambúrguer com repolho",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "Hambúrguer com ovo e repolho",
+  "item.moredelight.hamburger_with_egg": "Hambúrguer com ovo",
   "item.moredelight.loaded_hamburger": "Hambúrguer completo",
+  "item.moredelight.steak_sandwich": "Sanduíche de bife",
+  "item.moredelight.porkchop_sandwich": "Sanduíche de costeleta de porco",
   "item.moredelight.toast_with_peanut_butter": "Torrada com manteiga de amendoim",
 
   "itemGroup.moredelight": "More Delight"

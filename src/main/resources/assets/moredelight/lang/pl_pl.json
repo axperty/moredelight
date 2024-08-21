@@ -29,13 +29,14 @@
   "item.moredelight.chicken_salad": "Sałatka z kurczakiem",
   "item.moredelight.toast_with_blueberries": "Tost z borówkami",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Gotowany ryż ze śmietaną i kawałkami kurczaka",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Gotowany ryż ze śmietaną i kotletem wieprzowym",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Gotowany ryż ze śmietaną mleczną i kawałkami kurczaka",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Gotowany ryż ze śmietaną mleczną i kotletem schabowym",
   "item.moredelight.simple_hamburger": "Prosty hamburger",
   "item.moredelight.hamburger_with_cheese": "Hamburger z serem",
-  "item.moredelight.hamburger_with_cabbage": "Hamburger z kapustą",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "Hamburger z jajkiem i kapustą",
-  "item.moredelight.loaded_hamburger": "Pełny hamburger",
+  "item.moredelight.hamburger_with_egg": "Hamburger z jajkiem",
+  "item.moredelight.loaded_hamburger": "Naładowany hamburger",
+  "item.moredelight.steak_sandwich": "Kanapka z stekiem",
+  "item.moredelight.porkchop_sandwich": "Kanapka z kotletem schabowym",
   "item.moredelight.toast_with_peanut_butter": "Tost z masłem orzechowym",
 
   "itemGroup.moredelight": "More Delight"

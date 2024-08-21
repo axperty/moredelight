@@ -29,13 +29,14 @@
   "item.moredelight.chicken_salad": "Салат з курячим м'ясом",
   "item.moredelight.toast_with_blueberries": "Тост з чорницею",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Варений рис з молочним кремом і шматочками курки",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Варений рис з молочним кремом і свинячою відбивною",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Варений рис з молочним кремом та шматочками курки",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Варений рис з молочним кремом та свинячою відбивною",
   "item.moredelight.simple_hamburger": "Простий гамбургер",
   "item.moredelight.hamburger_with_cheese": "Гамбургер з сиром",
-  "item.moredelight.hamburger_with_cabbage": "Гамбургер з капустою",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "Гамбургер з яйцем і капустою",
-  "item.moredelight.loaded_hamburger": "Завантажений гамбургер",
+  "item.moredelight.hamburger_with_egg": "Гамбургер з яйцем",
+  "item.moredelight.loaded_hamburger": "Начинений гамбургер",
+  "item.moredelight.steak_sandwich": "Сендвіч зі стейком",
+  "item.moredelight.porkchop_sandwich": "Сендвіч зі свинячою відбивною",
   "item.moredelight.toast_with_peanut_butter": "Тост з арахісовим маслом",
 
   "itemGroup.moredelight": "More Delight"

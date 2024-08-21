@@ -34,9 +34,10 @@
   "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Arroz cocido con crema de leche y chuleta de cerdo",
   "item.moredelight.simple_hamburger": "Hamburguesa sencilla",
   "item.moredelight.hamburger_with_cheese": "Hamburguesa con queso",
-  "item.moredelight.hamburger_with_cabbage": "Hamburguesa con repollo",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "Hamburguesa con huevo y repollo",
+  "item.moredelight.hamburger_with_egg": "Hamburguesa con huevo",
   "item.moredelight.loaded_hamburger": "Hamburguesa completa",
+  "item.moredelight.steak_sandwich": "Sándwich de bistec",
+  "item.moredelight.porkchop_sandwich": "Sándwich de chuleta de cerdo",
   "item.moredelight.toast_with_peanut_butter": "Tostada con mantequilla de maní",
 
   "itemGroup.moredelight": "More Delight"

@@ -30,13 +30,14 @@
   "item.moredelight.toast_with_blueberries": "Тост с голубикой",
   "item.moredelight.ham_and_cheese_sandwich": "Сэндвич с ветчиной и сыром",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Вареный рис со сливками и кусочками курицы",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Вареный рис со сливками и свиным котлетом",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Вареный рис с молочным кремом и куриными кусочками",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Вареный рис с молочным кремом и свиной отбивной",
   "item.moredelight.simple_hamburger": "Простой гамбургер",
   "item.moredelight.hamburger_with_cheese": "Гамбургер с сыром",
-  "item.moredelight.hamburger_with_cabbage": "Гамбургер с капустой",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "Гамбургер с яйцом и капустой",
+  "item.moredelight.hamburger_with_egg": "Гамбургер с яйцом",
   "item.moredelight.loaded_hamburger": "Нагруженный гамбургер",
+  "item.moredelight.steak_sandwich": "Стейк-сэндвич",
+  "item.moredelight.porkchop_sandwich": "Сэндвич со свиной отбивной",
   "item.moredelight.toast_with_peanut_butter": "Тост с арахисовым маслом",
 
   "itemGroup.moredelight": "Больше Восторга"

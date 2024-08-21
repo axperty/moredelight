@@ -30,13 +30,14 @@
   "item.moredelight.chicken_salad": "Salade de poulet",
   "item.moredelight.toast_with_blueberries": "Toast aux myrtilles",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Riz cuit à la crème de lait et morceaux de poulet",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Riz cuit à la crème de lait et côtelette de porc",
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Riz cuit avec crème de lait et morceaux de poulet",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Riz cuit avec crème de lait et côtelette de porc",
   "item.moredelight.simple_hamburger": "Hamburger simple",
-  "item.moredelight.hamburger_with_cheese": "Hamburger avec fromage",
-  "item.moredelight.hamburger_with_cabbage": "Hamburger avec chou",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "Hamburger avec œuf et chou",
-  "item.moredelight.loaded_hamburger": "Hamburger chargé",
+  "item.moredelight.hamburger_with_cheese": "Hamburger au fromage",
+  "item.moredelight.hamburger_with_egg": "Hamburger avec œuf",
+  "item.moredelight.loaded_hamburger": "Hamburger garni",
+  "item.moredelight.steak_sandwich": "Sandwich au steak",
+  "item.moredelight.porkchop_sandwich": "Sandwich à la côtelette de porc",
   "item.moredelight.toast_with_peanut_butter": "Toast au beurre de cacahuète",
 
   "itemGroup.moredelight": "More Delight"

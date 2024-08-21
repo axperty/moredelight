@@ -1,14 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "food",
   "ingredients": [
     {
-      "tag": "forge:bread_slices"
+      "tag": "forge:bread"
     },
     {
-      "tag": "forge:bread_slices"
-    },
-    {
-      "tag": "forge:cooked_beef"
+      "item": "farmersdelight:beef_patty"
     },
     {
       "tag": "forge:cooked_eggs"
@@ -16,6 +14,6 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "moredelight:steak_with_egg_sandwich"
+    "item": "moredelight:hamburger_with_egg"
   }
 }
