@@ -1,6 +1,6 @@
 package com.axperty.moredelight;
 
-import com.axperty.moredelight.init.*;
+import com.axperty.moredelight.registry.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -11,7 +11,7 @@ public class MoreDelight {
 
     public MoreDelight() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        ItemInit.ITEMS.register(bus);
-        CreativeTabInit.register(bus);
+        ItemRegistry.ITEMS.register(bus);
+        CreativeTabRegistry.register(bus);
     }
 }
