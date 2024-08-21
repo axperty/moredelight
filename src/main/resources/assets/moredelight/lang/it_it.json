@@ -34,9 +34,10 @@
   "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Riso cotto con crema di latte e braciola di maiale",
   "item.moredelight.simple_hamburger": "Hamburger semplice",
   "item.moredelight.hamburger_with_cheese": "Hamburger con formaggio",
-  "item.moredelight.hamburger_with_cabbage": "Hamburger con cavolo",
-  "item.moredelight.hamburger_with_egg_and_cabbage": "Hamburger con uovo e cavolo",
-  "item.moredelight.loaded_hamburger": "Hamburger farcito",
+  "item.moredelight.hamburger_with_egg": "Hamburger con uovo",
+  "item.moredelight.loaded_hamburger": "Hamburger carico",
+  "item.moredelight.steak_sandwich": "Panino con bistecca",
+  "item.moredelight.porkchop_sandwich": "Panino con braciola di maiale",
   "item.moredelight.toast_with_peanut_butter": "Toast con burro di arachidi",
 
   "itemGroup.moredelight": "More Delight"
