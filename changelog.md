@@ -44,5 +44,5 @@
 
 ***
 
-Your feedback is important to make improvements to this mod. Submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub](https://github.com/axperty/moredelight).
+Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub](https://github.com/axperty/moredelight).
 You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)
