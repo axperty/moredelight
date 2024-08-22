@@ -11,6 +11,13 @@ description='''${mod_description}'''
 logoFile="logo.png"
 
 [[dependencies.moredelight]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.moredelight]]
 modId="farmersdelight"
 mandatory=true
 versionRange="${minecraft_version_range}"
@@ -18,8 +25,15 @@ ordering="NONE"
 side="BOTH"
 
 [[dependencies.moredelight]]
-modId="minecraft"
-mandatory=true
-versionRange="${minecraft_version_range}"
-ordering="NONE"
+modId="expandeddelight"
+mandatory=false
+versionRange="*"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.moredelight]]
+modId="casualness_delight"
+mandatory=false
+versionRange="*"
+ordering="AFTER"
 side="BOTH"
