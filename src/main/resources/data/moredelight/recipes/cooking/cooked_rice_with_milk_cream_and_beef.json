@@ -11,6 +11,7 @@
         "tag": "c:foods/raw_meats/raw_beef"
       }
     ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:cooked_rice_with_milk_cream_and_beef"
   },

@@ -14,6 +14,7 @@
       "item": "moredelight:toast"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:toast_with_cheese"
   }

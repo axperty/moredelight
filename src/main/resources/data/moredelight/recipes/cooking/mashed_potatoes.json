@@ -11,6 +11,7 @@
         "tag": "c:sliced_potato"
       }
     ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:mashed_potatoes"
   },

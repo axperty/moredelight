@@ -13,10 +13,11 @@
       {
         "item": "casualness_delight:potato_slice"
       },
-    {
-      "tag": "c:foods/vegetables/onion"
-    }
+      {
+        "tag": "c:foods/vegetables/onion"
+      }
     ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:potato_salad"
   },

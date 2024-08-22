@@ -14,6 +14,7 @@
         "tag": "c:foods/vegetables/onion"
       }
     ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:pasta_with_milk_cream_and_ham"
   },

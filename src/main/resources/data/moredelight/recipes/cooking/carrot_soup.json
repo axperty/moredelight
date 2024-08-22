@@ -11,6 +11,7 @@
         "tag": "c:foods/vegetables/carrot"
       }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:carrot_soup"
   },

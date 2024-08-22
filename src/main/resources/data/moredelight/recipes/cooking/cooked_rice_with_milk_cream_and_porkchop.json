@@ -11,6 +11,7 @@
         "item": "minecraft:porkchop"
       }
     ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:cooked_rice_with_milk_cream_and_porkchop"
   },

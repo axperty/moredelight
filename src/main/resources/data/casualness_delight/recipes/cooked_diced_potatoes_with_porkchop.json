@@ -17,6 +17,7 @@
         "tag": "c:foods/vegetables/onion"
       }
     ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:cooked_diced_potatoes_with_porkchop"
   },
