@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "food",
+  "category": "misc",
   "ingredients": [
     {
       "tag": "c:foods/bread"
@@ -9,7 +9,6 @@
       "item": "farmersdelight:beef_patty"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:simple_hamburger"
   }

@@ -6,7 +6,6 @@
     }
   ],
   "type": "farmersdelight:cooking",
-  "category": "food",
   "container": {
     "count": 1,
     "id": "minecraft:bowl"
@@ -15,7 +14,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "c:eggs"
+      "item": "minecraft:porkchop"
     },
     {
       "item": "casualness_delight:potato_slice"
@@ -26,6 +25,6 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "id": "moredelight:potato_salad"
+    "id": "moredelight:cooked_diced_potatoes_with_porkchop"
   }
 }

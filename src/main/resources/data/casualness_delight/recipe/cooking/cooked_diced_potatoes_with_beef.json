@@ -6,7 +6,6 @@
     }
   ],
   "type": "farmersdelight:cooking",
-  "category": "food",
   "container": {
     "count": 1,
     "id": "minecraft:bowl"
@@ -15,17 +14,17 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "c:foods/milk"
+      "tag": "c:foods/raw_beef"
     },
     {
       "item": "casualness_delight:potato_slice"
     },
     {
-      "item": "casualness_delight:potato_slice"
+      "tag": "c:crops/onion"
     }
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "id": "moredelight:mashed_potatoes"
+    "id": "moredelight:cooked_diced_potatoes_with_beef"
   }
 }

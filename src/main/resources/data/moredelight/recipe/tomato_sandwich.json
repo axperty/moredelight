@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "food",
+  "category": "misc",
   "ingredients": [
     {
       "tag": "c:bread_slices"
@@ -12,7 +12,6 @@
       "tag": "c:crops/tomato"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:tomato_sandwich"
   }

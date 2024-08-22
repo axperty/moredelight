@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "food",
+  "category": "misc",
   "pattern": [
     " CC",
     "ICC",
@@ -17,7 +17,6 @@
       "item": "minecraft:stick"
     }
   },
-  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:chocolate_popsicle"
   }

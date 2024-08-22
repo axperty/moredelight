@@ -6,7 +6,7 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
-  "category": "food",
+  "category": "misc",
   "ingredients": [
     {
       "item": "expandeddelight:cheese_slice"
@@ -15,7 +15,6 @@
       "item": "moredelight:toast"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:toast_with_cheese"
   }

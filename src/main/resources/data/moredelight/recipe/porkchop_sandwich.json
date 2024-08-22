@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "food",
+  "category": "misc",
   "ingredients": [
     {
       "tag": "c:foods/bread"
@@ -12,7 +12,6 @@
       "tag": "c:foods/leafy_green"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
     "id": "moredelight:porkchop_sandwich"
   }
