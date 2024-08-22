@@ -8,7 +8,7 @@
 
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where recipes didn't appear in the recipe book because they didn't have an assigned category [#5.](https://github.com/axperty/moredelight/issues/5#issuecomment-2304643772)
+- Fixed a bug where recipes had invalid categories for crafting recipes [#5.](https://github.com/axperty/moredelight/issues/5#issuecomment-2304643772)
 
 ***
 
