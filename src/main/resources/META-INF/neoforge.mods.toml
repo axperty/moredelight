@@ -33,3 +33,17 @@ description="An addon mod for Farmer's Delight that adds extra features to the b
     versionRange="1.21-1.2.4"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="expandeddelight"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="casualness_delight"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
