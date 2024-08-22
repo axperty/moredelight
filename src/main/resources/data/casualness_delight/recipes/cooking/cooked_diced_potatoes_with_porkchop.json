@@ -12,7 +12,7 @@
         "type": "farmersdelight:cooking",
         "ingredients": [
           {
-            "tag": "forge:raw_chicken"
+            "item": "minecraft:porkchop"
           },
           {
             "item": "casualness_delight:potato_slice"
@@ -21,8 +21,9 @@
             "tag": "forge:vegetables/onion"
           }
         ],
+        "recipe_book_tab": "meals",
         "result": {
-          "item": "moredelight:cooked_diced_potatoes_with_chicken_cuts"
+          "item": "moredelight:cooked_diced_potatoes_with_porkchop"
         },
         "container": {
           "item": "minecraft:bowl"

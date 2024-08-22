@@ -12,7 +12,7 @@
         "type": "farmersdelight:cooking",
         "ingredients": [
           {
-            "tag": "forge:raw_beef"
+            "tag": "forge:eggs"
           },
           {
             "item": "casualness_delight:potato_slice"
@@ -21,8 +21,9 @@
             "tag": "forge:vegetables/onion"
           }
         ],
+        "recipe_book_tab": "meals",
         "result": {
-          "item": "moredelight:cooked_diced_potatoes_with_beef"
+          "item": "moredelight:potato_salad"
         },
         "container": {
           "item": "minecraft:bowl"

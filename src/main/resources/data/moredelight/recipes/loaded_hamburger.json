@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "food",
+  "category": "misc",
   "ingredients": [
     {
       "tag": "forge:bread"
@@ -24,7 +24,6 @@
       "tag": "forge:vegetables/onion"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:loaded_hamburger"
   }

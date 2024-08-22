@@ -8,7 +8,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description='''${mod_description}'''
-logoFile="logo.png"
+logoFile="assets/moredelight/logo.png"
 
 [[dependencies.moredelight]]
 modId="minecraft"

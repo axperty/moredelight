@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "food",
+  "category": "misc",
   "ingredients": [
     {
       "tag": "forge:bread"
@@ -12,7 +12,6 @@
       "tag": "forge:cooked_eggs"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:hamburger_with_egg"
   }

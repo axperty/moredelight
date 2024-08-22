@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:glow_berries"
@@ -8,7 +9,6 @@
       "item": "moredelight:toast"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
     "item": "moredelight:toast_with_glow_berries"
   }

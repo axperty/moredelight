@@ -19,7 +19,7 @@ public class CreativeTabRegistry {
     public static final RegistryObject<CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register("creative_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.moredelight"))
-                    .icon(ItemRegistry.WOODEN_KNIFE.get()::getDefaultInstance)
+                    .icon(ItemRegistry.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO.get()::getDefaultInstance)
                     .displayItems((displayParams, pOutput) -> {
                         pOutput.accept(ItemRegistry.WOODEN_KNIFE.get());
                         pOutput.accept(ItemRegistry.STONE_KNIFE.get());

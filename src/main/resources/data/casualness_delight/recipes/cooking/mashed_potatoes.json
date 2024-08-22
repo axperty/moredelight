@@ -21,6 +21,7 @@
             "item": "casualness_delight:potato_slice"
           }
         ],
+        "recipe_book_tab": "meals",
         "result": {
           "item": "moredelight:mashed_potatoes"
         },
