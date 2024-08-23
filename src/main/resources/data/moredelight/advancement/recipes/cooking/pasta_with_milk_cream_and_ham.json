@@ -1,12 +1,15 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cocoa_beans": {
+    "has_any_ingredient": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cocoa_beans"
+              "farmersdelight:raw_pasta",
+              "farmersdelight:ham",
+              "minecraft:milk_bucket",
+              "farmersdelight:milk_bottle"
             ]
           }
         ]
@@ -15,20 +18,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredelight:toast_with_chocolate"
+        "recipe": "moredelight:cooking/pasta_with_milk_cream_and_ham"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cocoa_beans",
+      "has_any_ingredient",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "moredelight:toast_with_chocolate"
+      "moredelight:cooking/pasta_with_milk_cream_and_ham"
     ]
   },
   "sends_telemetry_event": false

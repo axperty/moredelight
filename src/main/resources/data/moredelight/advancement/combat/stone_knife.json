@@ -1,12 +1,14 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cocoa_beans": {
+    "has_stone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cocoa_beans"
+              "minecraft:cobblestone",
+              "minecraft:blackstone",
+              "minecraft:cobbled_deepslate"
             ]
           }
         ]
@@ -15,20 +17,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredelight:toast_with_chocolate"
+        "recipe": "moredelight:stone_knife"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cocoa_beans",
+      "has_stone",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "moredelight:toast_with_chocolate"
+      "moredelight:stone_knife"
     ]
   },
   "sends_telemetry_event": false

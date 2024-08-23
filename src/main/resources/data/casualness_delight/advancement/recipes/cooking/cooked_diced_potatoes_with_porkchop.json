@@ -1,12 +1,20 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "casualness_delight"
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cocoa_beans": {
+    "has_any_ingredient": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cocoa_beans"
+              "casualness_delight:potato_slice",
+              "farmersdelight:onion",
+              "minecraft:cooked_porkchop"
             ]
           }
         ]
@@ -15,20 +23,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredelight:toast_with_chocolate"
+        "recipe": "casualness_delight:cooking/cooked_diced_potatoes_with_porkchop"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cocoa_beans",
+      "has_any_ingredient",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "moredelight:toast_with_chocolate"
+      "casualness_delight:cooking/cooked_diced_potatoes_with_porkchop"
     ]
   },
   "sends_telemetry_event": false

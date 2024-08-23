@@ -1,12 +1,18 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "expandeddelight"
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cocoa_beans": {
+    "has_beef_patty": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cocoa_beans"
+              "farmersdelight:beef_patty"
             ]
           }
         ]
@@ -15,20 +21,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredelight:toast_with_chocolate"
+        "recipe": "expandeddelight:hamburger_with_cheese"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cocoa_beans",
+      "has_beef_patty",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "moredelight:toast_with_chocolate"
+      "expandeddelight:hamburger_with_cheese"
     ]
   },
   "sends_telemetry_event": false

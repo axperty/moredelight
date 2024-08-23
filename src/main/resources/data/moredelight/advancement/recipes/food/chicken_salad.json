@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cocoa_beans": {
+    "has_bowl": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cocoa_beans"
+              "minecraft:bowl"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredelight:toast_with_chocolate"
+        "recipe": "moredelight:chicken_salad"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_cocoa_beans",
+      "has_bowl",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "moredelight:toast_with_chocolate"
+      "moredelight:chicken_salad"
     ]
   },
   "sends_telemetry_event": false

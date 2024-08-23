@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredelight:toast_with_chocolate"
+        "recipe": "moredelight:chocolate_popsicle"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "moredelight:toast_with_chocolate"
+      "moredelight:chocolate_popsicle"
     ]
   },
   "sends_telemetry_event": false

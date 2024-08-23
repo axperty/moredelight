@@ -1,4 +1,10 @@
 {
+  "moredelight.advancement.root": "More Delight",
+  "moredelight.advancement.root.desc": "More delicious recipes to make!",
+
+  "moredelight.advancement.get_loaded_burger": "The Big One",
+  "moredelight.advancement.get_loaded_burger.desc": "Get the biggest hamburger.",
+
   "item.moredelight.wooden_knife": "Wooden Knife",
   "item.moredelight.stone_knife": "Stone Knife",
 
