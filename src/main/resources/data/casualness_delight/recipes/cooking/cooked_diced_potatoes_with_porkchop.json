@@ -1,36 +1,29 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "casualness_delight"
-        }
-      ],
-      "recipe": {
-        "type": "farmersdelight:cooking",
-        "ingredients": [
-          {
-            "item": "minecraft:porkchop"
-          },
-          {
-            "item": "casualness_delight:potato_slice"
-          },
-          {
-            "tag": "forge:vegetables/onion"
-          }
-        ],
-        "recipe_book_tab": "meals",
-        "result": {
-          "item": "moredelight:cooked_diced_potatoes_with_porkchop"
-        },
-        "container": {
-          "item": "minecraft:bowl"
-        },
-        "cookingtime": 400,
-        "experience": 1.0
-      }
+      "type": "forge:mod_loaded",
+      "modid": "casualness_delight"
     }
-  ]
+  ],
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "casualness_delight:potato_slice"
+    },
+    {
+      "tag": "forge:vegetables/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "moredelight:cooked_diced_potatoes_with_porkchop"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0
 }

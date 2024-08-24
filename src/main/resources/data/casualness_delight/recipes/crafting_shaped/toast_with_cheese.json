@@ -1,28 +1,21 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "casualness_delight"
-        }
-      ],
-      "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "category": "misc",
-        "ingredients": [
-          {
-            "item": "casualness_delight:cheese_wheel_slice"
-          },
-          {
-            "item": "moredelight:toast"
-          }
-        ],
-        "result": {
-          "item": "moredelight:toast_with_cheese"
-        }
-      }
+      "type": "forge:mod_loaded",
+      "modid": "casualness_delight"
     }
-  ]
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "casualness_delight:cheese_wheel_slice"
+    },
+    {
+      "item": "moredelight:toast"
+    }
+  ],
+  "result": {
+    "item": "moredelight:toast_with_cheese"
+  }
 }

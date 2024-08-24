@@ -1,28 +1,21 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "nutritious_feast"
-        }
-      ],
-      "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "category": "misc",
-        "ingredients": [
-          {
-            "item": "nutritious_feast:blueberries"
-          },
-          {
-            "item": "moredelight:toast"
-          }
-        ],
-        "result": {
-          "item": "moredelight:toast_with_blueberries"
-        }
-      }
+      "type": "forge:mod_loaded",
+      "modid": "nutritious_feast"
     }
-  ]
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nutritious_feast:blueberries"
+    },
+    {
+      "item": "moredelight:toast"
+    }
+  ],
+  "result": {
+    "item": "moredelight:toast_with_blueberries"
+  }
 }

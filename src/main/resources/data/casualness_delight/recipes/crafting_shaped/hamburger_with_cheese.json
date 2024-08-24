@@ -1,31 +1,24 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "casualness_delight"
-        }
-      ],
-      "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "category": "misc",
-        "ingredients": [
-          {
-            "tag": "forge:bread"
-          },
-          {
-            "item": "farmersdelight:beef_patty"
-          },
-          {
-            "item": "casualness_delight:cheese_wheel_slice"
-          }
-        ],
-        "result": {
-          "item": "moredelight:hamburger_with_cheese"
-        }
-      }
+      "type": "forge:mod_loaded",
+      "modid": "casualness_delight"
     }
-  ]
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "casualness_delight:cheese_wheel_slice"
+    }
+  ],
+  "result": {
+    "item": "moredelight:hamburger_with_cheese"
+  }
 }

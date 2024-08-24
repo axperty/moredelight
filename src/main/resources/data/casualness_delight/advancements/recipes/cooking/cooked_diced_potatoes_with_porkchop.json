@@ -1,37 +1,50 @@
 {
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_any_ingredient": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "casualness_delight:potato_slice",
-              "farmersdelight:onion",
-              "minecraft:cooked_porkchop"
-            ]
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "casualness_delight"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+          "has_any_ingredient": {
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "casualness_delight:potato_slice",
+                    "farmersdelight:onion",
+                    "minecraft:cooked_porkchop"
+                  ]
+                }
+              ]
+            },
+            "trigger": "minecraft:inventory_changed"
+          },
+          "has_the_recipe": {
+            "conditions": {
+              "recipe": "casualness_delight:cooking/cooked_diced_potatoes_with_porkchop"
+            },
+            "trigger": "minecraft:recipe_unlocked"
           }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "casualness_delight:cooking/cooked_diced_potatoes_with_porkchop"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+        },
+        "requirements": [
+          [
+            "has_any_ingredient",
+            "has_the_recipe"
+          ]
+        ],
+        "rewards": {
+          "recipes": [
+            "casualness_delight:cooking/cooked_diced_potatoes_with_porkchop"
+          ]
+        },
+        "sends_telemetry_event": false
+      }
     }
-  },
-  "requirements": [
-    [
-      "has_any_ingredient",
-      "has_the_recipe"
-    ]
-  ],
-  "rewards": {
-    "recipes": [
-      "casualness_delight:cooking/cooked_diced_potatoes_with_porkchop"
-    ]
-  },
-  "sends_telemetry_event": false
+  ]
 }
