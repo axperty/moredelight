@@ -1,0 +1,41 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["expandeddelight"]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beef_patty": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:beef_patty"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "expandeddelight:hamburger_with_cheese"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_beef_patty",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "expandeddelight:hamburger_with_cheese"
+    ]
+  },
+  "sends_telemetry_event": false
+}
