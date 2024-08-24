@@ -1,4 +1,7 @@
 {
+  "moredelight.advancement.root": "More Delight",
+  "moredelight.advancement.root.desc": "더 맛있는 레시피를 만들 수 있습니다!",
+
   "item.moredelight.wooden_knife": "나무 칼",
   "item.moredelight.stone_knife": "돌 칼",
 
