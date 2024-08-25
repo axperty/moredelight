@@ -4,7 +4,7 @@
   "cookingtime": 600,
   "experience": 0.35,
   "ingredient": {
-    "tag": "c:bread_slice"
+    "item": "moredelight:bread_slice"
   },
   "result": "moredelight:toast"
 }

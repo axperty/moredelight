@@ -1,16 +1,20 @@
 ![More Delight](https://cdn.modrinth.com/data/znHQQtuU/images/6833d6b12f2605b2925a31261438c6a355903132.png)
 
-## The Delicious Update: Patch 1
+## The Delicious Update: Patch 2
 
-**Summary:** This minor update fixes a small bug related to recipes.
+**Summary:** This minor update adds the recipes from this mod to the recipe book.
 
 ***
+
+### ✨ What's New:
+
+- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
 
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where recipes had invalid categories for crafting recipes [#5.](https://github.com/axperty/moredelight/issues/5#issuecomment-2304643772)
+- Fixed a bug where players could place toasts in campfires, furnaces, and smokers to get the same item back, allowing them to gain infinite experience.
 
 ***
 
-Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub](https://github.com/axperty/moredelight).
+Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/moredelight)
 You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)
