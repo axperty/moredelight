@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.5-SNAPSHOT'
+	id 'fabric-loom' version '1.7-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -15,18 +15,18 @@ repositories {
 	maven { url 'https://api.modrinth.com/maven' }
 	maven {
 		name = "Greenhouse Maven"
-		url = 'https://maven.greenhouseteam.dev/releases/'
+		url = 'https://repo.greenhouse.house/releases/'
 	}
-	maven { url = "https://mvn.devos.one/releases/" } // Porting Lib
+
 	maven {
-		url "https://maven.jamieswhiteshirt.com/libs-release" // Reach Entity Attributes (Required by Porting Lib)
+		name = "Greenhouse Maven (Snapshots)"
+		url = 'https://repo.greenhouse.house/snapshots/'
+	}
+	maven {
+		url "https://jitpack.io/"
 		content {
-			includeGroup "com.jamieswhiteshirt"
+			excludeGroup "io.github.fabricators_of_create"
 		}
-	}
-	maven {
-		name = "ModMaven"
-		url = "https://modmaven.dev"
 	}
 }
 
@@ -35,7 +35,6 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "maven.modrinth:farmers-delight-fabric:${project.delight_version}"
 	modImplementation("vectorwing:FarmersDelight:${project.fdfr_version}") {
 		exclude(group: "net.fabricmc")
 	}
@@ -50,7 +49,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-	it.options.release = 17
+	it.options.release = 21
 }
 
 java {

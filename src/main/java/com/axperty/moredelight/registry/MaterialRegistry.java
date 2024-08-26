@@ -1,8 +1,11 @@
 package com.axperty.moredelight.registry;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
 
@@ -40,6 +43,16 @@ public enum MaterialRegistry implements ToolMaterial {
 
     public float getAttackDamage() {
         return this.attackDamage;
+    }
+
+    //
+    //
+    // Careful with this one! Still needs some testing.
+    //
+    //
+    @Override
+    public TagKey<Block> getInverseTag() {
+        return BlockTags.AIR;
     }
 
     public int getMiningLevel() {

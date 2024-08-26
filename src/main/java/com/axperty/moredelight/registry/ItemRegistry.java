@@ -2,11 +2,9 @@ package com.axperty.moredelight.registry;
 
 import com.axperty.moredelight.MoreDelight;
 import com.axperty.moredelight.item.ItemList;
-import com.nhoryzon.mc.farmersdelight.registry.EffectsRegistry;
-import com.nhoryzon.mc.farmersdelight.item.KnifeItem;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -14,13 +12,15 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import vectorwing.farmersdelight.common.item.KnifeItem;
+import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class ItemRegistry {
 
     public static void registerItems() {
-        ItemList.WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, new FabricItemSettings()));
+        ItemList.WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, new Item.Settings()));
 
-        ItemList.STONE_KNIFE = knife("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, new FabricItemSettings()));
+        ItemList.STONE_KNIFE = knife("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, new Item.Settings()));
 
         ItemList.DICED_POTATOES = item("diced_potatoes", new Item(food(null, 2, .2f)));
 
@@ -38,11 +38,11 @@ public class ItemRegistry {
 
         ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(Items.BOWL, 10, .75f)));
 
-        ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(food_special(Items.BOWL, StatusEffects.SPEED, 200, 0, 10, .75f).maxCount(16)));
+        ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(food_special(Items.BOWL, (StatusEffect) StatusEffects.SPEED, 200, 0, 10, .75f).maxCount(16)));
 
-        ItemList.COOKED_DICED_POTATOES_WITH_BEEF = item("cooked_diced_potatoes_with_beef", new Item(food_special(Items.BOWL, StatusEffects.STRENGTH, 200, 0,10, .75f).maxCount(16)));
+        ItemList.COOKED_DICED_POTATOES_WITH_BEEF = item("cooked_diced_potatoes_with_beef", new Item(food_special(Items.BOWL, (StatusEffect) StatusEffects.STRENGTH, 200, 0,10, .75f).maxCount(16)));
 
-        ItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = item("cooked_diced_potatoes_with_porkchop", new Item(food_special(Items.BOWL, StatusEffects.RESISTANCE, 200, 0,10, .75f).maxCount(16)));
+        ItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = item("cooked_diced_potatoes_with_porkchop", new Item(food_special(Items.BOWL, (StatusEffect) StatusEffects.RESISTANCE, 200, 0,10, .75f).maxCount(16)));
 
         ItemList.CHICKEN_SALAD = item("chicken_salad", new Item(food(Items.BOWL,6, .6f).maxCount(16)));
 
@@ -84,7 +84,7 @@ public class ItemRegistry {
             ItemList.TOAST_WITH_BLUEBERRIES = item("toast_with_blueberries", new Item(food(null, 5, .5f)));
         }
 
-        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food_special(null, StatusEffects.GLOWING, 100, 0, 5, .5f)));
+        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food_special(null, (StatusEffect) StatusEffects.GLOWING, 100, 0, 5, .5f)));
 
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, .5f)));
 
@@ -99,48 +99,49 @@ public class ItemRegistry {
 
     private static Item knife(String name, Item item) {
         ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
-        return Registry.register(Registries.ITEM, new Identifier(MoreDelight.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name), item);
     }
 
     private static Item item(String name, Item item) {
         ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
-        return Registry.register(Registries.ITEM, new Identifier(MoreDelight.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name), item);
     }
 
-    private static FabricItemSettings food(Item remainder, int hunger, float saturation) {
-        return new FabricItemSettings().recipeRemainder(remainder)
+    private static Item.Settings food(Item remainder, int nutrition, float saturation) {
+        return new Item.Settings().recipeRemainder(remainder)
                 .food(new FoodComponent.Builder()
-                        .hunger(hunger)
+                        .nutrition(nutrition)
                         .saturationModifier(saturation)
                         .build());
     }
 
-    private static FabricItemSettings meal(Item remainder, int hunger, float saturation) {
-        return new FabricItemSettings().recipeRemainder(remainder).maxCount(16)
-                .food(new FoodComponent.Builder().hunger(hunger)
+    private static Item.Settings meal(Item remainder, int nutrition, float saturation) {
+        return new Item.Settings().recipeRemainder(remainder).maxCount(16)
+                .food(new FoodComponent.Builder().nutrition(nutrition)
                         .saturationModifier(saturation)
-                        .statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), 3600, 0), 1.0f)
+                        .statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1.0f)
                         .build());
     }
 
-    private static FabricItemSettings stew(int hunger, float saturation) {
-                return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
-                        .food(new FoodComponent.Builder().hunger(hunger)
+    private static Item.Settings stew(int nutrition, float saturation) {
+                return new Item.Settings().recipeRemainder(Items.BOWL).maxCount(16)
+                        .food(new FoodComponent.Builder().nutrition(nutrition)
                                 .saturationModifier(saturation)
-                                .statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), 3600, 0), 1.0f)
+                                .statusEffect(new StatusEffectInstance(ModEffects.COMFORT, 3600, 0), 1.0f)
                                 .build());
     }
 
-    private static FabricItemSettings food_special(Item remainder, StatusEffect effect, int duration, int amplifier, int hunger, float saturation) {
-        return new FabricItemSettings().recipeRemainder(remainder)
-                .food(new FoodComponent.Builder().hunger(hunger)
+    private static Item.Settings food_special(Item remainder, StatusEffects effect, int duration, int amplifier, int nutrition, float saturation) {
+        return new Item.Settings().recipeRemainder(remainder)
+                .food(new FoodComponent.Builder().nutrition(nutrition)
                         .saturationModifier(saturation)
+                        // Errors here!
                         .statusEffect(new StatusEffectInstance(effect, duration, amplifier), 1.0f)
                         .build());
     }
 
 
-    private static FabricItemSettings basic() {
-        return new FabricItemSettings();
+    private static Item.Settings basic() {
+        return new Item.Settings();
     }
 }
