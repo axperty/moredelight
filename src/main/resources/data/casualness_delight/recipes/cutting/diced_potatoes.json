@@ -2,7 +2,9 @@
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",
-      "values": ["casualness_delight"]
+      "values": [
+        "casualness_delight"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
@@ -11,13 +13,13 @@
       "item": "casualness_delight:potato_slice"
     }
   ],
-  "tool": {
-    "tag": "c:tools/knives"
-  },
   "result": [
     {
-      "item": "moredelight:diced_potatoes",
-      "count": 2
+      "count": 2,
+      "item": "moredelight:diced_potatoes"
     }
-  ]
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
 }

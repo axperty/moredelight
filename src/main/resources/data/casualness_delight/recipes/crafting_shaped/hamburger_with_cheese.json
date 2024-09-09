@@ -2,7 +2,9 @@
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",
-      "values": ["casualness_delight"]
+      "values": [
+        "casualness_delight"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -18,6 +20,7 @@
     }
   ],
   "result": {
+    "count": 1,
     "item": "moredelight:hamburger_with_cheese"
   }
 }

@@ -1,13 +1,6 @@
 {
-  "replace": false,
   "values": [
-    {
-      "id": "moredelight:bread_slice",
-      "required": false
-    },
-    {
-      "id": "moredelight:toast",
-      "required": false
-    }
+    "moredelight:bread_slice",
+    "moredelight:toast"
   ]
 }

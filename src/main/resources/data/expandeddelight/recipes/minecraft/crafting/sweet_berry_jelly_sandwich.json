@@ -2,7 +2,9 @@
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",
-      "values": ["expandeddelight"]
+      "values": [
+        "expandeddelight"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -22,6 +24,7 @@
     }
   ],
   "result": {
+    "count": 1,
     "item": "expandeddelight:sweet_berry_jelly_sandwich"
   }
 }

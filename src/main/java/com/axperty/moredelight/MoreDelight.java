@@ -1,7 +1,7 @@
 package com.axperty.moredelight;
 
-import com.axperty.moredelight.item.ItemList;
-import com.axperty.moredelight.registry.*;
+import com.axperty.moredelight.item.ModItemList;
+import com.axperty.moredelight.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -20,10 +20,10 @@ public class MoreDelight implements ModInitializer {
     @Override
     public void onInitialize() {
         Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
-                .displayName(Text.translatable("More Delight"))
-                .icon(() -> new ItemStack(ItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO))
+                .displayName(Text.translatable("itemGroup.moredelight"))
+                .icon(() -> new ItemStack(ModItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO))
                 .build());
 
-        ItemRegistry.registerItems();
+        ModItems.registerItems();
     }
 }

@@ -2,7 +2,9 @@
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",
-      "values": ["nutritious-feast"]
+      "values": [
+        "nutritious-feast"
+      ]
     }
   ],
   "parent": "minecraft:recipes/root",
