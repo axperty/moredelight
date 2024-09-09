@@ -2,7 +2,7 @@ package com.axperty.moredelight.item;
 
 import net.minecraft.item.Item;
 
-public class ItemList {
+public class ModItemList {
     public static Item WOODEN_KNIFE;
 
     public static Item STONE_KNIFE;
