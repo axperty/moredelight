@@ -197,7 +197,7 @@ public class ModItems {
     public static final DeferredItem<Item> TOAST = ITEMS.register("toast",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(2)
-                    .saturationModifier(0.4f) // before: 0.5f reduced 33%
+                    .saturationModifier(0.4f)
                     .build())));
 
     public static final DeferredItem<Item> TOAST_WITH_EGG = ITEMS.register("toast_with_egg",

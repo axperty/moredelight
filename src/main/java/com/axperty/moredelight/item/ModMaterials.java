@@ -1,8 +1,8 @@
 package com.axperty.moredelight.item;
 
 import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
@@ -29,7 +29,7 @@ public class ModMaterials {
 
         @Override
         public @NotNull TagKey<Block> getIncorrectBlocksForDrops() {
-            return BlockTags.INCORRECT_FOR_WOODEN_TOOL;
+            return BlockTags.INCORRECT_FOR_STONE_TOOL;
         }
 
         @Override
@@ -39,7 +39,7 @@ public class ModMaterials {
 
         @Override
         public @NotNull Ingredient getRepairIngredient() {
-            return Ingredient.of(ItemTags.PLANKS);
+            return Ingredient.of(Items.CHERRY_PLANKS, Items.BIRCH_PLANKS, Items.BAMBOO_PLANKS, Items.ACACIA_PLANKS, Items.CRIMSON_PLANKS, Items.DARK_OAK_PLANKS, Items.JUNGLE_PLANKS, Items.MANGROVE_PLANKS, Items.OAK_PLANKS, Items.SPRUCE_PLANKS, Items.WARPED_PLANKS);
         }
     };
 
@@ -72,7 +72,7 @@ public class ModMaterials {
 
         @Override
         public @NotNull Ingredient getRepairIngredient() {
-            return Ingredient.of(ItemTags.STONE_BRICKS);
+            return Ingredient.of(Items.COBBLESTONE, Items.BLACKSTONE, Items.COBBLED_DEEPSLATE);
         }
     };
 }
