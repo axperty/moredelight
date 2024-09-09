@@ -5,13 +5,13 @@
       "tag": "forge:bread/wheat"
     }
   ],
-  "tool": {
-    "tag": "forge:tools/knives"
-  },
   "result": [
     {
-      "item": "moredelight:bread_slice",
-      "count": 4
+      "count": 4,
+      "item": "moredelight:bread_slice"
     }
-  ]
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
 }

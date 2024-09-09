@@ -1,4 +1,4 @@
-package com.axperty.moredelight.registry;
+package com.axperty.moredelight.item;
 
 import com.axperty.moredelight.MoreDelight;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -16,22 +16,22 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 import static vectorwing.farmersdelight.common.registry.ModItems.bowlFoodItem;
 import static vectorwing.farmersdelight.common.registry.ModItems.foodItem;
 
-public class ItemRegistry {
+public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MoreDelight.MODID);
 
     public static final RegistryObject<Item> WOODEN_KNIFE = ITEMS.register("wooden_knife",
             () -> new KnifeItem(
-                    MaterialRegistry.WOOD,
+                    ModMaterials.WOOD,
                     0,
-                    -2.0F,
+                    -1.8F,
                     new Item.Properties()
             ));
 
     public static final RegistryObject<Item> STONE_KNIFE = ITEMS.register("stone_knife",
             () -> new KnifeItem(
-                    MaterialRegistry.STONE,
+                    ModMaterials.STONE,
                     0,
-                    -2.0F,
+                    -1.8F,
                     new Item.Properties()
             ));
 

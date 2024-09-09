@@ -18,8 +18,8 @@
         "processingTime": 30,
         "results": [
           {
-            "item": "moredelight:bread_slice",
-            "count": 4
+            "count": 4,
+            "item": "moredelight:bread_slice"
           }
         ]
       }

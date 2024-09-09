@@ -1,5 +1,7 @@
 {
   "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
   "ingredients": [
       {
         "tag": "forge:milk"
@@ -13,11 +15,7 @@
     ],
   "recipe_book_tab": "meals",
   "result": {
+    "count": 1,
     "item": "moredelight:mashed_potatoes"
-  },
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "cookingtime": 400,
-  "experience": 1.0
+  }
 }

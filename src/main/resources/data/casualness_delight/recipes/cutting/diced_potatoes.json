@@ -11,13 +11,13 @@
       "item": "casualness_delight:potato_slice"
     }
   ],
-  "tool": {
-    "tag": "forge:tools/knives"
-  },
   "result": [
     {
-      "item": "moredelight:diced_potatoes",
-      "count": 2
+      "count": 2,
+      "item": "moredelight:diced_potatoes"
     }
-  ]
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
 }
