@@ -3,25 +3,25 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "c:foods/breads"
+      "tag": "c:foods/bread"
     },
     {
       "item": "farmersdelight:beef_patty"
     },
     {
-      "tag": "c:salad_ingredients"
+      "tag": "c:foods/leafy_green"
     },
     {
-      "tag": "c:foods/vegetables/tomato"
+      "tag": "c:foods/tomato"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_bacon"
+      "tag": "c:foods/cooked_bacon"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_eggs"
+      "tag": "c:foods/cooked_egg"
     },
     {
-      "tag": "c:foods/vegetables/onion"
+      "tag": "c:foods/onion"
     }
   ],
   "result": {

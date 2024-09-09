@@ -2,14 +2,14 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "c:foods/breads"
+      "tag": "c:foods/bread"
     }
   ],
   "result": [
     {
       "item": {
         "count": 4,
-        "id": "moredelight:diced_potatoes"
+        "id": "moredelight:bread_slice"
       }
     }
   ],

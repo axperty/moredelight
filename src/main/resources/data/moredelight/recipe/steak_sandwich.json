@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "c:foods/breads"
+      "tag": "c:foods/bread"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_beef"
+      "tag": "c:foods/cooked_beef"
     },
     {
-      "tag": "c:salad_ingredients"
+      "tag": "c:foods/leafy_green"
     }
   ],
   "result": {

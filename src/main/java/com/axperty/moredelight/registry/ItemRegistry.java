@@ -12,7 +12,6 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
-import net.minecraft.stat.Stat;
 import net.minecraft.util.Identifier;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
@@ -20,9 +19,10 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 public class ItemRegistry {
 
     public static void registerItems() {
-        ItemList.WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, new Item.Settings()));
 
-        ItemList.STONE_KNIFE = knife("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, new Item.Settings()));
+        ItemList.WOODEN_KNIFE = item("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(MaterialRegistry.WOOD_MATERIAL, .5f, -1.8F))));
+
+        ItemList.STONE_KNIFE = item("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(MaterialRegistry.WOOD_MATERIAL, 1.1f, -1.8F))));
 
         ItemList.DICED_POTATOES = item("diced_potatoes", new Item(food(null, 2, .2f)));
 
@@ -86,7 +86,7 @@ public class ItemRegistry {
             ItemList.TOAST_WITH_BLUEBERRIES = item("toast_with_blueberries", new Item(food(null, 5, .5f)));
         }
 
-        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(foodEffect(null, StatusEffects.POISON, 100, 0, 5, .5f)));
+        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(foodEffect(null, StatusEffects.GLOWING, 100, 0, 5, .5f)));
 
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, .5f)));
 
@@ -99,18 +99,14 @@ public class ItemRegistry {
         }
     }
 
-    private static Item knife(String name, Item item) {
-        ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
-        return Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name), item);
-    }
-
     private static Item item(String name, Item item) {
         ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
         return Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name), item);
     }
 
     private static Item.Settings food(Item remainder, int nutrition, float saturation) {
-        return new Item.Settings().recipeRemainder(remainder)
+        return new Item.Settings()
+                .recipeRemainder(remainder)
                 .food(new FoodComponent.Builder()
                         .nutrition(nutrition)
                         .saturationModifier(saturation)
@@ -118,7 +114,8 @@ public class ItemRegistry {
     }
 
     private static Item.Settings foodEffect(Item remainder, RegistryEntry<StatusEffect> effect, int duration, int amplifier, int nutrition, float saturation) {
-        return new Item.Settings().recipeRemainder(remainder)
+        return new Item.Settings()
+                .recipeRemainder(remainder)
                 .food(new FoodComponent.Builder()
                         .nutrition(nutrition)
                         .saturationModifier(saturation)
@@ -127,7 +124,9 @@ public class ItemRegistry {
     }
 
     private static Item.Settings meal(Item remainder, int nutrition, float saturation) {
-        return new Item.Settings().recipeRemainder(remainder).maxCount(16)
+        return new Item.Settings()
+                .recipeRemainder(remainder)
+                .maxCount(16)
                 .food(new FoodComponent.Builder()
                         .nutrition(nutrition)
                         .saturationModifier(saturation)
@@ -136,15 +135,13 @@ public class ItemRegistry {
     }
 
     private static Item.Settings stew(int nutrition, float saturation) {
-        return new Item.Settings().recipeRemainder(Items.BOWL).maxCount(16)
+        return new Item.Settings()
+                .recipeRemainder(Items.BOWL)
+                .maxCount(16)
                 .food(new FoodComponent.Builder()
                         .nutrition(nutrition)
                         .saturationModifier(saturation)
                         .statusEffect(new StatusEffectInstance(ModEffects.COMFORT, 3600, 0), 1.0f)
                         .build());
-    }
-
-    private static Item.Settings basic() {
-        return new Item.Settings();
     }
 }

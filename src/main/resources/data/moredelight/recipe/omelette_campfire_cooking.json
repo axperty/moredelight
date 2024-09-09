@@ -4,7 +4,7 @@
   "cookingtime": 600,
   "experience": 0.35,
   "ingredient": {
-    "tag": "c:foods/cooked_meats/cooked_eggs"
+    "tag": "c:foods/cooked_egg"
   },
   "result": {
     "count": 1,

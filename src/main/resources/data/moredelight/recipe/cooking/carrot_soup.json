@@ -4,13 +4,13 @@
   "experience": 1.0,
   "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "c:foods/milk"
       },
       {
-        "tag": "c:foods/vegetables/carrot"
+        "item": "minecraft:carrot"
       },
       {
-        "tag": "c:foods/vegetables/carrot"
+        "item": "minecraft:carrot"
       }
   ],
   "recipe_book_tab": "meals",

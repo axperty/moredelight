@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "c:foods/breads"
+      "tag": "c:foods/bread"
     },
     {
       "item": "minecraft:cooked_porkchop"
     },
     {
-      "tag": "c:salad_ingredients"
+      "tag": "c:foods/leafy_green"
     }
   ],
   "result": {

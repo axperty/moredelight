@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "c:foods/cooked_meats/cooked_eggs"
+      "tag": "c:foods/cooked_egg"
     },
     {
       "item": "moredelight:toast"

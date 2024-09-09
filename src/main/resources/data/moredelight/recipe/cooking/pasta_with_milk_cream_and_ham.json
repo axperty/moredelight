@@ -4,16 +4,16 @@
   "experience": 1.0,
   "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "c:foods/milk"
       },
       {
-        "tag": "c:foods/pastas"
+        "tag": "c:foods/pasta"
       },
       {
         "item": "farmersdelight:ham"
       },
       {
-        "tag": "c:foods/vegetables/onion"
+        "tag": "c:foods/onion"
       }
     ],
   "recipe_book_tab": "meals",

@@ -4,13 +4,13 @@
   "experience": 1.0,
   "ingredients": [
       {
-        "tag": "c:milks"
+        "tag": "c:foods/milk"
       },
       {
-        "tag": "c:grains/rice"
+        "tag": "c:crops/rice"
       },
       {
-        "tag": "c:foods/raw_meats/raw_beef"
+        "tag": "c:foods/raw_beef"
       }
     ],
   "recipe_book_tab": "meals",

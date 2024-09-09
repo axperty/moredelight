@@ -12,57 +12,55 @@ import java.util.function.Supplier;
 public enum MaterialRegistry implements ToolMaterial {
 
     // Wood Material
-    WOOD_MATERIAL(3, 59, 8.0F, .7F, 10, () -> Ingredient.ofItems(Items.OAK_WOOD)),
+    WOOD_MATERIAL(BlockTags.INCORRECT_FOR_STONE_TOOL, 59, 8.0F, .7F, 10,
+            () -> Ingredient.ofItems(Items.CHERRY_PLANKS, Items.BIRCH_PLANKS, Items.BAMBOO_PLANKS, Items.ACACIA_PLANKS, Items.CRIMSON_PLANKS, Items.DARK_OAK_PLANKS, Items.JUNGLE_PLANKS, Items.MANGROVE_PLANKS, Items.OAK_PLANKS, Items.SPRUCE_PLANKS, Items.WARPED_PLANKS)),
 
     // Stone Material
-    STONE_MATERIAL(3, 131, 8, 1.3F, 10, () -> Ingredient.ofItems(Items.COBBLESTONE));
+    STONE_MATERIAL(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 131, 8.0F, 1.3F, 10,
+            () -> Ingredient.ofItems(Items.COBBLESTONE, Items.BLACKSTONE, Items.COBBLED_DEEPSLATE));
 
-    private final int miningLevel;
-    private final int durability;
-    private final float blockBreakSpeed;
+    private final TagKey<Block> inverseTag;
+    private final int itemDurability;
+    private final float miningSpeed;
     private final float attackDamage;
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    MaterialRegistry(int miningLevel, int durability, float blockBreakSpeed, float attackDamage, int enchantability, Supplier repairIngredient) {
-        this.miningLevel = miningLevel;
-        this.durability = durability;
-        this.blockBreakSpeed = blockBreakSpeed;
+    MaterialRegistry(TagKey<Block> inverseTag, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+        this.inverseTag = inverseTag;
+        this.itemDurability = itemDurability;
+        this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
         this.enchantability = enchantability;
         this.repairIngredient = repairIngredient;
     }
 
+    @Override
     public int getDurability() {
-        return this.durability;
+        return this.itemDurability;
     }
 
+    @Override
     public float getMiningSpeedMultiplier() {
-        return this.blockBreakSpeed;
+        return this.miningSpeed;
     }
 
+    @Override
     public float getAttackDamage() {
         return this.attackDamage;
     }
 
-    //
-    //
-    // Careful with this one! Still needs some testing.
-    //
-    //
     @Override
     public TagKey<Block> getInverseTag() {
-        return BlockTags.AIR;
+        return this.inverseTag;
     }
 
-    public int getMiningLevel() {
-        return this.miningLevel;
-    }
-
+    @Override
     public int getEnchantability() {
         return this.enchantability;
     }
 
+    @Override
     public Ingredient getRepairIngredient() {
         return this.repairIngredient.get();
     }

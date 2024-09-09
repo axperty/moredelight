@@ -6,16 +6,16 @@
       "item": "minecraft:bowl"
     },
     {
-      "tag": "c:salad_ingredients"
+      "tag": "c:foods/leafy_green"
     },
     {
-      "tag": "c:foods/vegetables/tomato"
+      "tag": "c:foods/tomato"
     },
     {
-      "tag": "c:foods/cooked_meats/cooked_chicken"
+      "tag": "c:foods/cooked_chicken"
     },
     {
-      "tag": "c:foods/vegetables/onion"
+      "tag": "c:foods/onion"
     }
   ],
   "result": {
