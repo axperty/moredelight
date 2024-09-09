@@ -14,8 +14,8 @@
   "processingTime":30,
   "results":[
     {
-      "item":"moredelight:bread_slice",
-      "count": 4
+      "count": 4,
+      "id":"moredelight:bread_slice"
     }
   ]
 }

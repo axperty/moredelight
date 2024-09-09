@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+      {
+        "tag": "c:milks"
+      },
+      {
+        "tag": "c:foods/vegetables/carrot"
+      },
+      {
+        "tag": "c:foods/vegetables/carrot"
+      }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "moredelight:carrot_soup"
+  }
+}

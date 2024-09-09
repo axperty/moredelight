@@ -14,8 +14,8 @@
   "processingTime":40,
   "results":[
     {
-      "item":"moredelight:diced_potatoes",
-      "count": 2
+      "count": 2,
+      "id":"moredelight:diced_potatoes"
     }
   ]
 }

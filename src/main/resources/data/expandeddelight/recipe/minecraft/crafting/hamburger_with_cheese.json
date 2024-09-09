@@ -2,10 +2,13 @@
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",
-      "values": ["casualness_delight"]
+      "values": [
+        "expandeddelight"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "tag": "c:foods/breads"
@@ -14,7 +17,7 @@
       "item": "farmersdelight:beef_patty"
     },
     {
-      "item": "casualness_delight:cheese_wheel_slice"
+      "item": "expandeddelight:cheese_slice"
     }
   ],
   "result": {

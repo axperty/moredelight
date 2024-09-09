@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 
 public class MoreDelight implements ModInitializer {
     public static final String MOD_ID = "moredelight";
-    public static final RegistryKey<ItemGroup> GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(MOD_ID, "group"));
+    public static final RegistryKey<ItemGroup> GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(MOD_ID, "group"));
 
     @Override
     public void onInitialize() {

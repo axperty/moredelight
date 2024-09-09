@@ -11,6 +11,8 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.stat.Stat;
 import net.minecraft.util.Identifier;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
@@ -38,11 +40,11 @@ public class ItemRegistry {
 
         ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(Items.BOWL, 10, .75f)));
 
-        ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(food_special(Items.BOWL, (StatusEffect) StatusEffects.SPEED, 200, 0, 10, .75f).maxCount(16)));
+        ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(foodEffect(Items.BOWL, StatusEffects.SPEED, 200, 0, 10, .75f).maxCount(16)));
 
-        ItemList.COOKED_DICED_POTATOES_WITH_BEEF = item("cooked_diced_potatoes_with_beef", new Item(food_special(Items.BOWL, (StatusEffect) StatusEffects.STRENGTH, 200, 0,10, .75f).maxCount(16)));
+        ItemList.COOKED_DICED_POTATOES_WITH_BEEF = item("cooked_diced_potatoes_with_beef", new Item(foodEffect(Items.BOWL, StatusEffects.STRENGTH, 200, 0,10, .75f).maxCount(16)));
 
-        ItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = item("cooked_diced_potatoes_with_porkchop", new Item(food_special(Items.BOWL, (StatusEffect) StatusEffects.RESISTANCE, 200, 0,10, .75f).maxCount(16)));
+        ItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = item("cooked_diced_potatoes_with_porkchop", new Item(foodEffect(Items.BOWL, StatusEffects.RESISTANCE, 200, 0,10, .75f).maxCount(16)));
 
         ItemList.CHICKEN_SALAD = item("chicken_salad", new Item(food(Items.BOWL,6, .6f).maxCount(16)));
 
@@ -84,7 +86,7 @@ public class ItemRegistry {
             ItemList.TOAST_WITH_BLUEBERRIES = item("toast_with_blueberries", new Item(food(null, 5, .5f)));
         }
 
-        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food_special(null, (StatusEffect) StatusEffects.GLOWING, 100, 0, 5, .5f)));
+        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(foodEffect(null, StatusEffects.POISON, 100, 0, 5, .5f)));
 
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, .5f)));
 
@@ -115,31 +117,32 @@ public class ItemRegistry {
                         .build());
     }
 
+    private static Item.Settings foodEffect(Item remainder, RegistryEntry<StatusEffect> effect, int duration, int amplifier, int nutrition, float saturation) {
+        return new Item.Settings().recipeRemainder(remainder)
+                .food(new FoodComponent.Builder()
+                        .nutrition(nutrition)
+                        .saturationModifier(saturation)
+                        .statusEffect(new StatusEffectInstance(effect, duration, amplifier), 1.0f)
+                        .build());
+    }
+
     private static Item.Settings meal(Item remainder, int nutrition, float saturation) {
         return new Item.Settings().recipeRemainder(remainder).maxCount(16)
-                .food(new FoodComponent.Builder().nutrition(nutrition)
+                .food(new FoodComponent.Builder()
+                        .nutrition(nutrition)
                         .saturationModifier(saturation)
                         .statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1.0f)
                         .build());
     }
 
     private static Item.Settings stew(int nutrition, float saturation) {
-                return new Item.Settings().recipeRemainder(Items.BOWL).maxCount(16)
-                        .food(new FoodComponent.Builder().nutrition(nutrition)
-                                .saturationModifier(saturation)
-                                .statusEffect(new StatusEffectInstance(ModEffects.COMFORT, 3600, 0), 1.0f)
-                                .build());
-    }
-
-    private static Item.Settings food_special(Item remainder, StatusEffects effect, int duration, int amplifier, int nutrition, float saturation) {
-        return new Item.Settings().recipeRemainder(remainder)
-                .food(new FoodComponent.Builder().nutrition(nutrition)
+        return new Item.Settings().recipeRemainder(Items.BOWL).maxCount(16)
+                .food(new FoodComponent.Builder()
+                        .nutrition(nutrition)
                         .saturationModifier(saturation)
-                        // Errors here!
-                        .statusEffect(new StatusEffectInstance(effect, duration, amplifier), 1.0f)
+                        .statusEffect(new StatusEffectInstance(ModEffects.COMFORT, 3600, 0), 1.0f)
                         .build());
     }
-
 
     private static Item.Settings basic() {
         return new Item.Settings();

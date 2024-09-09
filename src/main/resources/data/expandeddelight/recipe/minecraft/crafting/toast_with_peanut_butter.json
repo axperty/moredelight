@@ -2,13 +2,16 @@
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",
-      "values": ["casualness_delight"]
+      "values": [
+        "expandeddelight"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
-      "item": "casualness_delight:cheese_wheel_slice"
+      "item": "expandeddelight:peanut_butter"
     },
     {
       "item": "moredelight:toast"
@@ -16,6 +19,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "moredelight:toast_with_cheese"
+    "id": "moredelight:toast_with_peanut_butter"
   }
 }

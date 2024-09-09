@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+      {
+        "tag": "c:milks"
+      },
+      {
+        "tag": "c:foods/pastas"
+      },
+      {
+        "item": "farmersdelight:ham"
+      },
+      {
+        "tag": "c:foods/vegetables/onion"
+      }
+    ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "moredelight:pasta_with_milk_cream_and_ham"
+  }
+}
