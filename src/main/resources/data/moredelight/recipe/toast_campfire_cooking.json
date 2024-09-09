@@ -7,6 +7,7 @@
     "item": "moredelight:bread_slice"
   },
   "result": {
+    "count": 1,
     "id": "moredelight:toast"
   }
 }

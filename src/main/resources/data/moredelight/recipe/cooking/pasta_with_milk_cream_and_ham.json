@@ -1,9 +1,5 @@
 {
   "type": "farmersdelight:cooking",
-  "container": {
-    "count": 1,
-    "id": "minecraft:bowl"
-  },
   "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [
@@ -22,6 +18,7 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
+    "count": 1,
     "id": "moredelight:pasta_with_milk_cream_and_ham"
   }
 }

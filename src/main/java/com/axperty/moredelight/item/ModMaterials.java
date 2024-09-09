@@ -1,4 +1,4 @@
-package com.axperty.moredelight.registry;
+package com.axperty.moredelight.item;
 
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -8,12 +8,10 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
 import org.jetbrains.annotations.NotNull;
 
-public class MaterialRegistry {
+public class ModMaterials {
 
-    // Wood Tier
     public static final Tier WOOD = new Tier()
     {
-        // These numbers have to be adjusted.
         @Override
         public int getUses() {
             return 59;
@@ -45,11 +43,8 @@ public class MaterialRegistry {
         }
     };
 
-    // Stone Tier
-
     public static final Tier STONE = new Tier()
     {
-        // These numbers have to be adjusted.
         @Override
         public int getUses() {
             return 131;
