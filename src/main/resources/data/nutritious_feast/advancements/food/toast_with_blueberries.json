@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "nutritious_feast"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+          "has_blueberries": {
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "nutritious_feast:blueberries"
+                  ]
+                }
+              ]
+            },
+            "trigger": "minecraft:inventory_changed"
+          },
+          "has_the_recipe": {
+            "conditions": {
+              "recipe": "nutritious_feast:toast_with_blueberries"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+          }
+        },
+        "requirements": [
+          [
+            "has_blueberries",
+            "has_the_recipe"
+          ]
+        ],
+        "rewards": {
+          "recipes": [
+            "nutritious_feast:toast_with_blueberries"
+          ]
+        },
+        "sends_telemetry_event": false
+      }
+    }
+  ]
+}

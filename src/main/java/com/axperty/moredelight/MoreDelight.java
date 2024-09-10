@@ -20,10 +20,8 @@ public class MoreDelight {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public MoreDelight() {
-        System.out.println("[More Delight Forge]: Registering items...");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModTags.register();
         ModItems.register(modEventBus);
-        System.out.println("[More Delight Forge]: Items registered successfully!");
     }
 }

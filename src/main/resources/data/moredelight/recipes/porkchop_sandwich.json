@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "tag": "forge:salad_ingredients/cabbage"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "moredelight:porkchop_sandwich"
+  }
+}

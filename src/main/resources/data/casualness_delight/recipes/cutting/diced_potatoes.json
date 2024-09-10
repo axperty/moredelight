@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "casualness_delight"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "casualness_delight:potato_slice"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "moredelight:diced_potatoes"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

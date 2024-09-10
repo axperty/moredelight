@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:rice",
+              "minecraft:milk_bucket",
+              "farmersdelight:milk_bottle",
+              "minecraft:cooked_chicken"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "moredelight:cooking/cooked_rice_with_milk_cream_and_chicken_cuts"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_any_ingredient",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "moredelight:cooking/cooked_rice_with_milk_cream_and_chicken_cuts"
+    ]
+  },
+  "sends_telemetry_event": false
+}

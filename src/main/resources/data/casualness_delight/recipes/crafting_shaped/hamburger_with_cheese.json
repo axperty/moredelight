@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "casualness_delight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "casualness_delight:cheese_wheel_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "moredelight:hamburger_with_cheese"
+  }
+}

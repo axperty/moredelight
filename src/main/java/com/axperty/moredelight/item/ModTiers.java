@@ -8,8 +8,8 @@ public class ModTiers {
     public static final ForgeTier WOOD = new ForgeTier(
             4,
             59,
-            1,
-            0.7f,
+            8f,
+            1.2f,
             10,
             ModTags.NEEDS_EXAMPLE_TOOL,
             () -> Ingredient.of(Items.BIRCH_PLANKS, Items.ACACIA_PLANKS, Items.CRIMSON_PLANKS, Items.DARK_OAK_PLANKS, Items.JUNGLE_PLANKS, Items.MANGROVE_PLANKS, Items.OAK_PLANKS, Items.SPRUCE_PLANKS, Items.WARPED_PLANKS)
@@ -18,8 +18,8 @@ public class ModTiers {
     public static final ForgeTier STONE = new ForgeTier(
             3,
             131,
-            1,
-            1.3f,
+            8f,
+            1.8f,
             10,
             ModTags.NEEDS_EXAMPLE_TOOL,
             () -> Ingredient.of(Items.COBBLESTONE, Items.BLACKSTONE, Items.COBBLED_DEEPSLATE)

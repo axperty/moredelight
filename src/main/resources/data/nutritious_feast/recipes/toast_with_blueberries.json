@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "nutritious_feast"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nutritious_feast:blueberries"
+    },
+    {
+      "item": "moredelight:toast"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "moredelight:toast_with_blueberries"
+  }
+}

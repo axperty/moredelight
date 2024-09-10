@@ -1,0 +1,48 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "casualness_delight"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+          "has_beef_patty": {
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "farmersdelight:beef_patty"
+                  ]
+                }
+              ]
+            },
+            "trigger": "minecraft:inventory_changed"
+          },
+          "has_the_recipe": {
+            "conditions": {
+              "recipe": "casualness_delight:crafting_shaped/hamburger_with_cheese"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+          }
+        },
+        "requirements": [
+          [
+            "has_beef_patty",
+            "has_the_recipe"
+          ]
+        ],
+        "rewards": {
+          "recipes": [
+            "casualness_delight:crafting_shaped/hamburger_with_cheese"
+          ]
+        },
+        "sends_telemetry_event": false
+      }
+    }
+  ]
+}

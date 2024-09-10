@@ -32,15 +32,15 @@ public class ModItems {
             () -> new KnifeItem(
                     ModTiers.WOOD,
                     0,
-                    -2.0F,
+                    -1.8F,
                     new Item.Properties()
                             .tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
 
     public static final RegistryObject<Item> STONE_KNIFE = ITEMS.register("stone_knife",
             () -> new KnifeItem(
-                    ModTiers.WOOD,
+                    ModTiers.STONE,
                     0,
-                    -2.0F,
+                    -1.8F,
                     new Item.Properties()
                             .tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
 
@@ -51,16 +51,16 @@ public class ModItems {
                     .fast()
                     .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
 
-    public static final RegistryObject<Item> CHOCOLATE_POPSICLE = ITEMS.register("chocolate_popsicle",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(3)
-                    .saturationMod(0.2f)
-                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
-
     public static final RegistryObject<Item> OMELETTE = ITEMS.register("omelette",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(6)
                     .saturationMod(0.5f)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
+
+    public static final RegistryObject<Item> CHOCOLATE_POPSICLE = ITEMS.register("chocolate_popsicle",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(3)
+                    .saturationMod(0.2f)
                     .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
 
     public static final RegistryObject<Item> COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS = ITEMS.register("cooked_rice_with_milk_cream_and_chicken_cuts",
@@ -140,10 +140,46 @@ public class ModItems {
                     .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.SHORT_DURATION, 0), 1.0F)
                     .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB), true));
 
+    public static final RegistryObject<Item> SIMPLE_HAMBUGER = ITEMS.register("simple_hamburger",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(5)
+                    .saturationMod(0.4f)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
+
+    public static final RegistryObject<Item> HAMBURGER_WITH_CHEESE = !modLoaded("casualness_delight") ? null : ITEMS.register("hamburger_with_cheese",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(6)
+                    .saturationMod(0.6f)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
+
+    public static final RegistryObject<Item> HAMBURGER_WITH_EGG = ITEMS.register("hamburger_with_egg",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(7)
+                    .saturationMod(0.7f)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
+
+    public static final RegistryObject<Item> LOADED_HAMBURGER = ITEMS.register("loaded_hamburger",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(15)
+                    .saturationMod(1f)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
+
     public static final RegistryObject<Item> CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = ITEMS.register("chicken_sandwich_with_egg_and_tomato",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(11)
                     .saturationMod(0.9f)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
+
+    public static final RegistryObject<Item> STEAK_SANDWICH = ITEMS.register("steak_sandwich",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(7)
+                    .saturationMod(0.7f)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
+
+    public static final RegistryObject<Item> PORKCHOP_SANDWICH = ITEMS.register("porkchop_sandwich",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(7)
+                    .saturationMod(0.7f)
                     .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
 
     public static final RegistryObject<Item> EGG_WITH_BACON_SANDWICH = ITEMS.register("egg_with_bacon_sandwich",

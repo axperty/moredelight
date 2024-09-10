@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
   "type":"create:cutting",
   "ingredients":[
     {
@@ -8,8 +14,8 @@
   "processingTime":40,
   "results":[
     {
-      "item":"moredelight:diced_potatoes",
-      "count": 3
+      "count": 2,
+      "item":"moredelight:diced_potatoes"
     }
   ]
 }
