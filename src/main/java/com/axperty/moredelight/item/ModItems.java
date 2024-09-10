@@ -51,13 +51,33 @@ public class ModItems {
                     .fast()
                     .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
 
+    public static final RegistryObject<Item> CHOCOLATE_POPSICLE = ITEMS.register("chocolate_popsicle",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(3)
+                    .saturationMod(0.2f)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
+
     public static final RegistryObject<Item> OMELETTE = ITEMS.register("omelette",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(6)
                     .saturationMod(0.5f)
                     .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
 
+    public static final RegistryObject<Item> COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS = ITEMS.register("cooked_rice_with_milk_cream_and_chicken_cuts",
+            () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder())
+                    .nutrition(10)
+                    .saturationMod(0.75f)
+                    .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.SHORT_DURATION, 0), 1.0F)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB), true));
+
     public static final RegistryObject<Item> COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = ITEMS.register("cooked_rice_with_milk_cream_and_beef",
+            () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder())
+                    .nutrition(10)
+                    .saturationMod(0.75f)
+                    .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.SHORT_DURATION, 0), 1.0F)
+                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB), true));
+
+    public static final RegistryObject<Item> COOKED_RICE_WITH_MILK_CREAM_AND_PORKCHOP = ITEMS.register("cooked_rice_with_milk_cream_and_porkchop",
             () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder())
                     .nutrition(10)
                     .saturationMod(0.75f)
@@ -120,12 +140,6 @@ public class ModItems {
                     .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.SHORT_DURATION, 0), 1.0F)
                     .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB), true));
 
-    public static final RegistryObject<Item> CHOCOLATE_POPSICLE = ITEMS.register("chocolate_popsicle",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(3)
-                    .saturationMod(0.2f)
-                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
-
     public static final RegistryObject<Item> CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = ITEMS.register("chicken_sandwich_with_egg_and_tomato",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(11)
@@ -133,12 +147,6 @@ public class ModItems {
                     .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
 
     public static final RegistryObject<Item> EGG_WITH_BACON_SANDWICH = ITEMS.register("egg_with_bacon_sandwich",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(10)
-                    .saturationMod(0.8f)
-                    .build()).tab(ModCreativeModeTab.CREATIVE_MODE_TAB)));
-
-    public static final RegistryObject<Item> STEAK_WITH_EGG_SANDWICH = ITEMS.register("steak_with_egg_sandwich",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(10)
                     .saturationMod(0.8f)

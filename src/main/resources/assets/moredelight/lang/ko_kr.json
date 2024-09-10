@@ -1,4 +1,7 @@
 {
+  "moredelight.advancement.root": "More Delight",
+  "moredelight.advancement.root.desc": "더 맛있는 레시피를 만들 수 있습니다!",
+
   "item.moredelight.wooden_knife": "나무 칼",
   "item.moredelight.stone_knife": "돌 칼",
 
@@ -29,6 +32,16 @@
   "item.moredelight.toast_with_cheese": "치즈 토스트",
   "item.moredelight.chicken_salad": "닭고기 샐러드",
   "item.moredelight.toast_with_blueberries": "블루베리 토스트",
+
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "우유 크림과 닭고기 조각을 곁들인 밥",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "우유 크림과 돼지갈비를 곁들인 밥",
+  "item.moredelight.simple_hamburger": "간단한 햄버거",
+  "item.moredelight.hamburger_with_cheese": "치즈 햄버거",
+  "item.moredelight.hamburger_with_egg": "달걀 햄버거",
+  "item.moredelight.loaded_hamburger": "풍성한 햄버거",
+  "item.moredelight.steak_sandwich": "스테이크 샌드위치",
+  "item.moredelight.porkchop_sandwich": "돼지갈비 샌드위치",
+  "item.moredelight.toast_with_peanut_butter": "땅콩버터 토스트",
 
   "itemGroup.moredelight.title": "More Delight"
 }

@@ -1,4 +1,7 @@
 {
+  "moredelight.advancement.root": "More Delight",
+  "moredelight.advancement.root.desc": "Mais receitas deliciosas para fazer!",
+
   "item.moredelight.wooden_knife": "Facão de Madeira",
   "item.moredelight.stone_knife": "Facão de Pedra",
 
@@ -28,6 +31,16 @@
   "item.moredelight.toast_with_cheese": "Torrada com queijo",
   "item.moredelight.chicken_salad": "Salada de Frango",
   "item.moredelight.toast_with_blueberries": "Torrada com Mirtilos",
+
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Arroz cozido com creme de leite e pedaços de frango",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Arroz cozido com creme de leite e costeleta de porco",
+  "item.moredelight.simple_hamburger": "Hambúrguer simples",
+  "item.moredelight.hamburger_with_cheese": "Hambúrguer com queijo",
+  "item.moredelight.hamburger_with_egg": "Hambúrguer com ovo",
+  "item.moredelight.loaded_hamburger": "Hambúrguer completo",
+  "item.moredelight.steak_sandwich": "Sanduíche de bife",
+  "item.moredelight.porkchop_sandwich": "Sanduíche de costeleta de porco",
+  "item.moredelight.toast_with_peanut_butter": "Torrada com manteiga de amendoim",
 
   "itemGroup.moredelight.title": "More Delight"
 }

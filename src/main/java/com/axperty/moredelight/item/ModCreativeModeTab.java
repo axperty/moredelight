@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab CREATIVE_MODE_TAB = new CreativeModeTab("moredelight.title") {
       @Override
       public ItemStack makeIcon() {
-          return new ItemStack(ModItems.WOODEN_KNIFE.get());
+          return new ItemStack(ModItems.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO.get());
       }
     };
 }
