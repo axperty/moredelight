@@ -11,8 +11,6 @@ public class MoreDelight implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		System.out.println("[More Delight Fabric]: Registering items...");
 		ItemRegistry.registerModItems();
-		System.out.println("[More Delight Fabric]: Items registered successfully!");
 	}
 }

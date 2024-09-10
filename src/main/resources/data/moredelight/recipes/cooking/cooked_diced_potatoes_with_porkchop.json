@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+      {
+        "item": "minecraft:porkchop"
+      },
+      {
+        "tag": "c:sliced_potato"
+      },
+      {
+        "tag": "c:vegetables/onion"
+      }
+    ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "moredelight:cooked_diced_potatoes_with_porkchop"
+  }
+}

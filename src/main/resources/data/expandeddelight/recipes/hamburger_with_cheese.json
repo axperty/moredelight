@@ -3,21 +3,25 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "casualness_delight"
+        "expandeddelight"
       ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
-      "item": "casualness_delight:cheese_wheel_slice"
+      "tag": "c:bread"
     },
     {
-      "item": "moredelight:toast"
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "expandeddelight:cheese_slice"
     }
   ],
   "result": {
     "count": 1,
-    "item": "moredelight:toast_with_cheese"
+    "item": "moredelight:hamburger_with_cheese"
   }
 }

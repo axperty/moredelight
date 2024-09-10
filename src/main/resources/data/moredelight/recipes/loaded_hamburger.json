@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:vegetables/tomato"
+    },
+    {
+      "tag": "c:cooked_bacon"
+    },
+    {
+      "tag": "c:cooked_eggs"
+    },
+    {
+      "tag": "c:vegetables/onion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "moredelight:hamburger_with_egg"
+  }
+}

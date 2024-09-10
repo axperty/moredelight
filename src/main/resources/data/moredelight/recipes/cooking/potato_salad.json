@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+      {
+        "tag": "c:eggs"
+      },
+      {
+        "tag": "c:sliced_potato"
+      },
+      {
+        "tag": "c:vegetables/onion"
+      }
+    ],
+  "result": {
+    "count": 1,
+    "item": "moredelight:potato_salad"
+  }
+}

@@ -3,14 +3,15 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "casualness_delight"
+        "nutritious-feast"
       ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
-      "item": "casualness_delight:cheese_wheel_slice"
+      "item": "nutritious-feast:blueberries"
     },
     {
       "item": "moredelight:toast"
@@ -18,6 +19,6 @@
   ],
   "result": {
     "count": 1,
-    "item": "moredelight:toast_with_cheese"
+    "item": "moredelight:toast_with_blueberries"
   }
 }

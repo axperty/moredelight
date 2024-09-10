@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "tag": "c:cooked_eggs"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "moredelight:hamburger_with_egg"
+  }
+}

@@ -10,14 +10,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "casualness_delight:cheese_wheel_slice"
+      "tag": "c:bread"
     },
     {
-      "item": "moredelight:toast"
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "casualness_delight:cheese_wheel_slice"
     }
   ],
   "result": {
     "count": 1,
-    "item": "moredelight:toast_with_cheese"
+    "item": "moredelight:hamburger_with_cheese"
   }
 }

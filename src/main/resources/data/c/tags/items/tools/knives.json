@@ -1,13 +1,6 @@
 {
-  "replace": false,
   "values": [
-    {
-      "id": "moredelight:wooden_knife",
-      "required": false
-    },
-    {
-      "id": "moredelight:stone_knife",
-      "required": false
-    }
+    "moredelight:wooden_knife",
+    "moredelight:stone_knife"
   ]
 }

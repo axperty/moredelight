@@ -2,7 +2,9 @@
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",
-      "values": ["create"]
+      "values": [
+        "create"
+      ]
     }
   ],
   "type":"create:cutting",
@@ -14,8 +16,8 @@
   "processingTime":40,
   "results":[
     {
-      "item":"moredelight:diced_potatoes",
-      "count": 3
+      "count": 2,
+      "item":"moredelight:diced_potatoes"
     }
   ]
 }
