@@ -1,4 +1,4 @@
-package com.axperty.moredelight.materials;
+package com.axperty.moredelight.item;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;

@@ -1,4 +1,7 @@
 {
+  "moredelight.advancement.root": "More Delight",
+  "moredelight.advancement.root.desc": "Mehr köstliche Rezepte zum Zubereiten!"
+
   "item.moredelight.wooden_knife": "Holzmesser",
   "item.moredelight.stone_knife": "Steinmesser",
 
@@ -29,6 +32,16 @@
   "item.moredelight.toast_with_cheese": "Toast mit Käse",
   "item.moredelight.chicken_salad": "Hähnchensalat",
   "item.moredelight.toast_with_blueberries": "Toast mit Heidelbeeren",
+
+  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Gekochter Reis mit Milchcreme und Hühnerstücken",
+  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Gekochter Reis mit Milchcreme und Schweinekotelett",
+  "item.moredelight.simple_hamburger": "Einfacher Hamburger",
+  "item.moredelight.hamburger_with_cheese": "Hamburger mit Käse",
+  "item.moredelight.hamburger_with_egg": "Hamburger mit Ei",
+  "item.moredelight.loaded_hamburger": "Voll beladener Hamburger",
+  "item.moredelight.steak_sandwich": "Steaksandwich",
+  "item.moredelight.porkchop_sandwich": "Schweinekotelett-Sandwich",
+  "item.moredelight.toast_with_peanut_butter": "Toast mit Erdnussbutter",
 
   "itemGroup.moredelight.title": "More Delight"
 }

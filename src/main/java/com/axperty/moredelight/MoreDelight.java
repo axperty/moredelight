@@ -1,6 +1,6 @@
 package com.axperty.moredelight;
 
-import com.axperty.moredelight.item.ItemRegistry;
+import com.axperty.moredelight.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +11,6 @@ public class MoreDelight implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ItemRegistry.registerModItems();
+		ModItems.registerModItems();
 	}
 }

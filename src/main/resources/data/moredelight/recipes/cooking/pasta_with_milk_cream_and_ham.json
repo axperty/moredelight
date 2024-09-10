@@ -11,6 +11,9 @@
       },
       {
         "item": "farmersdelight:ham"
+      },
+      {
+        "tag": "c:vegetables/onion"
       }
     ],
   "recipe_book_tab": "meals",

@@ -1,19 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "moredelight",
-  "version": "${version}",
+  "version": "24.09.10-1.19-fabric",
   "name": "More Delight",
   "description": "An addon for Farmer's Delight that adds extra features to the base game.",
   "authors": [
     "Axperty"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/members/axperty/projects"
+    "homepage": "https://github.com/axperty/moredelight"
   },
-
   "license": "MIT License",
   "icon": "assets/moredelight/logo.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -26,5 +24,9 @@
     "minecraft": "~1.19",
     "java": ">=17",
     "farmersdelight": "*"
+  },
+  "suggests": {
+    "expandeddelight": "*",
+    "casualness_delight": "*"
   }
 }

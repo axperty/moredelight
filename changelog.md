@@ -1,30 +1,47 @@
-<p align="left"><img src="https://cdn.modrinth.com/data/znHQQtuU/images/6833d6b12f2605b2925a31261438c6a355903132.png" alt="More Delight">
+![More Delight](https://cdn.modrinth.com/data/znHQQtuU/images/6833d6b12f2605b2925a31261438c6a355903132.png)
 
-<h3>Recipe Overload Update: Patch 2</h3>
-<p><b>Summary:</b> This update improves recipe compatibility and flexibility, adjusts bread slicing, and refines sandwich crafting mechanics.</p>
-<hr/>
+## The Delicious Update
 
-<h3>✨ What's New:</h3>
-<ul>
-  <li>Recipes can now be made with ingredients from other mods.</li>
-</ul>
+**Summary:** This major update expands the hamburger and sandwich selection, along with many other gameplay changes.
 
-<h3>🍞 Bread Balancing:</h3>
-<ul>
-  <li><b>What:</b> Increased amount of bread slices when cutting bread from 2 slices to 4 slices, and removed the chance to get more bread slices when cutting bread.</li>
-  <li><b>Why:</b> This change was made to make crafting sandwiches more affordable for players. By getting more slices from each loaf, players won't need to use as many resources to make their favorite sandwiches.</li>
-</ul>
+***
 
-<h3>🥪 Sandwiches:</h3>
-<ul>
-  <li><b>What:</b> Sandwiches, like the Bacon Sandwich, Steak with Egg Sandwich, and Tomato Sandwich, can now be made with either a whole bread or two bread slices. Sandwiches that require more bread, like the Egg Sandwich, can only be made with a whole bread.</li>
-  <li><b>Why:</b> This change provides more flexibility when crafting simpler sandwiches while maintaining the recipe requirements for more complex ones.</li>
-</ul>
+### ✨ What's New:
 
-<h3>🛠️ Known Bugs:</h3>
-<ul>
-  <li>When trying to see the recipe for Diced Potatoes or Bread Slice in REI, Farmer's Delight [Fabric] causes the game to crash.</li>
-</ul>
-<hr/>
+- Added Cooked Rice with Milk Cream and Chicken Cuts.
+- Added Cooked Rice with Milk Cream and Porkchop.
+- Added Simple Burger.
+- Hamburger with Cheese (for Expanded Delight and Casualness Delight).
+- Added Hamburger with Egg.
+- Added Loaded Hamburger.
+- Added Steak Sandwich.
+- Added Porkchop Sandwich.
+- Added Toast with Peanut Butter (for Expanded Delight).
 
-<p>Your feedback is important to make improvements to this mod, submit your ideas <a href="https://forms.gle/jFshSk3QeH6pqM9E6">on this form</a> or report bugs on <a href="https://github.com/axperty/moredelight-fabric/issues">GitHub.</a></p>
+### ⚙️ Minor Changes:
+
+- Steak with egg sandwich has been replaced for steak sandwich.
+- Chicken salad now requires a bowl for crafting.
+- Pasta with milk cream and ham now requires onion for crafting.
+- Bread slices can now be placed in the furnace to make toasts.
+- Sandwiches can't be made with regular bread anymore, instead, two bread slices or toasts are required. This change doesn't affect the egg sandwich, chicken sandwich, and chicken sandwich with egg and tomato, as these items need regular bread.
+- Fried eggs can now be placed in the furnace or smoker to create omelettes.
+- Reduced experience gained when making toasts and omelettes.
+- Adjusted cooking times for toasts and omelettes.
+- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
+- When using the Casualness Delight mod, you can now obtain diced potatoes by cutting potato slices on the cutting board [#4.](https://github.com/axperty/moredelight/issues/4)
+- Improved texture for toast with egg.
+- Improved texture for the egg with bacon sandwich.
+- Improved texture for the chicken sandwich with egg and tomato.
+- Improved texture for cooked diced potatoes with beef.
+
+### 📝 Translations:
+
+- Improved translations for Russian, special thanks to [Korben.](https://github.com/mpustovoi)
+- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
+- Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements [here.](https://github.com/axperty/moredelight)
+
+***
+
+Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/moredelight)
+You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)

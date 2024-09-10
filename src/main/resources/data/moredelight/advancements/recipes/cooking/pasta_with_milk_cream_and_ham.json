@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:raw_pasta",
+              "farmersdelight:ham",
+              "minecraft:milk_bucket",
+              "farmersdelight:milk_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "moredelight:cooking/pasta_with_milk_cream_and_ham"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_any_ingredient",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "moredelight:cooking/pasta_with_milk_cream_and_ham"
+    ]
+  },
+  "sends_telemetry_event": false
+}
