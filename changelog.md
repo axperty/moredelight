@@ -1,4 +1,4 @@
-![More Delight](https://cdn.modrinth.com/data/znHQQtuU/images/6833d6b12f2605b2925a31261438c6a355903132.png)
+![More Delight](https://cdn.modrinth.com/data/znHQQtuU/images/8f550320a5d50408e5bfbafd9cf390f41d53a5a1.png)
 
 ## Minor Update
 
