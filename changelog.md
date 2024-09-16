@@ -21,6 +21,10 @@
   - Toast with Glow Berries.
 - Removed the animation from Toast with Glow Berries.
 
+### 🛠️ Bug Fixes:
+
+- Fixed "Invalid mod icon for icon source moredelight" console error when using Mod Menu.
+
 ***
 
 Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/moredelight)
