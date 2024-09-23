@@ -1,0 +1,33 @@
+{
+  "parent": "moredelight:main/root",
+  "criteria": {
+    "bread_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:bread_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "moredelight.advancement.bread_slice.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moredelight:bread_slice"
+    },
+    "title": {
+      "translate": "moredelight.advancement.bread_slice"
+    }
+  },
+  "requirements": [
+    [
+      "bread_slice"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

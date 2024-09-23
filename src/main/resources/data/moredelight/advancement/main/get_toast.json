@@ -1,0 +1,33 @@
+{
+  "parent": "moredelight:main/get_bread_slices",
+  "criteria": {
+    "toast": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:toast"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "moredelight.advancement.toast.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moredelight:toast"
+    },
+    "title": {
+      "translate": "moredelight.advancement.toast"
+    }
+  },
+  "requirements": [
+    [
+      "toast"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

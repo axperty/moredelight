@@ -1,0 +1,55 @@
+{
+  "parent": "moredelight:main/root",
+  "criteria": {
+    "cooked_diced_potatoes_with_chicken_cuts": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:cooked_diced_potatoes_with_chicken_cuts"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cooked_diced_potatoes_with_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:cooked_diced_potatoes_with_beef"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cooked_diced_potatoes_with_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:cooked_diced_potatoes_with_porkchop"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "moredelight.advancement.cooked_diced_potatoes_with.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moredelight:cooked_diced_potatoes_with_chicken_cuts"
+    },
+    "title": {
+      "translate": "moredelight.advancement.cooked_diced_potatoes_with"
+    }
+  },
+  "requirements": [
+    [
+      "cooked_diced_potatoes_with_chicken_cuts",
+      "cooked_diced_potatoes_with_beef",
+      "cooked_diced_potatoes_with_porkchop"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

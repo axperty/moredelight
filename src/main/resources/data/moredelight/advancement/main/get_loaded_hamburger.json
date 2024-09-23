@@ -1,0 +1,33 @@
+{
+  "parent": "moredelight:main/root",
+  "criteria": {
+    "loaded_hamburger": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:loaded_hamburger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "moredelight.advancement.loaded_hamburger.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moredelight:loaded_hamburger"
+    },
+    "title": {
+      "translate": "moredelight.advancement.loaded_hamburger"
+    }
+  },
+  "requirements": [
+    [
+      "loaded_hamburger"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

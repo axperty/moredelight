@@ -2,6 +2,9 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "More delicious recipes to make!",
 
+  "moredelight.advancement.get_loaded_burger": "The Big One",
+  "moredelight.advancement.get_loaded_burger.desc": "Get the biggest hamburger.",
+
   "item.moredelight.wooden_knife": "Wooden Knife",
   "item.moredelight.stone_knife": "Stone Knife",
 
@@ -41,6 +44,15 @@
   "item.moredelight.steak_sandwich": "Steak Sandwich",
   "item.moredelight.porkchop_sandwich": "Porkchop Sandwich",
   "item.moredelight.toast_with_peanut_butter": "Toast with Peanut Butter",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Title",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Description",
+
+  "moredelight.advancement.cooked_diced_potatoes_with": "Title",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Description",
+
+  "moredelight.advancement.loaded_hamburger": "Title",
+  "moredelight.advancement.loaded_hamburger.desc": "Description",
 
   "itemGroup.moredelight": "More Delight"
 }

@@ -8,17 +8,13 @@
 
 ### 🛠️ Minor Changes:
 
-- Adjusted hunger and saturation for all food items.
-- Added the nourishment effect to:
-    - Cooked Rice with Milk Cream and Chicken Cuts / Beef / Porkchop.
-    - Pasta with Milk Cream and Ham.
-- Added the regeneration effect to:
-    - Chicken Salad.
-    - Potato Salad.
-- Removed effects from:
-    - Cooked Diced Potatoes with Chicken Cuts / Beef / Porkchop.
-    - Toast with Glow Berries.
-- Removed the animation from Toast with Glow Berries.
+- Added custom advancements:
+  - [Advancement 1 Title]: [Advancement 1 Description]
+  - [Advancement 2 Title]: [Advancement 2 Description]
+  - [Advancement 3 Title]: [Advancement 3 Description]
+  - [Advancement 4 Title]: [Advancement 4 Description]
+  - [...]
+- The "Hunt and Gather" advancement from Farmer's Delight can now be unlocked if the player gets a wooden or stone knife.
 
 ***
 
