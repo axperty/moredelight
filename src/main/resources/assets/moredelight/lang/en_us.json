@@ -45,20 +45,23 @@
   "item.moredelight.porkchop_sandwich": "Porkchop Sandwich",
   "item.moredelight.toast_with_peanut_butter": "Toast with Peanut Butter",
 
-  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Title",
-  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Description",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Protein Powerhouse",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Make Ateneah's favorite sandwich",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Title",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Description",
+  "moredelight.advancement.cooked_diced_potatoes_with": "Potato Perfection",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Make cooked diced potatoes with chicken cuts, beef, or porkchop",
 
-  "moredelight.advancement.loaded_hamburger": "Title",
-  "moredelight.advancement.loaded_hamburger.desc": "Description",
+  "moredelight.advancement.cooked_rice_with": "From Grain to Gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Make cooked rice with milk cream and chicken cuts, beef, or porkchop",
 
-  "moredelight.advancement.bread_slice": "Bread Slices",
-  "moredelight.advancement.bread_slice.desc": "Cut bread on the cutting board to get bread slices",
+  "moredelight.advancement.loaded_hamburger": "Food Coma Achieved",
+  "moredelight.advancement.loaded_hamburger.desc": "Make the biggest hamburger",
 
-  "moredelight.advancement.toast": "Toasts",
-  "moredelight.advancement.toast.desc": "Put bread slices on a heat source to get toasts",
+  "moredelight.advancement.bread_slice": "From Loaf to Slice",
+  "moredelight.advancement.bread_slice.desc": "Cut bread on the cutting table and get bread slices",
+
+  "moredelight.advancement.toast": "From Slice to Crunch",
+  "moredelight.advancement.toast.desc": "Put bread slices on a heat source and get toasts",
 
   "itemGroup.moredelight": "More Delight"
 }
