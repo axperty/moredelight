@@ -2,28 +2,13 @@
 
 ## Minor Update
 
-**Summary:** This minor update makes small adjustments to food items.
+**Summary:** This minor update...
 
 ***
 
-### 🛠️ Minor Changes:
-
-- Adjusted hunger and saturation for all food items.
-- Added tooltips that display the effects of eating certain food items.
-- Added the nourishment effect to:
-    - Cooked Rice with Milk Cream and Chicken Cuts / Beef / Porkchop.
-    - Pasta with Milk Cream and Ham.
-- Added the regeneration effect to:
-    - Chicken Salad.
-    - Potato Salad.
-- Removed effects from:
-    - Cooked Diced Potatoes with Chicken Cuts / Beef / Porkchop.
-    - Toast with Glow Berries.
-- Removed the animation from Toast with Glow Berries.
-
 ### 🛠️ Bug Fixes:
 
-- Fixed "Invalid mod icon for icon source moredelight" console error when using Mod Menu.
+- Fixed a bug where after eating a meal wouldn't return the bowl item back.
 
 ***
 

@@ -12,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
+import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
@@ -23,78 +24,78 @@ public class ModItems {
 
         ModItemList.STONE_KNIFE = knife("stone_knife", new KnifeItem(ModMaterials.STONE_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(ModMaterials.WOOD_MATERIAL, 1.1f, -1.8F))));
 
-        ModItemList.DICED_POTATOES = food("diced_potatoes", null, 2, 0.4f, 64);
+        ModItemList.DICED_POTATOES = consumable("diced_potatoes", 2, 0.4f, 64, Items.BOWL);
 
-        ModItemList.CHOCOLATE_POPSICLE = food("chocolate_popsicle", null, 3, 0.2f, 64);
+        ModItemList.CHOCOLATE_POPSICLE = consumable("chocolate_popsicle", 3, 0.2f, 64, Items.BOWL);
 
-        ModItemList.OMELETTE = food("omelette", null, 6, 0.6f, 64);
+        ModItemList.OMELETTE = consumable("omelette", 6, 0.6f, 64, Items.BOWL);
 
-        ModItemList.COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS = foodEffect("cooked_rice_with_milk_cream_and_chicken_cuts", Items.BOWL, 14, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16);
+        ModItemList.COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS = consumableEffect("cooked_rice_with_milk_cream_and_chicken_cuts", 14, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
 
-        ModItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = foodEffect("cooked_rice_with_milk_cream_and_beef", Items.BOWL, 14, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16);
+        ModItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = consumableEffect("cooked_rice_with_milk_cream_and_beef", 14, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
 
-        ModItemList.COOKED_RICE_WITH_MILK_CREAM_AND_PORKCHOP = foodEffect("cooked_rice_with_milk_cream_and_porkchop", Items.BOWL, 14, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16);
+        ModItemList.COOKED_RICE_WITH_MILK_CREAM_AND_PORKCHOP = consumableEffect("cooked_rice_with_milk_cream_and_porkchop", 14, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
 
-        ModItemList.MASHED_POTATOES = food("mashed_potatoes", Items.BOWL, 12, 0.8f, 16);
+        ModItemList.MASHED_POTATOES = consumable("mashed_potatoes", 12, 0.8f, 16, Items.BOWL);
 
-        ModItemList.PASTA_WITH_MILK_CREAM_AND_HAM = foodEffect("pasta_with_milk_cream_and_ham", Items.BOWL, 12, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16);
+        ModItemList.PASTA_WITH_MILK_CREAM_AND_HAM = consumableEffect("pasta_with_milk_cream_and_ham", 12, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
 
-        ModItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = food("cooked_diced_potatoes_with_chicken_cuts", Items.BOWL, 10, 0.8f, 16);
+        ModItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = consumable("cooked_diced_potatoes_with_chicken_cuts", 10, 0.8f, 16, Items.BOWL);
 
-        ModItemList.COOKED_DICED_POTATOES_WITH_BEEF = food("cooked_diced_potatoes_with_beef", Items.BOWL, 10, 0.8f, 16);
+        ModItemList.COOKED_DICED_POTATOES_WITH_BEEF = consumable("cooked_diced_potatoes_with_beef", 10, 0.8f, 16, Items.BOWL);
 
-        ModItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = food("cooked_diced_potatoes_with_porkchop", Items.BOWL, 10, 0.8f, 16);
+        ModItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = consumable("cooked_diced_potatoes_with_porkchop", 10, 0.8f, 16, Items.BOWL);
 
-        ModItemList.CHICKEN_SALAD = foodEffect("chicken_salad", Items.BOWL, 6, 0.6f, StatusEffects.REGENERATION, 100, 0, 16);
+        ModItemList.CHICKEN_SALAD = consumableEffect("chicken_salad", 6, 0.6f, StatusEffects.REGENERATION, 100, 0, 16, Items.BOWL);
 
-        ModItemList.POTATO_SALAD = foodEffect("potato_salad", Items.BOWL, 6, 0.6f, StatusEffects.REGENERATION, 100, 0, 16);
+        ModItemList.POTATO_SALAD = consumableEffect("potato_salad", 6, 0.6f, StatusEffects.REGENERATION, 100, 0, 16, Items.BOWL);
 
-        ModItemList.CARROT_SOUP = stew("carrot_soup", Items.BOWL, 12, 0.8f, ModEffects.COMFORT, 3600, 0);
+        ModItemList.CARROT_SOUP = consumableEffect("carrot_soup", 12, 0.8f, ModEffects.COMFORT, 3600, 0, 16, Items.BOWL);
 
-        ModItemList.SIMPLE_HAMBURGER = food("simple_hamburger",null, 8, 0.8f, 64);
+        ModItemList.SIMPLE_HAMBURGER = consumable("simple_hamburger", 8, 0.8f, 64, null);
 
         if (FabricLoader.getInstance().isModLoaded("expandeddelight") || FabricLoader.getInstance().isModLoaded("casualness_delight")) {
-            ModItemList.HAMBURGER_WITH_CHEESE = food("hamburger_with_cheese",null, 9, 0.8f, 64);
+            ModItemList.HAMBURGER_WITH_CHEESE = consumable("hamburger_with_cheese", 9, 0.8f, 64, null);
         }
 
-        ModItemList.HAMBURGER_WITH_EGG = food("hamburger_with_egg",null, 9, 0.8f, 64);
+        ModItemList.HAMBURGER_WITH_EGG = consumable("hamburger_with_egg", 9, 0.8f, 64, null);
 
-        ModItemList.LOADED_HAMBURGER = food("loaded_hamburger",null, 13, 0.8f, 64);
+        ModItemList.LOADED_HAMBURGER = consumable("loaded_hamburger", 13, 0.8f, 64, null);
 
-        ModItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = food("chicken_sandwich_with_egg_and_tomato",null, 11, 0.8f, 64);
+        ModItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = consumable("chicken_sandwich_with_egg_and_tomato", 11, 0.8f, 64, null);
 
-        ModItemList.STEAK_SANDWICH = food("steak_sandwich",null, 10, 0.8f, 64);
+        ModItemList.STEAK_SANDWICH = consumable("steak_sandwich", 10, 0.8f, 64, null);
 
-        ModItemList.PORKCHOP_SANDWICH = food("porkchop_sandwich",null, 10, 0.8f, 64);
+        ModItemList.PORKCHOP_SANDWICH = consumable("porkchop_sandwich", 10, 0.8f, 64, null);
 
-        ModItemList.EGG_WITH_BACON_SANDWICH = food("egg_with_bacon_sandwich",null, 11, 0.8f, 64);
+        ModItemList.EGG_WITH_BACON_SANDWICH = consumable("egg_with_bacon_sandwich", 11, 0.8f, 64, null);
 
-        ModItemList.TOMATO_SANDWICH = food("tomato_sandwich",null, 7, 0.8f, 64);
+        ModItemList.TOMATO_SANDWICH = consumable("tomato_sandwich", 7, 0.8f, 64, null);
 
-        ModItemList.BREAD_SLICE = food("bread_slice",null, 2, 0.4f, 64);
+        ModItemList.BREAD_SLICE = consumable("bread_slice", 2, 0.4f, 64, null);
 
-        ModItemList.TOAST = food("toast",null, 3, 0.4f, 64);
+        ModItemList.TOAST = consumable("toast", 3, 0.4f, 64, null);
 
-        ModItemList.TOAST_WITH_EGG = food("toast_with_egg",null, 5, 0.6f, 64);
+        ModItemList.TOAST_WITH_EGG = consumable("toast_with_egg", 5, 0.6f, 64, null);
 
-        ModItemList.TOAST_WITH_HONEY = food("toast_with_honey",null, 5, 0.6f, 64);
+        ModItemList.TOAST_WITH_HONEY = consumable("toast_with_honey", 5, 0.6f, 64, null);
 
-        ModItemList.TOAST_WITH_SWEET_BERRIES = food("toast_with_sweet_berries", null,5, 0.6f, 64);
+        ModItemList.TOAST_WITH_SWEET_BERRIES = consumable("toast_with_sweet_berries", 5, 0.6f, 64, null);
 
         if (FabricLoader.getInstance().isModLoaded("nutritious-feast")) {
-            ModItemList.TOAST_WITH_BLUEBERRIES = food("toast_with_blueberries",null, 5, 0.6f, 64);
+            ModItemList.TOAST_WITH_BLUEBERRIES = consumable("toast_with_blueberries", 5, 0.6f, 64, null);
         }
 
-        ModItemList.TOAST_WITH_GLOW_BERRIES = food("toast_with_glow_berries", null, 5, 0.6f, 64);
+        ModItemList.TOAST_WITH_GLOW_BERRIES = consumable("toast_with_glow_berries", 5, 0.6f, 64, null);
 
-        ModItemList.TOAST_WITH_CHOCOLATE = food("toast_with_chocolate",null, 5, 0.6f, 64);
+        ModItemList.TOAST_WITH_CHOCOLATE = consumable("toast_with_chocolate", 5, 0.6f, 64, null);
 
         if (FabricLoader.getInstance().isModLoaded("expandeddelight") || FabricLoader.getInstance().isModLoaded("casualness_delight")) {
-            ModItemList.TOAST_WITH_CHEESE = food("toast_with_cheese",null, 5, 0.6f, 64);
+            ModItemList.TOAST_WITH_CHEESE = consumable("toast_with_cheese", 5, 0.6f, 64, null);
         }
 
         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
-            ModItemList.TOAST_WITH_PEANUT_BUTTER = food("toast_with_peanut_butter",null, 5, 0.6f, 64);
+            ModItemList.TOAST_WITH_PEANUT_BUTTER = consumable("toast_with_peanut_butter", 5, 0.6f, 64, null);
         }
     }
 
@@ -104,56 +105,31 @@ public class ModItems {
         return item;
     }
 
-    private static Item item(String name) {
+    private static Item consumable(String name, int nutrition, float saturation, int maxCount, Item remainder) {
         Item item = Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name),
-                new Item(new Item.Settings()));
-        ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
-        return item;
-    }
-
-    private static Item food(String name, Item remainder, int nutrition, float saturation, int maxCount) {
-        Item item = Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name),
-                new Item(new Item.Settings().recipeRemainder(remainder).maxCount(maxCount)
-                        .food(new FoodComponent.Builder().nutrition(nutrition).saturationModifier(saturation).build())));
-        ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
-        return item;
-    }
-
-    private static Item foodEffect(String name, Item remainder, int nutrition, float saturation, RegistryEntry<StatusEffect> effect, int duration, int amplifier, int maxCount) {
-        Item item = Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name),
-                new ModEffectToolTip(effect, duration, amplifier, new Item.Settings()
-                        .recipeRemainder(remainder).maxCount(maxCount)
-                        .food(new FoodComponent.Builder()
-                                .nutrition(nutrition)
-                                .saturationModifier(saturation)
-                                .statusEffect(new StatusEffectInstance(effect, duration, amplifier), 1.0f)
-                                .build())
-                )
-        );
-        ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
-        return item;
-    }
-
-    private static Item stew(String name, Item remainder, int nutrition, float saturation, RegistryEntry<StatusEffect> effect, int duration, int amplifier) {
-        Item item = Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name),
-                new ModEffectToolTip(effect, duration, amplifier, new Item.Settings()
+                new ConsumableItem(new Item.Settings()
                         .recipeRemainder(remainder)
+                        .maxCount(maxCount)
                         .food(new FoodComponent.Builder()
                                 .nutrition(nutrition)
                                 .saturationModifier(saturation)
-                                .statusEffect(new StatusEffectInstance(effect, duration, amplifier), 1.0f)
-                                .build())
-                )
-        );
+                                .build()),
+                        false, false));
         ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
         return item;
     }
 
-    private static Item meal(String name, int nutrition, float saturation) {
+    private static Item consumableEffect(String name, int nutrition, float saturation, RegistryEntry<StatusEffect> effect, int duration, int amplifier, int maxCount, Item remainder) {
         Item item = Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name),
-                new Item(new Item.Settings().recipeRemainder(Items.BOWL).maxCount(16)
-                        .food(new FoodComponent.Builder().nutrition(nutrition).saturationModifier(saturation)
-                                .build())));
+                new ConsumableItem(new Item.Settings()
+                        .recipeRemainder(remainder)
+                        .maxCount(maxCount)
+                        .food(new FoodComponent.Builder()
+                                .nutrition(nutrition)
+                                .saturationModifier(saturation)
+                                .statusEffect(new StatusEffectInstance(effect, duration, amplifier), 1.0f)
+                                .build()),
+                        true, false));
         ItemGroupEvents.modifyEntriesEvent(MoreDelight.GROUP).register(entries -> entries.add(item));
         return item;
     }
