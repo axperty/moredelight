@@ -6,7 +6,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = '24.09.16-1.19-forge'
+version = '24.09.27-1.19-forge'
 group = 'com.axperty.moredelight'
 archivesBaseName = 'moredelight'
 

@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Більше смачних рецептів для приготування!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Майстер картоплі",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Поєднайте кубики картоплі з куркою, яловичиною або свининою, щоб створити смачну страву з вареної картоплі.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Вершковий окіст",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Приготуйте вершкову пасту, змішавши пасту з молоком, окістом та цибулею.",
+
+  "moredelight.advancement.cooked_rice_with": "Від зерна до гурмана",
+  "moredelight.advancement.cooked_rice_with.desc": "Перетворіть простий рис на вишукану страву, додавши курку, яловичину або свинину.",
+
+  "moredelight.advancement.mashed_potatoes": "Сила картоплі",
+  "moredelight.advancement.mashed_potatoes.desc": "Перетворіть кубики картоплі на вершкове пюре з допомогою молока.",
+
+  "moredelight.advancement.toast_with_egg": "Класика сніданку",
+  "moredelight.advancement.toast_with_egg.desc": "Підсмажте скибку хліба на сковороді та поєднайте її з смаженим яйцем.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Ідеальний укус",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Зберіть смачний бутерброд з куркою, помідором та смаженим яйцем.",
+
+  "moredelight.advancement.omelette": "Золотий світанок",
+  "moredelight.advancement.omelette.desc": "Покращте свій сніданок, перетворивши смажене яйце на омлет з швидкою обсмажкою на сковороді.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Сніданок чемпіонів",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Зберіть швидкий бутерброд з смаженим яйцем та беконом.",
+
   "item.moredelight.wooden_knife": "Дерев'яний ніж",
   "item.moredelight.stone_knife": "Кам'яний ніж",
 

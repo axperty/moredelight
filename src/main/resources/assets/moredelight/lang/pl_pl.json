@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Więcej pysznych przepisów do zrobienia!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Mistrz ziemniaków",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Połącz pokrojone w kostkę ziemniaki z kurczakiem, wołowiną lub wieprzowiną, aby stworzyć pyszne danie z gotowanych ziemniaków w kostce.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Kremowa szynka",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Przygotuj kremowy makaron, mieszając makaron z mlekiem, szynką i cebulą.",
+
+  "moredelight.advancement.cooked_rice_with": "Od ziarna do gurmana",
+  "moredelight.advancement.cooked_rice_with.desc": "Podnieś prosty ryż do rangi gurmańskiego dania, dodając kurczaka, wołowinę lub wieprzowinę.",
+
+  "moredelight.advancement.mashed_potatoes": "Ziemniaczana moc",
+  "moredelight.advancement.mashed_potatoes.desc": "Zamień pokrojone w kostkę ziemniaki w kremowe puree ziemniaczane z mlekiem.",
+
+  "moredelight.advancement.toast_with_egg": "Śniadaniowy klasyk",
+  "moredelight.advancement.toast_with_egg.desc": "Zrumień kromkę chleba na patelni i połącz ją z jajkiem sadzonym.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Ostateczny kęs",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Stwórz pyszną kanapkę z kurczakiem, pomidorem i jajkiem sadzonym.",
+
+  "moredelight.advancement.omelette": "Złoty poranek",
+  "moredelight.advancement.omelette.desc": "Ulepsz swoje śniadanie, zmieniając jajko sadzone w omlet dzięki szybkiemu smażeniu na patelni.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Śniadanie mistrzów",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Przygotuj szybką kanapkę z jajkiem sadzonym i bekonem.",
+
   "item.moredelight.wooden_knife": "Drewniany nóż",
   "item.moredelight.stone_knife": "Kamienne noże",
 
