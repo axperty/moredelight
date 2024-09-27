@@ -8,7 +8,7 @@
 
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where after eating a meal wouldn't return the bowl item back.
+- Fixed a bug where after eating a meal wouldn't return the bowl item back, special thanks to Burgersim.
 
 ***
 
