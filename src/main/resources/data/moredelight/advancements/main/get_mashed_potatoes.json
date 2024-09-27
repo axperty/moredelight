@@ -1,0 +1,36 @@
+{
+  "parent": "moredelight:main/get_cooked_diced_potatoes_with",
+  "criteria": {
+    "mashed_potatoes": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["moredelight:mashed_potatoes"]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "moredelight.advancement.mashed_potatoes.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "moredelight:mashed_potatoes"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "moredelight.advancement.mashed_potatoes"
+    }
+  },
+  "requirements": [
+    [
+      "mashed_potatoes"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

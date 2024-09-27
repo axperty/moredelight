@@ -1,0 +1,36 @@
+{
+  "parent": "moredelight:main/get_toast_with_egg",
+  "criteria": {
+    "omelette": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["moredelight:omelette"]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "moredelight.advancement.omelette.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "moredelight:omelette"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "moredelight.advancement.omelette"
+    }
+  },
+  "requirements": [
+    [
+      "omelette"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "moredelight:main/get_toast_with_egg",
+  "criteria": {
+    "chicken_sandwich_with_egg_and_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["moredelight:chicken_sandwich_with_egg_and_tomato"]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "moredelight:chicken_sandwich_with_egg_and_tomato"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "moredelight.advancement.chicken_sandwich_with_egg_and_tomato"
+    }
+  },
+  "requirements": [
+    [
+      "chicken_sandwich_with_egg_and_tomato"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Více lahodných receptů k přípravě!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Mistr brambor",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Smíchejte nakrájené brambory s kuřecím, hovězím nebo vepřovým masem, abyste vytvořili chutné jídlo z vařených nakrájených brambor.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Krémová šunka",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Připravte krémovou pastu smícháním těstovin s mlékem, šunkou a cibulí.",
+
+  "moredelight.advancement.cooked_rice_with": "Zrna na gurmána",
+  "moredelight.advancement.cooked_rice_with.desc": "Povýšte obyčejnou rýži na gurmánské jídlo přidáním kuřecího, hovězího nebo vepřového masa.",
+
+  "moredelight.advancement.mashed_potatoes": "Bramborová síla",
+  "moredelight.advancement.mashed_potatoes.desc": "Přeměňte nakrájené brambory na krémové bramborové pyré s mlékem.",
+
+  "moredelight.advancement.toast_with_egg": "Klasika na snídani",
+  "moredelight.advancement.toast_with_egg.desc": "Opečte krajíc chleba na pánvi a spojte ho s vajíčkem.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Ultimátní sousto",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Vytvořte lahodný sendvič s kuřecím masem, rajčaty a smaženým vajíčkem.",
+
+  "moredelight.advancement.omelette": "Zlaté ráno",
+  "moredelight.advancement.omelette.desc": "Vylepšete si snídani přeměnou smaženého vejce na omeletu s rychlým vařením na pánvi.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Snídaně šampionů",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Vytvořte rychlý sendvič se smaženým vajíčkem a slaninou.",
+
   "item.moredelight.wooden_knife": "Dřevěný nůž",
   "item.moredelight.stone_knife": "Kamenný nůž",
 
