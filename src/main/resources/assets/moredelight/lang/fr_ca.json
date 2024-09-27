@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Plus de recettes délicieuses à réaliser!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Maître des pommes de terre",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combinez des pommes de terre en dés avec du poulet, du bœuf ou du porc pour créer un délicieux plat de pommes de terre en dés cuites.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Crème de jambon",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Préparez un plat de pâtes crémeuses en mélangeant des pâtes avec du lait, du jambon et des oignons.",
+
+  "moredelight.advancement.cooked_rice_with": "Du grain au gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Élevez le riz simple en un repas gastronomique en ajoutant du poulet, du bœuf ou du porc.",
+
+  "moredelight.advancement.mashed_potatoes": "Pouvoir des pommes de terre",
+  "moredelight.advancement.mashed_potatoes.desc": "Transformez des pommes de terre en dés en purée de pommes de terre crémeuse avec du lait.",
+
+  "moredelight.advancement.toast_with_egg": "Classique du petit-déjeuner",
+  "moredelight.advancement.toast_with_egg.desc": "Faites griller une tranche de pain dans la poêle et combinez-la avec un œuf au plat.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "La bouchée ultime",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Créez un délicieux sandwich avec du poulet, de la tomate et un œuf au plat.",
+
+  "moredelight.advancement.omelette": "Matinée dorée",
+  "moredelight.advancement.omelette.desc": "Améliorez votre petit-déjeuner en transformant un œuf au plat en omelette avec une cuisson rapide dans la poêle.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Petit-déjeuner des champions",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Créez un sandwich rapide avec un œuf au plat et du bacon.",
+
   "item.moredelight.wooden_knife": "Couteau en bois",
   "item.moredelight.stone_knife": "Couteau en pierre",
 

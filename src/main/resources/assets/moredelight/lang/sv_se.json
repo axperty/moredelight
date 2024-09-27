@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Fler läckra recept att laga!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Potatismästare",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Kombinera tärnade potatisar med kyckling, nötkött eller fläskkotlett för att skapa en läcker rätt med kokta tärnade potatisar.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Gräddig Skinka",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Gör en krämig pastarätt genom att blanda pasta med mjölk, skinka och lök.",
+
+  "moredelight.advancement.cooked_rice_with": "Från Korn till Gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Höj enkelt ris till en gourmetmåltid genom att tillsätta kyckling, nötkött eller fläskkotlett.",
+
+  "moredelight.advancement.mashed_potatoes": "Potatismakt",
+  "moredelight.advancement.mashed_potatoes.desc": "Förvandla tärnade potatisar till krämig potatismos med mjölk.",
+
+  "moredelight.advancement.toast_with_egg": "Frukostklassiker",
+  "moredelight.advancement.toast_with_egg.desc": "Rosta en skiva bröd i stekpannan och kombinera den med ett stekt ägg.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Den ultimata Biten",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Skapa en läcker smörgås med kyckling, tomat och ett stekt ägg.",
+
+  "moredelight.advancement.omelette": "Gyllene Morgon",
+  "moredelight.advancement.omelette.desc": "Uppgradera din frukost genom att förvandla ett stekt ägg till en omelett med en snabb tillagning i stekpannan.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Frukost för Mästare",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Skapa en snabb smörgås med ett stekt ägg och bacon.",
+
   "item.moredelight.wooden_knife": "Träkniv",
   "item.moredelight.stone_knife": "Stenkniv",
 

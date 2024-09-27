@@ -1,0 +1,33 @@
+{
+  "parent": "moredelight:main/root",
+  "criteria": {
+    "toast_with_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:toast_with_egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "moredelight.advancement.toast_with_egg.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moredelight:toast_with_egg"
+    },
+    "title": {
+      "translate": "moredelight.advancement.toast_with_egg"
+    }
+  },
+  "requirements": [
+    [
+      "toast_with_egg"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

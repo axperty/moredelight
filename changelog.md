@@ -2,13 +2,23 @@
 
 ## Minor Update
 
-**Summary:** This minor update...
+**Summary:** This minor update adds new custom advancements.
 
 ***
+
+### 🛠️ Minor Changes:
+
+- Added new custom advancements.
+- The "Hunt and Gather" advancement from Farmer's Delight can now be unlocked if the player gets a wooden or stone knife.
 
 ### 🛠️ Bug Fixes:
 
 - Fixed a bug where after eating a meal wouldn't return the bowl item back, special thanks to Burgersim.
+
+### 📝 Translations:
+
+- Improved translations for Spanish.
+- Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements [here.](https://github.com/axperty/moredelight)
 
 ***
 

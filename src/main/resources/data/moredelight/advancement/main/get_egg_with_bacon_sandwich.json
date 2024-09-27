@@ -1,0 +1,33 @@
+{
+  "parent": "moredelight:main/get_toast_with_egg",
+  "criteria": {
+    "egg_with_bacon_sandwich": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:egg_with_bacon_sandwich"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "moredelight.advancement.egg_with_bacon_sandwich.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moredelight:egg_with_bacon_sandwich"
+    },
+    "title": {
+      "translate": "moredelight.advancement.egg_with_bacon_sandwich"
+    }
+  },
+  "requirements": [
+    [
+      "egg_with_bacon_sandwich"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
