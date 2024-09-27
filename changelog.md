@@ -10,6 +10,7 @@
 
 - Added new custom advancements.
 - The "Hunt and Gather" advancement from Farmer's Delight can now be unlocked if the player gets a wooden or stone knife.
+- Tooltips can now be disabled by changing the `foodEffectTooltip` setting on `config/farmersdelight-client.toml`.
 
 ### 📝 Translations:
 
