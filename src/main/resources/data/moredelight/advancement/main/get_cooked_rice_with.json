@@ -1,5 +1,5 @@
 {
-  "parent": "moredelight:main/root",
+  "parent": "moredelight:main/get_cooked_diced_potatoes_with",
   "criteria": {
     "cooked_rice_with_milk_cream_and_chicken_cuts": {
       "conditions": {

@@ -1,11 +1,11 @@
 {
   "parent": "moredelight:main/root",
   "criteria": {
-    "loaded_hamburger": {
+    "toast_with_egg": {
       "conditions": {
         "items": [
           {
-            "items": "moredelight:loaded_hamburger"
+            "items": "moredelight:toast_with_egg"
           }
         ]
       },
@@ -14,19 +14,19 @@
   },
   "display": {
     "description": {
-      "translate": "moredelight.advancement.loaded_hamburger.desc"
+      "translate": "moredelight.advancement.toast_with_egg.desc"
     },
     "icon": {
       "count": 1,
-      "id": "moredelight:loaded_hamburger"
+      "id": "moredelight:toast_with_egg"
     },
     "title": {
-      "translate": "moredelight.advancement.loaded_hamburger"
+      "translate": "moredelight.advancement.toast_with_egg"
     }
   },
   "requirements": [
     [
-      "loaded_hamburger"
+      "toast_with_egg"
     ]
   ],
   "sends_telemetry_event": true

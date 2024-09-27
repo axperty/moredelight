@@ -1,11 +1,11 @@
 {
-  "parent": "moredelight:main/root",
+  "parent": "moredelight:main/get_cooked_diced_potatoes_with",
   "criteria": {
-    "bread_slice": {
+    "mashed_potatoes": {
       "conditions": {
         "items": [
           {
-            "items": "moredelight:bread_slice"
+            "items": "moredelight:mashed_potatoes"
           }
         ]
       },
@@ -14,19 +14,19 @@
   },
   "display": {
     "description": {
-      "translate": "moredelight.advancement.bread_slice.desc"
+      "translate": "moredelight.advancement.mashed_potatoes.desc"
     },
     "icon": {
       "count": 1,
-      "id": "moredelight:bread_slice"
+      "id": "moredelight:mashed_potatoes"
     },
     "title": {
-      "translate": "moredelight.advancement.bread_slice"
+      "translate": "moredelight.advancement.mashed_potatoes"
     }
   },
   "requirements": [
     [
-      "bread_slice"
+      "mashed_potatoes"
     ]
   ],
   "sends_telemetry_event": true

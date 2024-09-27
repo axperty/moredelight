@@ -1,11 +1,11 @@
 {
-  "parent": "moredelight:main/get_bread_slices",
+  "parent": "moredelight:main/get_toast_with_egg",
   "criteria": {
-    "toast": {
+    "omelette": {
       "conditions": {
         "items": [
           {
-            "items": "moredelight:toast"
+            "items": "moredelight:omelette"
           }
         ]
       },
@@ -14,19 +14,19 @@
   },
   "display": {
     "description": {
-      "translate": "moredelight.advancement.toast.desc"
+      "translate": "moredelight.advancement.omelette.desc"
     },
     "icon": {
       "count": 1,
-      "id": "moredelight:toast"
+      "id": "moredelight:omelette"
     },
     "title": {
-      "translate": "moredelight.advancement.toast"
+      "translate": "moredelight.advancement.omelette"
     }
   },
   "requirements": [
     [
-      "toast"
+      "omelette"
     ]
   ],
   "sends_telemetry_event": true

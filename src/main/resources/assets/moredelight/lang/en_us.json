@@ -45,23 +45,29 @@
   "item.moredelight.porkchop_sandwich": "Porkchop Sandwich",
   "item.moredelight.toast_with_peanut_butter": "Toast with Peanut Butter",
 
-  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Protein Powerhouse",
-  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Make Ateneah's favorite sandwich",
+  "moredelight.advancement.cooked_diced_potatoes_with": "Master of Potatoes",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combine diced potatoes with chicken, beef, or porkchop to create a delicious dish of cooked diced potatoes",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Potato Perfection",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Make cooked diced potatoes with chicken cuts, beef, or porkchop",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Creamy Ham Delight",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Make a creamy pasta dish by mixing pasta with milk, ham, and onion",
 
   "moredelight.advancement.cooked_rice_with": "From Grain to Gourmet",
-  "moredelight.advancement.cooked_rice_with.desc": "Make cooked rice with milk cream and chicken cuts, beef, or porkchop",
+  "moredelight.advancement.cooked_rice_with.desc": "Elevate simple rice into a gourmet meal by adding chicken, beef, or porkchop",
 
-  "moredelight.advancement.loaded_hamburger": "Food Coma Achieved",
-  "moredelight.advancement.loaded_hamburger.desc": "Make the biggest hamburger",
+  "moredelight.advancement.mashed_potatoes": "Potato Power",
+  "moredelight.advancement.mashed_potatoes.desc": "Transform diced potatoes into creamy mashed potatoes with milk",
 
-  "moredelight.advancement.bread_slice": "From Loaf to Slice",
-  "moredelight.advancement.bread_slice.desc": "Cut bread on the cutting table and get bread slices",
+  "moredelight.advancement.toast_with_egg": "Breakfast Classic",
+  "moredelight.advancement.toast_with_egg.desc": "Easily toast a bread slice on the skillet and combine it with a fried egg",
 
-  "moredelight.advancement.toast": "From Slice to Crunch",
-  "moredelight.advancement.toast.desc": "Put bread slices on a heat source and get toasts",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "The Ultimate Bite",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Craft a delicious sandwich with chicken, tomato, and a fried egg",
+
+  "moredelight.advancement.omelette": "Golden Morning",
+  "moredelight.advancement.omelette.desc": "Upgrade your breakfast by turning a fried egg into an omelette with a quick cook on the skillet",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Breakfast of Champions",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Craft a quick sandwich with a fried egg and bacon",
 
   "itemGroup.moredelight": "More Delight"
 }

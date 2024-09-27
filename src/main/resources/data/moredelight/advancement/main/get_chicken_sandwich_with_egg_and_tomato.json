@@ -1,5 +1,5 @@
 {
-  "parent": "moredelight:main/root",
+  "parent": "moredelight:main/get_toast_with_egg",
   "criteria": {
     "chicken_sandwich_with_egg_and_tomato": {
       "conditions": {
