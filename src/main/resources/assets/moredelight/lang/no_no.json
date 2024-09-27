@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Flere deilige oppskrifter å lage!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Mesteren av poteter",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Kombiner terninger av poteter med kylling, biff eller svinekjøtt for å lage en deilig rett med kokte terninger av poteter.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Kremet Skinke",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Lag en kremet pastrett ved å blande pasta med melk, skinke og løk.",
+
+  "moredelight.advancement.cooked_rice_with": "Fra korn til gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Forvandle enkel ris til et gourmetmåltid ved å legge til kylling, biff eller svinekjøtt.",
+
+  "moredelight.advancement.mashed_potatoes": "Potetmakt",
+  "moredelight.advancement.mashed_potatoes.desc": "Forvandle terninger av poteter til kremet potetmos med melk.",
+
+  "moredelight.advancement.toast_with_egg": "Frokostklassiker",
+  "moredelight.advancement.toast_with_egg.desc": "Rist en skive brød i stekepannen og kombiner den med et stekt egg.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Den ultimate biten",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Lag en deilig sandwich med kylling, tomat og et stekt egg.",
+
+  "moredelight.advancement.omelette": "Gullfarget morgen",
+  "moredelight.advancement.omelette.desc": "Oppgrader frokosten din ved å forvandle et stekt egg til en omelett med en rask steking i stekepannen.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Frokost for mestere",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Lag en rask sandwich med et stekt egg og bacon.",
+
   "item.moredelight.wooden_knife": "Trekniv",
   "item.moredelight.stone_knife": "Steinkniv",
 

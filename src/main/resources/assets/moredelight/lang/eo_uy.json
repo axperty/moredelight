@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Pli delikataj receptoj por fari!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Majstro de Terpomoj",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Kombinu tranĉitajn terpomojn kun kokido, bovaĵo aŭ porkaĵo por krei bongustan pladon da kuiritaj tranĉitaj terpomoj",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Kremeca Ŝinko",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Faru kreman pastopladon miksante paston kun lakto, ŝinko kaj cepo",
+
+  "moredelight.advancement.cooked_rice_with": "De Greno al Delikataĵo",
+  "moredelight.advancement.cooked_rice_with.desc": "Levu simplan rizon al delikata manĝo aldonante kokidon, bovaĵon aŭ porkaĵon",
+
+  "moredelight.advancement.mashed_potatoes": "Terpoma Potenco",
+  "moredelight.advancement.mashed_potatoes.desc": "Transformu tranĉitajn terpomojn en kreman terpoman pureon per lakto",
+
+  "moredelight.advancement.toast_with_egg": "Klasika Matenmanĝo",
+  "moredelight.advancement.toast_with_egg.desc": "Toastu panpecon sur la patelo kaj kombinu ĝin kun fritita ovo",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "La Fina Mordo",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Kreu bongustan sandviĉon kun kokido, tomato kaj fritita ovo",
+
+  "moredelight.advancement.omelette": "Ora Mateno",
+  "moredelight.advancement.omelette.desc": "Modernigu vian matenmanĝon turnante frititan ovon en omeleton per rapida kuirado sur la patelo",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Matenmanĝo de Ĉampionoj",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Kreu rapidan sandviĉon kun fritita ovo kaj lardo",
+
   "item.moredelight.wooden_knife": "Ligna Tranĉilo",
   "item.moredelight.stone_knife": "Ŝtona Tranĉilo",
 

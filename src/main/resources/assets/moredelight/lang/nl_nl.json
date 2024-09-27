@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Meer heerlijke recepten om te maken!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Aardappelmeester",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combineer gekookte aardappelblokjes met kip, rundvlees of varkensvlees om een ​​heerlijk gerecht van gekookte aardappelblokjes te maken.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Romige Ham",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Maak een romige pastagerecht door pasta te mengen met melk, ham en ui.",
+
+  "moredelight.advancement.cooked_rice_with": "Van Graan naar Gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Verhoog eenvoudige rijst tot een gastronomisch gerecht door kip, rundvlees of varkensvlees toe te voegen.",
+
+  "moredelight.advancement.mashed_potatoes": "Aardappelkracht",
+  "moredelight.advancement.mashed_potatoes.desc": "Verander gekookte aardappelblokjes in romige aardappelpuree met melk.",
+
+  "moredelight.advancement.toast_with_egg": "Ontbijt Klassieker",
+  "moredelight.advancement.toast_with_egg.desc": "Rooster een snee brood in de pan en combineer deze met een gebakken ei.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "De Ultieme Hap",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Maak een heerlijk sandwich met kip, tomaat en een gebakken ei.",
+
+  "moredelight.advancement.omelette": "Gouden Ochtend",
+  "moredelight.advancement.omelette.desc": "Upgrade je ontbijt door een gebakken ei om te toveren tot een omelet met een snelle bereiding in de pan.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Ontbijt van Kampioenen",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Maak een snelle sandwich met een gebakken ei en spek.",
+
   "item.moredelight.wooden_knife": "Houten Mes",
   "item.moredelight.stone_knife": "Stenen Mes",
 

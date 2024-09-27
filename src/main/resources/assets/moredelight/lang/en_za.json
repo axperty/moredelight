@@ -2,8 +2,29 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "More delicious recipes to make!",
 
-  "moredelight.advancement.get_loaded_burger": "The Big One",
-  "moredelight.advancement.get_loaded_burger.desc": "Get the biggest hamburger.",
+  "moredelight.advancement.cooked_diced_potatoes_with": "Master of Potatoes",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combine diced potatoes with chicken, beef, or porkchop to create a delicious dish of cooked diced potatoes",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Creamy Ham",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Make a creamy pasta dish by mixing pasta with milk, ham, and onion",
+
+  "moredelight.advancement.cooked_rice_with": "From Grain to Gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Elevate simple rice into a gourmet meal by adding chicken, beef, or porkchop",
+
+  "moredelight.advancement.mashed_potatoes": "Potato Power",
+  "moredelight.advancement.mashed_potatoes.desc": "Transform diced potatoes into creamy mashed potatoes with milk",
+
+  "moredelight.advancement.toast_with_egg": "Breakfast Classic",
+  "moredelight.advancement.toast_with_egg.desc": "Toast a bread slice on the skillet and combine it with a fried egg",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "The Ultimate Bite",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Craft a delicious sandwich with chicken, tomato, and a fried egg",
+
+  "moredelight.advancement.omelette": "Golden Morning",
+  "moredelight.advancement.omelette.desc": "Upgrade your breakfast by turning a fried egg into an omelette with a quick cook on the skillet",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Breakfast of Champions",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Craft a quick sandwich with a fried egg and bacon",
 
   "item.moredelight.wooden_knife": "Wooden Knife",
   "item.moredelight.stone_knife": "Stone Knife",
@@ -44,15 +65,6 @@
   "item.moredelight.steak_sandwich": "Steak Sandwich",
   "item.moredelight.porkchop_sandwich": "Porkchop Sandwich",
   "item.moredelight.toast_with_peanut_butter": "Toast with Peanut Butter",
-
-  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Title",
-  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Description",
-
-  "moredelight.advancement.cooked_diced_potatoes_with": "Title",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Description",
-
-  "moredelight.advancement.loaded_hamburger": "Title",
-  "moredelight.advancement.loaded_hamburger.desc": "Description",
 
   "itemGroup.moredelight": "More Delight"
 }

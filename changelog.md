@@ -2,19 +2,19 @@
 
 ## Minor Update
 
-**Summary:** This minor update makes small adjustments to food items.
+**Summary:** This minor update adds new custom advancements.
 
 ***
 
 ### 🛠️ Minor Changes:
 
-- Added custom advancements:
-  - [Advancement 1 Title]: [Advancement 1 Description]
-  - [Advancement 2 Title]: [Advancement 2 Description]
-  - [Advancement 3 Title]: [Advancement 3 Description]
-  - [Advancement 4 Title]: [Advancement 4 Description]
-  - [...]
+- Added new custom advancements.
 - The "Hunt and Gather" advancement from Farmer's Delight can now be unlocked if the player gets a wooden or stone knife.
+
+### 📝 Translations:
+
+- Improved translations for Spanish.
+- Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements [here.](https://github.com/axperty/moredelight)
 
 ***
 

@@ -1,6 +1,30 @@
 {
   "moredelight.advancement.root": "More Delight",
-  "moredelight.advancement.root.desc": "Mehr köstliche Rezepte zum Zubereiten!"
+  "moredelight.advancement.root.desc": "Mehr köstliche Rezepte zum Zubereiten!",
+
+  "moredelight.advancement.cooked_diced_potatoes_with": "Kartoffelmeister",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Kombiniere gewürfelte Kartoffeln mit Hähnchen, Rindfleisch oder Schweinefleisch, um ein köstliches Gericht mit gekochten gewürfelten Kartoffeln zu kreieren.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Cremiger Schinken",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Bereite ein cremiges Pastagericht zu, indem du Pasta mit Milch, Schinken und Zwiebeln mischst.",
+
+  "moredelight.advancement.cooked_rice_with": "Vom Korn zum Gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Erhebe einfachen Reis zu einem Gourmet-Essen, indem du Hähnchen, Rindfleisch oder Schweinefleisch hinzufügst.",
+
+  "moredelight.advancement.mashed_potatoes": "Kartoffelpower",
+  "moredelight.advancement.mashed_potatoes.desc": "Verwandle gewürfelte Kartoffeln mit Milch in cremige Kartoffelpüree.",
+
+  "moredelight.advancement.toast_with_egg": "Frühstücksklassiker",
+  "moredelight.advancement.toast_with_egg.desc": "Brate eine Scheibe Brot in der Pfanne und kombiniere sie mit einem Spiegelei.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Der ultimative Biss",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Basteln Sie ein leckeres Sandwich mit Hühnchen, Tomate und Spiegelei.",
+
+  "moredelight.advancement.omelette": "Goldener Morgen",
+  "moredelight.advancement.omelette.desc": "Verbessere dein Frühstück, indem du ein Spiegelei mit einem schnellen Garen in der Pfanne zu einem Omelett machst.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Frühstück der Champions",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Basteln Sie ein schnelles Sandwich mit Spiegelei und Speck.",
 
   "item.moredelight.wooden_knife": "Holzmesser",
   "item.moredelight.stone_knife": "Steinmesser",

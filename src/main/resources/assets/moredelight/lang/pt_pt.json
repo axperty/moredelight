@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Mais receitas deliciosas para fazer!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Mestre das Batatas",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combine batatas em cubos com frango, carne bovina ou porco para criar um delicioso prato de batatas em cubos cozidas.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Creme de Presunto",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Faça um prato de macarrão cremoso misturando macarrão com leite, presunto e cebola.",
+
+  "moredelight.advancement.cooked_rice_with": "Do Grão ao Gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Eleve o arroz simples a um jantar gourmet adicionando frango, carne bovina ou porco.",
+
+  "moredelight.advancement.mashed_potatoes": "Poder da Batata",
+  "moredelight.advancement.mashed_potatoes.desc": "Transforme batatas em cubos em purê de batata cremoso com leite.",
+
+  "moredelight.advancement.toast_with_egg": "Clássico do Café da Manhã",
+  "moredelight.advancement.toast_with_egg.desc": "Toste uma fatia de pão na frigideira e combine-a com um ovo frito.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "A Mordida Suprema",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Crie um delicioso sanduíche com frango, tomate e um ovo frito.",
+
+  "moredelight.advancement.omelette": "Manhã Dourada",
+  "moredelight.advancement.omelette.desc": "Melhore o seu café da manhã transformando um ovo frito em uma omelete com um cozimento rápido na frigideira.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Café da Manhã dos Campeões",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Crie um sanduíche rápido com um ovo frito e bacon.",
+
   "item.moredelight.wooden_knife": "Faca de Madeira",
   "item.moredelight.stone_knife": "Faca de Pedra",
 

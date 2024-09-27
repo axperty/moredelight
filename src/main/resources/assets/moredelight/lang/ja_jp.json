@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "もっと美味しいレシピを作りましょう！",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "ジャガイモの達人",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "鶏肉、牛肉、または豚肉とダイス状のジャガイモを組み合わせて、おいしいダイス状のジャガイモ料理を作りましょう",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "クリーミーハム",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "パスタを牛乳、ハム、玉ねぎと混ぜて、クリーミーなパスタ料理を作りましょう",
+
+  "moredelight.advancement.cooked_rice_with": "穀物からグルメへ",
+  "moredelight.advancement.cooked_rice_with.desc": "鶏肉、牛肉、または豚肉を加えて、シンプルなご飯をグルメ料理に昇華させましょう",
+
+  "moredelight.advancement.mashed_potatoes": "ジャガイモパワー",
+  "moredelight.advancement.mashed_potatoes.desc": "牛乳でダイス状のジャガイモをクリーミーなマッシュポテトに変えましょう",
+
+  "moredelight.advancement.toast_with_egg": "朝食の定番",
+  "moredelight.advancement.toast_with_egg.desc": "フライパンでパンの薄切りをトーストして、目玉焼きと組み合わせましょう",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "究極の一口",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "鶏肉、トマト、目玉焼きで、おいしいサンドイッチを作りましょう",
+
+  "moredelight.advancement.omelette": "黄金の朝",
+  "moredelight.advancement.omelette.desc": "フライパンで素早く調理して、目玉焼きをオムレツに変えることで、朝食をアップグレードしましょう",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "チャンピオンの朝食",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "目玉焼きとベーコンで、素早くサンドイッチを作りましょう",
+
   "item.moredelight.wooden_knife": "木のナイフ",
   "item.moredelight.stone_knife": "石のナイフ",
 
