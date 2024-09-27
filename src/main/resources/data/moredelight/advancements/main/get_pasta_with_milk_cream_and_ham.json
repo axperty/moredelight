@@ -1,0 +1,36 @@
+{
+  "parent": "moredelight:main/get_cooked_diced_potatoes_with",
+  "criteria": {
+    "pasta_with_milk_cream_and_ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["moredelight:pasta_with_milk_cream_and_ham"]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "moredelight.advancement.pasta_with_milk_cream_and_ham.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "moredelight:pasta_with_milk_cream_and_ham"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "moredelight.advancement.pasta_with_milk_cream_and_ham"
+    }
+  },
+  "requirements": [
+    [
+      "pasta_with_milk_cream_and_ham"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

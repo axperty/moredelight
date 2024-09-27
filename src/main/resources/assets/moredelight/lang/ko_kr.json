@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "더 맛있는 레시피를 만들 수 있습니다!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "감자의 달인",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "다진 감자를 닭고기, 쇠고기 또는 돼지고기와 결합하여 맛있는 조림 감자 요리를 만들어 보세요.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "크리미 햄",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "파스타를 우유, 햄, 양파와 섞어 크리미한 파스타 요리를 만들어 보세요.",
+
+  "moredelight.advancement.cooked_rice_with": "곡물에서 미식가로",
+  "moredelight.advancement.cooked_rice_with.desc": "닭고기, 쇠고기 또는 돼지고기를 넣어 간단한 쌀을 미식가 요리로 승화시켜 보세요.",
+
+  "moredelight.advancement.mashed_potatoes": "감자 파워",
+  "moredelight.advancement.mashed_potatoes.desc": "다진 감자를 우유와 함께 크리미한 매시드 포테이토로 변형시켜 보세요.",
+
+  "moredelight.advancement.toast_with_egg": "아침 식사 고전",
+  "moredelight.advancement.toast_with_egg.desc": "프라이팬에 빵 한 조각을 구워서 튀긴 계란과 결합해 보세요.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "궁극의 한입",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "닭고기, 토마토, 튀긴 계란으로 맛있는 샌드위치를 만들어 보세요.",
+
+  "moredelight.advancement.omelette": "황금 아침",
+  "moredelight.advancement.omelette.desc": "프라이팬에 빨리 익혀서 튀긴 계란을 오믈렛으로 변형하여 아침 식사를 업그레이드해 보세요.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "챔피언의 아침 식사",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "튀긴 계란과 베이컨으로 빠른 샌드위치를 만들어 보세요.",
+
   "item.moredelight.wooden_knife": "나무 칼",
   "item.moredelight.stone_knife": "돌 칼",
 
