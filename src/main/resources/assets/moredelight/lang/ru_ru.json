@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "Больше Восторга",
   "moredelight.advancement.root.desc": "Больше вкусных рецептов для приготовления!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Мастер картофеля",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Соедините кубики картофеля с курицей, говядиной или свининой, чтобы создать вкусное блюдо из вареного картофеля.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Кремовый окорок",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Приготовьте кремовое блюдо из пасты, смешав пасту с молоком, окороком и луком.",
+
+  "moredelight.advancement.cooked_rice_with": "От зерна к гурману",
+  "moredelight.advancement.cooked_rice_with.desc": "Превратите простой рис в изысканное блюдо, добавив курицу, говядину или свинину.",
+
+  "moredelight.advancement.mashed_potatoes": "Картофельная сила",
+  "moredelight.advancement.mashed_potatoes.desc": "Превратите кубики картофеля в кремовое пюре с помощью молока.",
+
+  "moredelight.advancement.toast_with_egg": "Классика завтрака",
+  "moredelight.advancement.toast_with_egg.desc": "Поджарьте ломтик хлеба на сковороде и соедините его с жареным яйцом.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Идеальный укус",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Соберите вкусный бутерброд с курицей, помидором и жареным яйцом.",
+
+  "moredelight.advancement.omelette": "Золотой рассвет",
+  "moredelight.advancement.omelette.desc": "Улучшите свой завтрак, превратив жареное яйцо в омлет с быстрой обжаркой на сковороде.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Завтрак чемпионов",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Соберите быстрый бутерброд с жареным яйцом и беконом.",
+
   "item.moredelight.wooden_knife": "Деревянный нож",
   "item.moredelight.stone_knife": "Каменный нож",
 

@@ -2,6 +2,30 @@
   "item.moredelight.wooden_knife": "木刀",
   "item.moredelight.stone_knife": "石刀",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "馬鈴薯大師",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "將切丁的馬鈴薯與雞肉、牛肉或豬肉一起烹調，創造出美味的馬鈴薯料理",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "濃郁火腿",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "將義大利麵與牛奶、火腿和洋蔥混合，製作出濃郁的義大利麵料理",
+
+  "moredelight.advancement.cooked_rice_with": "從穀物到美食",
+  "moredelight.advancement.cooked_rice_with.desc": "將簡單的米飯加入雞肉、牛肉或豬肉，升級為美味佳餚",
+
+  "moredelight.advancement.mashed_potatoes": "馬鈴薯的力量",
+  "moredelight.advancement.mashed_potatoes.desc": "將切丁的馬鈴薯與牛奶混合，變成奶油馬鈴薯泥",
+
+  "moredelight.advancement.toast_with_egg": "經典早餐",
+  "moredelight.advancement.toast_with_egg.desc": "在煎鍋上烤一片麵包，然後與煎蛋一起享用",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "究極一口",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "用雞肉、番茄和煎蛋製作美味的三明治",
+
+  "moredelight.advancement.omelette": "金色的早晨",
+  "moredelight.advancement.omelette.desc": "將煎蛋在煎鍋上快速烹調，升級您的早餐，變成歐姆蛋",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "冠軍早餐",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "用煎蛋和培根製作快速的三明治",
+
   "item.moredelight.bread_slice": "麵包片",
   "item.moredelight.toast": "吐司",
   "item.moredelight.toast_with_egg": "夾蛋吐司",

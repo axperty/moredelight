@@ -2,23 +2,20 @@
 
 ## Minor Update
 
-**Summary:** This minor update makes small adjustments to food items.
+**Summary:** This minor update adds new custom advancements.
 
 ***
 
 ### 🛠️ Minor Changes:
 
-- Adjusted hunger and saturation for all food items.
-- Added the nourishment effect to:
-    - Cooked Rice with Milk Cream and Chicken Cuts / Beef / Porkchop.
-    - Pasta with Milk Cream and Ham.
-- Added the regeneration effect to:
-    - Chicken Salad.
-    - Potato Salad.
-- Removed effects from:
-    - Cooked Diced Potatoes with Chicken Cuts / Beef / Porkchop.
-    - Toast with Glow Berries.
-- Removed the animation from Toast with Glow Berries.
+- Added new custom advancements.
+- The "Hunt and Gather" advancement from Farmer's Delight can now be unlocked if the player gets a wooden or stone knife.
+- Tooltips can now be disabled by changing the `foodEffectTooltip` setting on `config/farmersdelight-client.toml`.
+
+### 📝 Translations:
+
+- Improved translations for Spanish.
+- Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements [here.](https://github.com/axperty/moredelight)
 
 ***
 

@@ -2,6 +2,30 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Più ricette deliziose da preparare!",
 
+  "moredelight.advancement.cooked_diced_potatoes_with": "Maestro delle Patate",
+  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combina patate a cubetti con pollo, manzo o maiale per creare un delizioso piatto di patate a cubetti cotte.",
+
+  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Crema di Prosciutto",
+  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Prepara un piatto di pasta cremoso mescolando pasta con latte, prosciutto e cipolla.",
+
+  "moredelight.advancement.cooked_rice_with": "Dal Grano al Gourmet",
+  "moredelight.advancement.cooked_rice_with.desc": "Eleva il riso semplice in un pasto gourmet aggiungendo pollo, manzo o maiale.",
+
+  "moredelight.advancement.mashed_potatoes": "Potere delle Patate",
+  "moredelight.advancement.mashed_potatoes.desc": "Trasforma le patate a cubetti in una cremosa purea di patate con il latte.",
+
+  "moredelight.advancement.toast_with_egg": "Classico della Colazione",
+  "moredelight.advancement.toast_with_egg.desc": "Tosta una fetta di pane sulla piastra e combina la con un uovo fritto.",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Il Boccone Ultimo",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Crea un delizioso panino con pollo, pomodoro e un uovo fritto.",
+
+  "moredelight.advancement.omelette": "Mattina Dorata",
+  "moredelight.advancement.omelette.desc": "Migliora la tua colazione trasformando un uovo fritto in una frittata con una rapida cottura sulla piastra.",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Colazione dei Campioni",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Crea un panino veloce con un uovo fritto e pancetta.",
+
   "item.moredelight.wooden_knife": "Coltello di Legno",
   "item.moredelight.stone_knife": "Coltello di Pietra",
 
