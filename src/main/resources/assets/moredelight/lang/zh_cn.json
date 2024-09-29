@@ -1,5 +1,5 @@
 {
-  "moredelight.advancement.root": "More Delight",
+  "moredelight.advancement.root": "多趣乐事",
   "moredelight.advancement.root.desc": "更多美味的食谱可供制作！",
 
   "moredelight.advancement.cooked_diced_potatoes_with": "马铃薯大师",
@@ -66,5 +66,5 @@
   "item.moredelight.porkchop_sandwich": "猪排三明治",
   "item.moredelight.toast_with_peanut_butter": "花生酱吐司",
 
-  "itemGroup.moredelight": "More Delight"
+  "itemGroup.moredelight": "多趣乐事"
 }
