@@ -24,11 +24,11 @@ public class ModItems {
 
         ModItemList.STONE_KNIFE = knife("stone_knife", new KnifeItem(ModMaterials.STONE_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(ModMaterials.WOOD_MATERIAL, 1.1f, -1.8F))));
 
-        ModItemList.DICED_POTATOES = consumable("diced_potatoes", 2, 0.4f, 64, Items.BOWL);
+        ModItemList.DICED_POTATOES = consumable("diced_potatoes", 2, 0.4f, 64, null);
 
-        ModItemList.CHOCOLATE_POPSICLE = consumable("chocolate_popsicle", 3, 0.2f, 64, Items.BOWL);
+        ModItemList.CHOCOLATE_POPSICLE = consumable("chocolate_popsicle", 3, 0.2f, 64, null);
 
-        ModItemList.OMELETTE = consumable("omelette", 6, 0.6f, 64, Items.BOWL);
+        ModItemList.OMELETTE = consumable("omelette", 6, 0.6f, 64, null);
 
         ModItemList.COOKED_RICE_WITH_MILK_CREAM_AND_CHICKEN_CUTS = consumableEffect("cooked_rice_with_milk_cream_and_chicken_cuts", 14, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
 
