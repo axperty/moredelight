@@ -1,7 +1,7 @@
 package com.axperty.moredelight;
 
-import com.axperty.moredelight.item.ModCreativeTab;
-import com.axperty.moredelight.item.ModItems;
+import com.axperty.moredelight.registry.CreativeTabRegistry;
+import com.axperty.moredelight.registry.ItemRegistry;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -26,8 +26,8 @@ public class MoreDelight
     public MoreDelight(IEventBus modEventBus, ModContainer modContainer)
     {
         modEventBus.addListener(this::commonSetup);
-        ModItems.ITEMS.register(modEventBus);
-        ModCreativeTab.CREATIVE_MODE_TABS.register(modEventBus);
+        ItemRegistry.ITEMS.register(modEventBus);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
     }
 

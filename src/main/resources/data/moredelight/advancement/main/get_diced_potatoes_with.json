@@ -1,0 +1,66 @@
+{
+  "parent": "moredelight:main/root",
+  "criteria": {
+    "diced_potatoes_with_chicken_cuts": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:diced_potatoes_with_chicken_cuts"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diced_potatoes_with_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:diced_potatoes_with_beef"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diced_potatoes_with_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:diced_potatoes_with_porkchop"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diced_potatoes_with_egg_and_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:diced_potatoes_with_egg_and_tomato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "moredelight.advancement.diced_potatoes_with.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moredelight:diced_potatoes_with_chicken_cuts"
+    },
+    "title": {
+      "translate": "moredelight.advancement.diced_potatoes_with"
+    }
+  },
+  "requirements": [
+    [
+      "diced_potatoes_with_chicken_cuts",
+      "diced_potatoes_with_beef",
+      "diced_potatoes_with_porkchop",
+      "diced_potatoes_with_egg_and_tomato"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

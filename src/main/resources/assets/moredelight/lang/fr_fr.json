@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Plus de recettes délicieuses à réaliser!",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Maître des pommes de terre",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combinez des pommes de terre en dés avec du poulet, du bœuf ou du porc pour créer un délicieux plat de pommes de terre en dés cuites.",
+  "moredelight.advancement.diced_potatoes_with": "Maître des pommes de terre",
+  "moredelight.advancement.diced_potatoes_with.desc": "Combinez des pommes de terre en dés avec du poulet, du bœuf ou du porc pour créer un délicieux plat de pommes de terre en dés cuites.",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Crème de jambon",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Préparez un plat de pâtes crémeuses en mélangeant des pâtes avec du lait, du jambon et des oignons.",
+  "moredelight.advancement.creamy_pasta_with_ham": "Crème de jambon",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Préparez un plat de pâtes crémeuses en mélangeant des pâtes avec du lait, du jambon et des oignons.",
 
   "moredelight.advancement.cooked_rice_with": "Du grain au gourmet",
   "moredelight.advancement.cooked_rice_with.desc": "Élevez le riz simple en un repas gastronomique en ajoutant du poulet, du bœuf ou du porc.",
@@ -36,15 +36,15 @@
   "item.moredelight.toast_with_sweet_berries": "Toast aux baies sucrées",
   "item.moredelight.toast_with_chocolate": "Toast au chocolat",
   "item.moredelight.omelette": "Omelette",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Riz cuit avec crème de lait et bœuf",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Pâtes avec crème de lait et jambon",
+  "item.moredelight.cooked_rice_with_beef": "Riz cuit au boeuf",
+  "item.moredelight.creamy_pasta_with_ham": "Pâtes crémeuses au jambon",
   "item.moredelight.cooked_diced_potatoes": "Pommes de terre coupées en dés cuites",
   "item.moredelight.diced_potatoes": "Pommes de terre coupées en dés",
 
   "item.moredelight.mashed_potatoes": "Purée de pommes de terre",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Pommes de terre coupées en dés cuites avec des morceaux de poulet",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Pommes de terre coupées en dés cuites avec des morceaux de bœuf",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Pommes de terre coupées en dés cuites avec une côtelette de porc",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Pommes de terre en dés aux morceaux de poulet",
+  "item.moredelight.diced_potatoes_with_beef": "Pommes de terre en dés au boeuf",
+  "item.moredelight.diced_potatoes_with_porkchop": "Pommes de terre en dés à la côtelette de porc",
   "item.moredelight.potato_salad": "Salade de pommes de terre",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Sandwich au poulet avec œuf et tomate",
   "item.moredelight.egg_with_bacon_sandwich": "Sandwich œuf bacon",
@@ -57,8 +57,8 @@
   "item.moredelight.chicken_salad": "Salade de poulet",
   "item.moredelight.toast_with_blueberries": "Toast aux myrtilles",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Riz cuit avec crème de lait et morceaux de poulet",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Riz cuit avec crème de lait et côtelette de porc",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Riz cuit aux morceaux de poulet",
+  "item.moredelight.cooked_rice_with_porkchop": "Riz cuit à la côtelette de porc",
   "item.moredelight.simple_hamburger": "Hamburger simple",
   "item.moredelight.hamburger_with_cheese": "Hamburger au fromage",
   "item.moredelight.hamburger_with_egg": "Hamburger avec œuf",
@@ -66,6 +66,9 @@
   "item.moredelight.steak_sandwich": "Sandwich au steak",
   "item.moredelight.porkchop_sandwich": "Sandwich à la côtelette de porc",
   "item.moredelight.toast_with_peanut_butter": "Toast au beurre de cacahuète",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Pâtes crémeuses aux morceaux de poulet",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Pommes de terre en dés avec oeuf et tomate",
 
   "itemGroup.moredelight": "More Delight"
 }
