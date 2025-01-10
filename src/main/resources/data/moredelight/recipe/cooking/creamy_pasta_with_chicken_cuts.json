@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+      {
+        "tag": "c:foods/milk"
+      },
+      {
+        "tag": "c:foods/pasta"
+      },
+      {
+        "tag": "c:foods/raw_chicken"
+      },
+      {
+        "tag": "c:foods/onion"
+      }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "moredelight:creamy_pasta_with_chicken_cuts"
+  }
+}

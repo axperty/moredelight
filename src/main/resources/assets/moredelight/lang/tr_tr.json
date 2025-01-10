@@ -1,0 +1,73 @@
+{
+  "moredelight.advancement.root": "More Delight",
+  "moredelight.advancement.root.desc": "Yapılacak daha lezzetli tarifler!",
+
+  "moredelight.advancement.diced_potatoes_with": "Patates Ustası",
+  "moredelight.advancement.diced_potatoes_with.desc": "Pişmiş küp patateslerden lezzetli bir yemek oluşturmak için küp doğranmış patatesleri tavuk, sığır eti veya domuz pirzolası ile birleştirin",
+
+  "moredelight.advancement.creamy_pasta_with_ham": "Kremalı Jambon",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Makarnayı süt, jambon ve soğanla karıştırarak kremalı bir makarna yemeği yapın",
+
+  "moredelight.advancement.cooked_rice_with": "Tahıldan Gurmeye",
+  "moredelight.advancement.cooked_rice_with.desc": "Basit pirinci tavuk, sığır eti veya domuz pirzolası ekleyerek gurme bir yemeğe dönüştürün",
+
+  "moredelight.advancement.mashed_potatoes": "Patates Gücü",
+  "moredelight.advancement.mashed_potatoes.desc": "Küp doğranmış patatesleri süt ile kremalı patates püresine dönüştürün",
+
+  "moredelight.advancement.toast_with_egg": "Kahvaltı Klasiği",
+  "moredelight.advancement.toast_with_egg.desc": "Tavadaki bir dilim ekmeği kızartın ve kızarmış bir yumurta ile birleştirin",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Nihai Isırık",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Tavuk, domates ve kızarmış yumurta ile lezzetli bir sandviç hazırlayın",
+
+  "moredelight.advancement.omelette": "Altın Sabah",
+  "moredelight.advancement.omelette.desc": "Tavadaki hızlı bir pişirme ile kızarmış bir yumurtayı omlete dönüştürerek kahvaltınızı yükseltin",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Şampiyonların Kahvaltısı",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Kızarmış yumurta ve pastırma ile hızlı bir sandviç yapın",
+
+  "item.moredelight.wooden_knife": "Tahta Bıçak",
+  "item.moredelight.stone_knife": "Taş Bıçak",
+
+  "item.moredelight.bread_slice": "Ekmek Dilimi",
+  "item.moredelight.toast": "Tost",
+  "item.moredelight.toast_with_egg": "Yumurtalı Tost",
+  "item.moredelight.toast_with_honey": "Ballı Tost",
+  "item.moredelight.toast_with_sweet_berries": "Tatlı Böğürtlenli Tost",
+  "item.moredelight.toast_with_chocolate": "Çikolatalı Tost",
+  "item.moredelight.omelette": "Omlet",
+  "item.moredelight.cooked_rice_with_beef": "Etli Pişmiş Pilav",
+  "item.moredelight.creamy_pasta_with_ham": "Peynirli Jambonlu Makarna",
+  "item.moredelight.diced_potatoes": "Küp Patates",
+
+  "item.moredelight.mashed_potatoes": "Patates Püresi",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Tavuklu Küp Patates",
+  "item.moredelight.diced_potatoes_with_beef": "Etli Küp Patates",
+  "item.moredelight.diced_potatoes_with_porkchop": "Domuz Pirzolalı Küp Patates",
+  "item.moredelight.potato_salad": "Patates Salatası",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Yumurtalı ve Domatesli Tavuk Sandviç",
+  "item.moredelight.egg_with_bacon_sandwich": "Yumurtalı Pastırmalı Sandviç",
+  "item.moredelight.tomato_sandwich": "Domatesli Sandviç",
+  "item.moredelight.steak_with_egg_sandwich": "Yumurtalı Biftek Sandviç",
+  "item.moredelight.carrot_soup": "Havuç Çorbası",
+  "item.moredelight.chocolate_popsicle": "Çikolatalı Buzlu Şeker",
+  "item.moredelight.toast_with_glow_berries": "Işıltılı Böğürtlenli Tost",
+  "item.moredelight.toast_with_cheese": "Peynirli Tost",
+  "item.moredelight.chicken_salad": "Tavuk Salatası",
+  "item.moredelight.toast_with_blueberries": "Yaban Mersinli Tost",
+
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Tavuklu Pişmiş Pilav",
+  "item.moredelight.cooked_rice_with_porkchop": "Domuz Pirzolalı Pişmiş Pilav",
+  "item.moredelight.simple_hamburger": "Basit Hamburger",
+  "item.moredelight.hamburger_with_cheese": "Peynirli Hamburger",
+  "item.moredelight.hamburger_with_egg": "Yumurtalı Hamburger",
+  "item.moredelight.loaded_hamburger": "Dolu Hamburger",
+  "item.moredelight.steak_sandwich": "Biftekli Sandviç",
+  "item.moredelight.porkchop_sandwich": "Domuz Pirzolalı Sandviç",
+  "item.moredelight.toast_with_peanut_butter": "Fıstık Ezmeli Tost",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Tavuklu Peynirli Makarna",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Yumurtalı ve Domatesli Küp Patates",
+
+  "itemGroup.moredelight": "More Delight"
+}

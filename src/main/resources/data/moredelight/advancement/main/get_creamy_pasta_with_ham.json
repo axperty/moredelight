@@ -1,0 +1,33 @@
+{
+  "parent": "moredelight:main/get_diced_potatoes_with",
+  "criteria": {
+    "creamy_pasta_with_ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:creamy_pasta_with_ham"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "moredelight.advancement.creamy_pasta_with_ham.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "moredelight:creamy_pasta_with_ham"
+    },
+    "title": {
+      "translate": "moredelight.advancement.creamy_pasta_with_ham"
+    }
+  },
+  "requirements": [
+    [
+      "creamy_pasta_with_ham"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

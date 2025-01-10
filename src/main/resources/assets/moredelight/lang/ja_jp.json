@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "もっと美味しいレシピを作りましょう！",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "ジャガイモの達人",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "鶏肉、牛肉、または豚肉とダイス状のジャガイモを組み合わせて、おいしいダイス状のジャガイモ料理を作りましょう",
+  "moredelight.advancement.diced_potatoes_with": "ジャガイモの達人",
+  "moredelight.advancement.diced_potatoes_with.desc": "鶏肉、牛肉、または豚肉とダイス状のジャガイモを組み合わせて、おいしいダイス状のジャガイモ料理を作りましょう",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "クリーミーハム",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "パスタを牛乳、ハム、玉ねぎと混ぜて、クリーミーなパスタ料理を作りましょう",
+  "moredelight.advancement.creamy_pasta_with_ham": "クリーミーハム",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "パスタを牛乳、ハム、玉ねぎと混ぜて、クリーミーなパスタ料理を作りましょう",
 
   "moredelight.advancement.cooked_rice_with": "穀物からグルメへ",
   "moredelight.advancement.cooked_rice_with.desc": "鶏肉、牛肉、または豚肉を加えて、シンプルなご飯をグルメ料理に昇華させましょう",
@@ -36,15 +36,15 @@
   "item.moredelight.toast_with_sweet_berries": "スイートベリートースト",
   "item.moredelight.toast_with_chocolate": "チョコレート入りトースト",
   "item.moredelight.omelette": "オムレツ",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "ミルククリームとビーフの入った炊き込みご飯",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "ミルククリームとハムの入ったパスタ",
+  "item.moredelight.cooked_rice_with_beef": "牛肉入り炊き込みご飯",
+  "item.moredelight.creamy_pasta_with_ham": "ハム入りクリームパスタ",
   "item.moredelight.cooked_diced_potatoes": "調理されたサイコロポテト",
   "item.moredelight.diced_potatoes": "サイコロポテト",
 
   "item.moredelight.mashed_potatoes": "マッシュポテト",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "鶏の切り身と一緒に調理された角切りポテト",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "牛肉の切り身と一緒に調理された角切りポテト",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "ポークチョップと一緒に調理された角切りポテト",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "鶏肉切り身入りさいの目切りポテト",
+  "item.moredelight.diced_potatoes_with_beef": "牛肉入りさいの目切りポテト",
+  "item.moredelight.diced_potatoes_with_porkchop": "ポークチョップ入りさいの目切りポテト",
   "item.moredelight.potato_salad": "ポテトサラダ",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "チキンサンドイッチに卵とトマトを乗せたもの",
   "item.moredelight.egg_with_bacon_sandwich": "ベーコンと卵のサンドイッチ",
@@ -57,8 +57,8 @@
   "item.moredelight.chicken_salad": "チキンサラダ",
   "item.moredelight.toast_with_blueberries": "ブルーベリートースト",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "ミルククリームとチキンカット入りの炊き込みご飯",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "ミルククリームとポークチョップ入りの炊き込みご飯",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "鶏肉切り身入り炊き込みご飯",
+  "item.moredelight.cooked_rice_with_porkchop": "ポークチョップ入り炊き込みご飯",
   "item.moredelight.simple_hamburger": "シンプルハンバーガー",
   "item.moredelight.hamburger_with_cheese": "チーズ入りハンバーガー",
   "item.moredelight.hamburger_with_egg": "卵入りハンバーガー",
@@ -66,6 +66,9 @@
   "item.moredelight.steak_sandwich": "ステーキサンドイッチ",
   "item.moredelight.porkchop_sandwich": "ポークチョップサンドイッチ",
   "item.moredelight.toast_with_peanut_butter": "ピーナッツバタートースト",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "鶏肉切り身入りクリームパスタ",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "卵とトマト入りさいの目切りポテト",
 
   "itemGroup.moredelight": "More Delight"
 }
