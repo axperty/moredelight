@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Pli delikataj receptoj por fari!",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Majstro de Terpomoj",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Kombinu tranĉitajn terpomojn kun kokido, bovaĵo aŭ porkaĵo por krei bongustan pladon da kuiritaj tranĉitaj terpomoj",
+  "moredelight.advancement.diced_potatoes_with": "Majstro de Terpomoj",
+  "moredelight.advancement.diced_potatoes_with.desc": "Kombinu tranĉitajn terpomojn kun kokido, bovaĵo aŭ porkaĵo por krei bongustan pladon da kuiritaj tranĉitaj terpomoj",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Kremeca Ŝinko",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Faru kreman pastopladon miksante paston kun lakto, ŝinko kaj cepo",
+  "moredelight.advancement.creamy_pasta_with_ham": "Kremeca Ŝinko",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Faru kreman pastopladon miksante paston kun lakto, ŝinko kaj cepo",
 
   "moredelight.advancement.cooked_rice_with": "De Greno al Delikataĵo",
   "moredelight.advancement.cooked_rice_with.desc": "Levu simplan rizon al delikata manĝo aldonante kokidon, bovaĵon aŭ porkaĵon",
@@ -36,15 +36,15 @@
   "item.moredelight.toast_with_sweet_berries": "Tosto kun Dolĉaj Berberoj",
   "item.moredelight.toast_with_chocolate": "Tosto kun ĉokolado",
   "item.moredelight.omelette": "Omeleto",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kuirita Rizo kun Laktkremo kaj Bovino",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta kun Laktkremo kaj Ŝinko",
+  "item.moredelight.cooked_rice_with_beef": "Kuirita Rizo kun Bovaĵo",
+  "item.moredelight.creamy_pasta_with_ham": "Kreema Pasto kun Ŝinko",
   "item.moredelight.cooked_diced_potatoes": "Kuirita kubikigita terpomo",
   "item.moredelight.diced_potatoes": "Kubikigitaj terpomoj",
 
   "item.moredelight.mashed_potatoes": "Purigita terpomo",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Kuirita kubigita terpomo kun kokaĵaj pecoj",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Kuirita kubigita terpomo kun bovaĵaj pecoj",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Kuirita kubigita terpomo kun porkaĵa peco",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Kubetigitaj Terpomoj kun Kokidaĵo",
+  "item.moredelight.diced_potatoes_with_beef": "Kubetigitaj Terpomoj kun Bovaĵo",
+  "item.moredelight.diced_potatoes_with_porkchop": "Kubetigitaj Terpomoj kun Porkkotleto",
   "item.moredelight.potato_salad": "Terpoma salato",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kokaĵa sandviĉo kun ovo kaj tomato",
   "item.moredelight.egg_with_bacon_sandwich": "Ova sandviĉo kun bacon",
@@ -57,8 +57,8 @@
   "item.moredelight.chicken_salad": "Kokaĵa salato",
   "item.moredelight.toast_with_blueberries": "Tostpano kun bluaj beroj",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Kuiritaj rizo kun lakta kremo kaj kokaj pecoj",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Kuiritaj rizo kun lakta kremo kaj porkhaketo",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Kuirita Rizo kun Kokidaĵo",
+  "item.moredelight.cooked_rice_with_porkchop": "Kuirita Rizo kun Porkkotleto",
   "item.moredelight.simple_hamburger": "Simpla hamburgero",
   "item.moredelight.hamburger_with_cheese": "Hamburgero kun fromaĝo",
   "item.moredelight.hamburger_with_egg": "Hamburgero kun ovo",
@@ -66,6 +66,9 @@
   "item.moredelight.steak_sandwich": "Bovaĵa sandviĉo",
   "item.moredelight.porkchop_sandwich": "Porkhaketa sandviĉo",
   "item.moredelight.toast_with_peanut_butter": "Tostpano kun arakida butero",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Kreema Pasto kun Kokidaĵo",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Kubetigitaj Terpomoj kun Ovo kaj Tomato",
 
   "itemGroup.moredelight": "More Delight"
 }

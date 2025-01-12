@@ -1,31 +1,31 @@
 {
-  "parent": "moredelight:main/get_cooked_diced_potatoes_with",
+  "parent": "moredelight:main/get_diced_potatoes_with",
   "criteria": {
-    "cooked_rice_with_milk_cream_and_chicken_cuts": {
+    "cooked_rice_with_chicken_cuts": {
       "conditions": {
         "items": [
           {
-            "items": ["moredelight:cooked_rice_with_milk_cream_and_chicken_cuts"]
+            "items": ["moredelight:cooked_rice_with_chicken_cuts"]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "cooked_rice_with_milk_cream_and_beef": {
+    "cooked_rice_with_beef": {
       "conditions": {
         "items": [
           {
-            "items": ["moredelight:cooked_rice_with_milk_cream_and_beef"]
+            "items": ["moredelight:cooked_rice_with_beef"]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "cooked_rice_with_milk_cream_and_porkchop": {
+    "cooked_rice_with_porkchop": {
       "conditions": {
         "items": [
           {
-            "items": ["moredelight:cooked_rice_with_milk_cream_and_porkchop"]
+            "items": ["moredelight:cooked_rice_with_porkchop"]
           }
         ]
       },
@@ -40,7 +40,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "moredelight:cooked_rice_with_milk_cream_and_beef"
+      "item": "moredelight:cooked_rice_with_beef"
     },
     "show_toast": true,
     "title": {
@@ -49,9 +49,9 @@
   },
   "requirements": [
     [
-      "cooked_rice_with_milk_cream_and_chicken_cuts",
-      "cooked_rice_with_milk_cream_and_beef",
-      "cooked_rice_with_milk_cream_and_porkchop"
+      "cooked_rice_with_chicken_cuts",
+      "cooked_rice_with_beef",
+      "cooked_rice_with_porkchop"
     ]
   ],
   "sends_telemetry_event": true

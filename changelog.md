@@ -1,11 +1,38 @@
-![More Delight](https://cdn.modrinth.com/data/znHQQtuU/images/8f550320a5d50408e5bfbafd9cf390f41d53a5a1.png)
+![More Delight](https://cdn.modrinth.com/data/znHQQtuU/images/653b6f24f05341edcd3cba3164edd0b8d2c0dd71.png)
 
 ***
 
-### 🛠️ Bug Fixes
+### ✨ What's New:
 
-- Fixed a bug where recipes for the Create mod were not working, special thanks to ssfwuu0721.
+- Added Creamy Pasta with Chicken.
+  - The pasta collection of meals expands even more. 
+
+![Creamy Pasta with Chicken](https://i.imgur.com/LnZB79y.gif)
+
+- Added Diced Potatoes with Egg and Tomato.
+  - A simple, satisfying dish with crispy potatoes, eggs, and juicy tomatoes.
+
+![Diced Potatoes with Egg and Tomato](https://i.imgur.com/12Qew7g.png)
+
+- Textures have been enhanced and improved for most items.
+
+![Texture Improvements](https://i.imgur.com/H1rhIC0.gif)
+
+### 🛠️ Other Changes:
+
+- Adjusted the amount of diced potatoes when cutting a potato from 2 items to 1 item.
+- Simplified names for the following items:
+    - "Pasta with Milk Cream and Ham" → "Creamy Pasta with Ham"
+    - "Cooked Rice with Milk Cream and Beef" → "Cooked Rice with Beef"
+    - "Cooked Rice with Milk Cream and Chicken Cuts" → "Cooked Rice with Chicken Cuts"
+    - "Cooked Rice with Milk Cream and Porkchop" → "Cooked Rice with Porkchop"
+    - "Cooked Diced Potatoes with Milk Cream and Beef" → "Cooked Diced Potatoes with Beef"
+    - "Cooked Diced Potatoes with Milk Cream and Chicken Cuts" → "Cooked Diced Potatoes with Chicken Cuts"
+    - "Cooked Diced Potatoes with Milk Cream and Porkchop" → "Cooked Diced Potatoes with Porkchop"
 
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/moredelight/issues/new). Support More Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
+### 📝 Feedback and Support:
+
+- Found a bug or have suggestions? [Submit an issue on GitHub](https://github.com/axperty/moredelight/issues/new).
+- Support this mod by [creating your own server](https://url-shortener.curseforge.com/VZwFX) or [donating via PayPal](https://paypal.me/kevgelhorn).
