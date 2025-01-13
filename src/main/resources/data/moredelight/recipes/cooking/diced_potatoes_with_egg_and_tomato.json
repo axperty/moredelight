@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+      {
+        "tag": "c:sliced_potato"
+      },
+      {
+        "tag": "c:foods/cooked_meats/cooked_eggs"
+      },
+      {
+        "tag": "c:foods/vegetables/tomato"
+      },
+      {
+        "tag": "c:foods/vegetables/onion"
+      }
+    ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "moredelight:diced_potatoes_with_egg_and_tomato"
+  }
+}

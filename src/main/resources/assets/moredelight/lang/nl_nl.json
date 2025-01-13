@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Meer heerlijke recepten om te maken!",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Aardappelmeester",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combineer gekookte aardappelblokjes met kip, rundvlees of varkensvlees om een ​​heerlijk gerecht van gekookte aardappelblokjes te maken.",
+  "moredelight.advancement.diced_potatoes_with": "Aardappelmeester",
+  "moredelight.advancement.diced_potatoes_with.desc": "Combineer gekookte aardappelblokjes met kip, rundvlees of varkensvlees om een ​​heerlijk gerecht van gekookte aardappelblokjes te maken.",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Romige Ham",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Maak een romige pastagerecht door pasta te mengen met melk, ham en ui.",
+  "moredelight.advancement.creamy_pasta_with_ham": "Romige Ham",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Maak een romige pastagerecht door pasta te mengen met melk, ham en ui.",
 
   "moredelight.advancement.cooked_rice_with": "Van Graan naar Gourmet",
   "moredelight.advancement.cooked_rice_with.desc": "Verhoog eenvoudige rijst tot een gastronomisch gerecht door kip, rundvlees of varkensvlees toe te voegen.",
@@ -36,15 +36,15 @@
   "item.moredelight.toast_with_sweet_berries": "Toast met Zoete Bessen",
   "item.moredelight.toast_with_chocolate": "Tosti met Chocolade",
   "item.moredelight.omelette": "Omelet",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gekookte Rijst met Melkroom en Rundvlees",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta met Melkroom en Ham",
+  "item.moredelight.cooked_rice_with_beef": "Gekookte Rijst met Rundvlees",
+  "item.moredelight.creamy_pasta_with_ham": "Romige Pasta met Ham",
   "item.moredelight.cooked_diced_potatoes": "Gekookte Gekruide Aardappelblokjes",
   "item.moredelight.diced_potatoes": "Gekruide Aardappelblokjes",
 
   "item.moredelight.mashed_potatoes": "Aardappelpuree",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Gekookte dobbelsteentjes aardappel met stukjes kip",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Gekookte dobbelsteentjes aardappel met stukjes rundvlees",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Gekookte dobbelsteentjes aardappel met stukjes varkenskotelet",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Aardappelen in Blokjes met Kippenvlees",
+  "item.moredelight.diced_potatoes_with_beef": "Aardappelen in Blokjes met Rundvlees",
+  "item.moredelight.diced_potatoes_with_porkchop": "Aardappelen in Blokjes met Varkenskarbonade",
   "item.moredelight.potato_salad": "Aardappelsalade",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kipsandwich met ei en tomaat",
   "item.moredelight.egg_with_bacon_sandwich": "Ei met bacon sandwich",
@@ -57,8 +57,8 @@
   "item.moredelight.chicken_salad": "Kipsalade",
   "item.moredelight.toast_with_blueberries": "Toast met bosbessen",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Gekookte rijst met melkroom en kipstukken",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Gekookte rijst met melkroom en varkenskotelet",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Gekookte Rijst met Kippenvlees",
+  "item.moredelight.cooked_rice_with_porkchop": "Gekookte Rijst met Varkenskarbonade",
   "item.moredelight.simple_hamburger": "Eenvoudige hamburger",
   "item.moredelight.hamburger_with_cheese": "Hamburger met kaas",
   "item.moredelight.hamburger_with_egg": "Hamburger met ei",
@@ -66,6 +66,9 @@
   "item.moredelight.steak_sandwich": "Steak-sandwich",
   "item.moredelight.porkchop_sandwich": "Varkenskotelet-sandwich",
   "item.moredelight.toast_with_peanut_butter": "Toast met pindakaas",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Romige Pasta met Kippenvlees",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Aardappelen in Blokjes met Ei en Tomaat",
 
   "itemGroup.moredelight": "More Delight"
 }
