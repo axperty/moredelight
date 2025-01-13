@@ -60,7 +60,7 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "curse.maven:farmers-delight-398521:5962800"
+    implementation "curse.maven:farmers-delight-398521:5566383"
 }
 
 tasks.withType(ProcessResources).configureEach {
