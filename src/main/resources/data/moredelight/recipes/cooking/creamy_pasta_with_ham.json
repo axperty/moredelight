@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+      {
+        "tag": "c:milk"
+      },
+      {
+        "tag": "c:pasta"
+      },
+      {
+        "item": "farmersdelight:ham"
+      },
+      {
+        "tag": "c:vegetables/onion"
+      }
+    ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "moredelight:creamy_pasta_with_ham"
+  }
+}

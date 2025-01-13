@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "Больше Восторга",
   "moredelight.advancement.root.desc": "Больше вкусных рецептов для приготовления!",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Мастер картофеля",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Соедините кубики картофеля с курицей, говядиной или свининой, чтобы создать вкусное блюдо из вареного картофеля.",
+  "moredelight.advancement.diced_potatoes_with": "Мастер картофеля",
+  "moredelight.advancement.diced_potatoes_with.desc": "Соедините кубики картофеля с курицей, говядиной или свининой, чтобы создать вкусное блюдо из вареного картофеля.",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Кремовый окорок",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Приготовьте кремовое блюдо из пасты, смешав пасту с молоком, окороком и луком.",
+  "moredelight.advancement.creamy_pasta_with_ham": "Кремовый окорок",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Приготовьте кремовое блюдо из пасты, смешав пасту с молоком, окороком и луком.",
 
   "moredelight.advancement.cooked_rice_with": "От зерна к гурману",
   "moredelight.advancement.cooked_rice_with.desc": "Превратите простой рис в изысканное блюдо, добавив курицу, говядину или свинину.",
@@ -36,14 +36,14 @@
   "item.moredelight.toast_with_sweet_berries": "Тост со сладкими ягодами",
   "item.moredelight.toast_with_chocolate": "Тост с шоколадом",
   "item.moredelight.omelette": "Омлет",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Варёный рис с молочным кремом и говядиной",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Паста с молочным кремом и ветчиной",
+  "item.moredelight.cooked_rice_with_beef": "Вареный Рис с Говядиной",
+  "item.moredelight.creamy_pasta_with_ham": "Сливочная Паста с Ветчиной",
   "item.moredelight.diced_potatoes": "Нарезанный картофель",
 
   "item.moredelight.mashed_potatoes": "Картофельное пюре",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Вареный нарезанный картофель с куриным филе",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Вареный нарезанный картофель с говядиной",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Вареный нарезанный картофель со свининой",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Картофель Кубиками с Курицей",
+  "item.moredelight.diced_potatoes_with_beef": "Картофель Кубиками с Говядиной",
+  "item.moredelight.diced_potatoes_with_porkchop": "Картофель Кубиками со Свиной Отбивной",
   "item.moredelight.potato_salad": "Картофельный салат",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Куриный сэндвич с яйцом и помидором",
   "item.moredelight.egg_with_bacon_sandwich": "Сэндвич с яйцом и беконом",
@@ -57,8 +57,8 @@
   "item.moredelight.toast_with_blueberries": "Тост с голубикой",
   "item.moredelight.ham_and_cheese_sandwich": "Сэндвич с ветчиной и сыром",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Вареный рис с молочным кремом и куриными кусочками",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Вареный рис с молочным кремом и свиной отбивной",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Вареный Рис с Курицей",
+  "item.moredelight.cooked_rice_with_porkchop": "Вареный Рис со Свиной Отбивной",
   "item.moredelight.simple_hamburger": "Простой гамбургер",
   "item.moredelight.hamburger_with_cheese": "Гамбургер с сыром",
   "item.moredelight.hamburger_with_egg": "Гамбургер с яйцом",
@@ -66,6 +66,9 @@
   "item.moredelight.steak_sandwich": "Стейк-сэндвич",
   "item.moredelight.porkchop_sandwich": "Сэндвич со свиной отбивной",
   "item.moredelight.toast_with_peanut_butter": "Тост с арахисовым маслом",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Сливочная Паста с Курицей",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Картофель Кубиками с Яйцом и Помидором",
 
   "itemGroup.moredelight.title": "Больше Восторга"
 }

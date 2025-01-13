@@ -1,6 +1,7 @@
 package com.axperty.moredelight;
 
-import com.axperty.moredelight.item.ModItems;
+import com.axperty.moredelight.registry.CreativeTabRegistry;
+import com.axperty.moredelight.registry.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +12,7 @@ public class MoreDelight implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
+		ItemRegistry.registerModItems();
+		CreativeTabRegistry.registerCreativeTab();
 	}
 }

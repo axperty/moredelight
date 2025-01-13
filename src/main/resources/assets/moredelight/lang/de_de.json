@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Mehr köstliche Rezepte zum Zubereiten!",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Kartoffelmeister",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Kombiniere gewürfelte Kartoffeln mit Hähnchen, Rindfleisch oder Schweinefleisch, um ein köstliches Gericht mit gekochten gewürfelten Kartoffeln zu kreieren.",
+  "moredelight.advancement.diced_potatoes_with": "Kartoffelmeister",
+  "moredelight.advancement.diced_potatoes_with.desc": "Kombiniere gewürfelte Kartoffeln mit Hähnchen, Rindfleisch oder Schweinefleisch, um ein köstliches Gericht mit gekochten gewürfelten Kartoffeln zu kreieren.",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Cremiger Schinken",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Bereite ein cremiges Pastagericht zu, indem du Pasta mit Milch, Schinken und Zwiebeln mischst.",
+  "moredelight.advancement.creamy_pasta_with_ham": "Cremiger Schinken",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Bereite ein cremiges Pastagericht zu, indem du Pasta mit Milch, Schinken und Zwiebeln mischst.",
 
   "moredelight.advancement.cooked_rice_with": "Vom Korn zum Gourmet",
   "moredelight.advancement.cooked_rice_with.desc": "Erhebe einfachen Reis zu einem Gourmet-Essen, indem du Hähnchen, Rindfleisch oder Schweinefleisch hinzufügst.",
@@ -36,15 +36,15 @@
   "item.moredelight.toast_with_sweet_berries": "Toast mit Süßbeeren",
   "item.moredelight.toast_with_chocolate": "Toast mit Schokolade",
   "item.moredelight.omelette": "Omelett",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gekochter Reis mit Milchcreme und Rindfleisch",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Nudeln mit Milchcreme und Schinken",
+  "item.moredelight.cooked_rice_with_beef": "Gekochter Reis mit Rindfleisch",
+  "item.moredelight.creamy_pasta_with_ham": "Cremige Pasta mit Schinken",
   "item.moredelight.cooked_diced_potatoes": "Gekochte gewürfelte Kartoffeln",
   "item.moredelight.diced_potatoes": "Gewürfelte Kartoffeln",
 
   "item.moredelight.mashed_potatoes": "Kartoffelpüree",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Gekochte gewürfelte Kartoffeln mit Hähnchenstücken",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Gekochte gewürfelte Kartoffeln mit Rinderstücken",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Gekochte gewürfelte Kartoffeln mit Schweinekotelett",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Gewürfelte Kartoffeln mit Hähnchenstücken",
+  "item.moredelight.diced_potatoes_with_beef": "Gewürfelte Kartoffeln mit Rindfleisch",
+  "item.moredelight.diced_potatoes_with_porkchop": "Gewürfelte Kartoffeln mit Schweinekotelett",
   "item.moredelight.potato_salad": "Kartoffelsalat",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Hähnchensandwich mit Ei und Tomate",
   "item.moredelight.egg_with_bacon_sandwich": "Ei mit Speck Sandwich",
@@ -57,8 +57,8 @@
   "item.moredelight.chicken_salad": "Hähnchensalat",
   "item.moredelight.toast_with_blueberries": "Toast mit Heidelbeeren",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Gekochter Reis mit Milchcreme und Hühnerstücken",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Gekochter Reis mit Milchcreme und Schweinekotelett",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Gekochter Reis mit Hähnchenstücken",
+  "item.moredelight.cooked_rice_with_porkchop": "Gekochter Reis mit Schweinekotelett",
   "item.moredelight.simple_hamburger": "Einfacher Hamburger",
   "item.moredelight.hamburger_with_cheese": "Hamburger mit Käse",
   "item.moredelight.hamburger_with_egg": "Hamburger mit Ei",
@@ -66,6 +66,9 @@
   "item.moredelight.steak_sandwich": "Steaksandwich",
   "item.moredelight.porkchop_sandwich": "Schweinekotelett-Sandwich",
   "item.moredelight.toast_with_peanut_butter": "Toast mit Erdnussbutter",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Cremige Pasta mit Hähnchenstücken",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Gewürfelte Kartoffeln mit Ei und Tomate",
 
   "itemGroup.moredelight.title": "More Delight"
 }

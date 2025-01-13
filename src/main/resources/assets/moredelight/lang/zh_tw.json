@@ -2,11 +2,11 @@
   "item.moredelight.wooden_knife": "木刀",
   "item.moredelight.stone_knife": "石刀",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "馬鈴薯大師",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "將切丁的馬鈴薯與雞肉、牛肉或豬肉一起烹調，創造出美味的馬鈴薯料理",
+  "moredelight.advancement.diced_potatoes_with": "馬鈴薯大師",
+  "moredelight.advancement.diced_potatoes_with.desc": "將切丁的馬鈴薯與雞肉、牛肉或豬肉一起烹調，創造出美味的馬鈴薯料理",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "濃郁火腿",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "將義大利麵與牛奶、火腿和洋蔥混合，製作出濃郁的義大利麵料理",
+  "moredelight.advancement.creamy_pasta_with_ham": "濃郁火腿",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "將義大利麵與牛奶、火腿和洋蔥混合，製作出濃郁的義大利麵料理",
 
   "moredelight.advancement.cooked_rice_with": "從穀物到美食",
   "moredelight.advancement.cooked_rice_with.desc": "將簡單的米飯加入雞肉、牛肉或豬肉，升級為美味佳餚",
@@ -33,14 +33,14 @@
   "item.moredelight.toast_with_sweet_berries": "甜莓吐司",
   "item.moredelight.toast_with_chocolate": "巧克力吐司",
   "item.moredelight.omelette": "歐姆蛋",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "白醬牛肉炒飯",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "白醬培根麵",
+  "item.moredelight.cooked_rice_with_beef": "牛肉煮飯",
+  "item.moredelight.creamy_pasta_with_ham": "奶油火腿義大利麵",
   "item.moredelight.diced_potatoes": "馬鈴薯丁",
 
   "item.moredelight.mashed_potatoes": "奶香馬鈴薯",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "雞肉炒飯",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "牛排炒飯",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "豬肉炒飯",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "雞肉丁馬鈴薯",
+  "item.moredelight.diced_potatoes_with_beef": "牛肉丁馬鈴薯",
+  "item.moredelight.diced_potatoes_with_porkchop": "豬排丁馬鈴薯",
   "item.moredelight.potato_salad": "馬鈴薯沙拉",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "雞肉蛋三明治",
   "item.moredelight.egg_with_bacon_sandwich": "培根蛋三明治",
@@ -53,8 +53,8 @@
   "item.moredelight.chicken_salad": "雞肉沙拉",
   "item.moredelight.toast_with_blueberries": "藍莓吐司",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "白醬雞肉炒飯",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "白醬豬肉炒飯",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "雞肉煮飯",
+  "item.moredelight.cooked_rice_with_porkchop": "豬排煮飯",
   "item.moredelight.simple_hamburger": "輕食漢堡",
   "item.moredelight.hamburger_with_cheese": "起司漢堡",
   "item.moredelight.hamburger_with_egg": "夾蛋漢堡",
@@ -62,6 +62,9 @@
   "item.moredelight.steak_sandwich": "牛排三明治",
   "item.moredelight.porkchop_sandwich": "豬肉三明治",
   "item.moredelight.toast_with_peanut_butter": "花生醬吐司",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "奶油雞肉義大利麵",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "雞蛋番茄丁馬鈴薯",
 
   "itemGroup.moredelight.title": "More Delight"
 }
