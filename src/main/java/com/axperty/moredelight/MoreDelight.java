@@ -1,16 +1,11 @@
 package com.axperty.moredelight;
 
-import com.axperty.moredelight.item.ModTags;
+import com.axperty.moredelight.item.TagRegistry;
 import com.mojang.logging.LogUtils;
-import com.axperty.moredelight.item.ModItems;
-import net.minecraft.data.DataGenerator;
+import com.axperty.moredelight.item.ItemRegistry;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
@@ -21,7 +16,8 @@ public class MoreDelight {
 
     public MoreDelight() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModTags.register();
-        ModItems.register(modEventBus);
+        TagRegistry.register();
+        ItemRegistry.register(modEventBus);
+        MinecraftForge.EVENT_BUS.register(this);
     }
 }

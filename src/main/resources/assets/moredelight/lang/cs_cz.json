@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Více lahodných receptů k přípravě!",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Mistr brambor",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Smíchejte nakrájené brambory s kuřecím, hovězím nebo vepřovým masem, abyste vytvořili chutné jídlo z vařených nakrájených brambor.",
+  "moredelight.advancement.diced_potatoes_with": "Mistr brambor",
+  "moredelight.advancement.diced_potatoes_with.desc": "Smíchejte nakrájené brambory s kuřecím, hovězím nebo vepřovým masem, abyste vytvořili chutné jídlo z vařených nakrájených brambor.",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Krémová šunka",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Připravte krémovou pastu smícháním těstovin s mlékem, šunkou a cibulí.",
+  "moredelight.advancement.creamy_pasta_with_ham": "Krémová šunka",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Připravte krémovou pastu smícháním těstovin s mlékem, šunkou a cibulí.",
 
   "moredelight.advancement.cooked_rice_with": "Zrna na gurmána",
   "moredelight.advancement.cooked_rice_with.desc": "Povýšte obyčejnou rýži na gurmánské jídlo přidáním kuřecího, hovězího nebo vepřového masa.",
@@ -36,15 +36,15 @@
   "item.moredelight.toast_with_sweet_berries": "Toast se sladkými bobulemi",
   "item.moredelight.toast_with_chocolate": "Toast s čokoládou",
   "item.moredelight.omelette": "Omeleta",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Vařená rýže se smetanou a hovězím masem",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Těstoviny se smetanou a šunkou",
+  "item.moredelight.cooked_rice_with_beef": "Vařená Rýže s Hovězím Masem",
+  "item.moredelight.creamy_pasta_with_ham": "Krémové Těstoviny se Šunkou",
   "item.moredelight.cooked_diced_potatoes": "Pečené nakrájené brambory",
   "item.moredelight.diced_potatoes": "Nakrájené brambory",
 
   "item.moredelight.mashed_potatoes": "Bramborové pyré",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Pečené nakrájené brambory s kuřecím masem",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Pečené nakrájené brambory s hovězím masem",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Pečené nakrájené brambory s kotletou",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Kostky Brambor s Kuřecím Masem",
+  "item.moredelight.diced_potatoes_with_beef": "Kostky Brambor s Hovězím Masem",
+  "item.moredelight.diced_potatoes_with_porkchop": "Kostky Brambor s Vepřovým Kotletem",
   "item.moredelight.potato_salad": "Bramborový salát",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kuřecí sendvič s vejcem a rajčetem",
   "item.moredelight.egg_with_bacon_sandwich": "Sendvič s vejcem a slaninou",
@@ -57,8 +57,8 @@
   "item.moredelight.chicken_salad": "Kuřecí salát",
   "item.moredelight.toast_with_blueberries": "Toast s borůvkami",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Vařená rýže s mléčnou smetanou a kuřecími kousky",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Vařená rýže s mléčnou smetanou a vepřovým kotletem",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Vařená Rýže s Kuřecím Masem",
+  "item.moredelight.cooked_rice_with_porkchop": "Vařená Rýže s Vepřovým Kotletem",
   "item.moredelight.simple_hamburger": "Jednoduchý hamburger",
   "item.moredelight.hamburger_with_cheese": "Hamburger se sýrem",
   "item.moredelight.hamburger_with_egg": "Hamburger s vejcem",
@@ -66,6 +66,9 @@
   "item.moredelight.steak_sandwich": "Steakový sendvič",
   "item.moredelight.porkchop_sandwich": "Sendvič s vepřovým kotletem",
   "item.moredelight.toast_with_peanut_butter": "Toast s arašídovým máslem",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Krémové Těstoviny s Kuřecím Masem",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Kostky Brambor s Vejcem a Rajčetem",
 
   "itemGroup.moredelight.title": "More Delight"
 }

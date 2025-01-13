@@ -7,10 +7,10 @@
         "tag": "forge:milk"
       },
       {
-        "item": "moredelight:diced_potatoes"
+        "tag": "forge:sliced_potatoes"
       },
       {
-        "item": "moredelight:diced_potatoes"
+        "tag": "forge:sliced_potatoes"
       }
     ],
   "recipe_book_tab": "meals",

@@ -4,7 +4,7 @@
 [![Discord](https://img.shields.io/discord/1194733791818821663?style=flat&logo=discord&logoColor=%23FFFFFF&label=Discord&labelColor=2D2C2C&color=%234e992e)](https://discord.gg/e2BQx4bbsU)
 [![PayPal](https://img.shields.io/badge/Donate%20on%20PayPal-0079C1?style=flat&logo=paypal)](https://paypal.me/kevgelhorn)
 
-![More Delight](https://cdn.modrinth.com/data/znHQQtuU/images/8f550320a5d50408e5bfbafd9cf390f41d53a5a1.png)
+![More Delight](https://cdn.modrinth.com/data/znHQQtuU/images/653b6f24f05341edcd3cba3164edd0b8d2c0dd71.png)
 
 ---
 

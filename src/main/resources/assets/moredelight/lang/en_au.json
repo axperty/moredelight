@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "More delicious recipes to make!",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Master of Potatoes",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Combine diced potatoes with chicken, beef, or porkchop to create a delicious dish of cooked diced potatoes",
+  "moredelight.advancement.diced_potatoes_with": "Master of Potatoes",
+  "moredelight.advancement.diced_potatoes_with.desc": "Combine diced potatoes with chicken, beef, or porkchop to create a delicious dish of cooked diced potatoes",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Creamy Ham",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Make a creamy pasta dish by mixing pasta with milk, ham, and onion",
+  "moredelight.advancement.creamy_pasta_with_ham": "Creamy Ham",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Make a creamy pasta dish by mixing pasta with milk, ham, and onion",
 
   "moredelight.advancement.cooked_rice_with": "From Grain to Gourmet",
   "moredelight.advancement.cooked_rice_with.desc": "Elevate simple rice into a gourmet meal by adding chicken, beef, or porkchop",
@@ -36,14 +36,14 @@
   "item.moredelight.toast_with_sweet_berries": "Toast with Sweet Berries",
   "item.moredelight.toast_with_chocolate": "Toast with Chocolate",
   "item.moredelight.omelette": "Omelette",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Cooked Rice with Milk Cream and Beef",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta with Milk Cream and Ham",
+  "item.moredelight.cooked_rice_with_beef": "Cooked Rice with Beef",
+  "item.moredelight.creamy_pasta_with_ham": "Creamy Pasta with Ham",
   "item.moredelight.diced_potatoes": "Diced Potatoes",
 
   "item.moredelight.mashed_potatoes": "Mashed Potatoes",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Cooked Diced Potatoes with Chicken Cuts",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Cooked Diced Potatoes with Beef",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Cooked Diced Potatoes with Porkchop",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Diced Potatoes with Chicken Cuts",
+  "item.moredelight.diced_potatoes_with_beef": "Diced Potatoes with Beef",
+  "item.moredelight.diced_potatoes_with_porkchop": "Diced Potatoes with Porkchop",
   "item.moredelight.potato_salad": "Potato Salad",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Chicken Sandwich with Egg and Tomato",
   "item.moredelight.egg_with_bacon_sandwich": "Egg with Bacon Sandwich",
@@ -56,8 +56,8 @@
   "item.moredelight.chicken_salad": "Chicken Salad",
   "item.moredelight.toast_with_blueberries": "Toast with Blueberries",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Cooked Rice with Milk Cream and Chicken Cuts",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Cooked Rice with Milk Cream and Porkchop",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Cooked Rice with Milk Cream and Chicken Cuts",
+  "item.moredelight.cooked_rice_with_porkchop": "Cooked Rice with Milk Cream and Porkchop",
   "item.moredelight.simple_hamburger": "Simple Hamburger",
   "item.moredelight.hamburger_with_cheese": "Hamburger with Cheese",
   "item.moredelight.hamburger_with_egg": "Hamburger with Egg",
@@ -65,6 +65,9 @@
   "item.moredelight.steak_sandwich": "Steak Sandwich",
   "item.moredelight.porkchop_sandwich": "Porkchop Sandwich",
   "item.moredelight.toast_with_peanut_butter": "Toast with Peanut Butter",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Creamy Pasta with Chicken Cuts",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Diced Potatoes with Egg and Tomato",
 
   "itemGroup.moredelight.title": "More Delight"
 }

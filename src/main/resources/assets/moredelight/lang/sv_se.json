@@ -2,11 +2,11 @@
   "moredelight.advancement.root": "More Delight",
   "moredelight.advancement.root.desc": "Fler läckra recept att laga!",
 
-  "moredelight.advancement.cooked_diced_potatoes_with": "Potatismästare",
-  "moredelight.advancement.cooked_diced_potatoes_with.desc": "Kombinera tärnade potatisar med kyckling, nötkött eller fläskkotlett för att skapa en läcker rätt med kokta tärnade potatisar.",
+  "moredelight.advancement.diced_potatoes_with": "Potatismästare",
+  "moredelight.advancement.diced_potatoes_with.desc": "Kombinera tärnade potatisar med kyckling, nötkött eller fläskkotlett för att skapa en läcker rätt med kokta tärnade potatisar.",
 
-  "moredelight.advancement.pasta_with_milk_cream_and_ham": "Gräddig Skinka",
-  "moredelight.advancement.pasta_with_milk_cream_and_ham.desc": "Gör en krämig pastarätt genom att blanda pasta med mjölk, skinka och lök.",
+  "moredelight.advancement.creamy_pasta_with_ham": "Gräddig Skinka",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Gör en krämig pastarätt genom att blanda pasta med mjölk, skinka och lök.",
 
   "moredelight.advancement.cooked_rice_with": "Från Korn till Gourmet",
   "moredelight.advancement.cooked_rice_with.desc": "Höj enkelt ris till en gourmetmåltid genom att tillsätta kyckling, nötkött eller fläskkotlett.",
@@ -34,16 +34,16 @@
   "item.moredelight.toast_with_egg": "Rostat bröd med ägg",
   "item.moredelight.toast_with_honey": "Rostat bröd med honung",
   "item.moredelight.toast_with_sweet_berries": "Rostat bröd med söta bär",
-  "item.moredelight.toast_with_chocolate": "Toast med Choklad",
+  "item.moredelight.toast_with_chocolate": "Toast med choklad",
   "item.moredelight.omelette": "Omelett",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kokt ris med mjölkkräm och nötkött",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta med mjölkkräm och skinka",
+  "item.moredelight.cooked_rice_with_beef": "Kokt Ris med nötkött",
+  "item.moredelight.creamy_pasta_with_ham": "Krämig Pasta med Skinka",
   "item.moredelight.diced_potatoes": "Tärnade potatisar",
 
   "item.moredelight.mashed_potatoes": "Mosad potatis",
-  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Kokt tärnad potatis med kycklingbitar",
-  "item.moredelight.cooked_diced_potatoes_with_beef": "Kokt tärnad potatis med köttbitar",
-  "item.moredelight.cooked_diced_potatoes_with_porkchop": "Kokt tärnad potatis med fläskkotlett",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Tärnad potatis med kycklingbitar",
+  "item.moredelight.diced_potatoes_with_beef": "Tärnad potatis med nötkött",
+  "item.moredelight.diced_potatoes_with_porkchop": "Tärnad potatis med fläskkotlett",
   "item.moredelight.potato_salad": "Potatissallad",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Kycklingsandwich med ägg och tomat",
   "item.moredelight.egg_with_bacon_sandwich": "Ägg- och baconmacka",
@@ -56,8 +56,8 @@
   "item.moredelight.chicken_salad": "Kycklingsallad",
   "item.moredelight.toast_with_blueberries": "Toast med blåbär",
 
-  "item.moredelight.cooked_rice_with_milk_cream_and_chicken_cuts": "Kokt ris med mjölkkräm och kycklingbitar",
-  "item.moredelight.cooked_rice_with_milk_cream_and_porkchop": "Kokt ris med mjölkkräm och fläskkotlett",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Kokt ris med kycklingbitar",
+  "item.moredelight.cooked_rice_with_porkchop": "Kokt ris med fläskkotlett",
   "item.moredelight.simple_hamburger": "Enkel hamburgare",
   "item.moredelight.hamburger_with_cheese": "Hamburgare med ost",
   "item.moredelight.hamburger_with_egg": "Hamburgare med ägg",
@@ -65,6 +65,9 @@
   "item.moredelight.steak_sandwich": "Steksmörgås",
   "item.moredelight.porkchop_sandwich": "Fläskkotlettsmörgås",
   "item.moredelight.toast_with_peanut_butter": "Toast med jordnötssmör",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Krämig pasta med kycklingbitar",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Tärnad potatis med ägg och tomat",
 
   "itemGroup.moredelight.title": "More Delight"
 }
