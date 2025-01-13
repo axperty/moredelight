@@ -30,7 +30,7 @@ description="An addon mod for Farmer's Delight that adds extra features to the b
 [[dependencies.${mod_id}]]
     modId="farmersdelight"
     type="required"
-    versionRange="[0,"
+    versionRange="*"
     ordering="NONE"
     side="BOTH"
 
