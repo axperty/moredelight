@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "moredelight",
-  "version": "25.01.13-1.21-fabric",
+  "version": "25.03.27-1.21-fabric",
   "name": "More Delight",
   "description": "An addon mod for Farmer's Delight that adds extra features to the base mod.",
   "authors": [
@@ -20,7 +20,7 @@
   },
   "depends": {
     "fabricloader": ">=0.14.21",
-    "minecraft": "1.21.1",
+    "minecraft": ">=1.21",
     "java": ">=21",
     "fabric-api": "*",
     "farmersdelight": "*"
