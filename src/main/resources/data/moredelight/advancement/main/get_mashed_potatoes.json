@@ -1,5 +1,5 @@
 {
-  "parent": "moredelight:main/get_cooked_diced_potatoes_with",
+  "parent": "moredelight:main/get_diced_potatoes_with",
   "criteria": {
     "mashed_potatoes": {
       "conditions": {
