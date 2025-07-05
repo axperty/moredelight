@@ -1,11 +1,14 @@
 package com.axperty.moredelight.registry;
 
 import com.axperty.moredelight.MoreDelight;
+import net.minecraft.component.type.ConsumableComponent;
+import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
+import net.minecraft.item.consume.ApplyEffectsConsumeEffect;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
@@ -16,9 +19,9 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class ItemRegistry {
 
-    public static Item WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(MaterialRegistry.WOOD_MATERIAL, .5f, -1.8F))));
+    public static Item WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(new Item.Settings().attributeModifiers(KnifeItem.createAttributes(MaterialRegistry.WOOD_MATERIAL, .5f, -1.8F))));
 
-    public static Item STONE_KNIFE = knife("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(MaterialRegistry.WOOD_MATERIAL, 1.1f, -1.8F))));
+    public static Item STONE_KNIFE = knife("stone_knife", new KnifeItem(new Item.Settings().attributeModifiers(KnifeItem.createAttributes(MaterialRegistry.WOOD_MATERIAL, 1.1f, -1.8F))));
 
     public static Item DICED_POTATOES = consumable("diced_potatoes", 2, 0.4f, 64, null);
 
@@ -111,19 +114,45 @@ public class ItemRegistry {
         return item;
     }
 
-    private static Item consumableEffect(String name, int nutrition, float saturation, RegistryEntry<StatusEffect> effect, int duration, int amplifier, int maxCount, Item remainder) {
-        Item item = Registry.register(Registries.ITEM, Identifier.of(MoreDelight.MOD_ID, name),
-                new ConsumableItem(new Item.Settings()
-                        .recipeRemainder(remainder)
-                        .maxCount(maxCount)
-                        .food(new FoodComponent.Builder()
-                                .nutrition(nutrition)
-                                .saturationModifier(saturation)
-                                .statusEffect(new StatusEffectInstance(effect, duration, amplifier), 1.0f)
-                                .build()),
-                        true, false));
+    private static Item consumableEffect(
+            String name,
+            int nutrition,
+            float saturation,
+            RegistryEntry<StatusEffect> effect,
+            int duration,
+            int amplifier,
+            int maxCount,
+            Item remainder
+    ) {
+        FoodComponent food = new FoodComponent.Builder()
+                .nutrition(nutrition)
+                .saturationModifier(saturation)
+                .build();
+
+        ConsumableComponent consumable = ConsumableComponents.food()
+                .consumeEffect(
+                        new ApplyEffectsConsumeEffect(
+                                new StatusEffectInstance(effect, duration, amplifier),
+                                1.0f
+                        )
+                )
+                .build();
+
+        Item item = Registry.register(
+                Registries.ITEM,
+                Identifier.of(MoreDelight.MOD_ID, name),
+                new ConsumableItem(
+                        new Item.Settings()
+                                .recipeRemainder(remainder)
+                                .maxCount(maxCount)
+                                .food(food, consumable),
+                        true,
+                        false
+                )
+        );
         return item;
     }
+
 
     public static void registerItems() {
     }
