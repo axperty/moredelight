@@ -3,15 +3,9 @@
   "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [
-      {
-        "item": "minecraft:porkchop"
-      },
-      {
-        "tag": "c:sliced_potato"
-      },
-      {
-        "tag": "c:foods/onion"
-      }
+    "minecraft:porkchop",
+    "#c:sliced_potato",
+    "#c:foods/onion"
   ],
   "recipe_book_tab": "meals",
   "result": {

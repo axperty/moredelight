@@ -2,21 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "tag": "c:foods/leafy_green"
-    },
-    {
-      "tag": "c:foods/tomato"
-    },
-    {
-      "tag": "c:foods/cooked_chicken"
-    },
-    {
-      "tag": "c:foods/onion"
-    }
+    "minecraft:bowl",
+    "#c:foods/leafy_green",
+    "#c:foods/tomato",
+    "#c:foods/cooked_chicken",
+    "#c:foods/onion"
   ],
   "result": {
     "count": 1,

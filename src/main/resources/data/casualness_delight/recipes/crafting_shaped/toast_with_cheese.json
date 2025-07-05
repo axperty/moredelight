@@ -7,12 +7,8 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "casualness_delight:cheese_wheel_slice"
-    },
-    {
-      "item": "moredelight:toast"
-    }
+    "casualness_delight:cheese_wheel_slice",
+    "moredelight:toast"
   ],
   "result": {
     "count": 1,

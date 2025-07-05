@@ -9,9 +9,7 @@
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "casualness_delight:potato_slice"
-    }
+    "casualness_delight:potato_slice"
   ],
   "result": [
     {

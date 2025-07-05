@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "tag": "c:foods/bread"
-    },
-    {
-      "item": "farmersdelight:beef_patty"
-    }
+    "#c:foods/bread",
+    "farmersdelight:beef_patty"
   ],
   "result": {
     "count": 1,

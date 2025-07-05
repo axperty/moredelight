@@ -8,12 +8,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "nutritious-feast:blueberries"
-    },
-    {
-      "item": "moredelight:toast"
-    }
+    "nutritious-feast:blueberries",
+    "moredelight:toast"
   ],
   "result": {
     "count": 1,

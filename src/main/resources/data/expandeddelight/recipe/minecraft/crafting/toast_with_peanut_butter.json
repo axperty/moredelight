@@ -10,12 +10,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "expandeddelight:peanut_butter"
-    },
-    {
-      "item": "moredelight:toast"
-    }
+    "expandeddelight:peanut_butter",
+    "moredelight:toast"
   ],
   "result": {
     "count": 1,

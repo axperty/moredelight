@@ -3,9 +3,7 @@
   "category": "food",
   "cookingtime": 600,
   "experience": 0.35,
-  "ingredient": {
-    "tag": "c:foods/cooked_egg"
-  },
+  "ingredient": "#c:foods/cooked_egg",
   "result": {
     "count": 1,
     "id": "moredelight:omelette"

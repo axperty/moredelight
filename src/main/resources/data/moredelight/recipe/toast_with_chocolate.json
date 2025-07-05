@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:cocoa_beans"
-    },
-    {
-      "item": "moredelight:toast"
-    }
+    "minecraft:cocoa_beans",
+    "moredelight:toast"
   ],
   "result": {
     "count": 1,

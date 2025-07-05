@@ -3,18 +3,10 @@
   "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [
-      {
-        "tag": "c:foods/milk"
-      },
-      {
-        "tag": "c:foods/pasta"
-      },
-      {
-        "tag": "c:foods/raw_chicken"
-      },
-      {
-        "tag": "c:foods/onion"
-      }
+    "#c:foods/milk",
+    "#c:foods/pasta",
+    "#c:foods/raw_chicken",
+    "#c:foods/onion"
   ],
   "recipe_book_tab": "meals",
   "result": {

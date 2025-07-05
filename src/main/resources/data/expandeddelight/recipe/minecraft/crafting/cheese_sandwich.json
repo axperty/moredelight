@@ -10,15 +10,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "tag": "c:bread_slice"
-    },
-    {
-      "tag": "c:bread_slice"
-    },
-    {
-      "item": "expandeddelight:cheese_slice"
-    }
+    "#c:bread_slice",
+    "#c:bread_slice",
+    "expandeddelight:cheese_slice"
   ],
   "result": {
     "count": 1,

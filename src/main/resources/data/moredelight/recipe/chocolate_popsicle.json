@@ -7,15 +7,9 @@
     "SI "
   ],
   "key": {
-    "C": {
-      "item": "minecraft:cocoa_beans"
-    },
-    "I": {
-      "item": "minecraft:ice"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "C": "minecraft:cocoa_beans",
+    "I": "minecraft:ice",
+    "S": "minecraft:stick"
   },
   "result": {
     "count": 1,

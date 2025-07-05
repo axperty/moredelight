@@ -2,27 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "tag": "c:foods/bread"
-    },
-    {
-      "item": "farmersdelight:beef_patty"
-    },
-    {
-      "tag": "c:foods/leafy_green"
-    },
-    {
-      "tag": "c:foods/tomato"
-    },
-    {
-      "tag": "c:foods/cooked_bacon"
-    },
-    {
-      "tag": "c:foods/cooked_egg"
-    },
-    {
-      "tag": "c:foods/onion"
-    }
+    "#c:foods/bread",
+    "farmersdelight:beef_patty",
+    "#c:foods/leafy_green",
+    "#c:foods/tomato",
+    "#c:foods/cooked_bacon",
+    "#c:foods/cooked_egg",
+    "#c:foods/onion"
   ],
   "result": {
     "count": 1,

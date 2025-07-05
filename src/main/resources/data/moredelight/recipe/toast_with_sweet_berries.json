@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "moredelight:toast"
-    }
+    "minecraft:sweet_berries",
+    "moredelight:toast"
   ],
   "result": {
     "count": 1,

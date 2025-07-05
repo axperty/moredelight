@@ -3,15 +3,9 @@
   "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [
-      {
-        "tag": "c:foods/milk"
-      },
-      {
-        "tag": "c:sliced_potato"
-      },
-      {
-        "tag": "c:sliced_potato"
-      }
+    "#c:foods/milk",
+    "#c:sliced_potato",
+    "#c:sliced_potato"
     ],
   "recipe_book_tab": "meals",
   "result": {

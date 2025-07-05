@@ -3,15 +3,9 @@
   "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [
-      {
-        "tag": "c:foods/raw_chicken"
-      },
-      {
-        "tag": "c:sliced_potato"
-      },
-      {
-        "tag": "c:foods/onion"
-      }
+    "#c:foods/raw_chicken",
+    "#c:sliced_potato",
+    "#c:foods/onion"
   ],
   "recipe_book_tab": "meals",
   "result": {

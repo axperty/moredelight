@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "tag": "c:foods/bread"
-    },
-    {
-      "item": "minecraft:cooked_porkchop"
-    },
-    {
-      "tag": "c:foods/leafy_green"
-    }
+    "#c:foods/bread",
+    "minecraft:cooked_porkchop",
+    "#c:foods/leafy_green"
   ],
   "result": {
     "count": 1,

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "tag": "c:foods/cooked_egg"
-    },
-    {
-      "item": "moredelight:toast"
-    }
+    "#c:foods/cooked_egg",
+    "moredelight:toast"
   ],
   "result": {
     "count": 1,

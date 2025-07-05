@@ -9,9 +9,7 @@
   ],
   "type":"create:cutting",
   "ingredients":[
-    {
-      "item":"minecraft:potatoes"
-    }
+    "minecraft:potatoes"
   ],
   "processingTime":40,
   "results":[

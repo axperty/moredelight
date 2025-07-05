@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "tag": "c:foods/bread"
-    },
-    {
-      "tag": "c:foods/cooked_beef"
-    },
-    {
-      "tag": "c:foods/leafy_green"
-    }
+    "#c:foods/bread",
+    "#c:foods/cooked_beef",
+    "#c:foods/leafy_green"
   ],
   "result": {
     "count": 1,

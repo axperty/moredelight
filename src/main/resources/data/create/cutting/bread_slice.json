@@ -9,9 +9,7 @@
   ],
   "type":"create:cutting",
   "ingredients":[
-    {
-      "item":"minecraft:bread"
-    }
+    "minecraft:bread"
   ],
   "processingTime":30,
   "results":[

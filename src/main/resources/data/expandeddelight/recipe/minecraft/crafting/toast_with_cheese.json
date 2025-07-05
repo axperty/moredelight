@@ -10,12 +10,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "expandeddelight:cheese_slice"
-    },
-    {
-      "item": "moredelight:toast"
-    }
+    "expandeddelight:cheese_slice",
+    "moredelight:toast"
   ],
   "result": {
     "count": 1,

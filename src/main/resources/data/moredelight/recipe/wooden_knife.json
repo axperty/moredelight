@@ -1,18 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
+  "key": {
+    "A": "#minecraft:planks",
+    "B": "minecraft:stick"
+  },
   "pattern": [
     "A",
     "B"
   ],
-  "key": {
-    "A": {
-      "tag": "minecraft:planks"
-    },
-    "B": {
-      "item": "minecraft:stick"
-    }
-  },
   "result": {
     "count": 1,
     "id": "moredelight:wooden_knife"
