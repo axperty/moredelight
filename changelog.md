@@ -2,13 +2,9 @@
 
 ***
 
-### 🛠️ Minor Changes:
+### ✨ What's New
 
-- Added support for Minecraft 1.21 as Farmer's Delight Refabricated now supports it.
-
-### 🌎 Translations:
-
-- Improved translations for Russian; thanks [Korben](https://github.com/mpustovoi)!
+- Added support for Minecraft 1.21.5-1.21.7.
 
 ***
 
