@@ -30,19 +30,19 @@ body:
     validations:
       required: true
   - type: input
-    id: fabric_version
+    id: mod_loader
     attributes:
-      label: Fabric Loader version
+      label: Mod loader
       placeholder: |
-        Example: 0.15.7
+        Example: Neoforge
     validations:
       required: true
   - type: input
-    id: fabric_api_version
+    id: mod_loader_version
     attributes:
-      label: Fabric API version
+      label: Mod loader version
       placeholder: |
-        Example: 0.92.0+1.20.1
+        Example: 21.7.23-beta
     validations:
       required: true
   - type: textarea
