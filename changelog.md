@@ -2,9 +2,9 @@
 
 ***
 
-### ✨ What's New
+### 🛠️ Bug Fixes
 
-- Added support for Minecraft 1.21.5-1.21.7.
+- Fixed a bug where the background in the advancements window wasn't being displayed correctly, thanks [Kamikamiku](https://github.com/Kamikamiku)!
 
 ***
 
