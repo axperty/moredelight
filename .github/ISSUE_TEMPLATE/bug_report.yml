@@ -18,7 +18,7 @@ body:
     attributes:
       label: More Delight version
       placeholder: |
-        Example: 25.07.05-1.21.7-fabric
+        Example: 25.05.14-1.21-neoforge
     validations:
       required: true
   - type: input
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Farmer's Delight version
       placeholder: |
-        Example: 1.21.6-3.2.3+refabricated
+        Example: 1.2.8-1.20.1
     validations:
       required: true
   - type: input
