@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest a feature! Please fill out the form below to help us understand your idea.
+  - type: textarea
+    id: related_problem
+    attributes:
+      label: Is your feature request related to a problem? Please describe.
+      description: A clear and concise description of what the problem is.
+      placeholder: |
+        Example:
+        I'm always frustrated when I try to automate a recipe and it doesn't work with the cutting board.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+      placeholder: |
+        Example:
+        I would like the cutting board to support automation via hoppers.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: Have you thought of other ways to solve the problem?
+      placeholder: |
+        Example:
+        I tried using pipes from another mod, but they don’t work well with the block either.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+      placeholder: |
+        Example:
+        This would improve compatibility with modpacks that focus on automation and tech.
