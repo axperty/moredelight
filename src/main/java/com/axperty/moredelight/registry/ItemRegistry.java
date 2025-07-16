@@ -69,6 +69,7 @@ public class ItemRegistry {
         Item.Settings settings = new Item.Settings()
                 .attributeModifiers(KnifeItem.createAttributes(material, attackDamage, attackSpeed))
                 .maxCount(1)
+                //.maxDamage(material.durability()) Adding this line will only make the knife lose durability when cutting certain items.
                 .registryKey(key);
 
         Item item = new KnifeItem(settings);

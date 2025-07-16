@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:cactus",
+    "minecraft:melon",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern",
+    "minecraft:cobweb",
+    "minecraft:cake",
+    "farmersdelight:apple_pie",
+    "farmersdelight:sweet_berry_cheesecake",
+    "farmersdelight:chocolate_pie",
+    "farmersdelight:roast_chicken_block",
+    "farmersdelight:honey_glazed_ham_block",
+    "farmersdelight:shepherds_pie_block",
+    "farmersdelight:rice_roll_medley_block",
+    "#minecraft:wool_carpets",
+    "#minecraft:wool",
+    "#minecraft:candle_cakes",
+    "#farmersdelight:straw_blocks",
+    "#c:mineable/knife"
+  ]
+}
