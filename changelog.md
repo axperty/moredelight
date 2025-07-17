@@ -4,7 +4,11 @@
 
 ### 🛠️ Bug Fixes
 
-- Fixed a bug where the background in the advancements window wasn't being displayed correctly, thanks [Kamikamiku](https://github.com/Kamikamiku)!
+- Ariavederci has fixed a bug where the knives weren't losing durability when cutting items on the cutting board, breaking blocks, or hitting any entities.
+
+### ⚙️ Minor Changes
+
+- Adjusted the stats for wood and stone knives to better align with Farmer's Delight progression. For example, ensuring they're weaker than flint knives and have matching attack speeds with other knife types.
 
 ***
 
