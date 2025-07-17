@@ -1,9 +1,15 @@
 package com.axperty.moredelight.registry;
 
+import java.util.Collections;
+
 import com.axperty.moredelight.MoreDelight;
+
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.ConsumableComponent;
 import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponent;
+import net.minecraft.component.type.ToolComponent;
+import net.minecraft.component.type.WeaponComponent;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -68,9 +74,11 @@ public class ItemRegistry {
 
         Item.Settings settings = new Item.Settings()
                 .attributeModifiers(KnifeItem.createAttributes(material, attackDamage, attackSpeed))
+                .maxDamage(material.durability())
                 .maxCount(1)
-                //.maxDamage(material.durability()) Adding this line will only make the knife lose durability when cutting certain items.
-                .registryKey(key);
+                .registryKey(key)
+                .component(DataComponentTypes.TOOL, new ToolComponent(Collections.emptyList(), 1.0F, 1, true))
+                .component(DataComponentTypes.WEAPON, new WeaponComponent(1));
 
         Item item = new KnifeItem(settings);
         return Registry.register(Registries.ITEM, key, item);
@@ -124,8 +132,8 @@ public class ItemRegistry {
     }
 
     public static void registerItems() {
-        WOODEN_KNIFE = knife("wooden_knife", MaterialRegistry.WOOD_MATERIAL, .5f, -1.8F);
-        STONE_KNIFE = knife("stone_knife", MaterialRegistry.STONE_MATERIAL, 1.1f, -1.8F);
+        WOODEN_KNIFE = knife("wooden_knife", MaterialRegistry.WOOD_MATERIAL, 0.5f, -2.0F);
+        STONE_KNIFE = knife("stone_knife", MaterialRegistry.STONE_MATERIAL, 0.5f, -2.0F);
 
         DICED_POTATOES = consumable("diced_potatoes", 2, 0.4f, 64, null);
         CHOCOLATE_POPSICLE = consumable("chocolate_popsicle", 3, 0.2f, 64, null);
