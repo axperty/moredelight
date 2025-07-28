@@ -4,7 +4,7 @@
 
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where bacon sandwiches couldn't be made with bread slices or toasts when using Corn Delight.
+- Fixed a bug where Corn Delight loaded before More Delight preventing the last update to work correctly.
 
 ***
 
