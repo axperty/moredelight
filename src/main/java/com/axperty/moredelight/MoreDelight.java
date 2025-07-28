@@ -31,24 +31,11 @@ public class MoreDelight
         NeoForge.EVENT_BUS.register(this);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
-
-    }
+    private void commonSetup(final FMLCommonSetupEvent event) {}
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
-
-    }
+    public void onServerStarting(ServerStartingEvent event) {}
 
     @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-
-        }
-    }
+    public static class ClientModEvents { @SubscribeEvent public static void onClientSetup(FMLClientSetupEvent event) {}}
 }

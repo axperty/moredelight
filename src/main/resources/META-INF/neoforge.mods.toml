@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
-issueTrackerURL = "https://github.com/axperty/moredelight/issues"
 license="${mod_license}"
+issueTrackerURL = "https://github.com/axperty/moredelight/issues"
 
 [[mods]]
 modId="${mod_id}"
@@ -16,7 +16,7 @@ description="An addon mod for Farmer's Delight that adds extra features to the b
 [[dependencies.${mod_id}]]
     modId="neoforge"
     type="required"
-    versionRange="${neo_version_range}"
+    versionRange="[${neo_version},)"
     ordering="NONE"
     side="BOTH"
 

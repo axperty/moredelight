@@ -4,7 +4,7 @@
 
 ### 🛠️ Bug Fixes:
 
-- Fixed a bug where bread slices and toasts wouldn't work when using Some Assembly Required, thank you gimdornim! [#20](https://github.com/axperty/moredelight/issues/20)
+- Fixed a bug where bacon sandwiches couldn't be made with bread slices or toasts when using Corn Delight.
 
 ***
 
