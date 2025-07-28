@@ -2,13 +2,9 @@
 
 ***
 
-### 🛠️ Bug Fixes
-
-- Ariavederci has fixed a bug where the knives weren't losing durability when cutting items on the cutting board, breaking blocks, or hitting any entities.
-
 ### ⚙️ Minor Changes
 
-- Adjusted the stats for wood and stone knives to better align with Farmer's Delight progression. For example, ensuring they're weaker than flint knives and have matching attack speeds with other knife types.
+- Fixed an issue where the console log displayed ``Couldn't read tag list c:tools from c:tags/item/tools.json in data pack moredelight`` when launching the game or server. [#25](https://github.com/axperty/moredelight/issues/25)
 
 ***
 
