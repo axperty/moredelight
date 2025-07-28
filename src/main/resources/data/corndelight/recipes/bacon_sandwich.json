@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "corndelight"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "corndelight:cornbread"
+    },
+    {
+      "tag": "c:foods/cooked_meats/cooked_bacon"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:foods/vegetables/tomato"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdelight:bacon_sandwich"
+  }
+}

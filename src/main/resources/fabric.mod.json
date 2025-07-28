@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "moredelight",
-  "version": "25.01.13-1.20-fabric",
+  "version": "25.07.28-1.20-fabric",
   "name": "More Delight",
   "description": "An addon mod for Farmer's Delight that adds extra features to the base mod.",
   "authors": [
@@ -26,6 +26,7 @@
   },
   "suggests": {
     "expandeddelight": "*",
-    "casualness_delight": "*"
+    "casualness_delight": "*",
+    "corndelight": "*"
   }
 }
