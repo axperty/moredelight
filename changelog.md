@@ -2,13 +2,9 @@
 
 ***
 
-### 🛠️ Minor Changes:
+### 🛠️ Bug Fixes:
 
-- Added support for Minecraft 1.21 as Farmer's Delight Refabricated now supports it.
-
-### 🌎 Translations:
-
-- Improved translations for Russian; thanks [Korben](https://github.com/mpustovoi)!
+- Fixed a bug where bacon sandwiches couldn't be made with bread slices or toasts when using Corn Delight.
 
 ***
 

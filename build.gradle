@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.7-SNAPSHOT'
+	id 'fabric-loom' version "${loom_version}"
 	id 'maven-publish'
 }
 
@@ -11,6 +11,9 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
+	maven {
+		url "https://cursemaven.com"
+	}
 	maven { url 'https://maven.shedaniel.me/' }
 	maven { url 'https://api.modrinth.com/maven' }
 	maven {
@@ -38,6 +41,8 @@ dependencies {
 	modImplementation("vectorwing:FarmersDelight:${project.fdfr_version}") {
 		exclude(group: "net.fabricmc")
 	}
+	modImplementation "curse.maven:corn-delight-fabric-899614:6193486"
+	modImplementation "curse.maven:jei-238222:6756164"
 }
 
 processResources {
