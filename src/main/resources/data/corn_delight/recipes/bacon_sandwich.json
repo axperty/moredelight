@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corn_delight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "corn_delight:cornbread"
+    },
+    {
+      "tag": "forge:cooked_bacon"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "farmersdelight:bacon_sandwich"
+  }
+}
