@@ -4,7 +4,7 @@
 
 ### ⚙️ Minor Changes
 
-- Fixed an issue where the console log displayed ``Couldn't read tag list c:tools from c:tags/item/tools.json in data pack moredelight`` when launching the game or server. [#25](https://github.com/axperty/moredelight/issues/25)
+- Fixed an issue where the last patch wasn't being applied and the console log issue persisted.
 
 ***
 
