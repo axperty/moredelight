@@ -1,6 +1,6 @@
 {
-  "item.moredelight.wooden_knife": "木刀",
-  "item.moredelight.stone_knife": "石刀",
+  "moredelight.advancement.root": "More Delight",
+  "moredelight.advancement.root.desc": "製作更多佳餚!",
 
   "moredelight.advancement.diced_potatoes_with": "馬鈴薯大師",
   "moredelight.advancement.diced_potatoes_with.desc": "將切丁的馬鈴薯與雞肉、牛肉或豬肉一起烹調，創造出美味的馬鈴薯料理",
@@ -25,6 +25,9 @@
 
   "moredelight.advancement.egg_with_bacon_sandwich": "冠軍早餐",
   "moredelight.advancement.egg_with_bacon_sandwich.desc": "用煎蛋和培根製作快速的三明治",
+
+  "item.moredelight.wooden_knife": "木刀",
+  "item.moredelight.stone_knife": "石刀",
 
   "item.moredelight.bread_slice": "麵包片",
   "item.moredelight.toast": "吐司",
