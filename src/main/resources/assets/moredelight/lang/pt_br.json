@@ -3,28 +3,28 @@
   "moredelight.advancement.root.desc": "Mais receitas deliciosas para fazer!",
 
   "moredelight.advancement.diced_potatoes_with": "Mestre das Batatas",
-  "moredelight.advancement.diced_potatoes_with.desc": "Combine batatas em cubos com frango, carne bovina ou porco para criar um delicioso prato de batatas em cubos cozidas.",
+  "moredelight.advancement.diced_potatoes_with.desc": "Combine batatas em cubos com frango, carne bovina ou bisteca de porco para criar um prato delicioso de batatas em cubos cozidas",
 
-  "moredelight.advancement.creamy_pasta_with_ham": "Creme de Presunto",
-  "moredelight.advancement.creamy_pasta_with_ham.desc": "Faça um prato de macarrão cremoso misturando macarrão com leite, presunto e cebola.",
+  "moredelight.advancement.creamy_pasta_with_ham": "Presunto Cremoso",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Faça um prato de massa cremosa misturando macarrão com leite, presunto e cebola",
 
   "moredelight.advancement.cooked_rice_with": "Do Grão ao Gourmet",
-  "moredelight.advancement.cooked_rice_with.desc": "Eleve o arroz simples a um jantar gourmet adicionando frango, carne bovina ou porco.",
+  "moredelight.advancement.cooked_rice_with.desc": "Eleve o arroz simples a uma refeição gourmet adicionando frango, carne bovina ou bisteca de porco",
 
   "moredelight.advancement.mashed_potatoes": "Poder da Batata",
-  "moredelight.advancement.mashed_potatoes.desc": "Transforme batatas em cubos em purê de batata cremoso com leite.",
+  "moredelight.advancement.mashed_potatoes.desc": "Transforme batatas em cubos em um purê de batatas cremoso com leite",
 
   "moredelight.advancement.toast_with_egg": "Clássico do Café da Manhã",
-  "moredelight.advancement.toast_with_egg.desc": "Toste uma fatia de pão na frigideira e combine-a com um ovo frito.",
+  "moredelight.advancement.toast_with_egg.desc": "Toste uma fatia de pão na frigideira e combine-a com um ovo frito",
 
   "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "A Mordida Suprema",
-  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Crie um delicioso sanduíche com frango, tomate e um ovo frito.",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Prepare um sanduíche delicioso com frango, tomate e um ovo frito",
 
   "moredelight.advancement.omelette": "Manhã Dourada",
-  "moredelight.advancement.omelette.desc": "Melhore o seu café da manhã transformando um ovo frito em uma omelete com um cozimento rápido na frigideira.",
+  "moredelight.advancement.omelette.desc": "Melhore seu café da manhã transformando um ovo frito em uma omelete com um cozimento rápido na frigideira",
 
   "moredelight.advancement.egg_with_bacon_sandwich": "Café da Manhã dos Campeões",
-  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Crie um sanduíche rápido com um ovo frito e bacon.",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Prepare um sanduíche rápido com ovo frito e bacon",
 
   "item.moredelight.wooden_knife": "Faca de Madeira",
   "item.moredelight.stone_knife": "Faca de Pedra",
@@ -36,14 +36,14 @@
   "item.moredelight.toast_with_sweet_berries": "Torrada com Bagas Doces",
   "item.moredelight.toast_with_chocolate": "Torrada com Chocolate",
   "item.moredelight.omelette": "Omelete",
-  "item.moredelight.cooked_rice_with_beef": "Arroz Cozido com Filé",
-  "item.moredelight.creamy_pasta_with_ham": "Massa Cremosa com Fiambre",
+  "item.moredelight.cooked_rice_with_beef": "Arroz Cozido com Carne",
+  "item.moredelight.creamy_pasta_with_ham": "Macarrão Cremoso com Presunto",
   "item.moredelight.diced_potatoes": "Batatas em Cubos",
 
   "item.moredelight.mashed_potatoes": "Purê de Batatas",
-  "item.moredelight.diced_potatoes_with_chicken_cuts": "Batatas em Cubos com Pedaços de Frango",
-  "item.moredelight.diced_potatoes_with_beef": "Batatas em Cubos com Filé",
-  "item.moredelight.diced_potatoes_with_porkchop": "Batatas em Cubos com Costeleta de Porco",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Batatas em Cubos com Cortes de Frango",
+  "item.moredelight.diced_potatoes_with_beef": "Batatas em Cubos com Carne",
+  "item.moredelight.diced_potatoes_with_porkchop": "Batatas em Cubos com Bisteca de Porco",
   "item.moredelight.potato_salad": "Salada de Batata",
   "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Sanduíche de Frango com Ovo e Tomate",
   "item.moredelight.egg_with_bacon_sandwich": "Sanduíche de Ovo com Bacon",
@@ -56,17 +56,17 @@
   "item.moredelight.chicken_salad": "Salada de Frango",
   "item.moredelight.toast_with_blueberries": "Torrada com Mirtilos",
 
-  "item.moredelight.cooked_rice_with_chicken_cuts": "Arroz Cozido com Pedaços de Frango",
-  "item.moredelight.cooked_rice_with_porkchop": "Arroz Cozido com Costeleta de Porco",
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Arroz Cozido com Cortes de Frango",
+  "item.moredelight.cooked_rice_with_porkchop": "Arroz Cozido com Bisteca de Porco",
   "item.moredelight.simple_hamburger": "Hambúrguer Simples",
   "item.moredelight.hamburger_with_cheese": "Hambúrguer com Queijo",
   "item.moredelight.hamburger_with_egg": "Hambúrguer com Ovo",
   "item.moredelight.loaded_hamburger": "Hambúrguer Completo",
   "item.moredelight.steak_sandwich": "Sanduíche de Bife",
-  "item.moredelight.porkchop_sandwich": "Sanduíche de Costeleta de Porco",
+  "item.moredelight.porkchop_sandwich": "Sanduíche de Bisteca de Porco",
   "item.moredelight.toast_with_peanut_butter": "Torrada com Manteiga de Amendoim",
 
-  "item.moredelight.creamy_pasta_with_chicken_cuts": "Massa Cremosa com Pedaços de Frango",
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Macarrão Cremoso com Cortes de Frango",
   "item.moredelight.diced_potatoes_with_egg_and_tomato": "Batatas em Cubos com Ovo e Tomate",
 
   "itemGroup.moredelight": "Delícias em Dobro"
