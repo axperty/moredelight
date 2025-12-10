@@ -2,13 +2,10 @@
 
 ***
 
-### ⚙️ Minor Changes
+### ✨ What's New
 
-- Fixed an issue where the last patch wasn't being applied and the console log issue persisted.
+- Added support for Minecraft 1.21.11.
 
 ***
 
-### 📝 Feedback and Support:
-
-- Found a bug or have suggestions? [Submit an issue on GitHub](https://github.com/axperty/moredelight/issues/new).
-- Support this mod by [creating your own server](https://url-shortener.curseforge.com/VZwFX) or [donating via PayPal](https://paypal.me/kevgelhorn).
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/moredelight/issues/new). Support More Delight by [creating your own server](https://url-shortener.curseforge.com/gXBjH) or [donating on PayPal](https://paypal.me/kevgelhorn).

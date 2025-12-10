@@ -11,22 +11,8 @@ base {
 }
 
 repositories {
-	maven { url 'https://maven.shedaniel.me/' }
-	maven { url 'https://api.modrinth.com/maven' }
 	maven {
-		name = "Greenhouse Maven"
-		url = 'https://repo.greenhouse.house/releases/'
-	}
-
-	maven {
-		name = "Greenhouse Maven (Snapshots)"
-		url = 'https://repo.greenhouse.house/snapshots/'
-	}
-	maven {
-		url "https://jitpack.io/"
-		content {
-			excludeGroup "io.github.fabricators_of_create"
-		}
+		url "https://cursemaven.com"
 	}
 }
 
@@ -47,9 +33,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation("vectorwing:FarmersDelight:${project.fdrf_version}") {
-		exclude(group: "net.fabricmc")
-	}
+	modImplementation "curse.maven:farmers-delight-refabricated-993166:7314439"
 }
 
 processResources {
