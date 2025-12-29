@@ -47,3 +47,10 @@ description="An addon mod for Farmer's Delight that adds extra features to the b
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="corn_delight"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

@@ -144,6 +144,12 @@ public class ItemRegistry {
                     .effect(() -> new MobEffectInstance(ModEffects.COMFORT, FoodValues.MEDIUM_DURATION, 0), 1.0F)
                     .build()), true));
 
+    public static final DeferredItem<Item> SPANISH_TORTILLA = ITEMS.register("spanish_tortilla",
+            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
+                    .nutrition(9)
+                    .saturationModifier(0.8f)
+                    .build())));
+
     public static final DeferredItem<Item> SIMPLE_HAMBURGER = ITEMS.register("simple_hamburger",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(8)
@@ -202,12 +208,14 @@ public class ItemRegistry {
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(2)
                     .saturationModifier(0.4f)
+                    .fast()
                     .build())));
 
     public static final DeferredItem<Item> TOAST = ITEMS.register("toast",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
                     .nutrition(3)
                     .saturationModifier(0.4f)
+                    .fast()
                     .build())));
 
     public static final DeferredItem<Item> TOAST_WITH_EGG = ITEMS.register("toast_with_egg",

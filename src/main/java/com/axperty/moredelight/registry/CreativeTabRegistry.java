@@ -34,6 +34,7 @@ public class CreativeTabRegistry {
                 output.accept(ItemRegistry.POTATO_SALAD.get());
                 output.accept(ItemRegistry.CHICKEN_SALAD.get());
                 output.accept(ItemRegistry.CARROT_SOUP.get());
+                output.accept(ItemRegistry.SPANISH_TORTILLA.get());
                 output.accept(ItemRegistry.SIMPLE_HAMBURGER.get());
                 if (ModList.get().isLoaded("casualness_delight") || ModList.get().isLoaded("expandeddelight")) {
                     output.accept(ItemRegistry.HAMBURGER_WITH_CHEESE.get());
