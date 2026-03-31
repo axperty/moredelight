@@ -1,8 +1,8 @@
 package com.axperty.moredelight.registry;
 
-import net.minecraft.item.ToolMaterial;
-import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 
 public class MaterialRegistry {
 

@@ -4,25 +4,25 @@ import java.util.Collections;
 
 import com.axperty.moredelight.MoreDelight;
 
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.ConsumableComponent;
-import net.minecraft.component.type.ConsumableComponents;
-import net.minecraft.component.type.FoodComponent;
-import net.minecraft.component.type.ToolComponent;
-import net.minecraft.component.type.WeaponComponent;
-import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.item.ToolMaterial;
-import net.minecraft.item.consume.ApplyEffectsConsumeEffect;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.entry.RegistryEntry;
-import net.minecraft.util.Identifier;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.world.item.component.Consumable;
+import net.minecraft.world.item.component.Consumables;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.component.Tool;
+import net.minecraft.world.item.component.Weapon;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.Registry;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.Holder;
+import net.minecraft.resources.Identifier;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
@@ -69,66 +69,72 @@ public class ItemRegistry {
 
 
     private static Item knife(String name, ToolMaterial material, float attackDamage, float attackSpeed) {
-        Identifier id = Identifier.of(MoreDelight.MOD_ID, name);
-        RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, id);
+        Identifier id = Identifier.fromNamespaceAndPath(MoreDelight.MOD_ID, name);
+        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, id);
 
-        Item.Settings settings = new Item.Settings()
-                .attributeModifiers(KnifeItem.createAttributes(material, attackDamage, attackSpeed))
-                .maxDamage(material.durability())
-                .maxCount(1)
-                .registryKey(key)
-                .component(DataComponentTypes.TOOL, new ToolComponent(Collections.emptyList(), 1.0F, 1, true))
-                .component(DataComponentTypes.WEAPON, new WeaponComponent(1));
+        Item.Properties settings = new Item.Properties()
+                .attributes(KnifeItem.createAttributes(material, attackDamage, attackSpeed))
+                .durability(material.durability())
+                .stacksTo(1)
+                .setId(key)
+                .component(DataComponents.TOOL, new Tool(Collections.emptyList(), 1.0F, 1, true))
+                .component(DataComponents.WEAPON, new Weapon(1));
 
         Item item = new KnifeItem(settings);
-        return Registry.register(Registries.ITEM, key, item);
+        return Registry.register(BuiltInRegistries.ITEM, key, item);
     }
 
     private static Item consumable(String name, int nutrition, float saturation, int maxCount, Item remainder) {
-        Identifier id = Identifier.of(MoreDelight.MOD_ID, name);
-        RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, id);
+        Identifier id = Identifier.fromNamespaceAndPath(MoreDelight.MOD_ID, name);
+        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, id);
 
-        FoodComponent foodComponent = new FoodComponent.Builder()
+        FoodProperties foodComponent = new FoodProperties.Builder()
                 .nutrition(nutrition)
                 .saturationModifier(saturation)
                 .build();
 
-        Item.Settings settings = new Item.Settings()
-                .recipeRemainder(remainder)
-                .maxCount(maxCount)
+        Item.Properties settings = new Item.Properties()
+                .stacksTo(maxCount)
                 .food(foodComponent)
-                .registryKey(key);
+                .setId(key);
+
+        if (remainder != null) {
+            settings.craftRemainder(remainder);
+        }
 
         Item item = new ConsumableItem(settings, false, false);
-        return Registry.register(Registries.ITEM, key, item);
+        return Registry.register(BuiltInRegistries.ITEM, key, item);
     }
 
-    private static Item consumableEffect(String name, int nutrition, float saturation, RegistryEntry<StatusEffect> effect, int duration, int amplifier, int maxCount, Item remainder) {
-        Identifier id = Identifier.of(MoreDelight.MOD_ID, name);
-        RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, id);
+    private static Item consumableEffect(String name, int nutrition, float saturation, Holder<MobEffect> effect, int duration, int amplifier, int maxCount, Item remainder) {
+        Identifier id = Identifier.fromNamespaceAndPath(MoreDelight.MOD_ID, name);
+        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, id);
 
-        FoodComponent foodComponent = new FoodComponent.Builder()
+        FoodProperties foodComponent = new FoodProperties.Builder()
                 .nutrition(nutrition)
                 .saturationModifier(saturation)
                 .build();
 
-        ConsumableComponent consumableComponent = ConsumableComponents.food()
-                .consumeEffect(
-                        new ApplyEffectsConsumeEffect(
-                                new StatusEffectInstance(effect, duration, amplifier),
+        Consumable consumableComponent = Consumables.defaultFood()
+                .onConsume(
+                        new ApplyStatusEffectsConsumeEffect(
+                                new MobEffectInstance(effect, duration, amplifier),
                                 1.0f
                         )
                 )
                 .build();
 
-        Item.Settings settings = new Item.Settings()
-                .recipeRemainder(remainder)
-                .maxCount(maxCount)
+        Item.Properties settings = new Item.Properties()
+                .stacksTo(maxCount)
                 .food(foodComponent, consumableComponent)
-                .registryKey(key);
+                .setId(key);
+
+        if (remainder != null) {
+            settings.craftRemainder(remainder);
+        }
 
         Item item = new ConsumableItem(settings, true, false);
-        return Registry.register(Registries.ITEM, key, item);
+        return Registry.register(BuiltInRegistries.ITEM, key, item);
     }
 
     public static void registerItems() {
@@ -144,8 +150,8 @@ public class ItemRegistry {
         COOKED_RICE_WITH_PORKCHOP = consumableEffect("cooked_rice_with_porkchop", 14, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
         CREAMY_PASTA_WITH_HAM = consumableEffect("creamy_pasta_with_ham", 12, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
         CREAMY_PASTA_WITH_CHICKEN_CUTS = consumableEffect("creamy_pasta_with_chicken_cuts", 12, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
-        POTATO_SALAD = consumableEffect("potato_salad", 6, 0.6f, StatusEffects.REGENERATION, 100, 0, 16, Items.BOWL);
-        CHICKEN_SALAD = consumableEffect("chicken_salad", 6, 0.6f, StatusEffects.REGENERATION, 100, 0, 16, Items.BOWL);
+        POTATO_SALAD = consumableEffect("potato_salad", 6, 0.6f, MobEffects.REGENERATION, 100, 0, 16, Items.BOWL);
+        CHICKEN_SALAD = consumableEffect("chicken_salad", 6, 0.6f, MobEffects.REGENERATION, 100, 0, 16, Items.BOWL);
         CARROT_SOUP = consumableEffect("carrot_soup", 12, 0.8f, ModEffects.COMFORT, 3600, 0, 16, Items.BOWL);
 
         MASHED_POTATOES = consumable("mashed_potatoes", 12, 0.8f, 16, Items.BOWL);
