@@ -1,0 +1,73 @@
+{
+  "moredelight.advancement.root": "Көбірек қуаныш",
+  "moredelight.advancement.root.desc": "Дәмді рецептер тым көп!",
+
+  "moredelight.advancement.diced_potatoes_with": "Картоп шебері",
+  "moredelight.advancement.diced_potatoes_with.desc": "Туралған картопты тауық, сиыр немесе шошқа етімен қосып, дәмді тағам жаса",
+
+  "moredelight.advancement.creamy_pasta_with_ham": "Кілегей кеспе",
+  "moredelight.advancement.creamy_pasta_with_ham.desc": "Кеспені сүт, жамбас пен пияз қосып, кілегей кеспе жаса",
+
+  "moredelight.advancement.cooked_rice_with": "Дәннен гурманға",
+  "moredelight.advancement.cooked_rice_with.desc": "Қарапайым күрішті тауық, сиыр немесе шошқа етімен қосып, гурман тағамына айналдыр",
+
+  "moredelight.advancement.mashed_potatoes": "Картоп күші",
+  "moredelight.advancement.mashed_potatoes.desc": "Туралған картопты сүтпен қосып, кілегей пюреге айналдыр",
+
+  "moredelight.advancement.toast_with_egg": "Классикалық таңғы ас",
+  "moredelight.advancement.toast_with_egg.desc": "Нан тілімін табада қуырып, қуырылған жұмыртқамен қос",
+
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato": "Ең дәмді шағым",
+  "moredelight.advancement.chicken_sandwich_with_egg_and_tomato.desc": "Тауық, қызанақ және қуырылған жұмыртқадан дәмді сэндвич жаса",
+
+  "moredelight.advancement.omelette": "Алтын таң",
+  "moredelight.advancement.omelette.desc": "Қуырылған жұмыртқаны табада тағы да піріп, омлетке айналдыр",
+
+  "moredelight.advancement.egg_with_bacon_sandwich": "Чемпиондар таңғы асы",
+  "moredelight.advancement.egg_with_bacon_sandwich.desc": "Қуырылған жұмыртқа мен бекондан жылдам сэндвич жаса",
+
+  "item.moredelight.wooden_knife": "Ағаш пышақ",
+  "item.moredelight.stone_knife": "Тас пышақ",
+
+  "item.moredelight.bread_slice": "Нан тілімі",
+  "item.moredelight.toast": "Тост",
+  "item.moredelight.toast_with_egg": "Жұмыртқалы тост",
+  "item.moredelight.toast_with_honey": "Балды тост",
+  "item.moredelight.toast_with_sweet_berries": "Тәтті жидекті тост",
+  "item.moredelight.toast_with_chocolate": "Шоколадты тост",
+  "item.moredelight.omelette": "Омлет",
+  "item.moredelight.cooked_rice_with_beef": "Сиыр етімен күріш",
+  "item.moredelight.creamy_pasta_with_ham": "Жамбаспен кілегей кеспе",
+  "item.moredelight.diced_potatoes": "Туралған картоп",
+
+  "item.moredelight.mashed_potatoes": "Картоп пюресі",
+  "item.moredelight.diced_potatoes_with_chicken_cuts": "Тауық сүбесімен туралған картоп",
+  "item.moredelight.diced_potatoes_with_beef": "Сиыр етімен туралған картоп",
+  "item.moredelight.diced_potatoes_with_porkchop": "Шошқа етімен туралған картоп",
+  "item.moredelight.potato_salad": "Картоп салаты",
+  "item.moredelight.chicken_sandwich_with_egg_and_tomato": "Жұмыртқа мен қызанақты тауық сэндвич",
+  "item.moredelight.egg_with_bacon_sandwich": "Бекон мен жұмыртқалы сэндвич",
+  "item.moredelight.tomato_sandwich": "Қызанақты сэндвич",
+  "item.moredelight.steak_with_egg_sandwich": "Жұмыртқалы стейк сэндвич",
+  "item.moredelight.carrot_soup": "Сәбіз сорпасы",
+  "item.moredelight.chocolate_popsicle": "Шоколад мұз кәмпиті",
+  "item.moredelight.toast_with_glow_berries": "Жарқырауық жидекті тост",
+  "item.moredelight.toast_with_cheese": "Ірімшікті тост",
+  "item.moredelight.chicken_salad": "Тауық салаты",
+  "item.moredelight.toast_with_blueberries": "Көкжидекті тост",
+
+  "item.moredelight.cooked_rice_with_chicken_cuts": "Тауық сүбесімен күріш",
+  "item.moredelight.cooked_rice_with_porkchop": "Шошқа етімен күріш",
+  "item.moredelight.simple_hamburger": "Қарапайым гамбургер",
+  "item.moredelight.hamburger_with_cheese": "Ірімшікті гамбургер",
+  "item.moredelight.hamburger_with_egg": "Жұмыртқалы гамбургер",
+  "item.moredelight.loaded_hamburger": "Толық гамбургер",
+  "item.moredelight.steak_sandwich": "Стейк сэндвич",
+  "item.moredelight.porkchop_sandwich": "Шошқа еті сэндвич",
+  "item.moredelight.toast_with_peanut_butter": "Жержаңғақ майлы тост",
+
+  "item.moredelight.creamy_pasta_with_chicken_cuts": "Тауық сүбесімен кілегей кеспе",
+  "item.moredelight.diced_potatoes_with_egg_and_tomato": "Жұмыртқа мен қызанақты туралған картоп",
+
+  "itemGroup.moredelight": "Көбірек қуаныш"
+}

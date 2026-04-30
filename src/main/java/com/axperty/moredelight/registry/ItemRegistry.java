@@ -1,7 +1,6 @@
 package com.axperty.moredelight.registry;
 
 import com.axperty.moredelight.MoreDelight;
-import com.axperty.moredelight.item.KnifeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -11,13 +10,14 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
+import vectorwing.farmersdelight.common.item.KnifeItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class ItemRegistry {
 
-    public static Item WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, new FabricItemSettings()));
+    public static Item WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, 0.5f, -2.0f, new Item.Settings()));
 
-    public static Item STONE_KNIFE = knife("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, new FabricItemSettings()));
+    public static Item STONE_KNIFE = knife("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, 0.5f, -2.0f, new Item.Settings()));
 
     public static Item DICED_POTATOES = consumable("diced_potatoes", 2, 0.4f, 64, null);
 

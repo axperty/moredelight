@@ -2,9 +2,15 @@
 
 ***
 
-### 🛠️ Bug Fixes:
+### 🛠️ Minor Changes:
 
-- Fixed a bug where bacon sandwiches couldn't be made with bread slices or toasts when using Corn Delight.
+- Fixed wooden and stone knives damage and attack speed.
+
+### 🌐 Translations:
+
+- Added translations for Kazakh (thanks, [Nursultan Akim](https://github.com/ninsent)!).
+- Improved translations for Traditional Chinese  (thanks, [pancake-a-dem](https://github.com/pancake-a-dem)!)
+- Fixed issues with some Spanish translations (thanks, [Dankest0](https://github.com/DankestO)!)
 
 ***
 
