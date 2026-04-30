@@ -16,9 +16,9 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class ItemRegistry {
 
-    public static Item WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(MaterialRegistry.WOOD_MATERIAL, .5f, -1.8F))));
+    public static Item WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(MaterialRegistry.WOOD_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(MaterialRegistry.WOOD_MATERIAL, 0.5f, -2.0f))));
 
-    public static Item STONE_KNIFE = knife("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(MaterialRegistry.WOOD_MATERIAL, 1.1f, -1.8F))));
+    public static Item STONE_KNIFE = knife("stone_knife", new KnifeItem(MaterialRegistry.STONE_MATERIAL, new Item.Settings().attributeModifiers(KnifeItem.createAttributeModifiers(MaterialRegistry.STONE_MATERIAL, 0.5f, -2.0f))));
 
     public static Item DICED_POTATOES = consumable("diced_potatoes", 2, 0.4f, 64, null);
 

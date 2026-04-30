@@ -6,6 +6,10 @@
 
 - Added support for Farmer's Delight 1.3.0+.
 
+### 🛠️ Minor Changes:
+
+- Fixed wooden and stone knives attack damage and attack speed.
+
 ### 🌐 Translations:
 
 - Added translations for Kazakh (thanks, [Nursultan Akim](https://github.com/ninsent)!).
