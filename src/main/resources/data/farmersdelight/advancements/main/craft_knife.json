@@ -89,7 +89,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "farmersdelight.advancement.craft_knife.desc"
+      "translate": "advancements.farmersdelight.craft_knife.description"
     },
     "frame": "task",
     "hidden": false,
@@ -99,7 +99,7 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "farmersdelight.advancement.craft_knife"
+      "translate": "advancements.farmersdelight.craft_knife.title"
     }
   },
   "requirements": [

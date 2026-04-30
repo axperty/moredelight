@@ -71,7 +71,7 @@ public class ItemRegistry {
             () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder()).nutrition(6).saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F).build()), true));
 
     public static final RegistryObject<Item> CARROT_SOUP = ITEMS.register("carrot_soup",
-            () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder()).nutrition(12).saturationMod(0.8f).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), FoodValues.MEDIUM_DURATION, 0), 1.0F).build()), true));
+            () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder()).nutrition(12).saturationMod(0.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), FoodValues.MEDIUM_DURATION, 0), 1.0F).build()), true));
 
     public static final RegistryObject<Item> SIMPLE_HAMBURGER = ITEMS.register("simple_hamburger",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder()).nutrition(8).saturationMod(0.8f).build())));
