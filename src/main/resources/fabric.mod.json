@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "moredelight",
-  "version": "25.07.28-1.21-fabric",
+  "version": "26.04.30-1.21-fabric",
   "name": "More Delight",
   "description": "An addon mod for Farmer's Delight that adds extra features to the base mod.",
   "authors": [
     "Axperty"
   ],
   "contact": {
-    "homepage": "https://github.com/axperty/moredelight"
+    "sources": "https://github.com/axperty/moredelight"
   },
   "license": "MIT",
   "icon": "assets/moredelight/logo.png",
@@ -19,8 +19,8 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.21",
-    "minecraft": ">=1.21",
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.1",
     "java": ">=21",
     "fabric-api": "*",
     "farmersdelight": "*"

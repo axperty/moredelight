@@ -50,7 +50,7 @@ public class ItemRegistry {
 
     public static Item CHICKEN_SALAD = consumableEffect("chicken_salad", 6, 0.6f, StatusEffects.REGENERATION, 100, 0, 16, Items.BOWL);
 
-    public static Item CARROT_SOUP = consumableEffect("carrot_soup", 12, 0.8f, ModEffects.COMFORT, 3600, 0, 16, Items.BOWL);
+    public static Item CARROT_SOUP = consumableEffect("carrot_soup", 12, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
 
     public static Item SIMPLE_HAMBURGER = consumable("simple_hamburger", 8, 0.8f, 64, null);
 
