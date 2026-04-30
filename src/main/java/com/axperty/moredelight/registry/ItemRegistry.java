@@ -96,7 +96,6 @@ public class ItemRegistry {
             () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder())
                     .nutrition(12)
                     .saturationModifier(0.8f)
-                    .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, FoodValues.SHORT_DURATION, 0), 1.0F)
                     .build()), true));
 
     public static final DeferredItem<Item> DICED_POTATOES_WITH_CHICKEN_CUTS = ITEMS.register("diced_potatoes_with_chicken_cuts",
