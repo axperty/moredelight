@@ -2,9 +2,15 @@
 
 ***
 
-### 🛠️ Bug Fixes:
+### ✨ What's New:
 
-- Fixed a bug where Corn Delight loaded before More Delight preventing the last update to work correctly.
+- Added support for Farmer's Delight 1.3.0+.
+
+### 🌐 Translations:
+
+- Added translations for Kazakh (thanks, [Nursultan Akim](https://github.com/ninsent)!).
+- Improved translations for Traditional Chinese  (thanks, [pancake-a-dem](https://github.com/pancake-a-dem)!)
+- Fixed issues with some Spanish translations (thanks, [Dankest0](https://github.com/DankestO)!)
 
 ***
 

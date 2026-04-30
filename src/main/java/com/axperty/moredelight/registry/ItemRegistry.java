@@ -96,7 +96,7 @@ public class ItemRegistry {
             () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder())
                     .nutrition(12)
                     .saturationModifier(0.8f)
-                    .effect(() -> new MobEffectInstance(ModEffects.COMFORT, FoodValues.SHORT_DURATION, 0), 1.0F)
+                    .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, FoodValues.SHORT_DURATION, 0), 1.0F)
                     .build()), true));
 
     public static final DeferredItem<Item> DICED_POTATOES_WITH_CHICKEN_CUTS = ITEMS.register("diced_potatoes_with_chicken_cuts",
@@ -141,14 +141,8 @@ public class ItemRegistry {
             () -> new ConsumableItem(bowlFoodItem((new FoodProperties.Builder())
                     .nutrition(12)
                     .saturationModifier(0.8f)
-                    .effect(() -> new MobEffectInstance(ModEffects.COMFORT, FoodValues.MEDIUM_DURATION, 0), 1.0F)
+                    .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, FoodValues.MEDIUM_DURATION, 0), 1.0F)
                     .build()), true));
-
-    public static final DeferredItem<Item> SPANISH_TORTILLA = ITEMS.register("spanish_tortilla",
-            () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
-                    .nutrition(9)
-                    .saturationModifier(0.8f)
-                    .build())));
 
     public static final DeferredItem<Item> SIMPLE_HAMBURGER = ITEMS.register("simple_hamburger",
             () -> new ConsumableItem(foodItem((new FoodProperties.Builder())
