@@ -4,7 +4,7 @@
 
 ### 🛠️ Minor Changes:
 
-- Fixed wooden and stone knives damage and attack speed.
+- Fixed wooden and stone knives attack damage and attack speed.
 
 ### 🌐 Translations:
 
