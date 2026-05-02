@@ -9,18 +9,18 @@ public class MaterialRegistry {
     public static final ToolMaterial WOOD_MATERIAL = new ToolMaterial(
             BlockTags.INCORRECT_FOR_STONE_TOOL, // inverse tag
             59,                                  // durability
-            4.0F,                                // mining speed
-            0.0F,                                // attack damage bonus
-            5,                                  // enchantability
+            8.0F,                                // mining speed
+            .7F,                                // attack damage bonus
+            10,                                  // enchantability
             ItemTags.WOODEN_TOOL_MATERIALS       // repair item tag
     );
 
     public static final ToolMaterial STONE_MATERIAL = new ToolMaterial(
             BlockTags.INCORRECT_FOR_WOODEN_TOOL,
             131,
-            4.0F,
-            0.5F,
-            5,
+            8.0F,
+            1.3F,
+            10,
             ItemTags.STONE_TOOL_MATERIALS
     );
 }

@@ -2,10 +2,19 @@
 
 ***
 
-### ✨ What's New
+### ✨ What's New:
 
-- Added support for Minecraft 26.1.
+- Added support for Farmer's Delight 1.3.0+.
+
+### 🌐 Translations:
+
+- Added translations for Kazakh (thanks, [Nursultan Akim](https://github.com/ninsent)!).
+- Improved translations for Traditional Chinese  (thanks, [pancake-a-dem](https://github.com/pancake-a-dem)!)
+- Fixed issues with some Spanish translations (thanks, [Dankest0](https://github.com/DankestO)!)
 
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/moredelight/issues/new). Support More Delight by [creating your own server](https://url-shortener.curseforge.com/gXBjH) or [donating on PayPal](https://paypal.me/kevgelhorn).
+### 📝 Feedback and Support:
+
+- Found a bug or have suggestions? [Submit an issue on GitHub](https://github.com/axperty/moredelight/issues/new).
+- Support this mod by [creating your own server](https://url-shortener.curseforge.com/VZwFX) or [donating via PayPal](https://paypal.me/kevgelhorn).

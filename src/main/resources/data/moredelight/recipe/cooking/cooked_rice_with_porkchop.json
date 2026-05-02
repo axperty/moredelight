@@ -3,7 +3,7 @@
   "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [
-    "#c:foods/milk",
+    "#c:drinks/milk",
     "#c:crops/rice",
     "minecraft:porkchop"
   ],
