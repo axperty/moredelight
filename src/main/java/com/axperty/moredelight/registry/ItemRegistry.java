@@ -152,7 +152,7 @@ public class ItemRegistry {
         CREAMY_PASTA_WITH_CHICKEN_CUTS = consumableEffect("creamy_pasta_with_chicken_cuts", 12, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
         POTATO_SALAD = consumableEffect("potato_salad", 6, 0.6f, MobEffects.REGENERATION, 100, 0, 16, Items.BOWL);
         CHICKEN_SALAD = consumableEffect("chicken_salad", 6, 0.6f, MobEffects.REGENERATION, 100, 0, 16, Items.BOWL);
-        CARROT_SOUP = consumableEffect("carrot_soup", 12, 0.8f, ModEffects.COMFORT, 3600, 0, 16, Items.BOWL);
+        CARROT_SOUP = consumableEffect("carrot_soup", 12, 0.8f, ModEffects.NOURISHMENT, 3600, 0, 16, Items.BOWL);
 
         MASHED_POTATOES = consumable("mashed_potatoes", 12, 0.8f, 16, Items.BOWL);
         DICED_POTATOES_WITH_CHICKEN_CUTS = consumable("diced_potatoes_with_chicken_cuts", 10, 0.8f, 16, Items.BOWL);

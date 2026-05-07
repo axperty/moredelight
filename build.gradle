@@ -40,11 +40,20 @@ dependencies {
 
 }
 
+def expandProps = [
+		"mod_version": project.mod_version,
+		"mod_id": project.mod_id,
+		"mod_name": project.mod_name,
+		"mod_description": project.mod_description,
+		"mod_authors": project.mod_authors,
+		"mod_license": project.mod_license
+]
+
 processResources {
-	inputs.property "version", project.version
+	inputs.properties(expandProps)
 
 	filesMatching("fabric.mod.json") {
-		expand "version": inputs.properties.version
+		expand(expandProps)
 	}
 }
 
