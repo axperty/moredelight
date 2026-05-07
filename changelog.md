@@ -4,13 +4,7 @@
 
 ### 🛠️ Minor Changes:
 
-- Fixed wooden and stone knives attack damage and attack speed.
-
-### 🌐 Translations:
-
-- Added translations for Kazakh (thanks, [Nursultan Akim](https://github.com/ninsent)!).
-- Improved translations for Traditional Chinese  (thanks, [pancake-a-dem](https://github.com/pancake-a-dem)!)
-- Fixed issues with some Spanish translations (thanks, [Dankest0](https://github.com/DankestO)!)
+- Fixed cooking recipes that use milk as ingredient not working (thanks, [soleseven37244](https://github.com/soleseven37244)!).
 
 ***
 

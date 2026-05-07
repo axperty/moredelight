@@ -32,12 +32,20 @@ dependencies {
 	modImplementation "curse.maven:farmers-delight-refabricated-993166:7199661"
 }
 
+def expandProps = [
+		"mod_version": project.mod_version,
+		"mod_id": project.mod_id,
+		"mod_name": project.mod_name,
+		"mod_description": project.mod_description,
+		"mod_authors": project.mod_authors,
+		"mod_license": project.mod_license
+]
+
 processResources {
-	def version = project.version
-	inputs.property "version", version
+	inputs.properties(expandProps)
 
 	filesMatching("fabric.mod.json") {
-		expand "version": version
+		expand(expandProps)
 	}
 }
 
