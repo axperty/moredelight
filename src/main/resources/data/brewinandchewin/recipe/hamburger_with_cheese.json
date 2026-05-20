@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "moredelight:hamburger_with_cheese"
+  }
+}

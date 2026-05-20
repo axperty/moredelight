@@ -110,7 +110,12 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "curse.maven:farmers-delight-398521:8007613"
+    implementation "curse.maven:farmers-delight-398521:8083481"
+    implementation "curse.maven:delight-lib-1531135:8111479"
+    implementation "curse.maven:expanded-delight-620770:7441587"
+    implementation "curse.maven:casualness-delight-909519:7467708"
+    implementation "curse.maven:brewin-and-chewin-637808:7523542"
+    implementation "curse.maven:create-328085:7963363"
     implementation "curse.maven:jei-238222:6756166"
 }
 

@@ -74,14 +74,14 @@
   },
   "display": {
     "description": {
-      "translate": "farmersdelight.advancement.craft_knife.desc"
+      "translate": "advancements.farmersdelight.craft_knife.description"
     },
     "icon": {
       "count": 1,
       "id": "moredelight:wooden_knife"
     },
     "title": {
-      "translate": "farmersdelight.advancement.craft_knife"
+      "translate": "advancements.farmersdelight.craft_knife.title"
     }
   },
   "requirements": [

@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "casualnessdelight"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "casualnessdelight:potato_slice"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "moredelight:diced_potatoes"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}
