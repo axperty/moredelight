@@ -1,9 +1,9 @@
 package com.axperty.moredelight;
 
 import com.axperty.delightlib.api.DelightApi;
-import com.axperty.moredelight.registry.ItemRegistry;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tiers;
 import net.neoforged.fml.ModList;
 import org.slf4j.Logger;
@@ -26,11 +26,10 @@ public class MoreDelight
     public MoreDelight(IEventBus bus, ModContainer modContainer)
     {
         bus.addListener(this::commonSetup);
-        ItemRegistry.ITEMS.register(bus);
 
         // Creative Tab Registry
         var addon = DelightApi.create("moredelight", bus)
-                .withCreativeTab("More Delight", () -> new ItemStack(ItemRegistry.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO.get()));
+                .withCreativeTab("More Delight", () -> new ItemStack(Items.COOKED_CHICKEN));
 
         // Wooden Knife
         addon.knife("wooden_knife", Tiers.WOOD)
