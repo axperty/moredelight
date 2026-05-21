@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    {
+      "item": "moredelight:toast"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "moredelight:toast_with_cheese"
+  }
+}

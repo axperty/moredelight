@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:pasta/raw_pasta"
+    },
+    {
+      "item": "farmersdelight:ham"
+    },
+    {
+      "tag": "forge:vegetables/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "moredelight:creamy_pasta_with_ham"
+  }
+}

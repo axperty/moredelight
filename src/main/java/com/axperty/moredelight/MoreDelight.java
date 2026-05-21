@@ -1,17 +1,532 @@
 package com.axperty.moredelight;
 
-import com.axperty.moredelight.registry.*;
+import com.axperty.delightlib.api.DelightApi;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.ForgeRegistries;
+import vectorwing.farmersdelight.common.FoodValues;
+import vectorwing.farmersdelight.common.registry.ModEffects;
 
-@Mod(MoreDelight.MODID)
+import java.util.Objects;
+
+@Mod(MoreDelight.MOD_ID)
 public class MoreDelight {
-    public static final String MODID = "moredelight";
+    public static final String MOD_ID = "moredelight";
+    public static DelightApi addon;
 
-    public MoreDelight() {
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        ItemRegistry.ITEMS.register(bus);
-        CreativeTabRegistry.register(bus);
+    public MoreDelight(FMLJavaModLoadingContext context) {
+        IEventBus bus = context.getModEventBus();
+        bus.addListener(this::setup);
+
+        // Creative Tab Registry
+        var addon = DelightApi.create("moredelight", bus)
+                .withCreativeTab("More Delight", () -> new ItemStack(Objects.requireNonNull(ForgeRegistries.ITEMS.getValue(ResourceLocation.fromNamespaceAndPath("moredelight", "chicken_sandwich_with_egg_and_tomato")))
+                ));
+
+        // Wooden Knife
+        addon.knife("wooden_knife", Tiers.WOOD)
+                .attackSpeed(-2.0f)
+                .build();
+
+        addon.shapedRecipe("wooden_knife")
+                .grid("A", "B")
+                .defineTag('A', "minecraft:planks")
+                .define('B', "minecraft:stick")
+                .result("moredelight:wooden_knife", 1)
+                .build();
+
+        // Stone Knife
+        addon.knife("stone_knife", Tiers.STONE)
+                .attackSpeed(-2.0f)
+                .build();
+
+        addon.shapedRecipe("stone_knife")
+                .grid("A", "B")
+                .defineTag('A', "minecraft:stone_crafting_materials")
+                .define('B', "minecraft:stick")
+                .result("moredelight:stone_knife", 1)
+                .build();
+
+        // Diced Potatoes
+        addon.food("diced_potatoes")
+                .nutrition(2)
+                .saturation(0.4f)
+                .build();
+
+        // Chocolate Popsicle
+        addon.food("chocolate_popsicle")
+                .nutrition(3)
+                .saturation(0.2f)
+                .build();
+
+        addon.shapedRecipe("chocolate_popsicle")
+                .grid(" CC", "ICC", "SI ")
+                .define('C', "minecraft:cocoa_beans")
+                .define('I', "minecraft:ice")
+                .define('S', "minecraft:stick")
+                .result("moredelight:chocolate_popsicle", 1)
+                .build();
+
+        // Omelette
+        addon.food("omelette")
+                .nutrition(6)
+                .saturation(0.6f)
+                .build();
+
+        // Cooked Rice with Chicken Cuts
+        addon.food("cooked_rice_with_chicken_cuts")
+                .nutrition(14)
+                .saturation(0.8f)
+                .withEffect(ModEffects.NOURISHMENT, FoodValues.MEDIUM_DURATION, 0, 1.0f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("cooked_rice_with_chicken_cuts")
+                .addTagIngredient("forge:milk")
+                .addIngredient("farmersdelight:rice")
+                .addTagIngredient("forge:raw_chicken")
+                .result("moredelight:cooked_rice_with_chicken_cuts")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Cooked Rice with Beef
+        addon.food("cooked_rice_with_beef")
+                .nutrition(14)
+                .saturation(0.8f)
+                .withEffect(ModEffects.NOURISHMENT, FoodValues.MEDIUM_DURATION, 0, 1.0f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("cooked_rice_with_beef")
+                .addTagIngredient("forge:milk")
+                .addIngredient("farmersdelight:rice")
+                .addTagIngredient("forge:raw_beef")
+                .result("moredelight:cooked_rice_with_beef")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Cooked Rice with Porkchop
+        addon.food("cooked_rice_with_porkchop")
+                .nutrition(14)
+                .saturation(0.8f)
+                .withEffect(ModEffects.NOURISHMENT, FoodValues.MEDIUM_DURATION, 0, 1.0f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("cooked_rice_with_porkchop")
+                .addTagIngredient("forge:milk")
+                .addIngredient("farmersdelight:rice")
+                .addIngredient("minecraft:porkchop")
+                .result("moredelight:cooked_rice_with_porkchop")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Creamy Pasta with Ham
+        addon.food("creamy_pasta_with_ham")
+                .nutrition(12)
+                .saturation(0.8f)
+                .withEffect(ModEffects.NOURISHMENT, FoodValues.MEDIUM_DURATION, 0, 1.0f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("creamy_pasta_with_ham")
+                .addTagIngredient("forge:milk")
+                .addTagIngredient("forge:pasta/raw_pasta")
+                .addIngredient("farmersdelight:ham")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:creamy_pasta_with_ham")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Creamy Pasta with Chicken Cuts
+        addon.food("creamy_pasta_with_chicken_cuts")
+                .nutrition(12)
+                .saturation(0.8f)
+                .withEffect(ModEffects.NOURISHMENT, FoodValues.MEDIUM_DURATION, 0, 1.0f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("creamy_pasta_with_chicken_cuts")
+                .addTagIngredient("forge:milk")
+                .addTagIngredient("forge:pasta/raw_pasta")
+                .addTagIngredient("forge:raw_chicken")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:creamy_pasta_with_chicken_cuts")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Mashed Potatoes
+        addon.food("mashed_potatoes")
+                .nutrition(12)
+                .saturation(0.8f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("mashed_potatoes")
+                .addTagIngredient("forge:milk")
+                .addTagIngredient("forge:sliced_potato")
+                .addTagIngredient("forge:sliced_potato")
+                .result("moredelight:mashed_potatoes")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Diced Potatoes with Chicken Cuts
+        addon.food("diced_potatoes_with_chicken_cuts")
+                .nutrition(10)
+                .saturation(0.8f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("diced_potatoes_with_chicken_cuts")
+                .addTagIngredient("forge:raw_chicken")
+                .addTagIngredient("forge:sliced_potato")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:diced_potatoes_with_chicken_cuts")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Diced Potatoes with Beef
+        addon.food("diced_potatoes_with_beef")
+                .nutrition(10)
+                .saturation(0.8f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("diced_potatoes_with_beef")
+                .addTagIngredient("forge:raw_beef")
+                .addTagIngredient("forge:sliced_potato")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:diced_potatoes_with_beef")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Diced Potatoes with Porkchop
+        addon.food("diced_potatoes_with_porkchop")
+                .nutrition(10)
+                .saturation(0.8f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("diced_potatoes_with_porkchop")
+                .addIngredient("minecraft:porkchop")
+                .addTagIngredient("forge:sliced_potato")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:diced_potatoes_with_porkchop")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Diced Potatoes with Egg and Tomato
+        addon.food("diced_potatoes_with_egg_and_tomato")
+                .nutrition(10)
+                .saturation(0.8f)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("diced_potatoes_with_egg_and_tomato")
+                .addTagIngredient("forge:sliced_potato")
+                .addTagIngredient("forge:cooked_eggs")
+                .addTagIngredient("forge:vegetables/tomato")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:diced_potatoes_with_egg_and_tomato")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Potato Salad
+        addon.food("potato_salad")
+                .nutrition(6)
+                .saturation(0.6f)
+                .withEffect(() -> MobEffects.REGENERATION, 100, 0, 1.0F)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("potato_salad")
+                .addTagIngredient("forge:eggs")
+                .addTagIngredient("forge:sliced_potato")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:potato_salad")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Chicken Salad
+        addon.food("chicken_salad")
+                .nutrition(6)
+                .saturation(0.6f)
+                .withEffect(() -> MobEffects.REGENERATION, 100, 0, 1.0F)
+                .bowlFood()
+                .build();
+
+        addon.shapelessRecipe("chicken_salad")
+                .addIngredient("minecraft:bowl")
+                .addTagIngredient("forge:salad_ingredients/cabbage")
+                .addTagIngredient("forge:vegetables/tomato")
+                .addTagIngredient("forge:cooked_chicken")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:chicken_salad", 1)
+                .build();
+
+        // Carrot Soup
+        addon.food("carrot_soup")
+                .nutrition(12)
+                .saturation(0.8f)
+                .withEffect(ModEffects.NOURISHMENT, FoodValues.MEDIUM_DURATION, 0, 1.0F)
+                .bowlFood()
+                .build();
+
+        addon.cookingRecipe("carrot_soup")
+                .addTagIngredient("forge:milk")
+                .addTagIngredient("forge:vegetables/carrot")
+                .addTagIngredient("forge:vegetables/carrot")
+                .result("moredelight:carrot_soup")
+                .container("minecraft:bowl")
+                .experience(1.0f)
+                .cookingTime(400)
+                .recipeBookTab("meals")
+                .build();
+
+        // Simple Hamburger
+        addon.food("simple_hamburger")
+                .nutrition(8)
+                .saturation(0.8f)
+                .build();
+
+        addon.shapelessRecipe("simple_hamburger")
+                .addTagIngredient("forge:bread")
+                .addIngredient("farmersdelight:beef_patty")
+                .result("moredelight:simple_hamburger", 1)
+                .build();
+
+        // Hamburger with Cheese
+        if (ModList.get().isLoaded("casualness_delight")) {
+            addon.food("hamburger_with_cheese")
+                    .nutrition(9)
+                    .saturation(0.8f)
+                    .build();
+        }
+
+        // Hamburger with Egg
+        addon.food("hamburger_with_egg")
+                .nutrition(9)
+                .saturation(0.8f)
+                .build();
+
+        addon.shapelessRecipe("hamburger_with_egg")
+                .addTagIngredient("forge:bread")
+                .addIngredient("farmersdelight:beef_patty")
+                .addTagIngredient("forge:cooked_eggs")
+                .result("moredelight:hamburger_with_egg", 1)
+                .build();
+
+        // Loaded Hamburger
+        addon.food("loaded_hamburger")
+                .nutrition(13)
+                .saturation(0.8f)
+                .build();
+
+        addon.shapelessRecipe("loaded_hamburger")
+                .addTagIngredient("forge:bread")
+                .addIngredient("farmersdelight:beef_patty")
+                .addTagIngredient("forge:salad_ingredients/cabbage")
+                .addTagIngredient("forge:vegetables/tomato")
+                .addTagIngredient("forge:cooked_bacon")
+                .addTagIngredient("forge:cooked_eggs")
+                .addTagIngredient("forge:vegetables/onion")
+                .result("moredelight:loaded_hamburger", 1)
+                .build();
+
+        // Chicken Sandwich with Egg and Tomato
+        addon.food("chicken_sandwich_with_egg_and_tomato")
+                .nutrition(11)
+                .saturation(0.8f)
+                .build();
+
+        addon.shapelessRecipe("chicken_sandwich_with_egg_and_tomato")
+                .addTagIngredient("forge:bread")
+                .addTagIngredient("forge:cooked_chicken")
+                .addTagIngredient("forge:cooked_eggs")
+                .addTagIngredient("forge:vegetables/tomato")
+                .result("moredelight:chicken_sandwich_with_egg_and_tomato", 1)
+                .build();
+
+        // Steak Sandwich
+        addon.food("steak_sandwich")
+                .nutrition(10)
+                .saturation(0.8f)
+                .build();
+
+        addon.shapelessRecipe("steak_sandwich")
+                .addTagIngredient("forge:bread")
+                .addTagIngredient("forge:cooked_beef")
+                .addTagIngredient("forge:salad_ingredients/cabbage")
+                .result("moredelight:steak_sandwich", 1)
+                .build();
+
+        // Porkchop Sandwich
+        addon.food("porkchop_sandwich")
+                .nutrition(10)
+                .saturation(0.8f)
+                .build();
+
+        addon.shapelessRecipe("porkchop_sandwich")
+                .addTagIngredient("forge:bread")
+                .addIngredient("minecraft:cooked_porkchop")
+                .addTagIngredient("forge:salad_ingredients/cabbage")
+                .result("moredelight:porkchop_sandwich", 1)
+                .build();
+
+        // Egg with Bacon Sandwich
+        addon.food("egg_with_bacon_sandwich")
+                .nutrition(11)
+                .saturation(0.8f)
+                .build();
+
+        addon.shapelessRecipe("egg_with_bacon_sandwich")
+                .addTagIngredient("forge:bread_slices")
+                .addTagIngredient("forge:bread_slices")
+                .addTagIngredient("forge:cooked_eggs")
+                .addTagIngredient("forge:cooked_bacon")
+                .result("moredelight:egg_with_bacon_sandwich", 1)
+                .build();
+
+        // Tomato Sandwich
+        addon.food("tomato_sandwich")
+                .nutrition(7)
+                .saturation(0.8f)
+                .build();
+
+        addon.shapelessRecipe("tomato_sandwich")
+                .addTagIngredient("forge:bread_slices")
+                .addTagIngredient("forge:bread_slices")
+                .addTagIngredient("forge:vegetables/tomato")
+                .result("moredelight:tomato_sandwich", 1)
+                .build();
+
+        // Bread Slice
+        addon.food("bread_slice")
+                .nutrition(2)
+                .saturation(0.4f)
+                .build();
+
+        // Toast
+        addon.food("toast")
+                .nutrition(3)
+                .saturation(0.4f)
+                .fast()
+                .build();
+
+        // Toast with Egg
+        addon.food("toast_with_egg")
+                .nutrition(5)
+                .saturation(0.6f)
+                .fast()
+                .build();
+
+        addon.shapelessRecipe("toast_with_egg")
+                .addTagIngredient("forge:cooked_eggs")
+                .addIngredient("moredelight:toast")
+                .result("moredelight:toast_with_egg", 1)
+                .build();
+
+        // Toast with Honey
+        addon.food("toast_with_honey")
+                .nutrition(5)
+                .saturation(0.6f)
+                .fast()
+                .build();
+
+        addon.shapelessRecipe("toast_with_honey")
+                .addIngredient("minecraft:honey_bottle")
+                .addIngredient("moredelight:toast")
+                .result("moredelight:toast_with_honey", 1)
+                .build();
+
+        // Toast with Sweet Berries
+        addon.food("toast_with_sweet_berries")
+                .nutrition(5)
+                .saturation(0.6f)
+                .fast()
+                .build();
+
+        addon.shapelessRecipe("toast_with_sweet_berries")
+                .addIngredient("minecraft:sweet_berries")
+                .addIngredient("moredelight:toast")
+                .result("moredelight:toast_with_sweet_berries", 1)
+                .build();
+
+        // Toast with Glow Berries
+        addon.food("toast_with_glow_berries")
+                .nutrition(5)
+                .saturation(0.6f)
+                .fast()
+                .build();
+
+        addon.shapelessRecipe("toast_with_glow_berries")
+                .addIngredient("minecraft:glow_berries")
+                .addIngredient("moredelight:toast")
+                .result("moredelight:toast_with_glow_berries", 1)
+                .build();
+
+        // Toast with Chocolate
+        addon.food("toast_with_chocolate")
+                .nutrition(5)
+                .saturation(0.6f)
+                .fast()
+                .build();
+
+        addon.shapelessRecipe("toast_with_chocolate")
+                .addIngredient("minecraft:cocoa_beans")
+                .addIngredient("moredelight:toast")
+                .result("moredelight:toast_with_chocolate", 1)
+                .build();
+
+        // Toast with Cheese
+        if (ModList.get().isLoaded("casualness_delight")) {
+            addon.food("toast_with_cheese")
+                    .nutrition(5)
+                    .saturation(0.6f)
+                    .fast()
+                    .build();
+        }
     }
+
+    private void setup(final FMLCommonSetupEvent event) {}
 }

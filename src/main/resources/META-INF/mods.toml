@@ -8,32 +8,39 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description='''${mod_description}'''
-logoFile="assets/moredelight/logo.png"
+logoFile="assets/${mod_id}/logo.png"
 
 [[dependencies.moredelight]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="${minecraft_version_range}"
-    ordering="NONE"
-    side="BOTH"
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
 
 [[dependencies.moredelight]]
-    modId="farmersdelight"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
+modId="farmersdelight"
+mandatory=true
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 
 [[dependencies.moredelight]]
-    modId="expandeddelight"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="AFTER"
-    side="BOTH"
+modId="delightlib"
+mandatory=true
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 
 [[dependencies.moredelight]]
-    modId="casualness_delight"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="AFTER"
-    side="BOTH"
+modId="expandeddelight"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.moredelight]]
+modId="casualness_delight"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
