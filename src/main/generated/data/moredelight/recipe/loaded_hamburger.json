@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/bread",
+    "farmersdelight:beef_patty",
+    "#c:foods/leafy_green",
+    "#c:crops/tomato",
+    "#c:foods/cooked_bacon",
+    "#c:foods/cooked_egg",
+    "#c:crops/onion"
+  ],
+  "result": {
+    "count": 1,
+    "id": "moredelight:loaded_hamburger"
+  }
+}

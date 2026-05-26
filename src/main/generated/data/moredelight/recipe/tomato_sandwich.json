@@ -4,12 +4,10 @@
   "ingredients": [
     "#c:bread_slices",
     "#c:bread_slices",
-    "#c:foods/cooked_bacon",
-    "#c:foods/leafy_green",
     "#c:crops/tomato"
   ],
   "result": {
     "count": 1,
-    "id": "farmersdelight:bacon_sandwich"
+    "id": "moredelight:tomato_sandwich"
   }
 }
