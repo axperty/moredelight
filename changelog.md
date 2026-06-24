@@ -4,12 +4,7 @@
 
 ### ✨ What's New:
 
-- More Delight now uses [Delight Lib](https://www.curseforge.com/minecraft/mc-mods/delight-lib) as a required dependency. Learn more about Delight Lib [here](https://www.curseforge.com/minecraft/mc-mods/delight-lib).
-  If you encounter any issues during gameplay, please [submit an issue on GitHub](https://github.com/axperty/moredelight/issues/new?template=bug_report.yml).
-
-### 🛠️ Minor Changes:
-
-- Toast can now be eaten fast (suggested by [Tafylova](https://www.curseforge.com/members/tafylova/projects)).
+- Added support for Minecraft 26.2.
 
 ***
 

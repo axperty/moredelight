@@ -14,6 +14,9 @@ repositories {
 	maven {
 		url "https://cursemaven.com"
 	}
+	maven {
+		url "https://jitpack.io"
+	}
 }
 
 loom {
@@ -33,8 +36,7 @@ dependencies {
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 	implementation "curse.maven:farmers-delight-refabricated-993166:8016410"
-	implementation "curse.maven:delight-lib-1531135:8111484"
-	implementation "curse.maven:jei-238222:8108850"
+	implementation 'com.github.axperty:delightlib:50a7936638'
 }
 
 def expandProps = [
