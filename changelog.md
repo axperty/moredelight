@@ -4,7 +4,7 @@
 
 ### 🛠️ Minor Changes:
 
-- Fixed a bug where More Delight wouldn't launch on Minecraft 1.20 (thanks, [Fizzy_limez](https://www.curseforge.com/members/fizzy_limez/projects)!)
+- Reverted: Fixed a bug where More Delight wouldn't launch on Minecraft 1.20 (thanks, [Fizzy_limez](https://www.curseforge.com/members/fizzy_limez/projects)!)
 
 ***
 
