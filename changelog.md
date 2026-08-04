@@ -4,7 +4,7 @@
 
 ### 🛠️ Minor Changes:
 
-- Fixed cooking recipes that use milk as ingredient not working (thanks, [soleseven37244](https://github.com/soleseven37244)!).
+- Fixed a bug where More Delight wouldn't launch on Minecraft 1.20 (thanks, [Fizzy_limez](https://www.curseforge.com/members/fizzy_limez/projects)!)
 
 ***
 
